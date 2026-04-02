@@ -7,6 +7,39 @@ const fs = require('fs');
 const details = JSON.parse(fs.readFileSync('product-details.json', 'utf-8'));
 const products = JSON.parse(fs.readFileSync('amazon-products-backup.json', 'utf-8'));
 
+// 从描述中提取简短的 pros
+function extractPros(descItems, name) {
+    const pros = [];
+    const n = name.toLowerCase();
+    
+    // 从产品名称推断 pros
+    if (n.includes('hot-swap') || n.includes('hotswap')) pros.push('Hot-swappable');
+    if (n.includes('rgb') || n.includes('backlit')) pros.push('RGB Backlight');
+    if (n.includes('wireless') || n.includes('bluetooth')) pros.push('Wireless');
+    if (n.includes('gasket')) pros.push('Gasket Mount');
+    if (n.includes('pbt')) pros.push('PBT Keycaps');
+    if (n.includes('tkl') || n.includes('tenkeyless')) pros.push('TKL Layout');
+    if (n.includes('60%') || n.includes('65%') || n.includes('75%')) pros.push('Compact Layout');
+    
+    // 如果 descItems 有内容，从中提取
+    if (descItems && descItems.length > 0) {
+        descItems.forEach(d => {
+            const firstPart = d.split(':')[0].trim();
+            if (firstPart.length > 5 && firstPart.length < 50 && pros.length < 4) {
+                pros.push(firstPart);
+            }
+        });
+    }
+    
+    // 确保有至少 2 个 pros
+    if (pros.length < 2) {
+        pros.push('Quality Build');
+        pros.push('Great Value');
+    }
+    
+    return pros.slice(0, 4);
+}
+
 // 合并数据
 const mergedProducts = details.map(d => {
     const p = products.find(x => x.asin === d.asin);
@@ -14,6 +47,7 @@ const mergedProducts = details.map(d => {
     
     // 生成详细描述（取前3条最重要的）
     const descItems = d.description ? d.description.split('\n\n').slice(0, 3) : [];
+    const pros = extractPros(descItems, d.name);
     
     return {
         id: d.asin.toLowerCase(),
@@ -30,7 +64,7 @@ const mergedProducts = details.map(d => {
         image: p.image,
         url: `https://www.amazon.com/dp/${d.asin}?tag=mechkeyshub-20`,
         brand: detectBrand(d.name),
-        // 新增详细描述
+        pros: pros,
         description: descItems,
         specifications: d.specifications || {},
         amazon_asin: d.asin,
@@ -71,7 +105,7 @@ function detectBrand(name) {
 let jsData = `const topProducts = [
 `;
 mergedProducts.forEach((p, i) => {
-    jsData += `    {id:"${p.id}",name:"${p.name.replace(/"/g, '\\"')}",tagline:"${p.tagline.replace(/"/g, '\\"')}",price:"${p.price}",price_tier:"${p.price_tier}",rating:${p.rating},switch_type:"${p.switch_type}",layout:"${p.layout}",connectivity:"${p.connectivity}",hot_swap:${p.hot_swap},rgb:${p.rgb},image:"${p.image}",url:"${p.url}",brand:"${p.brand}",description:${JSON.stringify(p.description)},specifications:${JSON.stringify(p.specifications)},amazon_asin:"${p.amazon_asin}",updated:"${p.updated}"}`;
+    jsData += `    {id:"${p.id}",name:"${p.name.replace(/"/g, '\\"')}",tagline:"${p.tagline.replace(/"/g, '\\"')}",price:"${p.price}",price_tier:"${p.price_tier}",rating:${p.rating},switch_type:"${p.switch_type}",layout:"${p.layout}",connectivity:"${p.connectivity}",hot_swap:${p.hot_swap},rgb:${p.rgb},image:"${p.image}",url:"${p.url}",brand:"${p.brand}",pros:${JSON.stringify(p.pros)},description:${JSON.stringify(p.description)},specifications:${JSON.stringify(p.specifications)},amazon_asin:"${p.amazon_asin}",updated:"${p.updated}"}`;
     if (i < mergedProducts.length - 1) jsData += ',';
     jsData += '\n';
 });
@@ -84,6 +118,7 @@ console.log('Example product (TMKB):');
 console.log('-'.repeat(50));
 const tmkb = mergedProducts[0];
 console.log('Name:', tmkb.name);
+console.log('Pros:', tmkb.pros);
 console.log('Description items:', tmkb.description.length);
 tmkb.description.forEach((d, i) => {
     console.log(`  ${i+1}. ${d.substring(0, 80)}...`);
