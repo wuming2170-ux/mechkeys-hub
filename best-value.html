@@ -148,7 +148,7 @@ const topProducts = [
 </script>
     <script>
         const budgetProducts = topProducts.filter(p => {
-            const price = parseInt(p.price.replace(/[^0-9]/g, ''));
+            const price = parseFloat(p.price.replace(/[^0-9.]/g, ''));
             return price <= 100;
         });
 
