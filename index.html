@@ -310,7 +310,15 @@ const topProducts = [
                         <span class="text-6xl hidden items-center justify-center">⌨️</span>
                     </div>
                     <h3 class="text-xl font-bold mb-2">${p.name}</h3>
-                    ${p.description && p.description[0] ? `<p class="text-gray-300 text-sm mb-3 line-clamp-3 border-l-2 border-indigo-500 pl-3">${p.description[0]}</p>` : `<p class="text-gray-400 text-sm mb-4 line-clamp-2">${p.tagline}</p>`}
+                    ${p.description && p.description[0] ? `
+                        <div class="description-box mb-3 border-l-2 border-indigo-500 pl-3">
+                            <p class="text-gray-300 text-sm description-text">${p.description[0]}</p>
+                            ${p.description.length > 1 || p.description[0].length > 200 ? `<button onclick="toggleDescription(this)" class="text-indigo-400 text-xs mt-1 hover:text-indigo-300">Show more ▼</button>` : ''}
+                            <div class="extra-descriptions hidden mt-2">
+                                ${p.description.slice(1).map(d => `<p class="text-gray-300 text-sm mb-2">${d}</p>`).join('')}
+                            </div>
+                        </div>
+                    ` : `<p class="text-gray-400 text-sm mb-4 line-clamp-2">${p.tagline}</p>`}
                     <div class="flex items-center gap-4 mb-4">
                         <div class="flex items-center gap-1">
                             <i class="fas fa-star text-amber-400"></i>
@@ -331,6 +339,18 @@ const topProducts = [
             
             // Animate counter
             animateCounter('keyboard-count', products.length);
+        }
+        
+        function toggleDescription(btn) {
+            const extraDesc = btn.previousElementSibling;
+            const isHidden = extraDesc.classList.contains('hidden');
+            if (isHidden) {
+                extraDesc.classList.remove('hidden');
+                btn.textContent = 'Show less ▲';
+            } else {
+                extraDesc.classList.add('hidden');
+                btn.textContent = 'Show more ▼';
+            }
         }
         
         function animateCounter(id, target) {
