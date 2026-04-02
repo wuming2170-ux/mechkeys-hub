@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Value Mechanical Keyboards Under $100 in 2025 | Budget Picks</title>
-    <meta name="description" content="Find the best value mechanical keyboards under $100. Expert reviews of budget keyboards that don't compromise on quality. Top picks for gamers and typists.">
+    <title>Best Value Mechanical Keyboards Under $100 - Budget Picks 2025 | MechKeys Hub</title>
+    <meta name="description" content="Best budget mechanical keyboards under $100. Expert reviews of affordable keyboards with great features. Hot-swap, RGB, wireless options that wont break the bank.">
     <link rel="canonical" href="https://mechkeys-hub.com/best-value.html">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,7 +14,77 @@
         .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
         .deal-badge { background: linear-gradient(135deg, #f59e0b, #d97706); }
     </style>
-</head>
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "MechKeys Hub",
+        "url": "https://mechkeys-hub.com/",
+        "description": "Expert reviews and buying guides for the best mechanical keyboards of 2025. Compare switches, layouts, and find your perfect keyboard.",
+        "publisher": {
+            "@type": "Organization",
+            "name": "MechKeys Hub",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://mechkeys-hub.com/logo.png"
+            }
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://mechkeys-hub.com/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://mechkeys-hub.com/"
+            }
+        ]
+    }
+    </script>
+    
+    <!-- Product List Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Mechanical Keyboards Reviews",
+        "description": "Expert reviews of the best mechanical keyboards of 2025, including 60%, 65%, TKL, and full-size layouts.",
+        "numberOfItems": "30",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "TMKB 60% Hall Effect Gaming Keyboard",
+                "url": "https://www.amazon.com/dp/B0FJRGTFF3?tag=mechkeyshub-20"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AULA F99 Wireless Mechanical Keyboard",
+                "url": "https://www.amazon.com/dp/B0CLLHSWRL?tag=mechkeyshub-20"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Logitech G413 SE Full-Size Mechanical Keyboard",
+                "url": "https://www.amazon.com/dp/B08Z6X4NK3?tag=mechkeyshub-20"
+            }
+        ]
+    }
+    </script>
+    </head>
 <body class="gradient-bg text-white min-h-screen">
     <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
         <div class="max-w-7xl mx-auto px-4 py-4">
@@ -167,7 +237,7 @@ const topProducts = [
         document.getElementById('budget-products').innerHTML = budgetProducts.map(p => `
             <article class="bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition relative">
                 <div class="aspect-[16/10] bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';this.parentElement.style.background='linear-gradient(135deg,#1e1b4b,#0f172a)';">
+                    <img alt="What to Look For - MechKeys Hub" src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';this.parentElement.style.background='linear-gradient(135deg,#1e1b4b,#0f172a)';">
                     <span class="text-5xl hidden items-center justify-center">⌨️</span>
                 </div>
                 <h3 class="text-xl font-bold mb-2">${p.name}</h3>

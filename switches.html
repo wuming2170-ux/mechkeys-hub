@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mechanical Keyboard Switches Guide 2025 | MechKeys Hub</title>
-    <meta name="description" content="Complete guide to mechanical keyboard switches. Learn the difference between linear, tactile, and clicky switches.">
+    <title>Mechanical Keyboard Switches Guide 2025 - Linear vs Tactile vs Clicky | MechKeys Hub</title>
+    <meta name="description" content="Complete guide to mechanical keyboard switches. Learn the difference between linear (red), tactile (brown), and clicky (blue) switches. Find the best switch for your needs.">
     <link rel="canonical" href="https://mechkeys-hub.vercel.app/switches.html">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -13,7 +13,77 @@
         body { font-family: 'Inter', system-ui, sans-serif; }
         .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
     </style>
-</head>
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "MechKeys Hub",
+        "url": "https://mechkeys-hub.com/",
+        "description": "Expert reviews and buying guides for the best mechanical keyboards of 2025. Compare switches, layouts, and find your perfect keyboard.",
+        "publisher": {
+            "@type": "Organization",
+            "name": "MechKeys Hub",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://mechkeys-hub.com/logo.png"
+            }
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://mechkeys-hub.com/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://mechkeys-hub.com/"
+            }
+        ]
+    }
+    </script>
+    
+    <!-- Product List Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Mechanical Keyboards Reviews",
+        "description": "Expert reviews of the best mechanical keyboards of 2025, including 60%, 65%, TKL, and full-size layouts.",
+        "numberOfItems": "30",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "TMKB 60% Hall Effect Gaming Keyboard",
+                "url": "https://www.amazon.com/dp/B0FJRGTFF3?tag=mechkeyshub-20"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AULA F99 Wireless Mechanical Keyboard",
+                "url": "https://www.amazon.com/dp/B0CLLHSWRL?tag=mechkeyshub-20"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Logitech G413 SE Full-Size Mechanical Keyboard",
+                "url": "https://www.amazon.com/dp/B08Z6X4NK3?tag=mechkeyshub-20"
+            }
+        ]
+    }
+    </script>
+    </head>
 <body class="gradient-bg text-white min-h-screen">
     <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
         <div class="max-w-7xl mx-auto px-4 py-4">
@@ -289,7 +359,7 @@
                         <span class="text-xs px-2 py-1 rounded bg-slate-700">${p.switch_type}</span>
                     </div>
                     <div class="aspect-video bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
-                        <img src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+                        <img alt="Best For: - MechKeys Hub" src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
                         <span class="text-6xl hidden items-center justify-center">⌨️</span>
                     </div>
                     <h3 class="text-lg font-bold mb-2 line-clamp-2">${p.name}</h3>
