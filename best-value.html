@@ -6732,10 +6732,10 @@ const topProducts = [
 ];
         
         document.addEventListener('DOMContentLoaded', function() {
-            if (typeof topProducts !== 'undefined' && topProducts.length > 0) {
-                renderProducts(topProducts);
-            }
-        });
+        if (typeof topProducts !== 'undefined' && topProducts.length > 0) {
+            renderProducts(topProducts);
+        }
+    });
 </script>
     <script>
         const budgetProducts = topProducts.filter(p => {
