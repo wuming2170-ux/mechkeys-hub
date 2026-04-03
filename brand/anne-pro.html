@@ -8,18 +8,6 @@
     <link rel="canonical" href="https://mechkeys-hub.vercel.app/brand/anne-pro.html">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        .nav-btn:hover {
-            color: white;
-            background: rgba(255, 255, 255, 0.15);
-        }
-        .nav-btn-primary:hover {
-            background: rgba(99, 102, 241, 0.35);
-            color: white;
-        }
-        .mobile-nav-btn:hover {
-            color: white;
-            background: rgba(255, 255, 255, 0.15);
-        }
 
 <html lang="en">
 <head>
@@ -36,6 +24,62 @@
         .card-hover { transition: all 0.3s ease; }
         .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(99,102,241,0.15); }
     </style>
+
+<style>
+.nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    color: #e5e7eb;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    transition: all 0.2s;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.nav-btn:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+}
+.nav-btn i {
+    font-size: 0.875rem;
+}
+.nav-btn-primary {
+    background: rgba(99, 102, 241, 0.2);
+    color: #a5b4fc;
+    border: 1px solid rgba(99, 102, 241, 0.4);
+}
+.nav-btn-primary:hover {
+    background: rgba(99, 102, 241, 0.35);
+    color: white;
+}
+.mobile-nav-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    color: #d1d5db;
+    font-size: 0.75rem;
+    font-weight: 600;
+    transition: all 0.2s;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+}
+.mobile-nav-btn:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+}
+.mobile-nav-btn i {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+</style>
+
 </head>
 <body class="gradient-bg min-h-screen text-white">
     <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-white/10">
@@ -81,53 +125,6 @@
     </header>
 
     <style>
-        .nav-btn {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.75rem 1rem;
-            border-radius: 0.5rem;
-            color: #e5e7eb;
-            font-size: 1rem;
-            font-weight: 600;
-            transition: all 0.2s;
-            white-space: nowrap;
-            text-decoration: none;
-        }
-        .nav-btn:hover {
-            color: white;
-            background: rgba(255, 255, 255, 0.15);
-        }
-        .nav-btn i { font-size: 1.1rem; }
-        .nav-btn-primary {
-            background: rgba(99, 102, 241, 0.2);
-            color: #a5b4fc;
-            border: 1px solid rgba(99, 102, 241, 0.4);
-        }
-        .nav-btn-primary:hover {
-            background: rgba(99, 102, 241, 0.35);
-            color: white;
-        }
-        .mobile-nav-btn {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 0.75rem;
-            border-radius: 0.75rem;
-            color: #d1d5db;
-            font-size: 0.875rem;
-            font-weight: 600;
-            transition: all 0.2s;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            text-decoration: none;
-        }
-        .mobile-nav-btn:hover {
-            color: white;
-            background: rgba(255, 255, 255, 0.15);
-        }
-        .mobile-nav-btn i { font-size: 1.25rem; margin-bottom: 0.25rem; }
     </style>
 
     <script>
