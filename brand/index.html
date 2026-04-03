@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanical Keyboard Brands - MechKeys Hub</title>
+    <meta name="description" content="Browse mechanical keyboards by brand. Compare top brands like Logitech, Redragon, AULA, Corsair, SteelSeries, and more.">
+    <link rel="canonical" href="https://mechkeys-hub.vercel.app/brand/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
+        .brand-card { transition: all 0.3s ease; }
+        .brand-card:hover { transform: translateY(-4px); }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen text-white">
+    <header class="border-b border-white/10 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="../index.html" class="text-2xl font-bold text-indigo-400">
+                <i class="fas fa-keyboard mr-2"></i>MechKeys Hub
+            </a>
+            <nav class="flex gap-2 flex-wrap">
+                <a href="../index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">All Keyboards</a>
+                <a href="../best-value.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Best Value</a>
+                <a href="../compare.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Compare</a>
+                <a href="../guides.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Guides</a>
+                <a href="../brands.html" class="px-4 py-2 rounded-lg bg-indigo-600 text-white">Brands</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-10">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold mb-3">Browse by Brand</h1>
+            <p class="text-slate-300 text-lg">Find keyboards from your favorite manufacturers. From budget-friendly to premium, we've got every brand covered.</p>
+        </div>
+
+        <!-- Brand Grid -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <a href="aula.html" class="brand-card bg-slate-800/50 rounded-2xl p-6 border border-white/10 hover:border-indigo-500/50">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="w-16 h-16 bg-indigo-900/50 rounded-xl flex items-center justify-center text-3xl">⌨️</div>
+                    <div>
+                        <h2 class="text-xl font-bold">AULA</h2>
+                        <span class="text-indigo-400 text-sm">6 products</span>
+                    </div>
+                </div>
+                <p class="text-slate-400 text-sm">Popular budget-to-midrange keyboards. Known for excellent value, gasket mounting, and tri-mode wireless connectivity.</p>
+                <div class="mt-4 text-indigo-400 text-sm font-medium">Best Value Series →</div>
+            </a>
+
+            <a href="redragon.html" class="brand-card bg-slate-800/50 rounded-2xl p-6 border border-white/10 hover:border-red-500/50">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="w-16 h-16 bg-red-900/50 rounded-xl flex items-center justify-center text-3xl">🎮</div>
+                    <div>
+                        <h2 class="text-xl font-bold">Redragon</h2>
+                        <span class="text-red-400 text-sm">4 products</span>
+                    </div>
+                </div>
+                <p class="text-slate-400 text-sm">Gaming-focused keyboards with RGB, hot-swap, and macro keys. Great bang for buck on a budget.</p>
+                <div class="mt-4 text-red-400 text-sm font-medium">Gaming Keyboards →</div>
+            </a>
+
+            <a href="logitech.html" class="brand-card bg-slate-800/50 rounded-2xl p-6 border border-white/10 hover:border-blue-500/50">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="w-16 h-16 bg-blue-900/50 rounded-xl flex items-center justify-center text-3xl">🖥️</div>
+                    <div>
+                        <h2 class="text-xl font-bold">Logitech</h2>
+                        <span class="text-blue-400 text-sm">3 products</span>
+                    </div>
+                </div>
+                <p class="text-slate-400 text-sm">Premium quality and reliability. MX Mechanical series and G-series gaming keyboards with smart features.</p>
+                <div class="mt-4 text-blue-400 text-sm font-medium">Premium Picks →</div>
+            </a>
+
+            <a href="corsair.html" class="brand-card bg-slate-800/50 rounded-2xl p-6 border border-white/10 hover:border-yellow-500/50">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="w-16 h-16 bg-yellow-900/50 rounded-xl flex items-center justify-center text-3xl">⚡</div>
+                    <div>
+                        <h2 class="text-xl font-bold">Corsair</h2>
+                        <span class="text-yellow-400 text-sm">1 product</span>
+                    </div>
+                </div>
+                <p class="text-slate-400 text-sm">Premium gaming peripherals. Vanguard AIR series with aluminum frame and integrated LCD screen.</p>
+                <div class="mt-4 text-yellow-400 text-sm font-medium">View Products →</div>
+            </a>
+
+            <a href="steelseries.html" class="brand-card bg-slate-800/50 rounded-2xl p-6 border border-white/10 hover:border-green-500/50">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="w-16 h-16 bg-green-900/50 rounded-xl flex items-center justify-center text-3xl">🎯</div>
+                    <div>
+                        <h2 class="text-xl font-bold">SteelSeries</h2>
+                        <span class="text-green-400 text-sm">1 product</span>
+                    </div>
+                </div>
+                <p class="text-slate-400 text-sm">Esports-proven quality. Apex series with OLED smart display and hybrid mechanical switches.</p>
+                <div class="mt-4 text-green-400 text-sm font-medium">View Products →</div>
+            </a>
+
+            <a href="cherry.html" class="brand-card bg-slate-800/50 rounded-2xl p-6 border border-white/10 hover:border-pink-500/50">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="w-16 h-16 bg-pink-900/50 rounded-xl flex items-center justify-center text-3xl">🔴</div>
+                    <div>
+                        <h2 class="text-xl font-bold">Cherry</h2>
+                        <span class="text-pink-400 text-sm">1 product</span>
+                    </div>
+                </div>
+                <p class="text-slate-400 text-sm">The original mechanical switch maker. German engineering with MX2A switches for office and professional use.</p>
+                <div class="mt-4 text-pink-400 text-sm font-medium">View Products →</div>
+            </a>
+
+            <a href="asus.html" class="brand-card bg-slate-800/50 rounded-2xl p-6 border border-white/10 hover:border-cyan-500/50">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="w-16 h-16 bg-cyan-900/50 rounded-xl flex items-center justify-center text-3xl">🐉</div>
+                    <div>
+                        <h2 class="text-xl font-bold">ASUS ROG</h2>
+                        <span class="text-cyan-400 text-sm">1 product</span>
+                    </div>
+                </div>
+                <p class="text-slate-400 text-sm">Republic of Gamers line. Premium features, tri-mode wireless, and ROG NX switches.</p>
+                <div class="mt-4 text-cyan-400 text-sm font-medium">View Products →</div>
+            </a>
+
+            <a href="other.html" class="brand-card bg-slate-800/50 rounded-2xl p-6 border border-white/10 hover:border-purple-500/50">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="w-16 h-16 bg-purple-900/50 rounded-xl flex items-center justify-center text-3xl">🔍</div>
+                    <div>
+                        <h2 class="text-xl font-bold">Other Brands</h2>
+                        <span class="text-purple-400 text-sm">12 products</span>
+                    </div>
+                </div>
+                <p class="text-slate-400 text-sm">Quality keyboards from SOLAKAKA, Newmen, RK Royal Kludge, Keymatic, MageGee, and more.</p>
+                <div class="mt-4 text-purple-400 text-sm font-medium">Browse All →</div>
+            </a>
+
+        </div>
+
+        <!-- Brand Stats -->
+        <div class="mt-12 bg-slate-800/30 rounded-xl p-6 border border-white/10">
+            <h2 class="font-bold mb-4">Why Buy by Brand?</h2>
+            <div class="grid md:grid-cols-3 gap-6 text-sm text-slate-300">
+                <div>
+                    <h3 class="font-semibold text-white mb-2">🎯 Consistency</h3>
+                    <p>Same quality standards, similar features, familiar software across the brand's product line.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-white mb-2">🔧 Compatibility</h3>
+                    <p>Keycaps, switches, and accessories often work across models from the same brand.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-white mb-2">💡 Easier Research</h3>
+                    <p>Read multiple reviews of the same brand to understand their quality reputation.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-white/10 mt-16 py-8 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-4 text-center text-slate-400">
+            <p>&copy; 2026 MechKeys Hub. As an Amazon Associate, we earn from qualifying purchases.</p>
+        </div>
+    </footer>
+</body>
+</html>
