@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Mechanical Keyboards - MechKeys Hub</title>
+    <meta name="description" content="Compare the best mechanical keyboards side by side. Compare prices, switches, layouts, and features to find your perfect keyboard.">
+    <link rel="canonical" href="https://mechkeys-hub.vercel.app/compare.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --accent: #f59e0b;
+        }
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%);
+        }
+        .product-card { background: linear-gradient(180deg, rgba(99,102,241,0.1) 0%, transparent 100%); }
+        .compare-check { color: #10b981; }
+        .compare-x { color: #ef4444; }
+        .compare-partial { color: #f59e0b; }
+        .product-select-btn { transition: all 0.2s; }
+        .product-select-btn:hover { border-color: #6366f1; background: rgba(99,102,241,0.1); }
+        .product-select-btn.selected { border-color: #6366f1; background: rgba(99,102,241,0.2); }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen text-white">
+    <!-- Header -->
+    <header class="border-b border-white/10 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-bold text-indigo-400">
+                <i class="fas fa-keyboard mr-2"></i>MechKeys Hub
+            </a>
+            <nav class="flex gap-2 flex-wrap">
+                <a href="index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">All Keyboards</a>
+                <a href="60_percent.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">60%</a>
+                <a href="65_percent.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">65%</a>
+                <a href="tkl.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">TKL</a>
+                <a href="full-size.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Full Size</a>
+                <a href="best-value.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Best Value</a>
+                <a href="compare.html" class="px-4 py-2 rounded-lg bg-indigo-600 text-white">Compare</a>
+                <a href="guides.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Guides</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold mb-3">Compare Mechanical Keyboards</h1>
+            <p class="text-slate-300 text-lg">Select up to 3 keyboards to compare specs, features, and prices side by side</p>
+        </div>
+
+        <!-- Product Selector -->
+        <div class="bg-slate-800/50 rounded-2xl p-6 mb-8 border border-white/10">
+            <h2 class="text-xl font-semibold mb-4"><i class="fas fa-mouse-pointer mr-2 text-indigo-400"></i>Select Keyboards to Compare</h2>
+            <div id="productSelector" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                <!-- Products will be populated by JS -->
+            </div>
+        </div>
+
+        <!-- Compare Table -->
+        <div id="compareSection" class="hidden">
+            <div class="flex justify-end mb-4">
+                <button onclick="clearComparison()" class="px-4 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg transition">
+                    <i class="fas fa-trash-alt mr-2"></i>Clear Comparison
+                </button>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full bg-slate-800/50 rounded-2xl border border-white/10 overflow-hidden">
+                    <thead id="compareHead"></thead>
+                    <tbody id="compareBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="text-center py-16 text-slate-400">
+            <i class="fas fa-balance-scale text-6xl mb-4 text-slate-600"></i>
+            <p class="text-xl">Select at least 2 keyboards above to start comparing</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 mt-16 py-8 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-4 text-center text-slate-400">
+            <p>&copy; 2026 MechKeys Hub. As an Amazon Associate, we earn from qualifying purchases.</p>
+        </div>
+    </footer>
+
+    <script>
+    const topProducts = [
+        {id:"b0fjrgtff3",name:"TMKB 60% Hall Effect",tagline:"TMKB 60% Hall Effect Magnetic Gaming Keyboard",price:"$39.99",price_tier:"budget",rating:4.8,switch_type:"Gateron",layout:"60%",connectivity:"USB-C",hot_swap:false,rgb:true,image:"https://m.media-amazon.com/images/I/61jvQ-orO1L._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0FJRGTFF3?tag=mechkeyshub-20",brand:"Other",pros:["RGB Backlight","Compact Layout","Rapid Trigger","8000Hz Polling"],description:["0.02mm Rapid Trigger for FPS Precision","True 8000Hz Polling & <0.3ms Latency","Web-Based Driver - No App Required"]},
+        {id:"b0cllhswrl",name:"AULA F99 Wireless",tagline:"AULA F99 Wireless Tri-Mode Hot Swappable",price:"$69.99",price_tier:"mid",rating:4.5,switch_type:"Linear Red",layout:"98-key",connectivity:"Bluetooth / 2.4GHz / USB-C",hot_swap:false,rgb:true,image:"https://m.media-amazon.com/images/I/61mB8mL33pL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0CLLHSWRL?tag=mechkeyshub-20",brand:"Aula",pros:["RGB Backlight","Wireless","Multi-Device","Hot-swappable Custom Keyboard"],description:["Multi-Device Connection (5 devices)","Pre-lubed linear switches","Tri-mode connectivity"]},
+        {id:"b08z6x4nk3",name:"Logitech G413 SE",tagline:"Logitech G413 SE Full-Size Gaming Keyboard",price:"$69.99",price_tier:"mid",rating:4.5,switch_type:"Tactile Brown",layout:"Full Size",connectivity:"USB-C",hot_swap:false,rgb:true,image:"https://m.media-amazon.com/images/I/61thTSgqWOL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B08Z6X4NK3?tag=mechkeyshub-20",brand:"Logitech",pros:["PBT keycaps","Tactile mechanical switches","Gaming-first features"],description:["PBT keycaps - heat and wear resistant","Tactile Brown switches","Full-size layout"]},
+        {id:"b0cf3vgqfl",name:"Redragon K671",tagline:"Redragon K671 Hot-Swappable Gaming Keyboard",price:"$29.99",price_tier:"budget",rating:4.3,switch_type:"Linear Red",layout:"TKL",connectivity:"USB-C",hot_swap:true,rgb:true,image:"https://m.media-amazon.com/images/I/71Bk2A2WmOL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0CF3VGQFL?tag=mechkeyshub-20",brand:"Redragon",pros:["Hot-swappable","RGB Backlight","PBT Keycaps","Macro Editing"],description:["Hot-swappable linear red switches","Macro editing support","11 backlight modes"]},
+        {id:"b0cdwp1d58",name:"Redragon K668",tagline:"Redragon K668 108 Keys Gaming Keyboard",price:"$39.99",price_tier:"budget",rating:4.5,switch_type:"Linear Red",layout:"TKL",connectivity:"USB-C",hot_swap:true,rgb:true,image:"https://m.media-amazon.com/images/I/618A+B25MKL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0CDWP1D58?tag=mechkeyshub-20",brand:"Redragon",pros:["Hot-swappable","RGB Backlight","Sound Absorbing Foam"],description:["Hot-swappable red switches","Sound absorbing foam","19 backlight modes"]},
+        {id:"b0d14n2qzf",name:"AULA F75 Pro",tagline:"AULA F75 Pro 75% Wireless Mechanical Keyboard",price:"$68.99",price_tier:"mid",rating:4.6,switch_type:"Gateron",layout:"75%",connectivity:"Bluetooth / 2.4GHz / USB-C",hot_swap:false,rgb:true,image:"https://m.media-amazon.com/images/I/61MC8BK0w0L._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0D14N2QZF?tag=mechkeyshub-20",brand:"Aula",pros:["RGB Backlight","Wireless","PBT Keycaps","Gasket Structure"],description:["Tri-mode connectivity","4000mAh battery","5-layer filling silencer"]},
+        {id:"b0f58sm5bt",name:"Newmen GM325Pro",tagline:"Newmen GM325Pro Hot-Swap Mechanical Keyboard",price:"$19.99",price_tier:"budget",rating:4.4,switch_type:"Linear Red",layout:"Full Size",connectivity:"USB-C",hot_swap:true,rgb:true,image:"https://m.media-amazon.com/images/I/71+fs+2vzoL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0F58SM5BT?tag=mechkeyshub-20",brand:"Newmen",pros:["Hot-swappable","RGB Backlight","Metal Panel","Detachable USB"],description:["Metal top plate","Detachable USB cable","13 preset LED rainbow modes"]},
+        {id:"b09lk1p1rd",name:"Logitech MX Mechanical",tagline:"Logitech MX Mechanical Wireless Illuminated Keyboard",price:"$169.99",price_tier:"premium",rating:4.2,switch_type:"Tactile Brown",layout:"TKL",connectivity:"Bluetooth / 2.4GHz / USB-C",hot_swap:false,rgb:true,image:"https://m.media-amazon.com/images/I/61++ok6AqtL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B09LK1P1RD?tag=mechkeyshub-20",brand:"Logitech",pros:["Low-profile keys","Smart illumination","Multi-device","Easy-Switch"],description:["Low-profile tactile quiet switches","Smart illumination auto-backlight","Connect up to 3 devices"]},
+        {id:"b0gmr9v158",name:"Corsair Vanguard AIR 99",tagline:"Corsair Vanguard AIR 99 Wireless Gaming Keyboard",price:"$259.99",price_tier:"premium",rating:5,switch_type:"Optical",layout:"98-key",connectivity:"Bluetooth / 2.4GHz / USB-C",hot_swap:false,rgb:true,image:"https://m.media-amazon.com/images/I/71OsUef0QfL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0GMR9V158?tag=mechkeyshub-20",brand:"Corsair",pros:["RGB Backlight","Wireless","1.9\" LCD Screen","Elgato Integration"],description:["Aluminum frame","1.9\" LCD customization screen","Elgato Stream Deck integration"]},
+        {id:"b07zgdd6b1",name:"SteelSeries Apex 5",tagline:"SteelSeries Apex 5 Hybrid Mechanical Gaming Keyboard",price:"$97.99",price_tier:"mid",rating:4.6,switch_type:"Clicky Blue",layout:"TKL",connectivity:"USB-C",hot_swap:false,rgb:true,image:"https://m.media-amazon.com/images/I/81yd9W+0doL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B07ZGDD6B1?tag=mechkeyshub-20",brand:"Steelseries",pros:["OLED smart display","Aircraft-grade aluminum","Macro keys"],description:["OLED smart display with gifs","Hybrid blue clicky switches","20 million keypress guarantee"]},
+        {id:"b0dkndpkv3",name:"AULA F99 Pro",tagline:"AULA F99 Pro 98-Key Tri-Mode Wireless Keyboard",price:"$68.99",price_tier:"mid",rating:4.7,switch_type:"Gateron",layout:"98-key",connectivity:"Bluetooth / 2.4GHz / USB-C",hot_swap:false,rgb:true,image:"https://m.media-amazon.com/images/I/61j8vJmvOqL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0DKNDPKV3?tag=mechkeyshub-20",brand:"Aula",pros:["RGB Backlight","Wireless","Gasket Mount","PBT Keycaps","Knob"],description:["Multi-function control knob","Gasket structure","Tri-mode connectivity"]},
+        {id:"b0fpq8grmb",name:"SOLAKAKA A75",tagline:"SOLAKAKA A75 75% Wireless Gasket Keyboard",price:"$55.99",price_tier:"mid",rating:4.7,switch_type:"Gateron",layout:"75%",connectivity:"Bluetooth / 2.4GHz / USB-C",hot_swap:false,rgb:true,image:"https://m.media-amazon.com/images/I/61-fIL1PfsL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0FPQ8GRMB?tag=mechkeyshub-20",brand:"Solakaka",pros:["RGB Backlight","Wireless","Gasket Mount","PBT Keycaps"],description:["Gasket mount structure","IXPE + PET + silicone 5-layer padding","Multi-device (5 devices)"]},
+        {id:"b0c7kfz5tl",name:"ASUS ROG Strix Scope II 96",tagline:"ASUS ROG Strix Scope II 96 Tri-Mode Gaming Keyboard",price:"$129.99",price_tier:"premium",rating:4.6,switch_type:"Linear Red",layout:"98-key",connectivity:"Bluetooth / 2.4GHz / USB-C",hot_swap:false,rgb:true,image:"https://m.media-amazon.com/images/I/91YxKZjwOPL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0C7KFZ5TL?tag=mechkeyshub-20",brand:"Asus",pros:["ROG NX Snow switches","Tri-mode connectivity","Multi-wheel"],description:["ROG NX Snow linear switches","96% compact layout","Tri-mode wireless"]},
+        {id:"b0dbzgh5xm",name:"KN85 Wireless",tagline:"KN85 75% Wireless Mechanical Gaming Keyboard",price:"$42.99",price_tier:"budget",rating:4.7,switch_type:"Linear Red",layout:"75%",connectivity:"Bluetooth / 2.4GHz / USB-C",hot_swap:false,rgb:true,image:"https://m.media-amazon.com/images/I/714ycqhrb5L._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0DBZGH5XM?tag=mechkeyshub-20",brand:"Other",pros:["Wireless","RGB Backlight","Creamy typing sound"],description:["Tri-mode connectivity","75% compact layout","Gasket structure"]},
+        {id:"b07g11g2x8",name:"Redragon K580 VATA",tagline:"Redragon K580 VATA RGB Gaming Keyboard",price:"$59.99",price_tier:"mid",rating:4.6,switch_type:"Clicky Blue",layout:"TKL",connectivity:"USB-C",hot_swap:true,rgb:true,image:"https://m.media-amazon.com/images/I/71jPClBDPDL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B07G11G2X8?tag=mechkeyshub-20",brand:"Redragon",pros:["5 Macro Keys","Dedicated Media Controls","Hot-swappable"],description:["5 programmable macro keys","Volume/backlight adjust wheel","Dedicated multimedia controls"]},
+        {id:"b0djnmxzxf",name:"Redragon K689",tagline:"Redragon K689 Gasket RGB Gaming Keyboard",price:"$39.99",price_tier:"budget",rating:4.5,switch_type:"Linear Red",layout:"TKL",connectivity:"USB-C",hot_swap:true,rgb:true,image:"https://m.media-amazon.com/images/I/617KI0P7BxL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0DJNMXZXF?tag=mechkeyshub-20",brand:"Redragon",pros:["Hot-swappable","RGB Backlight","Gasket Mount"],description:["Gasket mount structure","Custom Dragon Chant switches","Thick-lubed linear switches"]},
+        {id:"b0b87rcdlz",name:"RK ROYAL KLUDGE RK98",tagline:"RK ROYAL KLUDGE RK98 Triple Mode Wireless Keyboard",price:"$59.99",price_tier:"mid",rating:4.5,switch_type:"Linear Red",layout:"98-key",connectivity:"Bluetooth / 2.4GHz / USB-C",hot_swap:false,rgb:true,image:"https://m.media-amazon.com/images/I/71lJcOHNMiL._AC_UY218_.jpg",url:"https://www.amazon.com/dp/B0B87RCDLZ?tag=mechkeyshub-20",brand:"Other",pros:["Wireless","Hot-swappable","Triple Mode"],description:["Triple mode 2.4G/BT5.1/USB-C","Hot-swappable PCB","1000mAh battery"]}
+    ];
+
+    let selectedProducts = [];
+
+    function renderProductSelector() {
+        const container = document.getElementById('productSelector');
+        container.innerHTML = topProducts.map(p => `
+            <button onclick="toggleProduct('${p.id}')" 
+                class="product-select-btn p-3 rounded-xl border border-white/20 text-left text-sm"
+                id="btn-${p.id}">
+                <img src="${p.image}" alt="${p.name}" class="w-full h-16 object-contain mb-2 rounded">
+                <div class="font-medium text-xs leading-tight">${p.name}</div>
+                <div class="text-indigo-400 text-xs mt-1">${p.price}</div>
+            </button>
+        `).join('');
+    }
+
+    function toggleProduct(id) {
+        const product = topProducts.find(p => p.id === id);
+        const btn = document.getElementById('btn-' + id);
+        
+        if (selectedProducts.find(p => p.id === id)) {
+            selectedProducts = selectedProducts.filter(p => p.id !== id);
+            btn.classList.remove('selected');
+        } else {
+            if (selectedProducts.length >= 3) {
+                alert('Maximum 3 products can be compared at once');
+                return;
+            }
+            selectedProducts.push(product);
+            btn.classList.add('selected');
+        }
+        
+        renderComparison();
+    }
+
+    function renderComparison() {
+        const compareSection = document.getElementById('compareSection');
+        const emptyState = document.getElementById('emptyState');
+        const thead = document.getElementById('compareHead');
+        const tbody = document.getElementById('compareBody');
+
+        if (selectedProducts.length < 2) {
+            compareSection.classList.add('hidden');
+            emptyState.classList.remove('hidden');
+            return;
+        }
+
+        compareSection.classList.remove('hidden');
+        emptyState.classList.add('hidden');
+
+        // Header
+        thead.innerHTML = `
+            <tr class="bg-slate-900/80">
+                <th class="p-4 text-left text-slate-400 w-48">Feature</th>
+                ${selectedProducts.map(p => `
+                    <th class="p-4 text-center min-w-48">
+                        <img src="${p.image}" alt="${p.name}" class="w-24 h-16 object-contain mx-auto mb-2">
+                        <div class="font-semibold text-sm">${p.name}</div>
+                        <div class="text-indigo-400 font-bold mt-1">${p.price}</div>
+                        <div class="flex items-center justify-center gap-1 mt-1">
+                            <span class="text-yellow-400">★</span>
+                            <span>${p.rating}</span>
+                        </div>
+                        <a href="${p.url}" target="_blank" 
+                            class="inline-block mt-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-lg text-sm transition">
+                            View on Amazon <i class="fas fa-external-link-alt ml-1"></i>
+                        </a>
+                    </th>
+                `).join('')}
+            </tr>
+        `;
+
+        // Spec rows
+        const specs = [
+            { label: 'Layout', key: 'layout' },
+            { label: 'Switch Type', key: 'switch_type' },
+            { label: 'Connectivity', key: 'connectivity' },
+            { label: 'Hot-Swappable', key: 'hot_swap', bool: true },
+            { label: 'RGB Backlight', key: 'rgb', bool: true },
+            { label: 'Brand', key: 'brand' },
+            { label: 'Price Tier', key: 'price_tier' }
+        ];
+
+        const featureRows = specs.map(spec => `
+            <tr class="border-t border-white/5 hover:bg-white/5">
+                <td class="p-4 text-slate-400 font-medium">${spec.label}</td>
+                ${selectedProducts.map(p => {
+                    let val = p[spec.key];
+                    if (spec.bool) {
+                        const cls = val ? 'compare-check' : 'compare-x';
+                        const icon = val ? '<i class="fas fa-check"></i>' : '<i class="fas fa-times"></i>';
+                        return `<td class="p-4 text-center ${cls} text-xl">${icon}</td>`;
+                    }
+                    return `<td class="p-4 text-center">${val || '-'}</td>`;
+                }).join('')}
+            </tr>
+        `).join('');
+
+        // Pros
+        const prosRow = `
+            <tr class="border-t border-white/5 hover:bg-white/5">
+                <td class="p-4 text-slate-400 font-medium">Key Pros</td>
+                <td class="p-4 text-center">
+                    <ul class="text-sm text-left space-y-1">
+                        ${selectedProducts.map(p => p.pros.map(pro => `<li class="text-green-400"><i class="fas fa-plus mr-1"></i>${pro}</li>`).join('')).join('</ul></td><td class="p-4 text-center"><ul class="text-sm text-left space-y-1">')}
+                    </ul>
+                </td>
+            </tr>
+        `;
+
+        // Verdict
+        const verdictRow = `
+            <tr class="border-t border-white/10 bg-slate-900/50">
+                <td class="p-4 text-slate-400 font-semibold">Best For</td>
+                <td class="p-4 text-center">
+                    <div class="text-sm">
+                        ${selectedProducts.map(p => {
+                            let verdict = '';
+                            if (p.price_tier === 'budget') verdict = '💰 Budget buyers';
+                            else if (p.price_tier === 'premium') verdict = '💎 Premium users';
+                            else verdict = '⚖️ Best value';
+                            
+                            if (p.layout === '60%' || p.layout === '65%') verdict += '<br>🎮 Compact gaming';
+                            else if (p.layout === 'TKL') verdict += '<br>🖥️ Balanced use';
+                            else if (p.layout === 'Full Size') verdict += '<br>📝 Office/Numpad';
+                            else verdict += '<br>🔢 Compact + Numpad';
+                            
+                            if (p.connectivity.includes('Bluetooth')) verdict += '<br>📡 Wireless';
+                            
+                            return `<div class="mb-2">${verdict}</div>`;
+                        }).join('')}
+                    </div>
+                </td>
+            </tr>
+        `;
+
+        tbody.innerHTML = featureRows + prosRow + verdictRow;
+    }
+
+    function clearComparison() {
+        selectedProducts = [];
+        document.querySelectorAll('.product-select-btn').forEach(btn => btn.classList.remove('selected'));
+        renderComparison();
+    }
+
+    renderProductSelector();
+    </script>
+</body>
+</html>
