@@ -1,6 +1,6 @@
 // MechKeys Hub - Products Data
 // Auto-generated: 2026-04-03T05:18:12.067Z
-// Total products: 316
+// Total products: 322
 
 const topProducts = [
     {
@@ -6381,4 +6381,143 @@ const topProducts = [
         amazon_asin: "B07KFHQX8L"
     }
 
+,
+        {
+        "id": "b0fggzk4x7",
+        "amazon_asin": "B0FGGZK4X7",
+        "name": "ASUS ROG Strix Scope II X Wired USB Mechanical Gaming Keyboard \u2013 100% Full-Size, Hot Swappable Pre-lubed ROG NX Snow V2 Linear Switches, PBT Keycaps, RGB, PC/Mac Support - Black",
+        "price": "$129.99",
+        "rating": 4.7,
+        "image": "https://m.media-amazon.com/images/I/71iyRkaBAEL._AC_UY218_.jpg",
+        "switch_type": "Linear Red",
+        "layout": "Full Size",
+        "connectivity": "USB-C",
+        "price_tier": "premium",
+        "hot_swap": true,
+        "rgb": true,
+        "url": "https://www.amazon.com/dp/B0FGGZK4X7?tag=mechkeyshub-20",
+        "pros": [
+            "Great value",
+            "Popular choice"
+        ],
+        "description": [
+            "ASUS ROG Strix Scope II X Wired USB Mechanical Gaming Keyboard \u2013 100% Full-Size, Hot Swappable Pre-l"
+        ],
+        "updated": "2026-04-03"
+    },
+    {
+        "id": "b0gj66lnqq",
+        "amazon_asin": "B0GJ66LNQQ",
+        "name": "Keychron V5 8K 96% Compact Mechanical Keyboard, 8000 Hz Polling Rate Hot-Swappable QMK Programmable Wired Keyboard with Numpad & Knob, RGB Backlit, Ergonomic for Mac Windows Linux-Linear Red Switch",
+        "price": "$84.99",
+        "rating": 5.0,
+        "image": "https://m.media-amazon.com/images/I/71tNCDhTfHL._AC_UY218_.jpg",
+        "switch_type": "Linear Red",
+        "layout": "TKL (87-key)",
+        "connectivity": "USB-C",
+        "price_tier": "mid",
+        "hot_swap": true,
+        "rgb": true,
+        "url": "https://www.amazon.com/dp/B0GJ66LNQQ?tag=mechkeyshub-20",
+        "pros": [
+            "Great value",
+            "Popular choice"
+        ],
+        "description": [
+            "Keychron V5 8K 96% Compact Mechanical Keyboard, 8000 Hz Polling Rate Hot-Swappable QMK Programmable "
+        ],
+        "updated": "2026-04-03"
+    },
+    {
+        "id": "b0cvfh3vrx",
+        "amazon_asin": "B0CVFH3VRX",
+        "name": "Logitech MX Keys S Combo for Mac, Wireless Keyboard and Mouse with Palm Rest, Backlit Keyboard, Fast Scroll Wireless Mouse, Bluetooth USB C for MacBook Pro, MacBook Air, iMac, iPad - Space Grey",
+        "price": "$199.99",
+        "rating": 4.6,
+        "image": "https://m.media-amazon.com/images/I/61DRuw6xDqL._AC_UY218_.jpg",
+        "switch_type": "Gateron",
+        "layout": "TKL (87-key)",
+        "connectivity": "Bluetooth / 2.4GHz / USB-C",
+        "price_tier": "premium",
+        "hot_swap": false,
+        "rgb": true,
+        "url": "https://www.amazon.com/dp/B0CVFH3VRX?tag=mechkeyshub-20",
+        "pros": [
+            "Great value",
+            "Popular choice"
+        ],
+        "description": [
+            "Logitech MX Keys S Combo for Mac, Wireless Keyboard and Mouse with Palm Rest, Backlit Keyboard, Fast"
+        ],
+        "updated": "2026-04-03"
+    },
+    {
+        "id": "b0dxz97pcg",
+        "amazon_asin": "B0DXZ97PCG",
+        "name": "Keychron K10 HE Hall Effect Keyboard Wireless, Magnetic Switch Hot Swappable, Adjustable Actuation Rapid Trigger Mode with Aluminum + Wood Frame, Full-Size Custom RGB for Mac Windows Linux - Black",
+        "price": "$144.99",
+        "rating": 4.4,
+        "image": "https://m.media-amazon.com/images/I/61G-mjwnv3L._AC_UY218_.jpg",
+        "switch_type": "Optical/Magnetic",
+        "layout": "Full Size",
+        "connectivity": "Bluetooth / 2.4GHz / USB-C",
+        "price_tier": "premium",
+        "hot_swap": true,
+        "rgb": true,
+        "url": "https://www.amazon.com/dp/B0DXZ97PCG?tag=mechkeyshub-20",
+        "pros": [
+            "Great value",
+            "Popular choice"
+        ],
+        "description": [
+            "Keychron K10 HE Hall Effect Keyboard Wireless, Magnetic Switch Hot Swappable, Adjustable Actuation R"
+        ],
+        "updated": "2026-04-03"
+    },
+    {
+        "id": "b0drfgnwv1",
+        "amazon_asin": "B0DRFGNWV1",
+        "name": "Redragon K521 Upgrade Rainbow LED Gaming Keyboard, 104 Keys Wired Mechanical Feeling Keyboard with Multimedia Keys, One-Touch Backlit, Anti-Ghosting, Compatible with PC, Mac, PS4/5, Xbox",
+        "price": "$16.02",
+        "rating": 4.2,
+        "image": "https://m.media-amazon.com/images/I/71kp4T3JSIL._AC_UY218_.jpg",
+        "switch_type": "Gateron",
+        "layout": "Full Size",
+        "connectivity": "USB-C",
+        "price_tier": "budget",
+        "hot_swap": false,
+        "rgb": true,
+        "url": "https://www.amazon.com/dp/B0DRFGNWV1?tag=mechkeyshub-20",
+        "pros": [
+            "Great value",
+            "Popular choice"
+        ],
+        "description": [
+            "Redragon K521 Upgrade Rainbow LED Gaming Keyboard, 104 Keys Wired Mechanical Feeling Keyboard with M"
+        ],
+        "updated": "2026-04-03"
+    },
+    {
+        "id": "b0g3pn1vs4",
+        "amazon_asin": "B0G3PN1VS4",
+        "name": "Corsair Galleon 100 SD RGB Mechanical Wired Gaming Keyboard \u2013 QWERTY US, Stream Deck-Integrated, Pre-Lubed MLX Pulse Thocky Hotswappable PBT Double-Shot Switches, FlashTap SOCD, 8,000Hz \u2013 Black",
+        "price": "$349.99",
+        "rating": 3.9,
+        "image": "https://m.media-amazon.com/images/I/71+tkqze3FL._AC_UY218_.jpg",
+        "switch_type": "Gateron",
+        "layout": "TKL (87-key)",
+        "connectivity": "USB-C",
+        "price_tier": "premium",
+        "hot_swap": false,
+        "rgb": true,
+        "url": "https://www.amazon.com/dp/B0G3PN1VS4?tag=mechkeyshub-20",
+        "pros": [
+            "Great value",
+            "Popular choice"
+        ],
+        "description": [
+            "Corsair Galleon 100 SD RGB Mechanical Wired Gaming Keyboard \u2013 QWERTY US, Stream Deck-Integrated, Pre"
+        ],
+        "updated": "2026-04-03"
+    }
 ];

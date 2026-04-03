@@ -29,12 +29,13 @@
 </header>
 ```
 
-**10个导航链接（必须按此顺序）:**
+**11个导航链接（必须按此顺序）:**
 | 链接 | 文件 | 图标 |
 |------|------|------|
 | Home | / | fa-home (indigo-400) |
 | 60% | /60_percent.html | fa-th-large (indigo-400) |
 | 65% | /65_percent.html | fa-th-large (indigo-400) |
+| 75% | /75_percent.html | fa-th (indigo-400) |
 | TKL | /tkl.html | fa-th (indigo-400) |
 | Full Size | /full-size.html | fa-keyboard (indigo-400) |
 | Brands | /brands.html | fa-tags (purple-400) |
