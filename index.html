@@ -6866,7 +6866,7 @@ const topProducts = [
 
     document.addEventListener('DOMContentLoaded', function() {
         if (typeof topProducts !== 'undefined' && topProducts.length > 0) {
-            renderProducts(topProducts.slice(0, 40));
+            renderProducts(topProducts);
         }
     });
     </script>
@@ -6947,7 +6947,7 @@ const topProducts = [
         
         // Load products
         if (typeof topProducts !== 'undefined') {
-            renderProducts(topProducts.slice(0, 40));
+            renderProducts(topProducts);
         }
     </script>
 </body>
