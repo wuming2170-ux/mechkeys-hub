@@ -94,7 +94,7 @@
             </div>
 
             <!-- Products Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="products-grid">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="products">
                 <div class="col-span-full text-center py-12">
                     <div class="animate-pulse">
                         <div class="text-gray-400">Loading 75% mechanical keyboards...</div>
@@ -111,68 +111,38 @@
     </footer>
 
     <script>
-        // Load products data and filter for 75% layout
-        fetch('/inline-products-detailed.js')
-            .then(response => response.text())
-            .then(text => {
-                // Extract products from the JS file
-                const match = text.match(/const topProducts\s*=\s*(\[[\s\S]*?\]);/);
-                if (!match) {
-                    console.error('Could not find products');
-                    return;
-                }
-                const products = eval('(' + match[1] + ')');
-                const layoutProducts = products.filter(p => p.layout === '75%');
-                
-                const grid = document.getElementById('products-grid');
-                
-                if (layoutProducts.length === 0) {
-                    grid.innerHTML = '<div class="col-span-full text-center py-12"><p class="text-gray-400 text-lg">No 75% keyboards available at the moment.</p></div>';
-                    return;
-                }
-                
-                grid.innerHTML = layoutProducts.map(product => {
-                    const tierColor = product.price_tier === 'budget' ? 'emerald' : product.price_tier === 'mid' ? 'blue' : product.price_tier === 'high' ? 'purple' : 'amber';
-                    const tierText = product.price_tier === 'budget' ? 'Budget' : product.price_tier === 'mid' ? 'Mid-Range' : product.price_tier === 'high' ? 'Premium' : 'High-End';
-                    const tierIcon = product.price_tier === 'budget' ? '💰' : product.price_tier === 'mid' ? '⭐' : product.price_tier === 'high' ? '💎' : '🔥';
-                    
-                    return `
-                    <a href="${product.url}" target="_blank" class="card-hover block bg-white/5 rounded-2xl p-5 border border-white/10 hover:border-indigo-500/50">
-                        <div class="flex items-start gap-3 mb-3">
-                            <img src="${product.image}" alt="${product.name}" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                            <div class="flex-1 min-w-0">
-                                <div class="flex flex-wrap gap-1 mb-1">
-                                    <span class="text-xs px-2 py-1 rounded-full font-semibold bg-${tierColor}-900/50 text-${tierColor}-300">${tierIcon} ${tierText}</span>
-                                    <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">${product.switch_type || 'Unknown'}</span>
-                                </div>
-                                <h3 class="font-bold text-sm leading-tight mb-1 truncate">${product.name}</h3>
-                            </div>
-                        </div>
-                        <div class="flex items-center justify-between mb-2">
-                            <div class="flex items-center gap-2 text-xs text-slate-300">
-                                <span class="text-yellow-400">★</span> ${product.rating || 'N/A'}/5
-                                <span class="text-slate-600">|</span>
-                                <span>${product.hot_swap ? '✓ Swap' : '❌ Swap'}</span>
-                            </div>
-                            <span class="text-indigo-400 font-bold">${product.price || 'N/A'}</span>
-                        </div>
-                        <p class="text-xs text-slate-400 mb-3 line-clamp-2">${(product.description && product.description[0]) || ''}</p>
-                        <div class="flex flex-wrap gap-1 mb-3">
-                            ${product.layout ? '<span class="text-xs px-2 py-1 bg-slate-700/50 text-slate-300 rounded">' + product.layout + '</span>' : ''}
-                            ${product.connectivity ? '<span class="text-xs px-2 py-1 bg-slate-700/50 text-slate-300 rounded">' + product.connectivity + '</span>' : ''}
-                            ${product.rgb ? '<span class="text-xs px-2 py-1 bg-green-900/30 text-green-300 rounded">RGB</span>' : ''}
-                        </div>
-                        <div class="w-full py-2 px-4 bg-indigo-600 hover:bg-indigo-500 rounded-lg text-center text-sm font-semibold transition">
-                            View on Amazon →
-                        </div>
-                    </a>
-                    `;
-                }).join('');
-            })
-            .catch(err => {
-                console.error('Error loading products:', err);
-                document.getElementById('products-grid').innerHTML = '<p class="text-center text-gray-400 col-span-full">Error loading products.</p>';
-            });
+const filtered = topProducts.filter(p => p.layout === '75%');
+        
+        const productsHtml = filtered.map(p => `
+            <article class="bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-indigo-500/50 transition">
+                <div class="flex items-start justify-between mb-4">
+                    <span class="badge ${p.price_tier === 'budget' ? 'bg-green-900 text-green-300' : p.price_tier === 'mid' ? 'bg-blue-900 text-blue-300' : 'bg-purple-900 text-purple-300'} px-3 py-1 rounded-full text-xs font-semibold">
+                        ${p.price_tier === 'budget' ? '💰 Budget' : p.price_tier === 'mid' ? '⭐ Value' : '💎 Premium'}
+                    </span>
+                    <span class="text-amber-400 font-bold">${p.rating}/10</span>
+                </div>
+                <div class="aspect-[16/10] bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';this.parentElement.style.background='linear-gradient(135deg,#1e1b4b,#0f172a)';">
+                    <span class="text-5xl hidden items-center justify-center">⌨️</span>
+                </div>
+                <h3 class="text-xl font-bold mb-2">${p.name}</h3>
+                <p class="text-gray-400 text-sm mb-4">${p.tagline}</p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="text-xs bg-slate-700 px-2 py-1 rounded">${p.switch_type}</span>
+                    <span class="text-xs bg-slate-700 px-2 py-1 rounded">${p.connectivity}</span>
+                    ${p.hot_swap ? '<span class="text-xs bg-indigo-600 px-2 py-1 rounded">Hot-swap</span>' : ''}
+                </div>
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-2xl font-bold text-indigo-400">${p.price}</span>
+                </div>
+                <a href="${p.url}" class="block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition mb-2">
+                    Check Price →
+                </a>
+                <p class="text-xs text-gray-500 text-center">*Affiliate link</p>
+            </article>
+        `).join('');
+        
+        document.getElementById('products').innerHTML = productsHtml;
     </script>
 </body>
 </html>
