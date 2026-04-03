@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filco Mechanical Keyboards - MechKeys Hub</title>
-    <meta name="description" content="Browse Filco mechanical keyboards. Filco is a premium Japanese keyboard brand renowned for exceptional build quality, durability, and professional-grade typing experience. Their keyboards are trusted by professionals worldwide.">
+    <meta name="description" content="Browse Filco mechanical keyboards. Filco is a premium Japanese keyboard brand renowned for exceptional build quality, durability, and professional-grade typing experience.">
     <link rel="canonical" href="https://mechkeys-hub.vercel.app/brand/filco.html">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -13,14 +13,11 @@
         .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
         .card-hover { transition: all 0.3s ease; }
         .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(99,102,241,0.15); }
-    </style>
-
-    <style>
-        .nav-link { padding: 0.5rem 0.75rem; border-radius: 0.5rem; color: #d1d5db; font-size: 0.9375rem; font-weight: 500; transition: all 0.2s; }
+        .nav-link { padding: 0.5rem 0.75rem; border-radius: 0.5rem; color: #d1d5db; font-size: 0.9375rem; font-weight: 500; transition: all 0.2s; white-space: nowrap; }
         .nav-link:hover { color: white; background: rgba(255, 255, 255, 0.1); }
     </style>
 </head>
-<body class="gradient-bg text-white min-h-screen">
+<body class="gradient-bg min-h-screen text-white">
     <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
         <div class="max-w-7xl mx-auto px-4 py-4">
             <div class="flex items-center justify-between">
@@ -44,86 +41,143 @@
         </div>
     </header>
 
-    <main class="py-12 px-4">
-        <div class="max-w-7xl mx-auto">
-            <!-- Brand Header -->
-            <div class="text-center mb-12">
-                <div class="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 rounded-full border border-indigo-500/30 mb-6">
-                    <span class="text-3xl">🇯🇵</span>
-                    <span class="text-xl font-bold">Filco</span>
-                </div>
-                <h1 class="text-4xl md:text-5xl font-bold mb-4">Filco Mechanical Keyboards</h1>
-                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
-                    Premium Japanese craftsmanship for professionals. Known for exceptional build quality and timeless design.
-                </p>
-            </div>
+    <main class="max-w-7xl mx-auto px-4 py-10">
+        <div class="mb-6">
+            <a href="/brands.html" class="text-indigo-400 hover:underline text-sm">← All Brands</a>
+        </div>
 
-            <!-- Products will be loaded here -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="products-grid">
-                <div class="col-span-full text-center py-12">
-                    <div class="animate-pulse">
-                        <div class="text-gray-400">Loading Filco keyboards...</div>
+        <!-- Brand Header -->
+        <div class="bg-gradient-to-r from-indigo-900/30 to-purple-900/30 rounded-2xl p-8 mb-8 border border-indigo-500/30">
+            <div class="flex items-center gap-6">
+                <div class="w-20 h-20 bg-indigo-900/30 rounded-2xl flex items-center justify-center text-4xl border border-indigo-500/30">🇯🇵</div>
+                <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-2">
+                        <h1 class="text-3xl font-bold text-indigo-400">Filco</h1>
+                        <span class="bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full text-sm font-semibold border border-indigo-500/30">3 Products</span>
                     </div>
+                    <p class="text-indigo-300 text-lg mb-2 opacity-80">Premium Japanese Craftsmanship</p>
+                    <p class="text-slate-300 max-w-2xl">Filco is a premium Japanese keyboard brand renowned for exceptional build quality, durability, and professional-grade typing experience. Their keyboards are trusted by professionals worldwide.</p>
                 </div>
             </div>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- Product 1 -->
+            <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-indigo-500/50 transition card-hover">
+                <div class="p-5">
+                    <div class="flex items-start gap-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/81KqFyFDxQL._AC_SL1500_.jpg" alt="Filco Majestouch 2" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                        <div class="flex-1 min-w-0">
+                            <div class="flex flex-wrap gap-1 mb-1">
+                                <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">💰 Mid-Range</span>
+                                <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Cherry MX</span>
+                                <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                            </div>
+                            <h3 class="font-bold text-sm leading-tight mb-1 truncate">Filco Majestouch 2</h3>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center gap-2 text-xs text-slate-300">
+                            <span class="text-yellow-400">★</span> 4.8/5
+                            <span class="text-slate-600">|</span>
+                            <span>❌ Swap</span>
+                        </div>
+                        <span class="text-indigo-400 font-bold">$169</span>
+                    </div>
+                    <p class="text-xs text-slate-400 mb-3 line-clamp-2">Premium TKL with Cherry MX switches. Legendary mechanical keyboard known for exceptional build quality.</p>
+                    <div class="flex flex-wrap gap-1 mb-3">
+                        <span class="text-xs px-2 py-1 bg-slate-700/50 text-slate-300 rounded">Wired</span>
+                        <span class="text-xs px-2 py-1 bg-slate-700/50 text-slate-300 rounded">No RGB</span>
+                    </div>
+                    <a href="https://www.amazon.com/dp/B07WJ5XW8X?tag=mechkeyshub-20" target="_blank" class="block w-full py-2 px-4 bg-indigo-600 hover:bg-indigo-500 rounded-lg text-center text-sm font-semibold transition">
+                        View on Amazon →
+                    </a>
+                </div>
+            </article>
+
+            <!-- Product 2 -->
+            <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-indigo-500/50 transition card-hover">
+                <div class="p-5">
+                    <div class="flex items-start gap-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/71Q6xRkxJWL._AC_SL1500_.jpg" alt="Filco Ninja Majestouch-2" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                        <div class="flex-1 min-w-0">
+                            <div class="flex flex-wrap gap-1 mb-1">
+                                <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">💰 Mid-Range</span>
+                                <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Cherry MX</span>
+                                <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">80%</span>
+                            </div>
+                            <h3 class="font-bold text-sm leading-tight mb-1 truncate">Filco Ninja Majestouch-2</h3>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center gap-2 text-xs text-slate-300">
+                            <span class="text-yellow-400">★</span> 4.7/5
+                            <span class="text-slate-600">|</span>
+                            <span>❌ Swap</span>
+                        </div>
+                        <span class="text-indigo-400 font-bold">$159</span>
+                    </div>
+                    <p class="text-xs text-slate-400 mb-3 line-clamp-2">Compact 80% with Ninja color scheme. Distinctive aesthetic with premium build.</p>
+                    <div class="flex flex-wrap gap-1 mb-3">
+                        <span class="text-xs px-2 py-1 bg-slate-700/50 text-slate-300 rounded">Wired</span>
+                        <span class="text-xs px-2 py-1 bg-slate-700/50 text-slate-300 rounded">No RGB</span>
+                    </div>
+                    <a href="https://www.amazon.com/dp/B08CGNI2K3?tag=mechkeyshub-20" target="_blank" class="block w-full py-2 px-4 bg-indigo-600 hover:bg-indigo-500 rounded-lg text-center text-sm font-semibold transition">
+                        View on Amazon →
+                    </a>
+                </div>
+            </article>
+
+            <!-- Product 3 -->
+            <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-indigo-500/50 transition card-hover">
+                <div class="p-5">
+                    <div class="flex items-start gap-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/71V9WXS5gSL._AC_SL1500_.jpg" alt="Filco Majestouch Convertible II" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                        <div class="flex-1 min-w-0">
+                            <div class="flex flex-wrap gap-1 mb-1">
+                                <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
+                                <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Cherry MX</span>
+                                <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">80%</span>
+                            </div>
+                            <h3 class="font-bold text-sm leading-tight mb-1 truncate">Filco Majestouch Convertible II</h3>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center gap-2 text-xs text-slate-300">
+                            <span class="text-yellow-400">★</span> 4.6/5
+                            <span class="text-slate-600">|</span>
+                            <span>❌ Swap</span>
+                        </div>
+                        <span class="text-indigo-400 font-bold">$199</span>
+                    </div>
+                    <p class="text-xs text-slate-400 mb-3 line-clamp-2">Bluetooth/Wired 80% keyboard with multi-device support.</p>
+                    <div class="flex flex-wrap gap-1 mb-3">
+                        <span class="text-xs px-2 py-1 bg-green-900/30 text-green-300 rounded">Bluetooth</span>
+                        <span class="text-xs px-2 py-1 bg-slate-700/50 text-slate-300 rounded">No RGB</span>
+                    </div>
+                    <a href="https://www.amazon.com/dp/B07KFHQX8L?tag=mechkeyshub-20" target="_blank" class="block w-full py-2 px-4 bg-indigo-600 hover:bg-indigo-500 rounded-lg text-center text-sm font-semibold transition">
+                        View on Amazon →
+                    </a>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Back to Brands -->
+        <div class="mt-12 text-center">
+            <a href="/brands.html" class="inline-flex items-center gap-2 px-6 py-3 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
+                <span>←</span>
+                <span>Back to All Brands</span>
+            </a>
         </div>
     </main>
 
-    <footer class="py-12 px-4 border-t border-white/10">
+    <footer class="py-12 px-4 border-t border-white/10 mt-12">
         <div class="max-w-7xl mx-auto text-center text-gray-400">
-            <p>&copy; 2025 MechKeys Hub. All rights reserved.</p>
+            <p>&copy; 2026 MechKeys Hub. All rights reserved.</p>
         </div>
     </footer>
-
-    <script>
-        // Load brand-specific products
-        const urlParams = new URLSearchParams(window.location.search);
-        const brand = 'Filco';
-        
-        fetch('/inline-products-detailed.js')
-            .then(response => response.text())
-            .then(text => {
-                const products = eval(text);
-                const filtered = products.filter(p => p.brand === brand);
-                
-                const grid = document.getElementById('products-grid');
-                
-                if (filtered.length === 0) {
-                    grid.innerHTML = `
-                        <div class="col-span-full text-center py-12">
-                            <p class="text-gray-400 text-lg">No Filco products available at the moment.</p>
-                            <a href="/brands.html" class="inline-block mt-4 px-6 py-3 bg-indigo-500/20 hover:bg-indigo-500/30 rounded-lg transition">Browse Other Brands</a>
-                        </div>
-                    `;
-                    return;
-                }
-                
-                grid.innerHTML = filtered.map(product => `
-                    <a href="${product.url}" target="_blank" class="card-hover block bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-indigo-500/50">
-                        <div class="flex items-start gap-4">
-                            <img src="${product.image}" alt="${product.name}" class="w-24 h-24 object-contain rounded-lg bg-white/5 p-2">
-                            <div class="flex-1">
-                                <h3 class="font-bold text-lg mb-1">${product.name}</h3>
-                                <p class="text-sm text-gray-400 mb-2">${product.tagline || ''}</p>
-                                <div class="flex items-center gap-2 mb-2">
-                                    <span class="text-yellow-400">★ ${product.rating || 'N/A'}</span>
-                                    <span class="text-gray-500">•</span>
-                                    <span class="text-indigo-400 font-semibold">${product.price || 'N/A'}</span>
-                                </div>
-                                <div class="flex flex-wrap gap-1">
-                                    ${product.switch_type ? `<span class="text-xs px-2 py-1 bg-white/10 rounded">${product.switch_type}</span>` : ''}
-                                    ${product.layout ? `<span class="text-xs px-2 py-1 bg-white/10 rounded">${product.layout}</span>` : ''}
-                                    ${product.hot_swap === 'Yes' ? `<span class="text-xs px-2 py-1 bg-green-500/20 text-green-400 rounded">Hot-swap</span>` : ''}
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                `).join('');
-            })
-            .catch(err => {
-                console.error('Error loading products:', err);
-                document.getElementById('products-grid').innerHTML = '<p class="text-center text-gray-400 col-span-full">Error loading products.</p>';
-            });
-    </script>
 </body>
 </html>
