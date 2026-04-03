@@ -6862,22 +6862,15 @@ const topProducts = [
         ],
         "updated": "2026-04-03"
     }
-];;
+];
 
     document.addEventListener('DOMContentLoaded', function() {
         if (typeof topProducts !== 'undefined' && topProducts.length > 0) {
-            renderProducts(topProducts);
+            renderProducts(topProducts.slice(0, 40));
         }
     });
     </script>
 
-    document.addEventListener('DOMContentLoaded', function() {
-        if (typeof topProducts !== 'undefined' && topProducts.length > 0) {
-            renderProducts(topProducts);
-        }
-    });
-    </script>
-</script>
     <script>
         // Render best sellers
         function renderProducts(products) {
@@ -6954,7 +6947,7 @@ const topProducts = [
         
         // Load products
         if (typeof topProducts !== 'undefined') {
-            renderProducts(topProducts);
+            renderProducts(topProducts.slice(0, 40));
         }
     </script>
 </body>
