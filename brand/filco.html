@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filco Mechanical Keyboards - MechKeys Hub</title>
+    <meta name="description" content="Browse Filco mechanical keyboards. Filco is a premium Japanese keyboard brand renowned for exceptional build quality, durability, and professional-grade typing experience. Their keyboards are trusted by professionals worldwide.">
+    <link rel="canonical" href="https://mechkeys-hub.vercel.app/brand/filco.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(99,102,241,0.15); }
+    </style>
+</head>
+<body class="gradient-bg text-white min-h-screen">
+    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-xl">⌨️</div>
+                    <span class="font-bold text-xl">MechKeys Hub</span>
+                </a>
+                <nav class="flex items-center gap-1">
+                    <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
+                    <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
+                    <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
+                    <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
+                    <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
+                    <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
+                    <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
+                    <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
+                    <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
+                    <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="py-12 px-4">
+        <div class="max-w-7xl mx-auto">
+            <!-- Brand Header -->
+            <div class="text-center mb-12">
+                <div class="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 rounded-full border border-indigo-500/30 mb-6">
+                    <span class="text-3xl">🇯🇵</span>
+                    <span class="text-xl font-bold">Filco</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Filco Mechanical Keyboards</h1>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Premium Japanese craftsmanship for professionals. Known for exceptional build quality and timeless design.
+                </p>
+            </div>
+
+            <!-- Products will be loaded here -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="products-grid">
+                <div class="col-span-full text-center py-12">
+                    <div class="animate-pulse">
+                        <div class="text-gray-400">Loading Filco keyboards...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-12 px-4 border-t border-white/10">
+        <div class="max-w-7xl mx-auto text-center text-gray-400">
+            <p>&copy; 2025 MechKeys Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Load brand-specific products
+        const urlParams = new URLSearchParams(window.location.search);
+        const brand = 'Filco';
+        
+        fetch('/inline-products-detailed.js')
+            .then(response => response.text())
+            .then(text => {
+                const products = eval(text);
+                const filtered = products.filter(p => p.brand === brand);
+                
+                const grid = document.getElementById('products-grid');
+                
+                if (filtered.length === 0) {
+                    grid.innerHTML = `
+                        <div class="col-span-full text-center py-12">
+                            <p class="text-gray-400 text-lg">No Filco products available at the moment.</p>
+                            <a href="/brands.html" class="inline-block mt-4 px-6 py-3 bg-indigo-500/20 hover:bg-indigo-500/30 rounded-lg transition">Browse Other Brands</a>
+                        </div>
+                    `;
+                    return;
+                }
+                
+                grid.innerHTML = filtered.map(product => `
+                    <a href="${product.url}" target="_blank" class="card-hover block bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-indigo-500/50">
+                        <div class="flex items-start gap-4">
+                            <img src="${product.image}" alt="${product.name}" class="w-24 h-24 object-contain rounded-lg bg-white/5 p-2">
+                            <div class="flex-1">
+                                <h3 class="font-bold text-lg mb-1">${product.name}</h3>
+                                <p class="text-sm text-gray-400 mb-2">${product.tagline || ''}</p>
+                                <div class="flex items-center gap-2 mb-2">
+                                    <span class="text-yellow-400">★ ${product.rating || 'N/A'}</span>
+                                    <span class="text-gray-500">•</span>
+                                    <span class="text-indigo-400 font-semibold">${product.price || 'N/A'}</span>
+                                </div>
+                                <div class="flex flex-wrap gap-1">
+                                    ${product.switch_type ? `<span class="text-xs px-2 py-1 bg-white/10 rounded">${product.switch_type}</span>` : ''}
+                                    ${product.layout ? `<span class="text-xs px-2 py-1 bg-white/10 rounded">${product.layout}</span>` : ''}
+                                    ${product.hot_swap === 'Yes' ? `<span class="text-xs px-2 py-1 bg-green-500/20 text-green-400 rounded">Hot-swap</span>` : ''}
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                `).join('');
+            })
+            .catch(err => {
+                console.error('Error loading products:', err);
+                document.getElementById('products-grid').innerHTML = '<p class="text-center text-gray-400 col-span-full">Error loading products.</p>';
+            });
+    </script>
+</body>
+</html>
