@@ -6866,7 +6866,18 @@ const topProducts = [
 
     document.addEventListener('DOMContentLoaded', function() {
         if (typeof topProducts !== 'undefined' && topProducts.length > 0) {
-            renderProducts(topProducts);
+            // Show 30 best value products (highest rated, best prices)
+            const bestValue = topProducts
+                .filter(p => p.rating >= 4.5)
+                .sort((a, b) => {
+                    // Sort by rating desc, then by price asc for mid tier
+                    if (b.rating !== a.rating) return b.rating - a.rating;
+                    const priceA = parseFloat(a.price.replace(/[^0-9.]/g, '')) || 0;
+                    const priceB = parseFloat(b.price.replace(/[^0-9.]/g, '')) || 0;
+                    return priceA - priceB;
+                })
+                .slice(0, 30);
+            renderProducts(bestValue);
         }
     });
     </script>
@@ -6947,7 +6958,18 @@ const topProducts = [
         
         // Load products
         if (typeof topProducts !== 'undefined') {
-            renderProducts(topProducts);
+            // Show 30 best value products (highest rated, best prices)
+            const bestValue = topProducts
+                .filter(p => p.rating >= 4.5)
+                .sort((a, b) => {
+                    // Sort by rating desc, then by price asc for mid tier
+                    if (b.rating !== a.rating) return b.rating - a.rating;
+                    const priceA = parseFloat(a.price.replace(/[^0-9.]/g, '')) || 0;
+                    const priceB = parseFloat(b.price.replace(/[^0-9.]/g, '')) || 0;
+                    return priceA - priceB;
+                })
+                .slice(0, 30);
+            renderProducts(bestValue);
         }
     </script>
 </body>
