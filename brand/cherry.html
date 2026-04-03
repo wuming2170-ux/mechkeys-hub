@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cherry Mechanical Keyboards - MechKeys Hub</title>
-    <meta name="description" content="Browse Cherry mechanical keyboards. German engineering with MX2A switches for office and professional use.">
+    <meta name="description" content="Browse Cherry mechanical keyboards. Cherry invented the MX mechanical switch in the 1980s and remains a benchmark for quality. Their MX2A switches offer improved smoothness and durability. German engineering excellence.">
     <link rel="canonical" href="https://mechkeys-hub.vercel.app/brand/cherry.html">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body { font-family: 'Inter', system-ui, sans-serif; }
         .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(99,102,241,0.15); }
     </style>
 </head>
 <body class="gradient-bg min-h-screen text-white">
@@ -24,57 +26,462 @@
                 <a href="index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Brands</a>
                 <a href="../best-value.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Best Value</a>
                 <a href="../compare.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Compare</a>
+                <a href="../guides.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Guides</a>
             </nav>
         </div>
     </header>
 
-    <main class="max-w-4xl mx-auto px-4 py-10">
-        <div class="bg-pink-900/20 rounded-2xl p-8 mb-8 border border-pink-500/30">
+    <main class="max-w-7xl mx-auto px-4 py-10">
+        <div class="mb-6">
+            <a href="index.html" class="text-indigo-400 hover:underline text-sm">← All Brands</a>
+        </div>
+
+        <!-- Brand Header -->
+        <div class="bg-red-900/30 rounded-2xl p-8 mb-8 border border-red-500/30">
             <div class="flex items-center gap-6">
-                <div class="w-20 h-20 bg-pink-900/50 rounded-2xl flex items-center justify-center text-4xl">🔴</div>
-                <div>
-                    <h1 class="text-3xl font-bold">Cherry</h1>
-                    <p class="text-pink-200 mt-1">German Engineering</p>
+                <div class="w-20 h-20 bg-red-900/30 rounded-2xl flex items-center justify-center text-4xl border border-red-500/30">🔴</div>
+                <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-2">
+                        <h1 class="text-3xl font-bold text-red-500">Cherry</h1>
+                        <span class="bg-red-900/30 text-red-500 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30">15 Products</span>
+                    </div>
+                    <p class="text-red-500 text-lg mb-2 opacity-80">German Engineering & The Original MX Switch</p>
+                    <p class="text-slate-300 max-w-2xl">Cherry invented the MX mechanical switch in the 1980s and remains a benchmark for quality. Their MX2A switches offer improved smoothness and durability. German engineering excellence.</p>
                 </div>
             </div>
         </div>
 
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10">
-            <div class="p-8">
-                <div class="flex items-start gap-6">
-                    <img src="https://m.media-amazon.com/images/I/61-RoURbxfL._AC_UY218_.jpg" alt="Cherry KC 200 MX" class="w-40 h-40 object-contain rounded-xl bg-white/5">
-                    <div class="flex-1">
-                        <div class="flex items-center gap-2 mb-2">
-                            <span class="text-xs px-2 py-1 rounded-full bg-blue-900/50 text-blue-300 font-semibold">⚖️ Mid-Range</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+        <!-- Products Grid -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/51W9SFldoqL._AC_UY218_.jpg" alt="Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Tactile Brown</span>
                             <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
                         </div>
-                        <h2 class="font-bold text-2xl mb-2">Cherry KC 200 MX Office Keyboard</h2>
-                        <p class="text-slate-400 mb-4">Wired mechanical office keyboard with anodized metal plate. CHERRY MX2A SILENT RED switches — smooth and quiet with 50+ million actuations per key.</p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-slate-700/50 px-3 py-1 rounded-full text-sm">🔴 MX2A Silent Red</span>
-                            <span class="bg-slate-700/50 px-3 py-1 rounded-full text-sm">🔲 Aluminum Surface</span>
-                            <span class="bg-slate-700/50 px-3 py-1 rounded-full text-sm">⌨️ Modern Design</span>
-                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed)</h3>
                     </div>
                 </div>
-            </div>
-            <div class="px-8 pb-8">
-                <div class="flex items-center justify-between mb-4">
-                    <div class="flex items-center gap-4">
-                        <span class="text-yellow-400 text-xl">★ 4.6/10</span>
-                        <span class="text-slate-400">Premium office switch</span>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 5/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
                     </div>
-                    <span class="text-3xl font-bold text-pink-400">$79.35</span>
+                    <span class="text-xl font-bold text-red-500">$49.99</span>
                 </div>
-                <a href="https://www.amazon.com/dp/B0CLH89X2K?tag=mechkeyshub-20" target="_blank" class="block w-full py-4 bg-pink-600 hover:bg-pink-700 rounded-xl text-center font-bold text-lg transition">
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Great Value</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Popular Choice</span></div>
+                <a href="https://www.amazon.com/Cherry-Mechanical-Keyboard-switches-Renewed/dp/B0D82LCXWP/ref=sr_1_14?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
                     Check Price on Amazon →
                 </a>
             </div>
         </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/51SvUh-MmVL._AC_UY218_.jpg" alt="Cherry MX 8.2 TKL Wireless Mechanical Gaming Keyboard. (Pink, MX2A Brown Switch)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Tactile Brown</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Cherry MX 8.2 TKL Wireless Mechanical Gaming Keyboard. (Pink, MX2A Brown Switch)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.9/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$35.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact TKL Layout</span></div>
+                <a href="https://www.amazon.com/Cherry-Wireless-Mechanical-Gaming-Keyboard/dp/B0DLHK9BDB/ref=sr_1_5?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/71kHftOA6qL._AC_UY218_.jpg" alt="HITIME x XVX 60% Percent Keyboard with Strap, H61 Wired Aluminum Gaming Keyboard, Hot Swappable, Kanagawa Anime PBT Keycaps, RGB Backlit, Cherry Profi" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">60%</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">HITIME x XVX 60% Percent Keyboard with Strap, H61 Wired Aluminum Gaming Keyboard, Hot Swappable, Kanagawa Anime PBT Keycaps, RGB Backlit, Cherry Profi</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.8/10
+                        <span class="text-slate-600">|</span>
+                        <span>✅ Swap</span>
+                        <span>🎨 RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$35.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">PBT Keycaps</span></div>
+                <a href="https://www.amazon.com/HITIME-XVX-H61-Swappable-Absorbing/dp/B0DTG6KXDB/ref=sr_1_13?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61-RoURbxfL._AC_UY218_.jpg" alt="Cherry KC 200 MX, Wired Mechanical Office Keyboard, Modern Design with Elegant Aluminum Surface, USB" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Cherry KC 200 MX, Wired Mechanical Office Keyboard, Modern Design with Elegant Aluminum Surface, USB</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.6/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$79.35</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">CHERRY MX2A SILENT RED switches</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Practical</span></div>
+                <a href="https://www.amazon.com/dp/B0CLH89X2K?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/71vbNIbThHL._AC_UY218_.jpg" alt="MX 3.0S, Wired Mechanical Gaming Keyboard, Robust Aluminum Housing, RGB-Lighting, Full Key Rollover, Anti Ghosting, MX2A Silent RED Switches, Black" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">MX 3.0S, Wired Mechanical Gaming Keyboard, Robust Aluminum Housing, RGB-Lighting, Full Key Rollover, Anti Ghosting, MX2A Silent RED Switches, Black</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.6/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>🎨 RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$104.93</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span></div>
+                <a href="https://www.amazon.com/Mechanical-Keyboard-Aluminum-Housing-Switches/dp/B08YRRLV25/ref=sr_1_2?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/71Ao94ZJeJL._AC_UY218_.jpg" alt="MX 3.0S, Wired Mechanical Gaming Keyboard, Robust Aluminum Housing, RGB-Lighting, Full Key Rollover, Anti Ghosting, MX RED Switches, White" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">MX 3.0S, Wired Mechanical Gaming Keyboard, Robust Aluminum Housing, RGB-Lighting, Full Key Rollover, Anti Ghosting, MX RED Switches, White</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.6/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>🎨 RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$99.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span></div>
+                <a href="https://www.amazon.com/Cherry-Mechanical-Keyboard-Aluminum-Switches/dp/B0BV3T6FSV/ref=sr_1_3?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61-RoURbxfL._AC_UY218_.jpg" alt="KC 200 MX, Wired Mechanical Office Keyboard, Modern Design with Elegant Aluminum Surface, USB-A Connection, MX2A Brown Switches, Black/Bronze" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Tactile Brown</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">KC 200 MX, Wired Mechanical Office Keyboard, Modern Design with Elegant Aluminum Surface, USB-A Connection, MX2A Brown Switches, Black/Bronze</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.6/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$79.85</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Great Value</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Popular Choice</span></div>
+                <a href="https://www.amazon.com/Cherry-Mechanical-Office-Keyboard-switches/dp/B0CLHC34YW/ref=sr_1_4?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/41bBpnVMVlL._AC_UY218_.jpg" alt="MX 3.0S Mechanical Wireless Gaming Keyboard | New MX2A Switches (White, MX2A Brown)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">MX 3.0S Mechanical Wireless Gaming Keyboard | New MX2A Switches (White, MX2A Brown)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.6/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$39.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span></div>
+                <a href="https://www.amazon.com/CHERRY-XTRFY-Mechanical-Wireless-Keyboard/dp/B0DD4Z4PMG/ref=sr_1_7?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/617nDPKZkAL._AC_UY218_.jpg" alt="KC 200 MX, Wired Mechanical Office Keyboard, Modern Design with Elegant Aluminum Surface, USB-A Connection, MX2A Silent RED Switches, White/Silver" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">KC 200 MX, Wired Mechanical Office Keyboard, Modern Design with Elegant Aluminum Surface, USB-A Connection, MX2A Silent RED Switches, White/Silver</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.6/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$79.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Great Value</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Popular Choice</span></div>
+                <a href="https://www.amazon.com/Cherry-Mechanical-Office-Keyboard-switches/dp/B0CLH96LY4/ref=sr_1_9?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/71b012YUP3L._AC_UY218_.jpg" alt="CHERRY XTRFY MX 3.1 Wired Mechanical Keyboard Aluminum Housing MX2A Silent Red Switches for Gaming and Office (Black, MX2A Silent Red)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">CHERRY XTRFY MX 3.1 Wired Mechanical Keyboard Aluminum Housing MX2A Silent Red Switches for Gaming and Office (Black, MX2A Silent Red)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.5/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$119.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Great Value</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Popular Choice</span></div>
+                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/614KVwq3zML._AC_UY218_.jpg" alt="USB KM360 Professional Tenkeyless Mechanical Keyboard, Cherry MX Red, ABS Dual Injection Keycap, (White)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">USB KM360 Professional Tenkeyless Mechanical Keyboard, Cherry MX Red, ABS Dual Injection Keycap, (White)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.5/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$29.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact TKL Layout</span></div>
+                <a href="https://www.amazon.com/KM360-Professional-Cherry-Red-White/dp/B07X4ZBM8J/ref=sr_1_16?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/71vbNIbThHL._AC_UY218_.jpg" alt="MX 3.0S, Wired Mechanical Gaming Keyboard, Robust Aluminum Housing, RGB-Lighting, Full Key Rollover, Anti Ghosting, MX Brown Switches, Black" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Tactile Brown</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">MX 3.0S, Wired Mechanical Gaming Keyboard, Robust Aluminum Housing, RGB-Lighting, Full Key Rollover, Anti Ghosting, MX Brown Switches, Black</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.4/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>🎨 RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$99.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span></div>
+                <a href="https://www.amazon.com/Cherry-Mechanical-Keyboard-Aluminum-Housing/dp/B0B8FR938D/ref=sr_1_11?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61FgJppIOOL._AC_UY218_.jpg" alt="K100 RGB Mechanical Gaming Keyboard - Cherry MX Speed RGB Silver Keyswitches - PBT Double-Shot Keycaps - Elgato Stream Deck and iCUE Compatible - QWER" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K100 RGB Mechanical Gaming Keyboard - Cherry MX Speed RGB Silver Keyswitches - PBT Double-Shot Keycaps - Elgato Stream Deck and iCUE Compatible - QWER</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.3/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>🎨 RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$199.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">PBT Keycaps</span></div>
+                <a href="https://www.amazon.com/Corsair-K100-Mechanical-Gaming-Keyboard/dp/B08HR68MQZ/ref=sr_1_8?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/51XsMFwmaDL._AC_UY218_.jpg" alt="MV 3.0 Viola Wired Mechanical Gaming Keyboard. RGB Backlight with Cross Linear Viola Switches. from The Makers of The MX Switch. (White)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">MV 3.0 Viola Wired Mechanical Gaming Keyboard. RGB Backlight with Cross Linear Viola Switches. from The Makers of The MX Switch. (White)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.2/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>🎨 RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$29.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span></div>
+                <a href="https://www.amazon.com/Cherry-Mechanical-Keyboard-Backlight-Switches/dp/B0BZWLX9VN/ref=sr_1_15?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61MQXCwA-wL._AC_UY218_.jpg" alt="MX 10.0N RGB Mechanical Keyboard MX Low Profile Speed switches, Aluminum housing, Premium Keyboard for Gaming and Work. G8A-25010LVBUS-2" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">MX 10.0N RGB Mechanical Keyboard MX Low Profile Speed switches, Aluminum housing, Premium Keyboard for Gaming and Work. G8A-25010LVBUS-2</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.1/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>🎨 RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-500">$79.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Low Profile</span></div>
+                <a href="https://www.amazon.com/Mechanical-Keyboard-switches-Aluminum-G8A-25010LVBUS-2/dp/B09G9SZTZZ/ref=sr_1_12?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        </div>
 
-        <div class="mt-8 text-center">
-            <a href="index.html" class="text-indigo-400 hover:underline">← Back to All Brands</a>
+        <!-- CTA -->
+        <div class="mt-10 bg-red-900/30 rounded-xl p-6 border border-red-500/30 text-center">
+            <p class="text-slate-300 mb-4">Compare all Cherry keyboards side by side to find your perfect match.</p>
+            <a href="../compare.html" class="inline-block px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl font-semibold transition">
+                <i class="fas fa-balance-scale mr-2"></i> Compare Cherry Keyboards
+            </a>
         </div>
     </main>
 
