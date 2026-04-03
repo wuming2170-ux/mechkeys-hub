@@ -115,7 +115,13 @@
         fetch('/inline-products-detailed.js')
             .then(response => response.text())
             .then(text => {
-                const products = eval(text);
+                // Extract products from the JS file
+                const match = text.match(/const topProducts\s*=\s*(\[[\s\S]*?\]);/);
+                if (!match) {
+                    console.error('Could not find products');
+                    return;
+                }
+                const products = eval('(' + match[1] + ')');
                 const layoutProducts = products.filter(p => p.layout === '75%');
                 
                 const grid = document.getElementById('products-grid');
