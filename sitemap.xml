@@ -14,6 +14,12 @@
   </url>
   <url>
     <loc>https://mechkeys-hub.vercel.app/65_percent.html</loc>
+  <url>
+    <loc>https://mechkeys-hub.vercel.app/75_percent.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
     <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -49,7 +55,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mechkeys-hub.vercel.app/brand/index.html</loc>
+    <loc>https://mechkeys-hub.vercel.app/brands.html</loc>
     <lastmod>2026-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -164,6 +170,12 @@
   </url>
   <url>
     <loc>https://mechkeys-hub.vercel.app/brand/corsair.html</loc>
+  <url>
+    <loc>https://mechkeys-hub.vercel.app/brand/filco.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
     <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
