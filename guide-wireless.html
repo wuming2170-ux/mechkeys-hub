@@ -82,6 +82,56 @@
 }
 </style>
 
+
+<style>
+.nav-link {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    color: #d1d5db;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    transition: all 0.2s;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
+.nav-link-primary {
+    background: rgba(99, 102, 241, 0.2);
+    color: #a5b4fc;
+    border: 1px solid rgba(99, 102, 241, 0.4);
+}
+.nav-link-primary:hover {
+    background: rgba(99, 102, 241, 0.35);
+    color: white;
+}
+.mobile-nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    color: #d1d5db;
+    font-size: 0.75rem;
+    font-weight: 600;
+    transition: all 0.2s;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+}
+.mobile-nav-link:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+}
+.mobile-nav-link i {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+</style>
+
 </head>
 <body class="gradient-bg min-h-screen text-white">
     <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-white/10">
@@ -93,15 +143,15 @@
                 </a>
 
                 <nav class="flex-1 flex items-center justify-center gap-1 overflow-x-auto">
-                    <a href="/60_percent.html" class="nav-btn"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                    <a href="/65_percent.html" class="nav-btn"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                    <a href="/tkl.html" class="nav-btn"><i class="fas fa-th-large text-indigo-400"></i><span>TKL</span></a>
-                    <a href="/full-size.html" class="nav-btn"><i class="fas fa-th-large text-indigo-400"></i><span>Full Size</span></a>
+                    <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
+                    <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
+                    <a href="/tkl.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>TKL</span></a>
+                    <a href="/full-size.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>Full Size</span></a>
                     <div class="w-px h-6 bg-white/20 mx-1 shrink-0"></div>
-                    <a href="/brands.html" class="nav-btn"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
-                    <a href="/best-value.html" class="nav-btn"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                    <a href="/switches.html" class="nav-btn"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
-                    <a href="/compare.html" class="nav-btn"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
+                    <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
+                    <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
+                    <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
+                    <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
                     <a href="/guides.html" class="nav-btn nav-btn-primary"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
                 </nav>
 
@@ -112,14 +162,14 @@
 
             <div id="mobile-menu" class="hidden lg:hidden mt-4 pb-4 border-t border-white/10 pt-4">
                 <div class="grid grid-cols-3 gap-2">
-                    <a href="/60_percent.html" class="mobile-nav-btn"><i class="fas fa-th-large text-indigo-400 mb-1"></i><span>60%</span></a>
-                    <a href="/65_percent.html" class="mobile-nav-btn"><i class="fas fa-th-large text-indigo-400 mb-1"></i><span>65%</span></a>
-                    <a href="/tkl.html" class="mobile-nav-btn"><i class="fas fa-th-large text-indigo-400 mb-1"></i><span>TKL</span></a>
-                    <a href="/full-size.html" class="mobile-nav-btn"><i class="fas fa-th-large text-indigo-400 mb-1"></i><span>Full Size</span></a>
-                    <a href="/brands.html" class="mobile-nav-btn"><i class="fas fa-tags text-purple-400 mb-1"></i><span>Brands</span></a>
-                    <a href="/best-value.html" class="mobile-nav-btn"><i class="fas fa-fire text-orange-400 mb-1"></i><span>Best Value</span></a>
-                    <a href="/switches.html" class="mobile-nav-btn"><i class="fas fa-toggle-on text-amber-400 mb-1"></i><span>Switches</span></a>
-                    <a href="/compare.html" class="mobile-nav-btn"><i class="fas fa-balance-scale text-blue-400 mb-1"></i><span>Compare</span></a>
+                    <a href="/60_percent.html" class="mobile-nav-link"><i class="fas fa-th-large text-indigo-400 mb-1"></i><span>60%</span></a>
+                    <a href="/65_percent.html" class="mobile-nav-link"><i class="fas fa-th-large text-indigo-400 mb-1"></i><span>65%</span></a>
+                    <a href="/tkl.html" class="mobile-nav-link"><i class="fas fa-th-large text-indigo-400 mb-1"></i><span>TKL</span></a>
+                    <a href="/full-size.html" class="mobile-nav-link"><i class="fas fa-th-large text-indigo-400 mb-1"></i><span>Full Size</span></a>
+                    <a href="/brands.html" class="mobile-nav-link"><i class="fas fa-tags text-purple-400 mb-1"></i><span>Brands</span></a>
+                    <a href="/best-value.html" class="mobile-nav-link"><i class="fas fa-fire text-orange-400 mb-1"></i><span>Best Value</span></a>
+                    <a href="/switches.html" class="mobile-nav-link"><i class="fas fa-toggle-on text-amber-400 mb-1"></i><span>Switches</span></a>
+                    <a href="/compare.html" class="mobile-nav-link"><i class="fas fa-balance-scale text-blue-400 mb-1"></i><span>Compare</span></a>
                     <a href="/guides.html" class="mobile-nav-btn col-span-3"><i class="fas fa-book text-green-400 mb-1"></i><span>All Guides</span></a>
                 </div>
             </div>
