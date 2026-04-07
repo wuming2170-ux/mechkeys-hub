@@ -13,8 +13,8 @@ const SERPAPI_KEY = process.env.SERPAPI_KEY || 'cdd1aca98dbd77c0bff81297ff7dfa82
 
 // Paths
 const DATA_DIR = __dirname;
-const PRICE_HISTORY_FILE = path.join(DATA_DIR, 'price-history.json');
-const PRODUCTS_FILE = path.join(DATA_DIR, 'all-products-collected.json');
+const PRICE_HISTORY_FILE = path.join(DATA_DIR, '..', 'price-history.json');
+const PRODUCTS_FILE = path.join(DATA_DIR, '..', 'all-products-collected.json');
 
 // Load existing price history
 function loadPriceHistory() {
