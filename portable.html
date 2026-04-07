@@ -13181,9 +13181,8 @@ document.addEventListener('click', function(e) {
     }
 
     document.addEventListener('DOMContentLoaded', function() {
-        const filteredProducts = topProducts.filter(p => (p.name || '').toLowerCase().includes('60%') || (p.name || '').toLowerCase().includes('65%') || (p.name || '').toLowerCase().includes('compact') || (p.name || '').toLowerCase().includes('mini') || (p.name || '').toLowerCase().includes('tkl') || (p.name || '').toLowerCase().includes('tenkeyless'));
-        const productsToShow = filteredProducts.length > 0 ? filteredProducts : topProducts.slice(0, 30);
-        renderProducts(productsToShow);
+        const filteredProducts = topProducts.filter(p => (p.name || '').toLowerCase().includes('60%') || (p.name || '').toLowerCase().includes('65%') || (p.name || '').toLowerCase().includes('tkl') || (p.name || '').toLowerCase().includes('tenkeyless') || (p.name || '').toLowerCase().includes('compact')).slice(0, 30);
+        renderProducts(filteredProducts.length > 0 ? filteredProducts : topProducts.slice(0, 30));
     });
     </script>
 </body>

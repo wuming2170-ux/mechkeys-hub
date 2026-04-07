@@ -13181,9 +13181,8 @@ document.addEventListener('click', function(e) {
     }
 
     document.addEventListener('DOMContentLoaded', function() {
-        const filteredProducts = topProducts.filter(p => (p.name || '').toLowerCase().includes('hot-swap') || (p.name || '').toLowerCase().includes('hot swap') || (p.name || '').toLowerCase().includes('swappable') || (p.name || '').toLowerCase().includes('热插拔'));
-        const productsToShow = filteredProducts.length > 0 ? filteredProducts : topProducts.slice(0, 30);
-        renderProducts(productsToShow);
+        const filteredProducts = topProducts.filter(p => (p.name || '').toLowerCase().includes('hot-swap') || (p.name || '').toLowerCase().includes('swappable') || (p.name || '').toLowerCase().includes('热插拔')).slice(0, 30);
+        renderProducts(filteredProducts.length > 0 ? filteredProducts : topProducts.slice(0, 30));
     });
     </script>
 </body>

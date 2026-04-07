@@ -13181,9 +13181,8 @@ document.addEventListener('click', function(e) {
     }
 
     document.addEventListener('DOMContentLoaded', function() {
-        const filteredProducts = topProducts.filter(p => (p.name || '').toLowerCase().includes('gaming') || (p.name || '').toLowerCase().includes('gamer') || (p.name || '').toLowerCase().includes('rgb') || (p.name || '').toLowerCase().includes('2.4ghz') || (p.name || '').toLowerCase().includes('bluetooth') || (p.name || '').toLowerCase().includes('wireless'));
-        const productsToShow = filteredProducts.length > 0 ? filteredProducts : topProducts.slice(0, 30);
-        renderProducts(productsToShow);
+        const filteredProducts = topProducts.filter(p => (p.name || '').toLowerCase().includes('gaming') || (p.name || '').toLowerCase().includes('gamer')).slice(0, 30);
+        renderProducts(filteredProducts.length > 0 ? filteredProducts : topProducts.slice(0, 30));
     });
     </script>
 </body>
