@@ -131,8 +131,8 @@ async function updatePrices() {
         history.prices[today] = {};
     }
 
-    // Process first 20 products (SerpAPI has rate limits)
-    const productsToCheck = products.slice(0, 20);
+    // Process first 5 products to avoid timeout (SerpAPI has rate limits)
+    const productsToCheck = products.slice(0, 5);
     
     for (const product of productsToCheck) {
         if (!product.url || !product.price) continue;
@@ -164,8 +164,8 @@ async function updatePrices() {
             failed++;
         }
 
-        // Rate limiting - wait between requests
-        await new Promise(r => setTimeout(r, 1000));
+        // Quick delay between requests
+        await new Promise(r => setTimeout(r, 500));
     }
 
     savePriceHistory(history);
