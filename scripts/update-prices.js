@@ -124,17 +124,15 @@ async function updatePrices() {
 
     const today = new Date().toISOString().split('T')[0];
     let updated = 0;
-    let failed = 0;
+    let skipped = 0;
 
     // Initialize today's entry if needed
     if (!history.prices[today]) {
         history.prices[today] = {};
     }
 
-    // Process first 5 products to avoid timeout (SerpAPI has rate limits)
-    const productsToCheck = products.slice(0, 5);
-    
-    for (const product of productsToCheck) {
+    // Process all products - read price directly from product data
+    for (const product of products) {
         if (!product.url || !product.price) continue;
         
         const asin = extractASIN(product.url);
@@ -144,34 +142,24 @@ async function updatePrices() {
         
         // Check if we already have today's price for this product
         if (history.prices[today][asin]) {
-            console.log(`Skipping ${asin} - already updated today`);
+            skipped++;
             continue;
         }
 
-        console.log(`Updating ${product.name.substring(0, 50)}...`);
-        
-        // Use current price from our data as the "fetched" price
-        // In production, you would call SerpAPI here
         if (currentPrice) {
             history.prices[today][asin] = {
                 price: currentPrice,
                 url: product.url,
-                name: product.name.substring(0, 100)
+                name: product.name ? product.name.substring(0, 100) : ''
             };
             updated++;
-            console.log(`  Price: $${currentPrice}`);
-        } else {
-            failed++;
         }
-
-        // Quick delay between requests
-        await new Promise(r => setTimeout(r, 500));
     }
 
     savePriceHistory(history);
     console.log(`\nUpdate complete!`);
     console.log(`Updated: ${updated}`);
-    console.log(`Failed: ${failed}`);
+    console.log(`Skipped (already exists): ${skipped}`);
     console.log(`Last updated: ${history.lastUpdated}`);
 }
 
