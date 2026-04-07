@@ -53,6 +53,17 @@
         .switch-badge { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
         .nav-link { padding: 0.5rem 0.75rem; border-radius: 0.5rem; color: #d1d5db; font-size: 0.9375rem; font-weight: 500; transition: all 0.2s; white-space: nowrap; }
         
+        /* Search Box */
+        #search-input::placeholder { color: #9ca3af; }
+        #search-input:focus { width: 200px; }
+        #search-results { scrollbar-width: thin; scrollbar-color: #4f46e5 #1e293b; }
+        #search-results::-webkit-scrollbar { width: 6px; }
+        #search-results::-webkit-scrollbar-track { background: #1e293b; }
+        #search-results::-webkit-scrollbar-thumb { background: #4f46e5; border-radius: 3px; }
+        .search-result-item { padding: 0.75rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); cursor: pointer; transition: background 0.2s; }
+        .search-result-item:hover { background: rgba(99, 102, 241, 0.2); }
+        .search-result-item:last-child { border-bottom: none; }
+        
         /* Mobile Navigation */
         .mobile-menu-btn { display: none; }
         .mobile-nav { display: none; }
@@ -174,6 +185,14 @@
                     <div class="w-8 h-8 md:w-10 md:h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-lg md:text-xl">⌨️</div>
                     <span class="font-bold text-lg md:text-xl">MechKeys Hub</span>
                 </a>
+                
+                <!-- Search Box -->
+                <div class="hidden md:flex items-center relative mx-4">
+                    <input type="text" id="search-input" placeholder="Search keyboards..." 
+                           class="bg-white/10 border border-white/20 rounded-lg px-4 py-2 pl-10 text-sm w-48 lg:w-64 focus:outline-none focus:border-indigo-500 focus:bg-white/15 transition">
+                    <i class="fas fa-search absolute left-3 text-gray-400"></i>
+                    <div id="search-results" class="absolute top-full left-0 right-0 mt-2 bg-slate-800 border border-white/20 rounded-xl shadow-2xl max-h-96 overflow-y-auto hidden z-50"></div>
+                </div>
                 
                 <!-- Mobile Menu Button -->
                 <button class="mobile-menu-btn md:hidden p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu">
@@ -5980,6 +5999,80 @@ const topProducts = [
         </article>
     `).join('');
 }
+
+
+    // Search functionality
+    let searchIndex = [];
+    
+    // Load search index
+    fetch('/search-index.json')
+        .then(r => r.json())
+        .then(data => { searchIndex = data; });
+    
+    function performSearch(query) {
+        if (!query || query.length < 2) return [];
+        const q = query.toLowerCase();
+        return searchIndex.filter(p => 
+            p.name.toLowerCase().includes(q) ||
+            p.brand.toLowerCase().includes(q) ||
+            (p.switch_type && p.switch_type.toLowerCase().includes(q)) ||
+            (p.layout && p.layout.toLowerCase().includes(q))
+        ).slice(0, 8);
+    }
+    
+    function renderSearchResults(results, query) {
+        const container = document.getElementById('search-results');
+        if (!container) return;
+        
+        if (results.length === 0) {
+            container.innerHTML = '<div class="p-4 text-gray-400 text-center">No results found</div>';
+            container.classList.remove('hidden');
+            return;
+        }
+        
+        container.innerHTML = results.map(p => `
+            <a href="${p.url}" target="_blank" class="search-result-item block">
+                <div class="flex items-center gap-3">
+                    <img src="${p.image}" alt="${p.name}" class="w-12 h-12 object-cover rounded-lg" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%231e293b%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%236474b4%22 font-size=%2240%22>⌨️</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="font-semibold text-sm truncate">${p.name}</div>
+                        <div class="text-xs text-gray-400">${p.brand || ''} · ${p.price} · ★ ${p.rating}</div>
+                    </div>
+                </div>
+            </a>
+        `).join('');
+        container.classList.remove('hidden');
+    }
+    
+    // Search input events
+    const searchInput = document.getElementById('search-input');
+    const searchResults = document.getElementById('search-results');
+    
+    if (searchInput) {
+        searchInput.addEventListener('input', function(e) {
+            const query = e.target.value.trim();
+            if (query.length < 2) {
+                searchResults?.classList.add('hidden');
+                return;
+            }
+            const results = performSearch(query);
+            renderSearchResults(results, query);
+        });
+        
+        searchInput.addEventListener('focus', function() {
+            if (this.value.trim().length >= 2) {
+                const results = performSearch(this.value.trim());
+                renderSearchResults(results, this.value);
+            }
+        });
+    }
+    
+    // Close search results when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('#search-input') && !e.target.closest('#search-results')) {
+            searchResults?.classList.add('hidden');
+        }
+    });
 
 
     document.addEventListener('DOMContentLoaded', function() {
