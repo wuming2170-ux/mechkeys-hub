@@ -146,14 +146,17 @@ async function updatePrices() {
             continue;
         }
 
-        if (currentPrice) {
-            history.prices[today][asin] = {
-                price: currentPrice,
-                url: product.url,
-                name: product.name ? product.name.substring(0, 100) : ''
-            };
-            updated++;
+        // Skip products with $0 or invalid prices
+        if (!currentPrice || currentPrice === 0) {
+            continue;
         }
+
+        history.prices[today][asin] = {
+            price: currentPrice,
+            url: product.url,
+            name: product.name ? product.name.substring(0, 100) : ''
+        };
+        updated++;
     }
 
     savePriceHistory(history);

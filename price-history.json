@@ -1,10 +1,6 @@
 {
   "prices": {
     "2026-04-07": {
-      "TEST123": {
-        "price": 99.99,
-        "name": "Test Product"
-      },
       "B0F5W7VRSQ": {
         "price": 69.99,
         "url": "https://www.amazon.com/F99-Mechanical-Keyboards-Swappable-Bluetooth/dp/B0F5W7VRSQ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.WoqveoKddasEplesgHxH20_-VaaN6-IytqCMZovCo2ybUpytbNrV-OMgxQS2f-0Uc4LtUv6tF5ybJ9iqW1qVbmieur-wwJzBkAgNsB2yJMLpG5TH7ONfIAb6oFtnVf93ji9EZn97_g47ZZ6KEr1TtKplv-e0RDfM1NTur7EDNnZouh-oCVrNpM11UjilF4sqbLZjt8Dk1E88RjZvtjO8u17HYa3EBTGV6Wccn87uNJ8.AgVeolXStDr02qNMUhlMLdTTooQecP4uGpbo3Fq89Hg&dib_tag=se&keywords=AULA+F99+F75+F2088+mechanical+keyboard&qid=1775193218&sr=8-1",
@@ -1242,5 +1238,5 @@
       }
     }
   },
-  "lastUpdated": "2026-04-07T08:46:03.033Z"
+  "lastUpdated": "2026-04-07T08:50:06.452Z"
 }
