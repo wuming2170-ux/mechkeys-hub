@@ -5986,7 +5986,7 @@ const topProducts = [
         if (typeof topProducts !== 'undefined' && topProducts.length > 0) {
             // Show 30 best value products (highest rated, best prices)
             const bestValue = topProducts
-                .filter(p => p.rating >= 4.5)
+                .filter(p => p.rating >= 4.5 && parseFloat(p.price.replace(/[^0-9.]/g, '')) <= 150)
                 .sort((a, b) => {
                     // Sort by rating desc, then by price asc for mid tier
                     if (b.rating !== a.rating) return b.rating - a.rating;
