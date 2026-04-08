@@ -239,6 +239,57 @@ function saveProducts(products) {
 }
 
 /**
+ * 更新网站统计数字
+ */
+function updateWebsiteStats(totalProducts) {
+    const htmlFiles = [
+        path.join(__dirname, 'index.html'),
+        path.join(__dirname, '60_percent.html'),
+        path.join(__dirname, '65_percent.html'),
+        path.join(__dirname, '75_percent.html'),
+        path.join(__dirname, 'tkl.html'),
+        path.join(__dirname, 'full-size.html'),
+        path.join(__dirname, 'best-value.html'),
+        path.join(__dirname, 'brands.html'),
+        path.join(__dirname, 'switches.html'),
+        path.join(__dirname, 'compare.html'),
+        path.join(__dirname, 'guides.html')
+    ];
+    
+    // 统计品牌数量
+    const products = loadProducts();
+    const brands = new Set(products.map(p => p.brand).filter(b => b && b !== 'Other'));
+    
+    let updated = 0;
+    
+    htmlFiles.forEach(filePath => {
+        if (!fs.existsSync(filePath)) return;
+        
+        let content = fs.readFileSync(filePath, 'utf8');
+        
+        // 更新 Keyboards Reviewed 数量
+        content = content.replace(
+            /(<div class="text-3xl font-bold text-indigo-400" id="keyboard-count">)\d+(<\/div>)/,
+            `$1${totalProducts}$2`
+        );
+        
+        // 更新 Brands Covered 数量
+        content = content.replace(
+            /(<div class="text-3xl font-bold text-emerald-400">)\d+(<\/div>\s*<div class="text-gray-400 text-sm">Brands Covered<\/div>)/,
+            `$1${brands.size + 1}$2`
+        );
+        
+        fs.writeFileSync(filePath, content);
+        updated++;
+    });
+    
+    console.log(`\n✅ 已更新 ${updated} 个页面的统计数字`);
+    console.log(`   Keyboards Reviewed: ${totalProducts}`);
+    console.log(`   Brands Covered: ${brands.size + 1}`);
+    log(`更新网站统计: 产品${totalProducts}, 品牌${brands.size + 1}`);
+}
+
+/**
  * 写入日志
  */
 function log(message) {
@@ -367,6 +418,9 @@ async function main() {
             console.log(`   ${brand}: ${count} 款`);
             log(`   ${brand}: ${count} 款`);
         }
+        
+        // 更新网站统计数字
+        updateWebsiteStats(updatedProducts.length);
         
     } catch (error) {
         console.error('\n❌ 保存失败:', error.message);
