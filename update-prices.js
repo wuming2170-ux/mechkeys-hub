@@ -148,18 +148,25 @@ async function main() {
         const newPrice = await getAmazonPriceViaSerp(product.amazon_asin);
         
         if (newPrice) {
-            if (product.price !== newPrice) {
-                const oldPrice = product.price;
-                product.price = newPrice;
+            // 统一格式：去掉 $ 符号后比较数字
+            const oldPriceNormalized = product.price.replace('$', '').replace(',', '');
+            const newPriceNormalized = String(newPrice).replace('$', '').replace(',', '');
+            const oldNum = parseFloat(oldPriceNormalized);
+            const newNum = parseFloat(newPriceNormalized);
+            
+            if (isNaN(oldNum) || isNaN(newNum) || oldNum !== newNum) {
+                const displayOld = product.price;
+                const displayNew = '$' + newPriceNormalized;
+                product.price = displayNew;
                 product.updated = new Date().toISOString().split('T')[0];
                 priceChanges.push({
                     name: product.name,
                     asin: product.amazon_asin,
-                    oldPrice,
-                    newPrice
+                    oldPrice: displayOld,
+                    newPrice: displayNew
                 });
                 updated++;
-                log(`价格更新: ${product.amazon_asin} ${oldPrice} → ${newPrice}`);
+                log(`价格更新: ${product.amazon_asin} ${displayOld} → ${displayNew}`);
             } else {
                 console.log(`  ℹ️ 价格未变: ${newPrice}`);
                 skipped++;
