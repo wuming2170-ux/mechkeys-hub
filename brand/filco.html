@@ -85,6 +85,41 @@
             .filter-btn { width: 100% !important; text-align: center !important; }
         }
     </style>
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://mechkeys-hub.com/"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Filco",
+            "item": "https://mechkeys-hub.com/filco.html"
+        }
+    ]
+}
+    </script>
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "MechKeys Hub",
+    "url": "https://mechkeys-hub.com/",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://mechkeys-hub.com/search.html?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+}
+    </script>
 </head>
 <body class="gradient-bg min-h-screen text-white">
     <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
@@ -322,5 +357,31 @@
             <p>&copy; 2026 MechKeys Hub. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Related Links -->
+    <section class="py-12 px-4 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto">
+            <h3 class="text-xl font-bold mb-6">Explore More</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <a href="/60_percent.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
+                    <div class="text-2xl mb-2">⌨️</div>
+                    <div class="font-semibold">60% Keyboards</div>
+                </a>
+                <a href="/best-value.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
+                    <div class="text-2xl mb-2">💰</div>
+                    <div class="font-semibold">Best Value</div>
+                </a>
+                <a href="/switches.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
+                    <div class="text-2xl mb-2">🎛️</div>
+                    <div class="font-semibold">Switches Guide</div>
+                </a>
+                <a href="/guides.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
+                    <div class="text-2xl mb-2">📖</div>
+                    <div class="font-semibold">Buying Guides</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
