@@ -60,3 +60,42 @@
 [2026-04-08T10:36:09.931Z]    AULA: 2 款
 [2026-04-08T10:36:09.931Z]    Cherry: 2 款
 [2026-04-08T10:36:09.931Z] ========== 抓取完成: 30 款新产品 ==========
+[2026-04-08T10:43:17.924Z] ========== 开始抓取: 2026-04-08T10:43:17.924Z ==========
+[2026-04-08T10:43:17.925Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-08T10:43:21.777Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-08T10:43:25.090Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-08T10:43:28.611Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-08T10:43:31.965Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-08T10:43:32.274Z] 新增产品: B0B3SB6RSC - Cherry - x MK FC660MBT Vapor 65% Double Shot PBT Wireless/B
+[2026-04-08T10:43:33.781Z] 新增产品: B0G3FRLCXW - Other - V6 8K Full Size Wired Mechanical Keyboard with Pro
+[2026-04-08T10:43:35.287Z] 新增产品: B0B8JZCMJG - Cherry - FC650MDS Blue/Grey PD 65% Double Shot PBT Mechanic
+[2026-04-08T10:43:36.793Z] 新增产品: B0B8JZ43XX - Cherry - FC650MDSBT Bluetooth Blue/Grey PD 65% Double Shot 
+[2026-04-08T10:43:38.300Z] 新增产品: B0B3Y99WSZ - Cherry - x MK FC660M Vapor 65% Double Shot PBT Mechanical K
+[2026-04-08T10:43:39.812Z] 新增产品: B0GD7FLJFF - Other - J2 HE TMR Wired Gaming Keyboard Volume Knob, 8000H
+[2026-04-08T10:43:41.319Z] 新增产品: B0F3SCQ658 - Other - Dark Mount Mechanical Keyboard | Linear | Hot-Swap
+[2026-04-08T10:43:45.821Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-08T10:43:50.065Z] 新增产品: B0CXY7Q7F1 - Cherry - Origin Black Double Shot PBT Mechanical Keyboard (
+[2026-04-08T10:43:51.570Z] 新增产品: B0B2DMCFZD - Keychron - V3 Wired Custom Mechanical Keyboard, TKL Tenkeyles
+[2026-04-08T10:43:53.076Z] 新增产品: B0CYCMKGXZ - Cherry - Origin Vintage Double Shot PBT Mechanical Keyboard
+[2026-04-08T10:43:54.583Z] 新增产品: B0CXY7ZKSG - Cherry - Origin Black Double Shot PBT Mechanical Keyboard (
+[2026-04-08T10:43:56.088Z] 新增产品: B0GKDM7FRJ - Other - OK-M - 75% Wireless Mechanical Gaming Keyboard : G
+[2026-04-08T10:43:57.593Z] 新增产品: B0CQ2L9PCB - Other - S98 Mechanical Keyboard w/Smart Display & Knob, To
+[2026-04-08T10:43:59.098Z] 新增产品: B0CXYB18QT - Cherry - Origin Black Double Shot PBT Mechanical Keyboard (
+[2026-04-08T10:44:00.603Z] 新增产品: B0D47V71DS - Cherry - One 3 Pro Nazca 8K Hotswap RGB Triple Shot PBT Mec
+[2026-04-08T10:44:02.109Z] 新增产品: B0CYCPSVN2 - Cherry - Origin Vintage Double Shot PBT Mechanical Keyboard
+[2026-04-08T10:44:03.615Z] 新增产品: B0CYCNP4GZ - Cherry - Origin Vintage Double Shot PBT Mechanical Keyboard
+[2026-04-08T10:44:05.119Z] 新增产品: B0F1D8Y8G6 - Other - MCHOSE Jet 75 Wired Magnetic Switch Mechanical Gam
+[2026-04-08T10:44:06.625Z] 新增产品: B09RYS2BCB - Cherry - One 3 TKL Matcha Hotswap Double Shot PBT Quack Mec
+[2026-04-08T10:44:08.133Z] 新增产品: B0D8R1GGFS - Cherry - One 2 Pro Mini White Edition Mechanical Keyboard, 
+[2026-04-08T10:44:09.641Z] 新增产品: B09NVKW45T - Ducky - USB-C x Ducky One 2 SF RGB Mechanical Keyboard wit
+[2026-04-08T10:44:11.146Z] 新增产品: B0DHW5D8LM - Cherry - Zero 6108 Pure White Hotswap Bluetooth RGB Mechani
+[2026-04-08T10:44:12.651Z] 新增产品: B0C7C34Y6F - Cherry - One 3 Mini Pro Nazca 8K 60% Hotswap RGB Triple Sho
+[2026-04-08T10:44:14.156Z] 新增产品: B0GJRT6JWR - Cherry - 5 Keys Mini Macro Mechanical Keyboard White Progra
+[2026-04-08T10:44:15.662Z] 新增产品: B0F1MWG455 - Other - MCHOSE Jet 75 Wired Magnetic Switch Mechanical Gam
+[2026-04-08T10:44:20.176Z] 保存成功: 25 款新产品, 总计 335
+[2026-04-08T10:44:20.177Z]    Cherry: 16 款
+[2026-04-08T10:44:20.177Z]    Other: 7 款
+[2026-04-08T10:44:20.177Z]    Keychron: 1 款
+[2026-04-08T10:44:20.177Z]    Ducky: 1 款
+[2026-04-08T10:44:20.219Z] 更新网站统计: 产品335, 品牌23
+[2026-04-08T10:44:20.219Z] ========== 抓取完成: 25 款新产品 ==========

@@ -8000,5 +8000,467 @@ const topProducts = [
         ],
         "source": "serpapi",
         "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "x MK FC660MBT Vapor 65% Double Shot PBT Wireless/Bluetooth Mechanical Keyboard (Cherry MX Brown)",
+        "amazon_asin": "B0B3SB6RSC",
+        "price": "$120.00",
+        "rating": 3.3,
+        "reviews": 3,
+        "brand": "Cherry",
+        "layout": "65%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/613cPM6CFvL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0B3SB6RSC?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "V6 8K Full Size Wired Mechanical Keyboard with Programmable Knob, 8000 Hz Polling Rate, OSA PBT Keycaps, Hot-swappable Super Brown Switchs, RGB Backlit for Mac Windows Linux",
+        "amazon_asin": "B0G3FRLCXW",
+        "price": "$84.99",
+        "rating": 4.7,
+        "reviews": 7,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71-tsb8e+OL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0G3FRLCXW?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "FC650MDS Blue/Grey PD 65% Double Shot PBT Mechanical Keyboard (Cherry MX Blue)",
+        "amazon_asin": "B0B8JZCMJG",
+        "price": "$110.00",
+        "rating": "0",
+        "reviews": "0",
+        "brand": "Cherry",
+        "layout": "65%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61lJzowYu1L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0B8JZCMJG?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "FC650MDSBT Bluetooth Blue/Grey PD 65% Double Shot PBT Mechanical Keyboard (Cherry MX Blue)",
+        "amazon_asin": "B0B8JZ43XX",
+        "price": "$139.00",
+        "rating": "0",
+        "reviews": "0",
+        "brand": "Cherry",
+        "layout": "65%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/51uuqY9ISfL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0B8JZ43XX?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "x MK FC660M Vapor 65% Double Shot PBT Mechanical Keyboard (Cherry MX Brown)",
+        "amazon_asin": "B0B3Y99WSZ",
+        "price": "$109.00",
+        "rating": 3.2,
+        "reviews": 3,
+        "brand": "Cherry",
+        "layout": "65%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61UoJ29iVQL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0B3Y99WSZ?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "J2 HE TMR Wired Gaming Keyboard Volume Knob, 8000Hz Rapid Trigger Launcher Web with RGB Hot-Swappable Ultra-Fast Lime Magnetic Switch, Non-Shine-Through PBT for Mac Windows Linux - 75% Layout",
+        "amazon_asin": "B0GD7FLJFF",
+        "price": "$84.99",
+        "rating": 4.6,
+        "reviews": 8,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/712c4ByjThL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0GD7FLJFF?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "Dark Mount Mechanical Keyboard | Linear | Hot-Swappable Lubricated Silent Switches | Detachable Numpad and Media Dock | Programmable ARGB Keys | Quality PBT Double Shot Keycaps | BT001US",
+        "amazon_asin": "B0F3SCQ658",
+        "price": "$244.90",
+        "rating": 3.9,
+        "reviews": 120,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/61H6kWIUL8L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0F3SCQ658?tag=mechkeyshub-20",
+        "categories": [
+            "Silent"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "Origin Black Double Shot PBT Mechanical Keyboard (Cherry MX Red)",
+        "amazon_asin": "B0CXY7Q7F1",
+        "price": "$59.99",
+        "rating": 5,
+        "reviews": 7,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/51kFf2gu75L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CXY7Q7F1?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "V3 Wired Custom Mechanical Keyboard, TKL Tenkeyless QMK/VIA Programmable Macro with Hot-swappable Keychron K Pro Brown Switch Compatible with Mac Windows Linux (Frosted Black-Translucent)",
+        "amazon_asin": "B0B2DMCFZD",
+        "price": "$70.54",
+        "rating": 4.7,
+        "reviews": 66,
+        "brand": "Keychron",
+        "layout": "TKL",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/61ZWleMKetL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0B2DMCFZD?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "Origin Vintage Double Shot PBT Mechanical Keyboard (Cherry MX Brown)",
+        "amazon_asin": "B0CYCMKGXZ",
+        "price": "$89.00",
+        "rating": 4.3,
+        "reviews": 19,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/51tGTLbhF3L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CYCMKGXZ?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "Origin Black Double Shot PBT Mechanical Keyboard (Cherry MX Silver)",
+        "amazon_asin": "B0CXY7ZKSG",
+        "price": "$0",
+        "rating": 3.5,
+        "reviews": 2,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61u-g4I3IoL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CXY7ZKSG?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "OK-M - 75% Wireless Mechanical Gaming Keyboard : Gasket-Mount Design, Hot-Swappable Switches, Five-Layer Acoustic Dampening, RGB, USB-C, 2.4Ghz, Bluetooth, Wine Red Switch",
+        "amazon_asin": "B0GKDM7FRJ",
+        "price": "$79.99",
+        "rating": 4,
+        "reviews": 5,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/71xoVChNoTL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0GKDM7FRJ?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "S98 Mechanical Keyboard w/Smart Display & Knob, Top Mount 96% Wireless Mechanical Keyboard BT/2.4G/USB-C, Hot Swappable, Software Support, Creamy Sounding, 98 Keys",
+        "amazon_asin": "B0CQ2L9PCB",
+        "price": "$74.99",
+        "rating": 4.5,
+        "reviews": 1400,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61g03L1eB1L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CQ2L9PCB?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "Origin Black Double Shot PBT Mechanical Keyboard (Cherry MX Blue)",
+        "amazon_asin": "B0CXYB18QT",
+        "price": "$89.99",
+        "rating": 4.8,
+        "reviews": 15,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/51kFf2gu75L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CXYB18QT?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "One 3 Pro Nazca 8K Hotswap RGB Triple Shot PBT Mechanical Keyboard - Cherry MX2A Speed Silver",
+        "amazon_asin": "B0D47V71DS",
+        "price": "$149.00",
+        "rating": 3.8,
+        "reviews": 18,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71MT9pPyVaL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0D47V71DS?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "Origin Vintage Double Shot PBT Mechanical Keyboard (Cherry MX Blue)",
+        "amazon_asin": "B0CYCPSVN2",
+        "price": "$69.99",
+        "rating": 4.3,
+        "reviews": 16,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61OhuRJ8ktL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CYCPSVN2?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "Origin Vintage Double Shot PBT Mechanical Keyboard (Cherry MX Silent Red)",
+        "amazon_asin": "B0CYCNP4GZ",
+        "price": "$0",
+        "rating": 4.3,
+        "reviews": 19,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71c3wWkzQ3L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CYCNP4GZ?tag=mechkeyshub-20",
+        "categories": [
+            "Silent"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "MCHOSE Jet 75 Wired Magnetic Switch Mechanical Gaming Keyboard, 75% Rapid Trigger Hall Effect Keyboard, Hyper-Fast Adjustable Actuation, 8K Hz Polling Rate, RGB HotSwap, for PC/Mac, White",
+        "amazon_asin": "B0F1D8Y8G6",
+        "price": "$79.99",
+        "rating": 4.9,
+        "reviews": 9,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71Y1OxMFaZL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0F1D8Y8G6?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "One 3 TKL Matcha Hotswap Double Shot PBT Quack Mechanical Keyboard (Cherry MX Silent Red)",
+        "amazon_asin": "B09RYS2BCB",
+        "price": "$114.00",
+        "rating": 4.4,
+        "reviews": 25,
+        "brand": "Cherry",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61aYxn9iOwL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09RYS2BCB?tag=mechkeyshub-20",
+        "categories": [
+            "Silent",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "One 2 Pro Mini White Edition Mechanical Keyboard, RGB LED - Cherry Silver (US)",
+        "amazon_asin": "B0D8R1GGFS",
+        "price": "$65.00",
+        "rating": 5,
+        "reviews": 7,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61R9nSrMC6L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0D8R1GGFS?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "USB-C x Ducky One 2 SF RGB Mechanical Keyboard with Kailh Brown Switches",
+        "amazon_asin": "B09NVKW45T",
+        "price": "$79.00",
+        "rating": 4.5,
+        "reviews": 128,
+        "brand": "Ducky",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71A8gIyqj0L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09NVKW45T?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "Zero 6108 Pure White Hotswap Bluetooth RGB Mechanical Keyboard - Cherry MX2A Brown",
+        "amazon_asin": "B0DHW5D8LM",
+        "price": "$79.99",
+        "rating": 4.1,
+        "reviews": 9,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/610w6IEGpzL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DHW5D8LM?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Hot-swap",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "One 3 Mini Pro Nazca 8K 60% Hotswap RGB Triple Shot PBT Mechanical Keyboard - Cherry MX2A Brown",
+        "amazon_asin": "B0C7C34Y6F",
+        "price": "$119.00",
+        "rating": 3.6,
+        "reviews": 36,
+        "brand": "Cherry",
+        "layout": "60%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/716+JK4RLNL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0C7C34Y6F?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "5 Keys Mini Macro Mechanical Keyboard White Programmable Gaming Keypad Hot Swap USB Wired for Windows Mac OSU Cherry MX Switches & RGB LED",
+        "amazon_asin": "B0GJRT6JWR",
+        "price": "$28.99",
+        "rating": 4.5,
+        "reviews": 2,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/619XAJfvkSL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0GJRT6JWR?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9995",
+        "name": "MCHOSE Jet 75 Wired Magnetic Switch Mechanical Gaming Keyboard, 75% Rapid Trigger Hall Effect Keyboard, Hyper-Fast Adjustable Actuation, 8K Hz Polling Rate, RGB HotSwap, for PC/Mac, Black",
+        "amazon_asin": "B0F1MWG455",
+        "price": "$79.99",
+        "rating": 4.6,
+        "reviews": 16,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71497S60OlL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0F1MWG455?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-08"
     }
 ];
