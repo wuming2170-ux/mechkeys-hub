@@ -184,6 +184,18 @@
                     <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-xl">⌨️</div>
                     <span class="font-bold text-xl">MechKeys Hub</span>
                 </a>
+                <div class="hidden md:flex items-center relative mx-4">
+                    <form action="/search.html" method="get" id="search-form" class="flex items-center w-48 lg:w-64">
+                        <input type="text" name="q" id="search-input" placeholder="Search keyboards..." 
+                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-2 pl-10 text-sm focus:outline-none focus:border-indigo-500 focus:bg-white/15 transition"
+                               autocomplete="off">
+                        <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"></i>
+                    </form>
+                    <button type="submit" form="search-form" class="ml-1 px-3 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-lg transition">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <div id="search-results" class="absolute top-full left-0 right-12 mt-2 bg-slate-800 border border-white/20 rounded-xl shadow-2xl max-h-96 overflow-y-auto hidden z-50"></div>
+                </div>
                 <button class="mobile-menu-btn md:hidden p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu">
                     <i class="fas fa-bars text-xl" id="menu-icon"></i>
                 </button>
