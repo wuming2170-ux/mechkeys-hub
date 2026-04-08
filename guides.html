@@ -67,8 +67,11 @@
                 z-index: 100;
             }
             .mobile-nav.active { display: flex; }
-            .mobile-nav .nav-link { 
-                padding: 0.75rem 1rem; 
+            .mobile-nav button,
+            .mobile-nav .nav-link {
+                padding: 0.75rem 1rem;
+            min-height: 44px;
+            min-width: 44px; 
                 font-size: 1rem;
                 display: flex;
                 align-items: center;
@@ -193,7 +196,7 @@
                 <div class="mobile-search-wrapper px-3 py-2 border-b border-white/10">
                     <form action="/search.html" method="get" class="flex items-center">
                         <input type="text" name="q" placeholder="Search keyboards..." 
-                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-indigo-500">
+                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-base" focus:outline-none focus:border-indigo-500">
                         <button type="submit" class="ml-2 px-3 py-2 bg-indigo-600 rounded-lg">
                             <i class="fas fa-search text-sm"></i>
                         </button>
@@ -276,7 +279,7 @@
                 <div class="text-6xl">🎯</div>
                 <div>
                     <span class="text-indigo-400 text-sm font-semibold uppercase tracking-wider">Start Here</span>
-                    <h2 class="text-2xl font-bold mt-2 mb-3"><a href="guide-beginners.html" class="hover:text-indigo-300 transition">The Ultimate Guide to Choosing Your First Mechanical Keyboard</a></h2>
+                    <h2 class="text-xl md:text-2xl font-bold mt-2 mb-3"><a href="guide-beginners.html" class="hover:text-indigo-300 transition">The Ultimate Guide to Choosing Your First Mechanical Keyboard</a></h2>
                     <p class="text-slate-300 mb-4">Everything you need to know before buying: switch types, layouts, features, and common misconceptions debunked.</p>
                     <a href="guide-beginners.html" class="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl font-semibold transition">
                         Read the Guide <i class="fas fa-arrow-right"></i>

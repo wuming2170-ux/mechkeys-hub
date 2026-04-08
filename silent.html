@@ -45,7 +45,11 @@
             .desktop-nav { display: none !important; }
             .mobile-nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: rgb(15 23 42 / 0.98); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,255,255,0.1); padding: 1rem; flex-direction: column; gap: 0.25rem; z-index: 100; }
             .mobile-nav.active { display: flex; }
-            .mobile-nav .nav-link { padding: 0.75rem 1rem; font-size: 1rem; display: flex; align-items: center; gap: 0.75rem; }
+            .mobile-nav button,
+            .mobile-nav .nav-link {
+                padding: 0.75rem 1rem;
+            min-height: 44px;
+            min-width: 44px; font-size: 1rem; display: flex; align-items: center; gap: 0.75rem; }
         }
         @media (max-width: 640px) {
             .product-grid { grid-template-columns: 1fr !important; }
@@ -111,7 +115,7 @@
     <section class="py-16 px-4 text-center">
         <div class="max-w-4xl mx-auto">
             <span class="inline-block bg-blue-500/20 text-blue-400 border-blue-500/30 border px-4 py-2 rounded-full text-sm font-semibold mb-6">🔇 SILENT</span>
-            <h1 class="text-4xl md:text-5xl font-bold mb-4">Best Silent Keyboards</h1>
+            <h1 class="text-3xl md:text-5xl font-bold mb-4">Best Silent Keyboards</h1>
             <p class="text-xl text-gray-400 mb-6">Whisper-Quiet Typing for Office & Night Owls</p>
             <p class="text-gray-400 max-w-2xl mx-auto">Need a keyboard that won't disturb others? Our selection of silent mechanical keyboards features quiet switches perfect for open offices, libraries, or late-night sessions. Enjoy the tactile feel of mechanical keys without the noise.</p>
         </div>

@@ -56,8 +56,11 @@
                 z-index: 100;
             }
             .mobile-nav.active { display: flex; }
-            .mobile-nav .nav-link { 
-                padding: 0.75rem 1rem; 
+            .mobile-nav button,
+            .mobile-nav .nav-link {
+                padding: 0.75rem 1rem;
+            min-height: 44px;
+            min-width: 44px; 
                 font-size: 1rem;
                 display: flex;
                 align-items: center;
@@ -204,7 +207,7 @@
                 <div class="mobile-search-wrapper px-3 py-2 border-b border-white/10">
                     <form action="/search.html" method="get" class="flex items-center">
                         <input type="text" name="q" placeholder="Search keyboards..." 
-                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-indigo-500">
+                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-base" focus:outline-none focus:border-indigo-500">
                         <button type="submit" class="ml-2 px-3 py-2 bg-indigo-600 rounded-lg">
                             <i class="fas fa-search text-sm"></i>
                         </button>
@@ -215,7 +218,7 @@
                 <div class="mobile-search-wrapper px-3 py-2 border-b border-white/10">
                     <form action="/search.html" method="get" class="flex items-center">
                         <input type="text" name="q" placeholder="Search keyboards..." 
-                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-indigo-500">
+                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-base" focus:outline-none focus:border-indigo-500">
                         <button type="submit" class="ml-2 px-3 py-2 bg-indigo-600 rounded-lg">
                             <i class="fas fa-search text-sm"></i>
                         </button>
@@ -276,7 +279,7 @@
 <section class="py-12 px-4">
         <div class="max-w-5xl mx-auto">
             <div class="text-center mb-8">
-                <h1 class="text-4xl md:text-5xl font-bold mb-4">🔴 Mechanical Keyboard Switches Guide</h1>
+                <h1 class="text-3xl md:text-5xl font-bold mb-4">🔴 Mechanical Keyboard Switches Guide</h1>
                 <p class="text-xl text-gray-400">
                     The heart of your keyboard experience. Learn the difference between switch types.
                 </p>
@@ -316,7 +319,7 @@
                 <div class="flex items-center gap-4 mb-6">
                     <span class="text-5xl">🔴</span>
                     <div>
-                        <h2 class="text-2xl font-bold">Linear Switches</h2>
+                        <h2 class="text-xl md:text-2xl font-bold">Linear Switches</h2>
                         <p class="text-gray-400">Red, Black, Yellow - Smooth all the way down</p>
                     </div>
                 </div>
@@ -358,7 +361,7 @@
                 <div class="flex items-center gap-4 mb-6">
                     <span class="text-5xl">🟤</span>
                     <div>
-                        <h2 class="text-2xl font-bold">Tactile Switches</h2>
+                        <h2 class="text-xl md:text-2xl font-bold">Tactile Switches</h2>
                         <p class="text-gray-400">Brown - Subtle bump feedback</p>
                     </div>
                 </div>
@@ -400,7 +403,7 @@
                 <div class="flex items-center gap-4 mb-6">
                     <span class="text-5xl">🔵</span>
                     <div>
-                        <h2 class="text-2xl font-bold">Clicky Switches</h2>
+                        <h2 class="text-xl md:text-2xl font-bold">Clicky Switches</h2>
                         <p class="text-gray-400">Blue - Audible click + tactile bump</p>
                     </div>
                 </div>

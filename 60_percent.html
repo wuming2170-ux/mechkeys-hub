@@ -57,8 +57,11 @@
                 z-index: 100;
             }
             .mobile-nav.active { display: flex; }
-            .mobile-nav .nav-link { 
-                padding: 0.75rem 1rem; 
+            .mobile-nav button,
+            .mobile-nav .nav-link {
+                padding: 0.75rem 1rem;
+            min-height: 44px;
+            min-width: 44px; 
                 font-size: 1rem;
                 display: flex;
                 align-items: center;
@@ -205,7 +208,7 @@
                 <div class="mobile-search-wrapper px-3 py-2 border-b border-white/10">
                     <form action="/search.html" method="get" class="flex items-center">
                         <input type="text" name="q" placeholder="Search keyboards..." 
-                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-indigo-500">
+                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-base" focus:outline-none focus:border-indigo-500">
                         <button type="submit" class="ml-2 px-3 py-2 bg-indigo-600 rounded-lg">
                             <i class="fas fa-search text-sm"></i>
                         </button>
@@ -266,7 +269,7 @@
 <section class="py-12 px-4">
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-12">
-                <h1 class="text-4xl md:text-5xl font-bold mb-4">🎮 Best 60% Mechanical Keyboards</h1>
+                <h1 class="text-3xl md:text-5xl font-bold mb-4">🎮 Best 60% Mechanical Keyboards</h1>
                 <p class="text-xl text-gray-400 max-w-2xl mx-auto">
                     Compact keyboards without function row, navigation cluster, or numpad. 
                     Perfect for portability and mouse freedom.
@@ -275,7 +278,7 @@
 
             <!-- What is 60% -->
             <div class="bg-white/5 rounded-2xl p-8 mb-12 border border-white/10">
-                <h2 class="text-2xl font-bold mb-4">What is a 60% Keyboard?</h2>
+                <h2 class="text-xl md:text-2xl font-bold mb-4">What is a 60% Keyboard?</h2>
                 <p class="text-gray-300 mb-4">
                     A 60% keyboard is a compact layout that removes the function row (F1-F12), navigation cluster (arrow keys, Home, End, etc.), and numpad. 
                     This gives you a keyboard that's about 60% the width of a full-size keyboard.
