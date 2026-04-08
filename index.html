@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Mechanical Keyboards 2026 - Reviews & Buying Guide | MechKeys Hub</title>
     <meta name="description" content="Discover the best mechanical keyboards of 2026 with expert reviews. Compare 60%, 65%, TKL & full-size keyboards. Find perfect switch types, RGB, wireless options. Up to $200 budget covered.">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Discover the best mechanical keyboards of 2026 with expert reviews. Compare 60%, 65%, TKL & full-size keyboards. Find perfect switch types, RGB, wireless options. Up to $200 budget covered.">
+    <meta name="keywords" content="best mechanical keyboard 2026, mechanical keyboard review, gaming keyboard, mechanical keyboard switch, cherry mx, gateron, keychron, Leopold, best budget mechanical keyboard">
+    <link rel="canonical" href="https://mechkeys-hub.com/index.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mechkeys-hub.com/index.html">
+    <meta property="og:title" content="Best Mechanical Keyboards 2026 - Reviews & Buying Guide | MechKeys Hub">
+    <meta property="og:description" content="Discover the best mechanical keyboards of 2026 with expert reviews. Compare 60%, 65%, TKL & full-size keyboards. Find perfect switch types, RGB, wireless options. Up to $200 budget covered.">
+    <meta property="og:image" content="https://mechkeys-hub.com/og-image.jpg">
+    <meta property="og:site_name" content="MechKeys Hub">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://mechkeys-hub.com/index.html">
+    <meta name="twitter:title" content="Best Mechanical Keyboards 2026 - Reviews & Buying Guide | MechKeys Hub">
+    <meta name="twitter:description" content="Discover the best mechanical keyboards of 2026 with expert reviews. Compare 60%, 65%, TKL & full-size keyboards. Find perfect switch types, RGB, wireless options. Up to $200 budget covered.">
+    <meta name="twitter:image" content="https://mechkeys-hub.com/og-image.jpg">
+
     <meta name="keywords" content="best mechanical keyboard 2026, mechanical keyboard review, gaming keyboard, mechanical keyboard switch, cherry mx, gateron, keychron, Leopold, best budget mechanical keyboard">
     <link rel="canonical" href="https://mechkeys-hub.com/">
     
@@ -248,6 +269,16 @@
             </nav>
         </div>
     </header>
+
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb" class="max-w-7xl mx-auto px-4 py-3">
+                <ol class="flex items-center gap-2 text-sm text-gray-400">
+                    <li><a href="/" class="hover:text-white transition">Home</a></li>
+                    <li><i class="fas fa-chevron-right text-xs"></i></li>
+                    <li class="text-white" id="breadcrumb-current">Index</li>
+                </ol>
+            </nav>
+
     
     <script>
         function toggleMobileMenu() {
@@ -6001,7 +6032,7 @@ const topProducts = [
                 <span class="switch-badge px-2 py-1 rounded text-xs">${p.switch_type}</span>
             </div>
             <div class="aspect-video bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
-                <img src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';this.parentElement.style.background='linear-gradient(135deg,#1e1b4b,#0f172a)';">
+                <img loading="lazy" src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';this.parentElement.style.background='linear-gradient(135deg,#1e1b4b,#0f172a)';">
                 <span class="text-6xl hidden items-center justify-center">⌨️</span>
             </div>
             <h3 class="text-xl font-bold mb-2">${p.name}</h3>
@@ -6050,7 +6081,7 @@ const topProducts = [
         container.innerHTML = results.map(p => `
             <a href="${p.url}" target="_blank" class="search-result-item block">
                 <div class="flex items-center gap-3">
-                    <img src="${p.image}" alt="${p.name}" class="w-12 h-12 object-cover rounded-lg" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%231e293b%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%236474b4%22 font-size=%2240%22>⌨️</text></svg>'">
+                    <img src="${p.image}" alt="${p.name}" class="w-12 h-12 object-cover rounded-lg" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%231e293b%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%236474b4%22 font-size=%2240%22>⌨️</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="font-semibold text-sm truncate">${p.name}</div>
                         <div class="text-xs text-gray-400">${p.brand || ''} · ${p.price} · ★ ${p.rating}</div>

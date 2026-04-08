@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compare Mechanical Keyboards - MechKeys Hub</title>
     <meta name="description" content="Compare the best mechanical keyboards side by side. Compare prices, switches, layouts, and features to find your perfect keyboard.">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Compare the best mechanical keyboards of 2026 side-by-side. View specs, prices, and features. Find your perfect keyboard with our comparison tool.">
+    <meta name="keywords" content="compare mechanical keyboards, keyboard comparison, keyboard specs">
+    <link rel="canonical" href="https://mechkeys-hub.com/compare.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mechkeys-hub.com/compare.html">
+    <meta property="og:title" content="Compare Mechanical Keyboards 2026 - Side-by-Side | MechKeys Hub">
+    <meta property="og:description" content="Compare the best mechanical keyboards of 2026 side-by-side. View specs, prices, and features. Find your perfect keyboard with our comparison tool.">
+    <meta property="og:image" content="https://mechkeys-hub.com/og-image.jpg">
+    <meta property="og:site_name" content="MechKeys Hub">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://mechkeys-hub.com/compare.html">
+    <meta name="twitter:title" content="Compare Mechanical Keyboards 2026 - Side-by-Side | MechKeys Hub">
+    <meta name="twitter:description" content="Compare the best mechanical keyboards of 2026 side-by-side. View specs, prices, and features. Find your perfect keyboard with our comparison tool.">
+    <meta name="twitter:image" content="https://mechkeys-hub.com/og-image.jpg">
+
     <link rel="canonical" href="https://mechkeys-hub.vercel.app/compare.html">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -205,6 +226,16 @@
             </nav>
         </div>
     </header>
+
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb" class="max-w-7xl mx-auto px-4 py-3">
+                <ol class="flex items-center gap-2 text-sm text-gray-400">
+                    <li><a href="/" class="hover:text-white transition">Home</a></li>
+                    <li><i class="fas fa-chevron-right text-xs"></i></li>
+                    <li class="text-white" id="breadcrumb-current">Compare</li>
+                </ol>
+            </nav>
+
     
     <script>
         function toggleMobileMenu() {
@@ -317,7 +348,7 @@
             <button onclick="toggleProduct('${p.id}')" 
                 class="product-select-btn p-3 rounded-xl border border-white/20 text-left text-sm"
                 id="btn-${p.id}">
-                <img src="${p.image}" alt="${p.name}" class="w-full h-16 object-contain mb-2 rounded">
+                <img loading="lazy" src="${p.image}" alt="${p.name}" class="w-full h-16 object-contain mb-2 rounded">
                 <div class="font-medium text-xs leading-tight">${p.name}</div>
                 <div class="text-indigo-400 text-xs mt-1">${p.price}</div>
             </button>
@@ -364,7 +395,7 @@
                 <th class="p-4 text-left text-slate-400 w-48">Feature</th>
                 ${selectedProducts.map(p => `
                     <th class="p-4 text-center min-w-48">
-                        <img src="${p.image}" alt="${p.name}" class="w-24 h-16 object-contain mx-auto mb-2">
+                        <img loading="lazy" src="${p.image}" alt="${p.name}" class="w-24 h-16 object-contain mx-auto mb-2">
                         <div class="font-semibold text-sm">${p.name}</div>
                         <div class="text-indigo-400 font-bold mt-1">${p.price}</div>
                         <div class="flex items-center justify-center gap-1 mt-1">
