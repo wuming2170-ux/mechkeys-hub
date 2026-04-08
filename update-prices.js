@@ -25,8 +25,8 @@ const REQUEST_DELAY = 2000;
  * 从 SerpAPI 获取 Amazon 产品价格
  */
 async function getAmazonPriceViaSerp(asin) {
-    const query = `Amazon ${asin} keyboard price`;
-    const url = `https://serpapi.com/search.json?engine=amazon&q=${encodeURIComponent(query)}&api_key=${SERPAPI_KEY}`;
+    const query = asin;  // 直接用 ASIN 搜索最准确
+    const url = `https://serpapi.com/search.json?engine=amazon&k=${encodeURIComponent(query)}&api_key=${SERPAPI_KEY}`;
     
     try {
         const response = await fetch(url);
@@ -38,28 +38,24 @@ async function getAmazonPriceViaSerp(asin) {
         }
         
         // 尝试从搜索结果中提取价格
-        const results = data.amazon_results || data.organic_results || [];
+        const results = data.organic_results || data.amazon_results || [];
         
         // 找到匹配 ASIN 的结果
         for (const result of results) {
-            if (result.asin === asin || (result.link && result.link.includes(asin))) {
-                const price = result.price || result.extended_amazon_price || result.amazon_price;
-                if (price) {
-                    console.log(`  ✅ ${asin}: ${price}`);
-                    return price;
+            if (result.asin === asin) {
+                // 优先使用 extracted_price（数字），其次 price（字符串）
+                const price = result.extracted_price ?? result.price ?? result.extended_amazon_price ?? result.amazon_price;
+                if (price !== undefined && price !== null) {
+                    // 如果是字符串且有 $ 符号，去掉它
+                    const cleanPrice = typeof price === 'string' ? price.replace('$', '') : String(price);
+                    console.log(`  ✅ ${asin}: ${result.price || price}`);
+                    return cleanPrice;
                 }
             }
         }
         
-        // 如果没找到精确匹配，尝试第一个结果
-        if (results.length > 0) {
-            const first = results[0];
-            const price = first.price || first.extended_amazon_price || first.amazon_price;
-            if (price) {
-                console.log(`  ⚠️ ${asin}: 使用第一个结果 ${price}`);
-                return price;
-            }
-        }
+        // 如果没找到精确匹配，尝试第一个结果（但要匹配正确的 ASIN）
+        console.log(`  ⚠️ ${asin}: 未在结果中找到精确匹配`);
         
         console.log(`  ⚠️ ${asin}: 未找到价格`);
         return null;
