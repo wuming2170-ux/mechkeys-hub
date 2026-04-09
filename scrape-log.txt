@@ -138,3 +138,36 @@
 [2026-04-09T03:21:24.463Z]    Ducky: 1 款
 [2026-04-09T03:21:24.507Z] 更新网站统计: 产品356, 品牌23
 [2026-04-09T03:21:24.507Z] ========== 抓取完成: 21 款新产品 ==========
+[2026-04-09T22:02:57.597Z] ========== 开始抓取: 2026-04-09T22:02:57.597Z ==========
+[2026-04-09T22:02:57.598Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-09T22:03:00.439Z] 新增产品: B0GGGD5KJR - AULA - AULA F99 Wireless Mechanical Keyboard-Silent Versi
+[2026-04-09T22:03:01.957Z] 新增产品: B0DS7SF7BJ - AULA - AULA F99 Pro Wireless Mechanical Keyboard with Kno
+[2026-04-09T22:03:03.475Z] 新增产品: B0CJ2Q799Z - Other - Merdia Wireless Mechanical Keyboard, Triple Mode 2
+[2026-04-09T22:03:04.984Z] 新增产品: B0FMHWV6Y8 - Other - Creamy Wireless Keyboard and Mouse, MOFII 104 Roun
+[2026-04-09T22:03:09.489Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-09T22:03:11.668Z] 新增产品: B07W86N3JV - HyperX - HyperX Alloy Origins - Mechanical Gaming Keyboard,
+[2026-04-09T22:03:13.179Z] 新增产品: B0CQ53BKWT - AULA - AULA F75 75% Wireless Mechanical Keyboard, Hot Swa
+[2026-04-09T22:03:17.697Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-09T22:03:20.377Z] 新增产品: B0FDKPF9QJ - Redragon - Redragon K745 PRO Wireless Gasket RGB Gaming Keybo
+[2026-04-09T22:03:24.903Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-09T22:03:27.678Z] 新增产品: B08CNBBHQ1 - Other - C2 Full Size Wired Mechanical Keyboard for Mac, Ho
+[2026-04-09T22:03:29.192Z] 新增产品: B0B2DP88SD - Keychron - K10 Pro Wireless Custom Mechanical Keyboard, Full-
+[2026-04-09T22:03:30.702Z] 新增产品: B0B2DMKFM5 - Keychron - V6 Wired Custom Mechanical Keyboard Knob Version, 
+[2026-04-09T22:03:32.209Z] 新增产品: B0F47NZ6DM - Other - C3 Pro TKL 80% Wired Mechanical Keyboard, 8K Polli
+[2026-04-09T22:03:33.717Z] 新增产品: B0DT3LPDGP - Keychron - K10 Full Size 104 Keys Bluetooth Wireless Mechanic
+[2026-04-09T22:03:38.222Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-09T22:03:43.850Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-09T22:03:45.781Z] 新增产品: B09Y36RQF1 - Cherry - One 3 White 60% Mechanical Keyboard: Quack Mechani
+[2026-04-09T22:03:47.289Z] 新增产品: B0F1XS3JCQ - Other - R98 Pro Wireless Mechanical Keyboard, Creamy Bluet
+[2026-04-09T22:03:48.799Z] 新增产品: B0CDJFK7WG - Other - x Dimanche Peter Pan Neverland One 2 Pro White LED
+[2026-04-09T22:03:50.307Z] 新增产品: B0G4TFGJC3 - AULA - AULA Hero 99 Wired Gaming Keyboard, Hall Effect Ke
+[2026-04-09T22:03:51.813Z] 新增产品: B0FZSYY892 - Other - A99 Pro Mechanical Keyboard with LCD Screen & Meta
+[2026-04-09T22:03:56.331Z] 保存成功: 17 款新产品, 总计 373
+[2026-04-09T22:03:56.332Z]    AULA: 4 款
+[2026-04-09T22:03:56.332Z]    Other: 7 款
+[2026-04-09T22:03:56.332Z]    HyperX: 1 款
+[2026-04-09T22:03:56.332Z]    Redragon: 1 款
+[2026-04-09T22:03:56.332Z]    Keychron: 3 款
+[2026-04-09T22:03:56.333Z]    Cherry: 1 款
+[2026-04-09T22:03:56.375Z] 更新网站统计: 产品373, 品牌23
+[2026-04-09T22:03:56.375Z] ========== 抓取完成: 17 款新产品 ==========
