@@ -99,3 +99,42 @@
 [2026-04-08T10:44:20.177Z]    Ducky: 1 款
 [2026-04-08T10:44:20.219Z] 更新网站统计: 产品335, 品牌23
 [2026-04-08T10:44:20.219Z] ========== 抓取完成: 25 款新产品 ==========
+[2026-04-09T03:20:18.967Z] ========== 开始抓取: 2026-04-09T03:20:18.967Z ==========
+[2026-04-09T03:20:18.968Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-09T03:20:21.601Z] 新增产品: B09FTNMT84 - SteelSeries - SteelSeries Apex 3 TKL RGB Gaming Keyboard – Tenke
+[2026-04-09T03:20:23.108Z] 新增产品: B07ZGDPT4M - SteelSeries - SteelSeries Apex 3 RGB Gaming Keyboard – 10-Zone R
+[2026-04-09T03:20:27.620Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-09T03:20:29.659Z] 新增产品: B08WQX1XS3 - Redragon - Redragon K550 RGB Gaming Keyboard, 104 Keys + 12 M
+[2026-04-09T03:20:34.168Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-09T03:20:36.606Z] 新增产品: B089YFHYYS - Logitech - Logitech K845 Mechanical Illuminated Keyboard, Mec
+[2026-04-09T03:20:38.121Z] 新增产品: B0CQ2MSKJM - RK Royal Kludge - RK ROYAL KLUDGE S98 Mechanical Keyboard w/Smart Di
+[2026-04-09T03:20:39.634Z] 新增产品: B0DT6CKGT4 - Redragon - Redragon K686 PRO 98 Keys Wireless Gasket RGB Gami
+[2026-04-09T03:20:41.141Z] 新增产品: B08G4H448Q - Redragon - Redragon K556 RGB LED Backlit Wired Mechanical Gam
+[2026-04-09T03:20:45.651Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-09T03:20:48.988Z] 新增产品: B0CR14G15Q - Other - V1 Max 75% RGB Custom Mechanical Keyboard, 2.4Ghz/
+[2026-04-09T03:20:50.494Z] 新增产品: B0B2DQHV7Z - Keychron - K10 Pro Wireless Custom Mechanical Keyboard, Full-
+[2026-04-09T03:20:52.004Z] 新增产品: B0G13KFDFQ - Other - Q6 Ultra 8K Polling Rate Aluminum Wireless Mechani
+[2026-04-09T03:20:53.512Z] 新增产品: B0DCVSBSQG - Other - K2 HE Rapid Trigger Wireless Custom Keyboard with 
+[2026-04-09T03:20:58.014Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-09T03:21:01.108Z] 新增产品: B0FK55ZMXK - Other - Galaxy100 Lite QMK/VIA Gaming Keyboard with 8000mA
+[2026-04-09T03:21:02.615Z] 新增产品: B0BW25LPV6 - Cherry - FC750RBT Navy Blue TKL Bluetooth PD Double Shot PB
+[2026-04-09T03:21:04.126Z] 新增产品: B0DYNTXNYN - Other - Q13 Max Alice Layout QMK Wireless Custom Ergonomic
+[2026-04-09T03:21:05.640Z] 新增产品: B0FMD1DGS8 - Other - Alto Keys K98M Wireless Mechanical Keyboard, Custo
+[2026-04-09T03:21:07.155Z] 新增产品: B0B8FTS1WW - Cherry - FC650MDS White/Pink PD 65% Double Shot PBT Mechani
+[2026-04-09T03:21:08.666Z] 新增产品: B0G492WCX4 - Other - R3 Retro Wireless Mechanical Keyboard, 80% TKL Hot
+[2026-04-09T03:21:10.171Z] 新增产品: B0F7RTZ5SS - Other - F108 PRO - Wireless Mechanical Keyboard with Scree
+[2026-04-09T03:21:14.675Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-09T03:21:16.933Z] 新增产品: B09NVG5JPR - Ducky - x Ducky One 2 SF RGB USB-C Mechanical Keyboard wit
+[2026-04-09T03:21:18.440Z] 新增产品: B0DZ23N8C2 - Cherry - One 2 Pro RGB Mechanical Keyboard Pudding - Cherry
+[2026-04-09T03:21:19.947Z] 新增产品: B0BWJPHNMF - Cherry - One 2 Pro Mini Mechanical Keyboard, RGB LED - Cher
+[2026-04-09T03:21:24.461Z] 保存成功: 21 款新产品, 总计 356
+[2026-04-09T03:21:24.461Z]    SteelSeries: 2 款
+[2026-04-09T03:21:24.461Z]    Redragon: 3 款
+[2026-04-09T03:21:24.462Z]    Logitech: 1 款
+[2026-04-09T03:21:24.462Z]    RK Royal Kludge: 1 款
+[2026-04-09T03:21:24.462Z]    Other: 8 款
+[2026-04-09T03:21:24.462Z]    Keychron: 1 款
+[2026-04-09T03:21:24.463Z]    Cherry: 4 款
+[2026-04-09T03:21:24.463Z]    Ducky: 1 款
+[2026-04-09T03:21:24.507Z] 更新网站统计: 产品356, 品牌23
+[2026-04-09T03:21:24.507Z] ========== 抓取完成: 21 款新产品 ==========

@@ -8462,5 +8462,399 @@ const topProducts = [
         ],
         "source": "serpapi",
         "scraped_at": "2026-04-08"
+    },
+    {
+        "id": "9996",
+        "name": "SteelSeries Apex 3 TKL RGB Gaming Keyboard – Tenkeyless Compact Form Factor - 8-Zone RGB Illumination – IP32 Water & Dust Resistant – Whisper Quiet Gaming Switch – Gaming Grade Anti-Ghosting,Black",
+        "amazon_asin": "B09FTNMT84",
+        "price": "$31.99",
+        "rating": 4.5,
+        "reviews": 2400,
+        "brand": "SteelSeries",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71UnL+fUeWL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09FTNMT84?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent",
+            "Portable"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "SteelSeries Apex 3 RGB Gaming Keyboard – 10-Zone RGB Illumination – IP32 Water Resistant – Premium Magnetic Wrist Rest (Whisper Quiet Gaming Switch)",
+        "amazon_asin": "B07ZGDPT4M",
+        "price": "$49.99",
+        "rating": 4.6,
+        "reviews": 7900,
+        "brand": "SteelSeries",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61is2ZwnHEL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B07ZGDPT4M?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "Redragon K550 RGB Gaming Keyboard, 104 Keys + 12 Macro G Keys Wired Mechanical Keyboard w/Aluminum Top Plate, Custom Clicky Purple Switch, Extra USB Port & Wrist Rest",
+        "amazon_asin": "B08WQX1XS3",
+        "price": "$64.99",
+        "rating": 4.4,
+        "reviews": 300,
+        "brand": "Redragon",
+        "layout": "Other",
+        "switch": "Clicky",
+        "image": "https://m.media-amazon.com/images/I/71ytDGRs8hL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B08WQX1XS3?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "Logitech K845 Mechanical Illuminated Keyboard, Mechanical Switches, Strong Adjustable Tilt Legs, Full Size, Aluminum Top Case, 104 Keys, USB Corded, Windows (TTC Brown Switches)",
+        "amazon_asin": "B089YFHYYS",
+        "price": "$0",
+        "rating": 4.4,
+        "reviews": 3900,
+        "brand": "Logitech",
+        "layout": "Full Size",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/51J05wjSVGL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B089YFHYYS?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "RK ROYAL KLUDGE S98 Mechanical Keyboard w/Smart Display & Knob, Top Mount 96% Wireless Mechanical Keyboard BT/2.4G/USB-C, Hot Swappable, Software Support, Creamy Sounding, 98 Keys",
+        "amazon_asin": "B0CQ2MSKJM",
+        "price": "$74.99",
+        "rating": 4.6,
+        "reviews": 1000,
+        "brand": "RK Royal Kludge",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61Gmcp3-ljL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CQ2MSKJM?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "Redragon K686 PRO 98 Keys Wireless Gasket RGB Gaming Keyboard, 3-Mode PBT Mechanical Keyboard w/Hot-Swap South-Facing RGB Socket, Dedicated Knob Control & 5-Layer Noise Dampening, Gradient PBT Keycaps",
+        "amazon_asin": "B0DT6CKGT4",
+        "price": "$54.99",
+        "rating": 4.6,
+        "reviews": 1000,
+        "brand": "Redragon",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71x07h8kwkL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DT6CKGT4?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Hot-swap",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "Redragon K556 RGB LED Backlit Wired Mechanical Gaming Keyboard, 104 Keys Hot-Swap Mechanical Keyboard w/Aluminum Base, Upgraded Socket and Noise Absorbing Foams, Quiet Linear Red Switch",
+        "amazon_asin": "B08G4H448Q",
+        "price": "$44.99",
+        "rating": 4.2,
+        "reviews": 2100,
+        "brand": "Redragon",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/61UVv+vB+1L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B08G4H448Q?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "V1 Max 75% RGB Custom Mechanical Keyboard, 2.4Ghz/Bluetooth 5.1/Wired QMK/VIA Programmable Macro, Hot-Swappable Gateron Jupiter Banana Switch Gasket Mount for Mac Windows",
+        "amazon_asin": "B0CR14G15Q",
+        "price": "$114.99",
+        "rating": 4.2,
+        "reviews": 56,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71uyGNA40uL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CR14G15Q?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "K10 Pro Wireless Custom Mechanical Keyboard, Full-Size QMK/VIA Programmable Bluetooth/Wired White Backlight with Hot-swappable Keychron K Pro Red Switch Compatible with Mac Windows Linux",
+        "amazon_asin": "B0B2DQHV7Z",
+        "price": "$91.99",
+        "rating": 4.4,
+        "reviews": 107,
+        "brand": "Keychron",
+        "layout": "Full Size",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/61J1eiXwYFL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0B2DQHV7Z?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "Q6 Ultra 8K Polling Rate Aluminum Wireless Mechanical Keyboard, 2.4 GHz/Bluetooth/Wired Full-Size Custom RGB, Hot-Swappable Silk POM Red Switch for Mac Windows Linux - Black",
+        "amazon_asin": "B0G13KFDFQ",
+        "price": "$239.99",
+        "rating": 3.9,
+        "reviews": 11,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/71xnVFsv4NL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0G13KFDFQ?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "K2 HE Rapid Trigger Wireless Custom Keyboard with Hall Effect Gateron Double-Rail Magnetic Switch, 2.4 GHz QMK Bluetooth 5.2 RGB Compatible with Mac Windows Linux (Aluminum + Wood)",
+        "amazon_asin": "B0DCVSBSQG",
+        "price": "$139.99",
+        "rating": 4.5,
+        "reviews": 324,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61T2GXNxlHL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DCVSBSQG?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "Galaxy100 Lite QMK/VIA Gaming Keyboard with 8000mAh Battery and Numpad, 1800 Aluminum Mechanical Keyboard, USB-C/BT/2.4Ghz, Hot-Swap, Creamy Sound (Creamy White, Wisteria Linear Switch)",
+        "amazon_asin": "B0FK55ZMXK",
+        "price": "$101.99",
+        "rating": 4.5,
+        "reviews": 63,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/616djVYs2sL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FK55ZMXK?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "FC750RBT Navy Blue TKL Bluetooth PD Double Shot PBT Mechanical Keyboard Cherry MX Brown",
+        "amazon_asin": "B0BW25LPV6",
+        "price": "$0",
+        "rating": "0",
+        "reviews": "0",
+        "brand": "Cherry",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/41oCevLYYYL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BW25LPV6?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "Q13 Max Alice Layout QMK Wireless Custom Ergonomic Mechanical Keyboard with 3-Mode BT5.2/2.4GHz/USB-C, Hot Swappable PBT Keycaps, RGB Backlight, Red Switch & Knob for MacOS & Windows, Q13M-M1",
+        "amazon_asin": "B0DYNTXNYN",
+        "price": "$249.99",
+        "rating": 4.7,
+        "reviews": 19,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/61AoY91QsoL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DYNTXNYN?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "Alto Keys K98M Wireless Mechanical Keyboard, Customizable Keyboard with Vibration Absorbing Gasket, Backlit Keys, Bluetooth, USB-C Charging, for PC, Mac, Laptops - Graphite",
+        "amazon_asin": "B0FMD1DGS8",
+        "price": "$119.99",
+        "rating": 4.3,
+        "reviews": 158,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/613zl8HXvqL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FMD1DGS8?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "FC650MDS White/Pink PD 65% Double Shot PBT Mechanical Keyboard (Cherry MX Brown)",
+        "amazon_asin": "B0B8FTS1WW",
+        "price": "$100.00",
+        "rating": "0",
+        "reviews": "0",
+        "brand": "Cherry",
+        "layout": "65%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61668NVKHkL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0B8FTS1WW?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "R3 Retro Wireless Mechanical Keyboard, 80% TKL Hot Swappable RGB Tactile Super Brown Switch, QMK Tri-Mode(2.4 GHz/Bluetooth/Wired), Compatible with Mac PC Linux",
+        "amazon_asin": "B0G492WCX4",
+        "price": "$67.99",
+        "rating": 4.5,
+        "reviews": 9,
+        "brand": "Other",
+        "layout": "TKL",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/71SIt4ncDfL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0G492WCX4?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "F108 PRO - Wireless Mechanical Keyboard with Screen&Knob,Hot Swappable Gaming Keyboard with 8000mAh Battery,Pre-lubed Switches,RGB Backlit,PBT Keycaps Creamy Sounding Computer Keyboards,104 Keys",
+        "amazon_asin": "B0F7RTZ5SS",
+        "price": "$89.99",
+        "rating": 4.2,
+        "reviews": 49,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/7179aQCCVuL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0F7RTZ5SS?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "x Ducky One 2 SF RGB USB-C Mechanical Keyboard with Kailh White Switches",
+        "amazon_asin": "B09NVG5JPR",
+        "price": "$99.81",
+        "rating": 4.5,
+        "reviews": 128,
+        "brand": "Ducky",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71A8gIyqj0L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09NVG5JPR?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "One 2 Pro RGB Mechanical Keyboard Pudding - Cherry MX2A Blue Switch",
+        "amazon_asin": "B0DZ23N8C2",
+        "price": "$79.99",
+        "rating": 4,
+        "reviews": 1,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Clicky",
+        "image": "https://m.media-amazon.com/images/I/71AdmUThaTL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DZ23N8C2?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
+    },
+    {
+        "id": "9996",
+        "name": "One 2 Pro Mini Mechanical Keyboard, RGB LED - Cherry Silver (US)",
+        "amazon_asin": "B0BWJPHNMF",
+        "price": "$65.00",
+        "rating": 4.3,
+        "reviews": 22,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61VTLAPqC7L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BWJPHNMF?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-09"
     }
 ];
