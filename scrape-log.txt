@@ -171,3 +171,36 @@
 [2026-04-09T22:03:56.333Z]    Cherry: 1 款
 [2026-04-09T22:03:56.375Z] 更新网站统计: 产品373, 品牌23
 [2026-04-09T22:03:56.375Z] ========== 抓取完成: 17 款新产品 ==========
+[2026-04-10T22:00:05.829Z] ========== 开始抓取: 2026-04-10T22:00:05.829Z ==========
+[2026-04-10T22:00:05.830Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-10T22:00:10.970Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-10T22:00:16.332Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-10T22:00:24.746Z] 新增产品: B0FR54RGQN - Other - LINGBAO K108 Pro Wireless Mechanical Keyboard with
+[2026-04-10T22:00:29.274Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-10T22:00:33.871Z] 新增产品: B0C49N4MKS - Other - Q5 Pro QMK/VIA Wireless Custom Mechanical Keyboard
+[2026-04-10T22:00:35.385Z] 新增产品: B0C49KC6P2 - Other - Q5 Pro QMK/VIA Wireless Custom Mechanical Keyboard
+[2026-04-10T22:00:36.900Z] 新增产品: B09JG8H5R8 - Keychron - C2 Full Size Hot-swappable Wired Mechanical Keyboa
+[2026-04-10T22:00:38.408Z] 新增产品: B0G3FWCFPP - Other - V6 Ultra 8K Full Size Wireless Mechanical Keyboard
+[2026-04-10T22:00:39.915Z] 新增产品: B0CMTR3VJC - Other - Q5 Pro Wireless QMK/VIA Mechanical Keyboard, Full 
+[2026-04-10T22:00:44.420Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-10T22:00:47.241Z] 新增产品: B0FR54RGQN - Other - LINGBAO K108 Pro Wireless Mechanical Keyboard with
+[2026-04-10T22:00:48.753Z] 新增产品: B07QBPCGY2 - Other - K2 75% Layout Bluetooth Mechanical Keyboard Super 
+[2026-04-10T22:00:50.259Z] 新增产品: B0F2MNWCB6 - Other - F108 PRO - Wireless Mechanical Keyboard with Scree
+[2026-04-10T22:00:51.767Z] 新增产品: B0DHV3MG2N - Other - A75 Alice Keyboard, Tri-Mode Ergonomic Gaming Keyb
+[2026-04-10T22:00:53.273Z] 新增产品: B08Y8RSC1Q - Other - K630 Dragonborn 60% Wired RGB Gaming Keyboard, 61 
+[2026-04-10T22:00:54.781Z] 新增产品: B08Y8NKX6Z - Other - K630 Dragonborn 60% Wired RGB Gaming Keyboard, 61 
+[2026-04-10T22:00:56.287Z] 新增产品: B0G4TZN7NJ - Other - LEOBOG A80 RT Hall Effect Gaming Keyboard Wired, R
+[2026-04-10T22:01:00.797Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-10T22:01:03.728Z] 新增产品: B0GKCS2WFP - Other - OK-M - 65% Wireless Mechanical Gaming Keyboard : G
+[2026-04-10T22:01:05.241Z] 新增产品: B0CXYBHG24 - Cherry - Origin Black Double Shot PBT Mechanical Keyboard (
+[2026-04-10T22:01:06.747Z] 新增产品: B0CXY9B7Y5 - Cherry - Origin Black Double Shot PBT Mechanical Keyboard (
+[2026-04-10T22:01:08.253Z] 新增产品: B0F2MNWCB6 - Other - F108 PRO - Wireless Mechanical Keyboard with Scree
+[2026-04-10T22:01:09.770Z] 新增产品: B0BSP35VRY - Cherry - One 3 Mini Aura 60% Mechanical Keyboard: Quack Mec
+[2026-04-10T22:01:11.279Z] 新增产品: B0DKNFPVT9 - Other - S98 Pro Wireless Mechanical Keyboard,Smart Screen 
+[2026-04-10T22:01:12.793Z] 新增产品: B0FR54RGQN - Other - LINGBAO K108 Pro Wireless Mechanical Keyboard with
+[2026-04-10T22:01:17.307Z] 保存成功: 20 款新产品, 总计 393
+[2026-04-10T22:01:17.308Z]    Other: 16 款
+[2026-04-10T22:01:17.308Z]    Keychron: 1 款
+[2026-04-10T22:01:17.308Z]    Cherry: 3 款
+[2026-04-10T22:01:17.345Z] 更新网站统计: 产品393, 品牌23
+[2026-04-10T22:01:17.345Z] ========== 抓取完成: 20 款新产品 ==========
