@@ -9548,5 +9548,299 @@ const topProducts = [
         ],
         "source": "serpapi",
         "scraped_at": "2026-04-10"
+    },
+    {
+        "id": "9999",
+        "name": "wegear Mechanical Gaming Keyboard with Blue Switch, 104-Key Full Size RGB Backlit Wired Keyboard（11 Modes, Anti-Ghosting, Double-Shot ABS Keycaps, Lighted Computer Key-Board for PC Windows-Black",
+        "amazon_asin": "B0FGJ6MHCT",
+        "price": "$28.99",
+        "rating": 4.4,
+        "reviews": 109,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Clicky",
+        "image": "https://m.media-amazon.com/images/I/618ngUqq5xL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FGJ6MHCT?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "Redragon K556 SE RGB LED Backlit Wired Mechanical Gaming Keyboard, Aluminum Base, 104 Keys Upgraded Socket, 3.5mm Sound Absorbing Foams, Hot-Swap Linear Quiet Red Switch, Gradient Blue",
+        "amazon_asin": "B0BXW81W3W",
+        "price": "$52.99",
+        "rating": 4.2,
+        "reviews": 2100,
+        "brand": "Redragon",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/61AFbJi-e9L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BXW81W3W?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "Logitech K845 Mechanical Illuminated Keyboard,Mechanical Switches, Strong Adjustable Tilt Legs, Full Size, Aluminum Top Case, 104 Keys, USB Corded, Windows (TTC Blue Switches)",
+        "amazon_asin": "B088KRJ28T",
+        "price": "$67.69",
+        "rating": 4.4,
+        "reviews": 3900,
+        "brand": "Logitech",
+        "layout": "Full Size",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/51J05wjSVGL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B088KRJ28T?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "GEEZER AK96 Mechanical Gaming Keyboard, Pre-Lubed Red Switches, 96 Keys Full Size with LED Colorful Backlit, Clicky Creamy Sound, USB Wired Computer Keyboard with Volume Knob for PC, Mac, Windows",
+        "amazon_asin": "B0FDW8TNWL",
+        "price": "$19.99",
+        "rating": 4.4,
+        "reviews": 46,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Clicky",
+        "image": "https://m.media-amazon.com/images/I/71xkXiDkjsL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FDW8TNWL?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "AK96 Smart Mechanical Keyboard Gaming, 96 Keys Full Size with LED Colorful Backlit, Clicky Creamy Sounding, USB Wired Computer Keyboard with Volume Knob for PC, Mac, Windows(Grey)",
+        "amazon_asin": "B0FGYBW71Y",
+        "price": "$25.99",
+        "rating": 4.4,
+        "reviews": 108,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Clicky",
+        "image": "https://m.media-amazon.com/images/I/61cxA0Ly0kL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FGYBW71Y?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "Mechanical Gaming Keyboard with Red Switches: 98 Keys PC Gaming Keyboard with Backlit，Multi-Function Volume & Lighting Knob,Anti-Ghosting Wired USB keybaord for Elite PC/Mac Gamers",
+        "amazon_asin": "B0FLVJQ66S",
+        "price": "$31.96",
+        "rating": 4.2,
+        "reviews": 24,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71-UmOra9JL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FLVJQ66S?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "MOFII AK96 Mechanical Gaming Keyboard, Full Keys LED Backlit Programmable, Plug and Play USB A/C Wired Computer Custom Keyboard with Sound/Light Control Knob for Win/Mac - Gray & Black",
+        "amazon_asin": "B0FGXKKG32",
+        "price": "$29.99",
+        "rating": 4.5,
+        "reviews": 104,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71RfgLl3cgL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FGXKKG32?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "AULA F98 Pro Wireless Mechanical Keyboard with Transparent Keycaps,Hot-swappable,Pre-lubed Linear Switches,Gasket Structure,RGB Backlit,OLED Screen,BT5.0/2.4G/USB-C Wired Computer Keyboard",
+        "amazon_asin": "B0CLP634KF",
+        "price": "$89.89",
+        "rating": 4.3,
+        "reviews": 103,
+        "brand": "AULA",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/719jCF8aRLL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CLP634KF?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "V1 Max 75% RGB Custom Mechanical Keyboard, 2.4Ghz/Bluetooth 5.1/Wired QMK/VIA Programmable Macro, Hot-Swappable Gateron Jupiter Red Switch Gasket Mount for Mac Windows Linux",
+        "amazon_asin": "B0CR16KS3F",
+        "price": "$99.99",
+        "rating": 4.1,
+        "reviews": 55,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/718Hgwrz7RL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CR16KS3F?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "C2 Pro Wired Mechanical Keyboard with 8K Hz Polling Rate, Full Size Custom RGB Backlit Hot-Swappable, Non-Shine Through PBT Keycaps Compatible with Mac Windows Linux (Silent Red Switch)",
+        "amazon_asin": "B0F2FC8HSZ",
+        "price": "$69.99",
+        "rating": 4.6,
+        "reviews": 10,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/7159bq7tqqL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0F2FC8HSZ?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "FL·ESPORTS OG87 Tri-Mode Retro Mechanical Keyboard, 87-Key Gasket Mount Gaming Keyboard, Pre-lubed Creamy Linear Switches, Hot Swappable, PBT Keycaps, 4000mAh for Mac/PC - Gray",
+        "amazon_asin": "B0DF2KPGJ3",
+        "price": "$74.99",
+        "rating": 4.5,
+        "reviews": 39,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/71B8TUYYSyL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DF2KPGJ3?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "MiTo GMK Laser Custom Mechanical Keyboard Keycap Set - 129-keys, Doubleshot, Cherry Profile, for 60%, TKL, 1800 Layouts, etc. (Cyberdeck)",
+        "amazon_asin": "B096SW9S7P",
+        "price": "$208.78",
+        "rating": 4.4,
+        "reviews": 118,
+        "brand": "Cherry",
+        "layout": "60%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61NN8IbwoPL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B096SW9S7P?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "Logitech G915 X Low-Profile Wired Mechanical Gaming Keyboard, Double-Shot PBT Keycaps, Fully Programmable Keys, RGB Lighting, Aluminum Finish, GL Brown Tactile Switches - PC/Mac - Black",
+        "amazon_asin": "B0D1G3NYJJ",
+        "price": "$169.99",
+        "rating": 4.1,
+        "reviews": 50,
+        "brand": "Logitech",
+        "layout": "Other",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/61FO2QWeK3L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0D1G3NYJJ?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "Mechanical Gaming Keyboard, Blue Switch USB Wired Keyboard, 20 RGB Light up Backlit Modes, 104 Key Full Size Clicky Keyboards, Anti-Ghosting/Spill-Resistant Rainbow LEDKeyboards for PC(Black)",
+        "amazon_asin": "B0DQXVG7B2",
+        "price": "$29.99",
+        "rating": 4.6,
+        "reviews": 120,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Clicky",
+        "image": "https://m.media-amazon.com/images/I/71rxatUJCqL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DQXVG7B2?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "AKB-670UB Mechanical Keyboard with Copilot AI Hotkey - Blue Switch, Multi-OS Compatible | Enhanced Productivity with Tactile Feel and Multimedia Keys",
+        "amazon_asin": "B0CZPRDYV2",
+        "price": "$39.99",
+        "rating": 4.8,
+        "reviews": 7,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/610CVNZlwtL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CZPRDYV2?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "9999",
+        "name": "One 3 TKL Pure White Hotswap RGB Mechanical Keyboard (Cherry MX Red)",
+        "amazon_asin": "B09Y2GGNFN",
+        "price": "$119.00",
+        "rating": 4.2,
+        "reviews": 30,
+        "brand": "Cherry",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/51JGOfxtSYL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09Y2GGNFN?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-11"
     }
 ];
