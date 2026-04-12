@@ -235,3 +235,26 @@
 [2026-04-11T22:03:18.427Z]    Cherry: 2 款
 [2026-04-11T22:03:18.470Z] 更新网站统计: 产品409, 品牌23
 [2026-04-11T22:03:18.470Z] ========== 抓取完成: 16 款新产品 ==========
+[2026-04-12T22:03:03.690Z] ========== 开始抓取: 2026-04-12T22:03:03.690Z ==========
+[2026-04-12T22:03:03.691Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-12T22:03:17.161Z] 新增产品: B0CX4SCGT3 - AULA - AULA F99 Wireless Mechanical Keyboard, Hot Swappab
+[2026-04-12T22:03:18.699Z] 新增产品: B0D9M75HS5 - AULA - AULA 99 Key Keyboard, Tri-Mode Bluetooth/2.4GHz/US
+[2026-04-12T22:03:20.208Z] 新增产品: B0DKNLMD9D - AULA - AULA S98 Pro Wireless Mechanical Keyboard with Scr
+[2026-04-12T22:03:24.725Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-12T22:03:29.405Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-12T22:03:42.903Z] 新增产品: B0FBR4Y11Y - Other - Wireless Keyboard and Mouse Combo,2.4G Full Size W
+[2026-04-12T22:03:44.431Z] 新增产品: B08JCVPZPQ - RK Royal Kludge - RK ROYAL KLUDGE RK100 Wireless Mechanical Keyboard
+[2026-04-12T22:03:45.945Z] 新增产品: B0FGXHQR8S - Other - MOFII AK96 Mechanical Gaming Keyboard, Full Keys L
+[2026-04-12T22:03:47.452Z] 新增产品: B0DP2W7BRF - Other - Flow Lite 84 Keys Low Profile Mechanical Keyboard,
+[2026-04-12T22:03:51.958Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-12T22:04:08.137Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-12T22:04:13.045Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-12T22:04:19.617Z] 新增产品: B0BSP1Y7L4 - Cherry - One 3 Mini Aura 60% Mechanical Keyboard: Quack Mec
+[2026-04-12T22:04:21.133Z] 新增产品: B0DXZF4D4S - Other - K10 HE Hall Effect Keyboard Wireless, Magnetic Swi
+[2026-04-12T22:04:25.680Z] 保存成功: 9 款新产品, 总计 418
+[2026-04-12T22:04:25.680Z]    AULA: 3 款
+[2026-04-12T22:04:25.680Z]    Other: 4 款
+[2026-04-12T22:04:25.680Z]    RK Royal Kludge: 1 款
+[2026-04-12T22:04:25.680Z]    Cherry: 1 款
+[2026-04-12T22:04:25.725Z] 更新网站统计: 产品418, 品牌23
+[2026-04-12T22:04:25.725Z] ========== 抓取完成: 9 款新产品 ==========

@@ -9842,5 +9842,174 @@ const topProducts = [
         ],
         "source": "serpapi",
         "scraped_at": "2026-04-11"
+    },
+    {
+        "id": "10000",
+        "name": "AULA F99 Wireless Mechanical Keyboard, Hot Swappable Custom Keyboard,Pre-lubed Linear Switches,Gasket Structure,RGB Backlit Gaming Keyboard (Blue&White)",
+        "amazon_asin": "B0CX4SCGT3",
+        "price": "$68.99",
+        "rating": 4.5,
+        "reviews": 2800,
+        "brand": "AULA",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/61WcUsgIRGL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CX4SCGT3?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-12"
+    },
+    {
+        "id": "10000",
+        "name": "AULA 99 Key Keyboard, Tri-Mode Bluetooth/2.4GHz/USB-C Cute Creamy Gaming Keyboard with Number Pad RGB Backlit, Media Knob Custom Mechanical Feel Computer Keyboards for MAC Xbox PC Gamer - Purple",
+        "amazon_asin": "B0D9M75HS5",
+        "price": "$39.99",
+        "rating": 4.3,
+        "reviews": 1300,
+        "brand": "AULA",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61Ntx2wRRZL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0D9M75HS5?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-12"
+    },
+    {
+        "id": "10000",
+        "name": "AULA S98 Pro Wireless Mechanical Keyboard with Screen & Knob,2.4GHz/USB-C/BT5.0 Hot Swappable Creamy Keyboard,Pre-lubed Linear Switches,Side Printed PBT Keycaps,RGB Backlit Gaming Keyboards",
+        "amazon_asin": "B0DKNLMD9D",
+        "price": "$71.98",
+        "rating": 4.6,
+        "reviews": 564,
+        "brand": "AULA",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/71+WPdLb6tL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DKNLMD9D?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-12"
+    },
+    {
+        "id": "10000",
+        "name": "Wireless Keyboard and Mouse Combo,2.4G Full Size Wave Keys Ergonomic Keyboard with Wrist Rest for Natural Typing, 3 DPI Adjustable Ergonomic Silent Mouse for Computer/Laptop/Windows/Mac (Gray)",
+        "amazon_asin": "B0FBR4Y11Y",
+        "price": "$35.99",
+        "rating": 4.1,
+        "reviews": 883,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71wmjN8M-BL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FBR4Y11Y?tag=mechkeyshub-20",
+        "categories": [
+            "Silent",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-12"
+    },
+    {
+        "id": "10000",
+        "name": "RK ROYAL KLUDGE RK100 Wireless Mechanical Keyboard RGB Backlit Bluetooth5.1/2.4G/Wired 96% Full Size 100-Key Hot Swappable Gaming Keyboard Brown Switch Carbon",
+        "amazon_asin": "B08JCVPZPQ",
+        "price": "$62.99",
+        "rating": 4.2,
+        "reviews": 563,
+        "brand": "RK Royal Kludge",
+        "layout": "Full Size",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/713MMRAIaUL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B08JCVPZPQ?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-12"
+    },
+    {
+        "id": "10000",
+        "name": "MOFII AK96 Mechanical Gaming Keyboard, Full Keys LED Backlit Programmable, Plug and Play USB A/C Wired Computer Custom Keyboard with Sound/Light Control Knob for Win/Mac - Gray & White",
+        "amazon_asin": "B0FGXHQR8S",
+        "price": "$21.99",
+        "rating": 4.5,
+        "reviews": 104,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71UdxZDWEvL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FGXHQR8S?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-12"
+    },
+    {
+        "id": "10000",
+        "name": "Flow Lite 84 Keys Low Profile Mechanical Keyboard, 75% Swappable Rechargeable Wireless Keyboard with 2.4G Receiver, Bluetooth and Wired Connection for Windows, Mac/Specter Linear Switches (Off-White)",
+        "amazon_asin": "B0DP2W7BRF",
+        "price": "$89.99",
+        "rating": 4.4,
+        "reviews": 870,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/61z5Q8bkrkL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DP2W7BRF?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-12"
+    },
+    {
+        "id": "10000",
+        "name": "One 3 Mini Aura 60% Mechanical Keyboard: Quack Mechanics Dampening, Hot-Swappable Cherry MX Slient Red Switches, High-Density PBT Tripleshot Keycaps, RGB, US, Black",
+        "amazon_asin": "B0BSP1Y7L4",
+        "price": "$0",
+        "rating": 5,
+        "reviews": 7,
+        "brand": "Cherry",
+        "layout": "60%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71JUxUfS3QL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BSP1Y7L4?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-12"
+    },
+    {
+        "id": "10000",
+        "name": "K10 HE Hall Effect Keyboard Wireless, Magnetic Switch Hot Swappable, Adjustable Actuation Rapid Trigger Mode with Aluminum + Wood Frame, Full-Size Custom RGB for Mac Windows Linux - White",
+        "amazon_asin": "B0DXZF4D4S",
+        "price": "$144.99",
+        "rating": 4.3,
+        "reviews": 412,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61akip8ZtZL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DXZF4D4S?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-12"
     }
 ];
