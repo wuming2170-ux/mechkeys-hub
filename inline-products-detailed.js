@@ -10011,5 +10011,42 @@ const topProducts = [
         ],
         "source": "serpapi",
         "scraped_at": "2026-04-12"
+    },
+    {
+        "id": "10001",
+        "name": "New Red Edition FC980M PD White Blue Star Meet 5 Different Types of High-End Mechanical Keyboards and find a Switch That Suits You. (Blue Switch)",
+        "amazon_asin": "B08PB61J5F",
+        "price": "$0",
+        "rating": 5,
+        "reviews": 1,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Clicky",
+        "image": "https://m.media-amazon.com/images/I/61Q777NGQhL._AC_UL320_.jpg",
+        "link": "https://www.amazon.com/dp/B08PB61J5F?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-13"
+    },
+    {
+        "id": "10001",
+        "name": "One 3 Mini Aura 60% Mechanical Keyboard: Quack Mechanics Dampening, Hot-Swappable Cherry MX Red Switches, High-Density PBT Tripleshot Keycaps, RGB, US, White",
+        "amazon_asin": "B0BSP3HV18",
+        "price": "$109.99",
+        "rating": 4.8,
+        "reviews": 13,
+        "brand": "Cherry",
+        "layout": "60%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71jZDOe+5UL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BSP3HV18?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-13"
     }
 ];

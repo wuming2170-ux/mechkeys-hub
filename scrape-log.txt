@@ -258,3 +258,17 @@
 [2026-04-12T22:04:25.680Z]    Cherry: 1 款
 [2026-04-12T22:04:25.725Z] 更新网站统计: 产品418, 品牌23
 [2026-04-12T22:04:25.725Z] ========== 抓取完成: 9 款新产品 ==========
+[2026-04-13T22:03:00.868Z] ========== 开始抓取: 2026-04-13T22:03:00.868Z ==========
+[2026-04-13T22:03:00.869Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-13T22:03:12.959Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-13T22:03:20.342Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-13T22:03:30.788Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-13T22:03:40.531Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-13T22:03:41.947Z] 新增产品: B08PB61J5F - Other - New Red Edition FC980M PD White Blue Star Meet 5 D
+[2026-04-13T22:03:46.452Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-13T22:03:49.097Z] 新增产品: B0BSP3HV18 - Cherry - One 3 Mini Aura 60% Mechanical Keyboard: Quack Mec
+[2026-04-13T22:03:53.625Z] 保存成功: 2 款新产品, 总计 420
+[2026-04-13T22:03:53.626Z]    Other: 1 款
+[2026-04-13T22:03:53.626Z]    Cherry: 1 款
+[2026-04-13T22:03:53.663Z] 更新网站统计: 产品420, 品牌23
+[2026-04-13T22:03:53.663Z] ========== 抓取完成: 2 款新产品 ==========
