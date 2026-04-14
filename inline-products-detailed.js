@@ -10048,5 +10048,211 @@ const topProducts = [
         ],
         "source": "serpapi",
         "scraped_at": "2026-04-13"
+    },
+    {
+        "id": "10002",
+        "name": "RedThunder K10 Wired Gaming Keyboard and Mouse and Wrist Rest Combo, RGB Backlit, Mechanical Feel Anti-ghosting Keyboard + 7D 7200 DPI Mice+Soft Leather Wrist Rest 3 in 1 PC Gamer Accessories(Black)",
+        "amazon_asin": "B09N9FR2FH",
+        "price": "$39.99",
+        "rating": 4.5,
+        "reviews": 1900,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71RyPHQp6ML._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09N9FR2FH?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-14"
+    },
+    {
+        "id": "10002",
+        "name": "Redragon K582 RGB Mechanical Gaming Keyboard, 100% 104 Keys Standard Layout Gaming Keyboard with Double-Shot ABS Keycaps, Dynamic 16.8M RGB Backlit & Linear Red Switch, Redefine Software Supported",
+        "amazon_asin": "B07KCRTN9Q",
+        "price": "$32.99",
+        "rating": 4.5,
+        "reviews": 5000,
+        "brand": "Redragon",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/61uofDvRldS._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B07KCRTN9Q?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-14"
+    },
+    {
+        "id": "10002",
+        "name": "Gurjot Wireless Mechanical Keyboard, 75% Hot Swappable Custom Keyboard with Knob,PBT Keycaps,BT5.0/2.4GHz/USB-C,RGB Backlit, Mechanical Gaming Keyboards for PC/Tablet/PS/Xbox",
+        "amazon_asin": "B0FH6MV5VY",
+        "price": "$41.99",
+        "rating": 4.3,
+        "reviews": 46,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71I-G4mW7iL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FH6MV5VY?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-14"
+    },
+    {
+        "id": "10002",
+        "name": "SOLAKAKA KI99 Pro 96% Wireless Mechanical Keyboard, RGB Gaming Keyboard, Hot-Swappable Pre-Lubed Switches, Gasket Structure Creamy Keyboards (Gradient-Black, Non-Silent Version)",
+        "amazon_asin": "B0F6376QK8",
+        "price": "$66.89",
+        "rating": 4.7,
+        "reviews": 236,
+        "brand": "SOLAKAKA",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61K6Zi3SR2L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0F6376QK8?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-14"
+    },
+    {
+        "id": "10002",
+        "name": "K4 Wireless Bluetooth/USB Wired Gaming Mechanical Keyboard, Compact 100 Keys RGB LED Backlit Gateron Brown Switch N-Key Rollover, Aluminum Frame for Mac Windows, Version 2",
+        "amazon_asin": "B08LYMDYV9",
+        "price": "$99.99",
+        "rating": 4.4,
+        "reviews": 697,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/61xgXGaP2-L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B08LYMDYV9?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-14"
+    },
+    {
+        "id": "10002",
+        "name": "K617 Fizz 60% Wired RGB Gaming Keyboard, 61 Keys Hot-Swap Compact Mechanical Keyboard w/White and Grey Color Keycaps, Linear Red Switch, Pro Driver/Software Supported",
+        "amazon_asin": "B09BVCVTBC",
+        "price": "$26.99",
+        "rating": 4.6,
+        "reviews": 5500,
+        "brand": "Other",
+        "layout": "60%",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/610P9MPegbL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09BVCVTBC?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-14"
+    },
+    {
+        "id": "10002",
+        "name": "Typewriter Style Mechanical Gaming Keyboard, Black Retro Punk Gaming Keyboard with RGB Backlit, 104 Keys Blue Switch Wired Cute Keyboards, Round Keycaps for Windows/Mac/PC",
+        "amazon_asin": "B09DK9CSTQ",
+        "price": "$35.99",
+        "rating": 4.3,
+        "reviews": 6600,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Clicky",
+        "image": "https://m.media-amazon.com/images/I/8196nDEwHnL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09DK9CSTQ?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-14"
+    },
+    {
+        "id": "10002",
+        "name": "M98 Wireless Mechanical Keyboard w/Screen & Knob, 96% Gaming Keyboard BT/2.4G/USB-C, Hot Swappable Custom Gaming Creamy Keyboard,with 8000mAh Battery",
+        "amazon_asin": "B0FVDVR1PC",
+        "price": "$62.26",
+        "rating": 4.7,
+        "reviews": 19,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71fH1AScO6L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FVDVR1PC?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-14"
+    },
+    {
+        "id": "10002",
+        "name": "S101-3 PRO Gaming Keyboard and Mouse, RGB Backlit Programmable Keyboard Mouse with Software, Independent Macro Record Keys, Value Combo Set, New Update Version",
+        "amazon_asin": "B00NLZUM36",
+        "price": "$39.99",
+        "rating": 4.5,
+        "reviews": 51200,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/81OG51gWHVL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B00NLZUM36?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-14"
+    },
+    {
+        "id": "10002",
+        "name": "K585 DITI Wired One-Handed RGB Mechanical Gaming Keyboard, 42 Keys Type-C Professional Gaming Keypad w/Upgraded Hot-Swappable Socket, 7 Onboard Macro Keys & Detachable Wrist Rest",
+        "amazon_asin": "B07NBJVH4G",
+        "price": "$32.99",
+        "rating": 4.4,
+        "reviews": 7300,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71zS0BekOfL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B07NBJVH4G?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-14"
+    },
+    {
+        "id": "10002",
+        "name": "Duck Mechanical Keyboard with RGB Backlit Lighting - Wired USB-C Cute Duck Theme Keyboard with Quack Sound & Volume Control",
+        "amazon_asin": "B0GMLLY8FK",
+        "price": "$0",
+        "rating": "0",
+        "reviews": "0",
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/714FSz9zYRL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0GMLLY8FK?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-14"
     }
 ];

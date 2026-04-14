@@ -272,3 +272,27 @@
 [2026-04-13T22:03:53.626Z]    Cherry: 1 款
 [2026-04-13T22:03:53.663Z] 更新网站统计: 产品420, 品牌23
 [2026-04-13T22:03:53.663Z] ========== 抓取完成: 2 款新产品 ==========
+[2026-04-14T22:01:07.036Z] ========== 开始抓取: 2026-04-14T22:01:07.036Z ==========
+[2026-04-14T22:01:07.037Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-14T22:01:09.771Z] 新增产品: B09N9FR2FH - Other - RedThunder K10 Wired Gaming Keyboard and Mouse and
+[2026-04-14T22:01:14.326Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-14T22:01:21.243Z] 新增产品: B07KCRTN9Q - Redragon - Redragon K582 RGB Mechanical Gaming Keyboard, 100%
+[2026-04-14T22:01:25.766Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-14T22:01:27.456Z] 新增产品: B0FH6MV5VY - Other - Gurjot Wireless Mechanical Keyboard, 75% Hot Swapp
+[2026-04-14T22:01:28.971Z] 新增产品: B0F6376QK8 - SOLAKAKA - SOLAKAKA KI99 Pro 96% Wireless Mechanical Keyboard
+[2026-04-14T22:01:33.483Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-14T22:01:35.710Z] 新增产品: B08LYMDYV9 - Other - K4 Wireless Bluetooth/USB Wired Gaming Mechanical 
+[2026-04-14T22:01:40.215Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-14T22:01:50.003Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-14T22:01:52.781Z] 新增产品: B09BVCVTBC - Other - K617 Fizz 60% Wired RGB Gaming Keyboard, 61 Keys H
+[2026-04-14T22:01:54.289Z] 新增产品: B09DK9CSTQ - Other - Typewriter Style Mechanical Gaming Keyboard, Black
+[2026-04-14T22:01:55.794Z] 新增产品: B0FVDVR1PC - Other - M98 Wireless Mechanical Keyboard w/Screen & Knob, 
+[2026-04-14T22:01:57.300Z] 新增产品: B00NLZUM36 - Other - S101-3 PRO Gaming Keyboard and Mouse, RGB Backlit 
+[2026-04-14T22:01:58.806Z] 新增产品: B07NBJVH4G - Other - K585 DITI Wired One-Handed RGB Mechanical Gaming K
+[2026-04-14T22:02:00.312Z] 新增产品: B0GMLLY8FK - Other - Duck Mechanical Keyboard with RGB Backlit Lighting
+[2026-04-14T22:02:04.831Z] 保存成功: 11 款新产品, 总计 431
+[2026-04-14T22:02:04.832Z]    Other: 9 款
+[2026-04-14T22:02:04.832Z]    Redragon: 1 款
+[2026-04-14T22:02:04.832Z]    SOLAKAKA: 1 款
+[2026-04-14T22:02:04.873Z] 更新网站统计: 产品431, 品牌23
+[2026-04-14T22:02:04.873Z] ========== 抓取完成: 11 款新产品 ==========
