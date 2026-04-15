@@ -296,3 +296,27 @@
 [2026-04-14T22:02:04.832Z]    SOLAKAKA: 1 款
 [2026-04-14T22:02:04.873Z] 更新网站统计: 产品431, 品牌23
 [2026-04-14T22:02:04.873Z] ========== 抓取完成: 11 款新产品 ==========
+[2026-04-15T22:02:53.540Z] ========== 开始抓取: 2026-04-15T22:02:53.540Z ==========
+[2026-04-15T22:02:53.542Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-15T22:02:59.309Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-15T22:03:01.555Z] 新增产品: B079HTZQYV - Other - TECWARE Phantom 87 Key RGB Mechanical Gaming Keybo
+[2026-04-15T22:03:03.080Z] 新增产品: B08HR74WV4 - Corsair - Corsair K100 RGB Optical-Mechanical Wired Gaming K
+[2026-04-15T22:03:07.594Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-15T22:03:11.073Z] 新增产品: B0GLGF9MGK - Redragon - Redragon K526 PRO RGB Wireless Membrane Gaming Key
+[2026-04-15T22:03:12.594Z] 新增产品: B097BGS36R - Magegee - MageGee 75% Mechanical Gaming Keyboard, Blue Switc
+[2026-04-15T22:03:17.106Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-15T22:03:20.262Z] 新增产品: B09JG81YRT - Keychron - C2 Full Size Wired Mechanical Keyboard Compatible 
+[2026-04-15T22:03:21.789Z] 新增产品: B0C49H3BN1 - Other - Q5 Pro Wireless QMK/VIA Mechanical Keyboard, 96% L
+[2026-04-15T22:03:26.294Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-15T22:03:31.739Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-15T22:03:33.519Z] 新增产品: B0GKCCP1MD - Other - OK-M - 65% Wireless Mechanical Gaming Keyboard : G
+[2026-04-15T22:03:35.053Z] 新增产品: B0DCZYQ5XL - Cherry - MX 2.0S, Wired Mechanical Gaming Keyboard with RGB
+[2026-04-15T22:03:39.570Z] 保存成功: 8 款新产品, 总计 439
+[2026-04-15T22:03:39.571Z]    Other: 3 款
+[2026-04-15T22:03:39.571Z]    Corsair: 1 款
+[2026-04-15T22:03:39.571Z]    Redragon: 1 款
+[2026-04-15T22:03:39.571Z]    Magegee: 1 款
+[2026-04-15T22:03:39.572Z]    Keychron: 1 款
+[2026-04-15T22:03:39.572Z]    Cherry: 1 款
+[2026-04-15T22:03:39.622Z] 更新网站统计: 产品439, 品牌24
+[2026-04-15T22:03:39.622Z] ========== 抓取完成: 8 款新产品 ==========

@@ -10254,5 +10254,152 @@ const topProducts = [
         ],
         "source": "serpapi",
         "scraped_at": "2026-04-14"
+    },
+    {
+        "id": "10003",
+        "name": "TECWARE Phantom 87 Key RGB Mechanical Gaming Keyboard | Outemu Brown Switch | 16.8M Color LED Lighting | 18 Pre-Set | Low Latency | N-Key Rollover | Software Customizable Keys | Wired USB Connection",
+        "amazon_asin": "B079HTZQYV",
+        "price": "$44.99",
+        "rating": 4.6,
+        "reviews": 6300,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/71+GqIHjlYL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B079HTZQYV?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-15"
+    },
+    {
+        "id": "10003",
+        "name": "Corsair K100 RGB Optical-Mechanical Wired Gaming Keyboard - QWERTY US Layout, OPX Switches - PBT Double-Shot Keycaps - Elgato Stream Deck and iCUE Compatible - Black",
+        "amazon_asin": "B08HR74WV4",
+        "price": "$199.99",
+        "rating": 4.5,
+        "reviews": 4600,
+        "brand": "Corsair",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71QCqjg5j8L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B08HR74WV4?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-15"
+    },
+    {
+        "id": "10003",
+        "name": "Redragon K526 PRO RGB Wireless Membrane Gaming Keyboard, 104 Keys Mechanical-Feel Keyboard w/LED Info Display, Media/Backlit Knob Control, Smooth Linear Switch & Software Supported",
+        "amazon_asin": "B0GLGF9MGK",
+        "price": "$25.64",
+        "rating": 4.1,
+        "reviews": 22,
+        "brand": "Redragon",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/615LGFVKipL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0GLGF9MGK?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-15"
+    },
+    {
+        "id": "10003",
+        "name": "MageGee 75% Mechanical Gaming Keyboard, Blue Switch, LED Backlit, 87 Keys Compact TKL Wired Computer Keyboards for Windows Laptop PC Gamer - Grey/Black",
+        "amazon_asin": "B097BGS36R",
+        "price": "$27.89",
+        "rating": 4.2,
+        "reviews": 4700,
+        "brand": "Magegee",
+        "layout": "75%",
+        "switch": "Clicky",
+        "image": "https://m.media-amazon.com/images/I/71w8BcErW2L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B097BGS36R?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-15"
+    },
+    {
+        "id": "10003",
+        "name": "C2 Full Size Wired Mechanical Keyboard Compatible with Mac, Keychron Red Switch, 104 Keys ABS Retro Color Keycaps Gaming Keyboard for Windows, USB-C Type-C Braid Cable",
+        "amazon_asin": "B09JG81YRT",
+        "price": "$48.59",
+        "rating": 4.4,
+        "reviews": 734,
+        "brand": "Keychron",
+        "layout": "Full Size",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/613jmltWw9L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09JG81YRT?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-15"
+    },
+    {
+        "id": "10003",
+        "name": "Q5 Pro Wireless QMK/VIA Mechanical Keyboard, 96% Layout Programmable Knob Full Aluminum Double-Gasket Design, Hot-swappable K Pro Banana Switch for Mac Windows Linux - Black",
+        "amazon_asin": "B0C49H3BN1",
+        "price": "$164.99",
+        "rating": 4,
+        "reviews": 21,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61JeS0Po9vL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0C49H3BN1?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-15"
+    },
+    {
+        "id": "10003",
+        "name": "OK-M - 65% Wireless Mechanical Gaming Keyboard : Gasket-Mount Design, Hot-Swappable Switches, Five-Layer Acoustic Dampening, RGB, USB-C, 2.4Ghz, Bluetooth, Wine Red Switch",
+        "amazon_asin": "B0GKCCP1MD",
+        "price": "$69.99",
+        "rating": 4.1,
+        "reviews": 6,
+        "brand": "Other",
+        "layout": "65%",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/71xoVChNoTL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0GKCCP1MD?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-15"
+    },
+    {
+        "id": "10003",
+        "name": "MX 2.0S, Wired Mechanical Gaming Keyboard with RGB-Lighting, Designed in Germany, Full Key Rollover, Anti Ghosting, Cherry MX2A Blue Switches, White",
+        "amazon_asin": "B0DCZYQ5XL",
+        "price": "$49.99",
+        "rating": 4.2,
+        "reviews": 44,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71vhDT9fvVL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DCZYQ5XL?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-15"
     }
 ];
