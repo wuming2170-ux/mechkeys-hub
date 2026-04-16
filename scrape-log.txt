@@ -320,3 +320,33 @@
 [2026-04-15T22:03:39.572Z]    Cherry: 1 款
 [2026-04-15T22:03:39.622Z] 更新网站统计: 产品439, 品牌24
 [2026-04-15T22:03:39.622Z] ========== 抓取完成: 8 款新产品 ==========
+[2026-04-16T22:02:45.609Z] ========== 开始抓取: 2026-04-16T22:02:45.609Z ==========
+[2026-04-16T22:02:45.609Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-16T22:02:49.180Z] 新增产品: B0FWCG4NDG - SOLAKAKA - SOLAKAKA KI99 Pro Wireless Mechanical Keyboard Qui
+[2026-04-16T22:02:53.699Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-16T22:02:55.083Z] 新增产品: B0D1G53TZ2 - Logitech - Logitech G915 X Low-Profile Wired Mechanical Gamin
+[2026-04-16T22:02:56.591Z] 新增产品: B0DT72GPXF - Other - YUNZII AL80 Wireless Mechanical Keyboard,Full Alum
+[2026-04-16T22:03:01.126Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-16T22:03:03.287Z] 新增产品: B0DKHHWJT3 - Redragon - Redragon K719 Wireless Gasket Gaming Keyboard w/Hy
+[2026-04-16T22:03:07.795Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-16T22:03:09.394Z] 新增产品: B0DT3HZYVZ - Other - K2 75% Layout Bluetooth Wireless Mechanical Gaming
+[2026-04-16T22:03:10.908Z] 新增产品: B0DMCXJ9VB - Other - V6 Max Wireless Custom Mechanical Keyboard, 2.4 GH
+[2026-04-16T22:03:12.420Z] 新增产品: B0FYDG91JK - Other - KJ1 Low Profile Wireless Mechanical Keyboard - 75%
+[2026-04-16T22:03:13.925Z] 新增产品: B08MLJMDNN - Keychron - K10 Full Size 104 Keys Bluetooth Wireless Mechanic
+[2026-04-16T22:03:18.435Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-16T22:03:20.910Z] 新增产品: B0CSYD3W8W - Other - Q6 Max QMK/LAUNCHER Wireless Bluetooth/2.4 GHz/USB
+[2026-04-16T22:03:22.429Z] 新增产品: B0FFG49DGP - Other - Air75 V3 Hot Swappable Wireless Mechanical Keyboar
+[2026-04-16T22:03:26.944Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-16T22:03:29.690Z] 新增产品: B0GKB2HVGC - Other - FL·ESPORTS OG104 Retro Tri-Mode Mechanical Keyboar
+[2026-04-16T22:03:31.208Z] 新增产品: B0BSNYZ9CH - Cherry - One 3 Aura Black 100% Mechanical Keyboard: Quack M
+[2026-04-16T22:03:32.716Z] 新增产品: B0FP55LLSJ - Other - Halo65 V2 Wireless Mechanical Keyboard with PBT Ke
+[2026-04-16T22:03:34.228Z] 新增产品: B09RYYLRDQ - Cherry - One 3 Matcha Full-Size Keyboard (Cherry MX Silent 
+[2026-04-16T22:03:38.752Z] 保存成功: 14 款新产品, 总计 453
+[2026-04-16T22:03:38.752Z]    SOLAKAKA: 1 款
+[2026-04-16T22:03:38.752Z]    Logitech: 1 款
+[2026-04-16T22:03:38.752Z]    Other: 8 款
+[2026-04-16T22:03:38.753Z]    Redragon: 1 款
+[2026-04-16T22:03:38.753Z]    Keychron: 1 款
+[2026-04-16T22:03:38.753Z]    Cherry: 2 款
+[2026-04-16T22:03:38.801Z] 更新网站统计: 产品453, 品牌24
+[2026-04-16T22:03:38.801Z] ========== 抓取完成: 14 款新产品 ==========
