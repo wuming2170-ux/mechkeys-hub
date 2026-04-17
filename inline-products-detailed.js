@@ -10665,5 +10665,175 @@ const topProducts = [
         ],
         "source": "serpapi",
         "scraped_at": "2026-04-16"
+    },
+    {
+        "id": "10005",
+        "name": "Ajazz AK35I V4 Customizable Wireless Gaming Mechanical Keyboard, Wired/Wireless 2.4G/BT, Gasket Structure, 10000mAh Battery, Full-Color RGB, 1.14-inch Color Screen, Knob, Multi-Function Keys.",
+        "amazon_asin": "B0FNWWKG4N",
+        "price": "$95.39",
+        "rating": 3.8,
+        "reviews": 5,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61PuaUcHeKL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FNWWKG4N?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-17"
+    },
+    {
+        "id": "10005",
+        "name": "ASUS ROG Azoth Wireless Mechanical Gaming Keyboard – 75% TKL, Tri-Mode Connectivity, Hot Swappable Pre-lubed ROG NX Snow Linear Switches, PBT Keycaps, RGB, OLED Display, PC/Mac Support - Black",
+        "amazon_asin": "B0CP6J59XB",
+        "price": "$199.99",
+        "rating": 4.4,
+        "reviews": 398,
+        "brand": "ASUS",
+        "layout": "75%",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/61UvNbsmDrL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CP6J59XB?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-17"
+    },
+    {
+        "id": "10005",
+        "name": "Q6 Max QMK/VIA Wireless Custom Mechanical Keyboard Barebone Knob Version, Full-Metal Hot-Swappable RGB Backlight 2.4 GHz/Bluetooth/Type-C Wired Gaming Keyboard for Mac/Windows/Linux - White",
+        "amazon_asin": "B0CSYGRQ5Q",
+        "price": "$199.99",
+        "rating": 4.2,
+        "reviews": 31,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/51432HfDYPL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CSYGRQ5Q?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-17"
+    },
+    {
+        "id": "10005",
+        "name": "C3 HE TKL Wired Mechanical Keyboard (80% Layout), Magnetic Switches with Adjustable Actuation, Rapid Trigger, RGB Backlight & Side Lighting, Double-Shot PBT Keycaps – Mac/Windows/Linux",
+        "amazon_asin": "B0G5F43GXK",
+        "price": "$89.99",
+        "rating": 5,
+        "reviews": 11,
+        "brand": "Other",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71+Su4oJ+xL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0G5F43GXK?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-17"
+    },
+    {
+        "id": "10005",
+        "name": "KJ1 Low Profile Wireless Mechanical Keyboard - 75% Layout Red Switch, QMK RGB Backlit, 2.4G/Bluetooth/USB-C, Double-Shot PBT Keycaps, 2000mAh Battery, Mac/Win/Linux Compatible - Black",
+        "amazon_asin": "B0FYDFJGHK",
+        "price": "$47.99",
+        "rating": 3,
+        "reviews": 1,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/71mO9-SdoEL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FYDFJGHK?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-17"
+    },
+    {
+        "id": "10005",
+        "name": "V5 Max Custom Wireless Mechanical Gaming Keyboard with Number Pad, 96% Layout QMK/VIA 2.4 GHz/Bluetooth 5.1/Wired, RGB Backlit Hot-Swappable Gateron Brown Switch for Mac Windows Linux",
+        "amazon_asin": "B0CR17L7C4",
+        "price": "$101.99",
+        "rating": 4,
+        "reviews": 54,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/612+emUXPDL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CR17L7C4?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-17"
+    },
+    {
+        "id": "10005",
+        "name": "Q6 Max QMK/LAUNCHER Wireless Bluetooth/2.4 GHz/USB-C Wired Custom Mechanical Keyboard, Full Size Programmable Knob RGB Backlit Hot-Swappable Gateron Brown Switch for Mac Windows Linux - White",
+        "amazon_asin": "B0CSXXJLVC",
+        "price": "$219.99",
+        "rating": 4.2,
+        "reviews": 13,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/61hiKhBUZuL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CSXXJLVC?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-17"
+    },
+    {
+        "id": "10005",
+        "name": "Flow2 Low-Profile Mechanical Keyboard, Aluminum Alloy with Void Linear Switches, Rechargeable Wireless Keyboards with 3 Mode Connections for Windows, macOS (Silver with Silence, 100 Keys)",
+        "amazon_asin": "B0FKLTZL13",
+        "price": "$189.99",
+        "rating": 3.9,
+        "reviews": 268,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/61YNZRCJnuL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FKLTZL13?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-17"
+    },
+    {
+        "id": "10005",
+        "name": "Zero 6108 Classic Black Hotswap Bluetooth RGB Mechanical Keyboard - Cherry MX2A Red",
+        "amazon_asin": "B0DHW4GW5V",
+        "price": "$69.99",
+        "rating": 4.3,
+        "reviews": 11,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71AwtccUQ2L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DHW4GW5V?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Hot-swap",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-17"
     }
 ];

@@ -350,3 +350,25 @@
 [2026-04-16T22:03:38.753Z]    Cherry: 2 款
 [2026-04-16T22:03:38.801Z] 更新网站统计: 产品453, 品牌24
 [2026-04-16T22:03:38.801Z] ========== 抓取完成: 14 款新产品 ==========
+[2026-04-17T22:02:38.706Z] ========== 开始抓取: 2026-04-17T22:02:38.706Z ==========
+[2026-04-17T22:02:38.707Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-17T22:02:44.628Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-17T22:02:46.278Z] 新增产品: B0FNWWKG4N - Other - Ajazz AK35I V4 Customizable Wireless Gaming Mechan
+[2026-04-17T22:02:50.819Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-17T22:02:53.104Z] 新增产品: B0CP6J59XB - ASUS - ASUS ROG Azoth Wireless Mechanical Gaming Keyboard
+[2026-04-17T22:02:57.646Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-17T22:03:00.005Z] 新增产品: B0CSYGRQ5Q - Other - Q6 Max QMK/VIA Wireless Custom Mechanical Keyboard
+[2026-04-17T22:03:01.516Z] 新增产品: B0G5F43GXK - Other - C3 HE TKL Wired Mechanical Keyboard (80% Layout), 
+[2026-04-17T22:03:03.023Z] 新增产品: B0FYDFJGHK - Other - KJ1 Low Profile Wireless Mechanical Keyboard - 75%
+[2026-04-17T22:03:04.529Z] 新增产品: B0CR17L7C4 - Other - V5 Max Custom Wireless Mechanical Gaming Keyboard 
+[2026-04-17T22:03:06.044Z] 新增产品: B0CSXXJLVC - Other - Q6 Max QMK/LAUNCHER Wireless Bluetooth/2.4 GHz/USB
+[2026-04-17T22:03:10.548Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-17T22:03:13.819Z] 新增产品: B0FKLTZL13 - Other - Flow2 Low-Profile Mechanical Keyboard, Aluminum Al
+[2026-04-17T22:03:18.346Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-17T22:03:19.790Z] 新增产品: B0DHW4GW5V - Cherry - Zero 6108 Classic Black Hotswap Bluetooth RGB Mech
+[2026-04-17T22:03:24.308Z] 保存成功: 9 款新产品, 总计 462
+[2026-04-17T22:03:24.309Z]    Other: 7 款
+[2026-04-17T22:03:24.309Z]    ASUS: 1 款
+[2026-04-17T22:03:24.309Z]    Cherry: 1 款
+[2026-04-17T22:03:24.358Z] 更新网站统计: 产品462, 品牌24
+[2026-04-17T22:03:24.358Z] ========== 抓取完成: 9 款新产品 ==========
