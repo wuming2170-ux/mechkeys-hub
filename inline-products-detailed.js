@@ -10835,5 +10835,97 @@ const topProducts = [
         ],
         "source": "serpapi",
         "scraped_at": "2026-04-17"
+    },
+    {
+        "id": "10006",
+        "name": "Rii RK100+ Multiple Color Rainbow LED Backlit Large Size USB Wired Mechanical Feeling Multimedia PC Gaming Keyboard,Office Keyboard for Working or Primer Gaming,Office Device",
+        "amazon_asin": "B0CCZWCPRQ",
+        "price": "$12.73",
+        "rating": 4.4,
+        "reviews": 7800,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61jhVTLFAEL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CCZWCPRQ?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-18"
+    },
+    {
+        "id": "10006",
+        "name": "C2 Full Size 104 Keys Wired Mechanical Gaming Keyboard for Mac Layout, Gateron G Pro Brown Switch/White LED Backlight/Double Shot ABS Keycaps/USB C Computer Keyboard for Windows Laptop",
+        "amazon_asin": "B08CNDQJDN",
+        "price": "$49.63",
+        "rating": 4.6,
+        "reviews": 305,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/61wCpogFktL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B08CNDQJDN?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-18"
+    },
+    {
+        "id": "10006",
+        "name": "OK-M - 75% Wireless Mechanical Gaming Keyboard : Gasket-Mount Design, Hot-Swappable Switches, Five-Layer Acoustic Dampening, RGB, USB-C, 2.4Ghz, Bluetooth, Baby Switch",
+        "amazon_asin": "B0GKCP6CG1",
+        "price": "$79.99",
+        "rating": 4.5,
+        "reviews": 2,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71xoVChNoTL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0GKCP6CG1?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-18"
+    },
+    {
+        "id": "10006",
+        "name": "K2 75% Layout QMK Wireless and Wired Options Mechanical Keyboard Super Banana Switch, RGB Backlit with Shine-Through Double-Shot PBT Keycaps for Mac Windows-Version 3",
+        "amazon_asin": "B0DJQZ9S92",
+        "price": "$71.99",
+        "rating": 5,
+        "reviews": 1,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61HW0i4cCDL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DJQZ9S92?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-18"
+    },
+    {
+        "id": "10006",
+        "name": "Hero 68 HE 60% Gaming Keyboard Wired, Hall Effect Magnetic Switch Keyboard with Adjustable Actuation, Fast Trigger Mode, 8K Hz Polling Rate, 0.125ms Latency,Side Printed PBT Keycaps, RGB Backlit",
+        "amazon_asin": "B0F191HYH2",
+        "price": "$59.99",
+        "rating": 4.7,
+        "reviews": 75,
+        "brand": "Other",
+        "layout": "60%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71V+PkT4Y2L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0F191HYH2?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-18"
     }
 ];

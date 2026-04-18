@@ -372,3 +372,19 @@
 [2026-04-17T22:03:24.309Z]    Cherry: 1 款
 [2026-04-17T22:03:24.358Z] 更新网站统计: 产品462, 品牌24
 [2026-04-17T22:03:24.358Z] ========== 抓取完成: 9 款新产品 ==========
+[2026-04-18T22:02:56.244Z] ========== 开始抓取: 2026-04-18T22:02:56.243Z ==========
+[2026-04-18T22:02:56.244Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-18T22:03:00.672Z] 新增产品: B0CCZWCPRQ - Other - Rii RK100+ Multiple Color Rainbow LED Backlit Larg
+[2026-04-18T22:03:05.173Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-18T22:03:09.896Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-18T22:03:14.576Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-18T22:03:16.627Z] 新增产品: B08CNDQJDN - Other - C2 Full Size 104 Keys Wired Mechanical Gaming Keyb
+[2026-04-18T22:03:21.139Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-18T22:03:26.368Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-18T22:03:28.194Z] 新增产品: B0GKCP6CG1 - Other - OK-M - 75% Wireless Mechanical Gaming Keyboard : G
+[2026-04-18T22:03:29.718Z] 新增产品: B0DJQZ9S92 - Other - K2 75% Layout QMK Wireless and Wired Options Mecha
+[2026-04-18T22:03:31.242Z] 新增产品: B0F191HYH2 - Other - Hero 68 HE 60% Gaming Keyboard Wired, Hall Effect 
+[2026-04-18T22:03:35.762Z] 保存成功: 5 款新产品, 总计 467
+[2026-04-18T22:03:35.762Z]    Other: 5 款
+[2026-04-18T22:03:35.815Z] 更新网站统计: 产品467, 品牌24
+[2026-04-18T22:03:35.815Z] ========== 抓取完成: 5 款新产品 ==========
