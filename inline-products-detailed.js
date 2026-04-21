@@ -8295,7 +8295,7 @@ const topProducts = [
         "id": "9995",
         "name": "Origin Vintage Double Shot PBT Mechanical Keyboard (Cherry MX Silent Red)",
         "amazon_asin": "B0CYCNP4GZ",
-        "price": "$0",
+        "price": "$94.00",
         "rating": 4.3,
         "reviews": 19,
         "brand": "Cherry",
@@ -8307,7 +8307,8 @@ const topProducts = [
             "Silent"
         ],
         "source": "serpapi",
-        "scraped_at": "2026-04-08"
+        "scraped_at": "2026-04-08",
+        "updated": "2026-04-21"
     },
     {
         "id": "9995",
@@ -10241,7 +10242,7 @@ const topProducts = [
         "id": "10002",
         "name": "Duck Mechanical Keyboard with RGB Backlit Lighting - Wired USB-C Cute Duck Theme Keyboard with Quack Sound & Volume Control",
         "amazon_asin": "B0GMLLY8FK",
-        "price": "$0",
+        "price": "$219.00",
         "rating": "0",
         "reviews": "0",
         "brand": "Other",
@@ -10253,7 +10254,8 @@ const topProducts = [
             "Gaming"
         ],
         "source": "serpapi",
-        "scraped_at": "2026-04-14"
+        "scraped_at": "2026-04-14",
+        "updated": "2026-04-21"
     },
     {
         "id": "10003",
@@ -11337,7 +11339,7 @@ const topProducts = [
         "id": "10008",
         "name": "Apex Pro HyperMagnetic Gaming Keyboard — Adjustable Actuation — OLED Screen — RGB – USB Passthrough​",
         "amazon_asin": "B07SVJJCP3",
-        "price": "$0",
+        "price": "$39.99",
         "rating": 4.7,
         "reviews": 4000,
         "brand": "Other",
@@ -11349,7 +11351,8 @@ const topProducts = [
             "Gaming"
         ],
         "source": "serpapi",
-        "scraped_at": "2026-04-21"
+        "scraped_at": "2026-04-21",
+        "updated": "2026-04-21"
     },
     {
         "id": "10008",
