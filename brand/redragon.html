@@ -1,35 +1,4 @@
-<!DOCTY
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redragon Mechanical Keyboards - MechKeys Hub</title>
-    <meta name="description" content="Browse Redragon mechanical keyboards. Redragon specializes in affordable gaming peripherals with impressive features. Hot-swap switches, RGB lighting, macro keys, and solid build quality at budget prices. Great entry point for gaming enthusiasts.">
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Discover the best redragon. Expert reviews and recommendations at MechKeys Hub.">
-    <meta name="keywords" content="redragon, mechanical keyboard, review">
-    <link rel="canonical" href="https://mechkeys-hub.com/redragon.html">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mechkeys-hub.com/redragon.html">
-    <meta property="og:title" content="Redragon - MechKeys Hub">
-    <meta property="og:description" content="Discover the best redragon. Expert reviews and recommendations at MechKeys Hub.">
-    <meta property="og:image" content="https://mechkeys-hub.com/og-image.jpg">
-    <meta property="og:site_name" content="MechKeys Hub">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://mechkeys-hub.com/redragon.html">
-    <meta name="twitter:title" content="Redragon - MechKeys Hub">
-    <meta name="twitter:description" content="Discover the best redragon. Expert reviews and recommendations at MechKeys Hub.">
-    <meta name="twitter:image" content="https://mechkeys-hub.com/og-image.jpg">
-
-    <link rel="canonical" href="https://mechkeys-hub.vercel.app/brand/redragon.html">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,302 +13,25 @@
         .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
         .card-hover { transition: all 0.3s ease; }
         .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(99,102,241,0.15); }
-    
-        /* Mobile Navigation */
-        .mobile-menu-btn { display: none; }
-        .mobile-nav { display: none; }
-        
-        @media (max-width: 1023px) {
-            .mobile-menu-btn { display: flex; }
-            .desktop-nav { display: none !important; }
-            .mobile-nav {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: rgb(15 23 42 / 0.98);
-                backdrop-filter: blur(12px);
-                border-bottom: 1px solid rgba(255,255,255,0.1);
-                padding: 1rem;
-                flex-direction: column;
-                gap: 0.25rem;
-                z-index: 100;
-            }
-            .mobile-nav.active { display: flex; }
-            .mobile-nav button,
-            .mobile-nav .nav-link {
-                padding: 0.75rem 1rem;
-            min-height: 44px;
-            min-width: 44px; 
-                font-size: 1rem;
-                display: flex;
-                align-items: center;
-                gap: 0.75rem;
-            }
-            .mobile-nav .nav-link i { width: 20px; text-align: center; }
-        }
-        
-        /* Touch-friendly product cards on mobile */
-        @media (max-width: 640px) {
-            .product-grid { grid-template-columns: 1fr !important; }
-            .product-card { padding: 1rem; }
-            h1, h2 { font-size: 1.75rem !important; }
-            .hero-section { padding: 2rem 0.5rem !important; }
-            .stats-grid { grid-template-columns: repeat(2, 1fr) !important; }
-            .container { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
-            .grid { grid-template-columns: 1fr !important; }
-            .filters { flex-direction: column !important; gap: 0.5rem !important; }
-            .filter-btn { width: 100% !important; text-align: center !important; }
-        }
     </style>
-
-<style>
-.nav-btn {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
-    color: #e5e7eb;
-    font-size: 0.9375rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-}
-.nav-btn:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.nav-btn i {
-    font-size: 0.875rem;
-}
-.nav-btn-primary {
-    background: rgba(99, 102, 241, 0.2);
-    color: #a5b4fc;
-    border: 1px solid rgba(99, 102, 241, 0.4);
-}
-.nav-btn-primary:hover {
-    background: rgba(99, 102, 241, 0.35);
-    color: white;
-}
-.mobile-nav-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem;
-    border-radius: 0.75rem;
-    color: #d1d5db;
-    font-size: 0.75rem;
-    font-weight: 600;
-    transition: all 0.2s;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-decoration: none;
-}
-.mobile-nav-btn:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.mobile-nav-btn i {
-    font-size: 1.25rem;
-    margin-bottom: 0.25rem;
-}
-</style>
-
-
-<style>
-.nav-link {
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
-    color: #d1d5db;
-    font-size: 0.9375rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-}
-.nav-link:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.1);
-}
-.nav-link-primary {
-    background: rgba(99, 102, 241, 0.2);
-    color: #a5b4fc;
-    border: 1px solid rgba(99, 102, 241, 0.4);
-}
-.nav-link-primary:hover {
-    background: rgba(99, 102, 241, 0.35);
-    color: white;
-}
-.mobile-nav-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem;
-    border-radius: 0.75rem;
-    color: #d1d5db;
-    font-size: 0.75rem;
-    font-weight: 600;
-    transition: all 0.2s;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-decoration: none;
-}
-.mobile-nav-link:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.mobile-nav-link i {
-    font-size: 1.25rem;
-    margin-bottom: 0.25rem;
-}
-</style>
-
-
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://mechkeys-hub.com/"
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Redragon",
-            "item": "https://mechkeys-hub.com/redragon.html"
-        }
-    ]
-}
-    </script>
-
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "MechKeys Hub",
-    "url": "https://mechkeys-hub.com/",
-    "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://mechkeys-hub.com/search.html?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-    }
-}
-    </script>
 </head>
 <body class="gradient-bg min-h-screen text-white">
-    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
-        <div class="max-w-7xl mx-auto px-4 py-4">
-            <div class="flex items-center justify-between">
-                <a href="/" class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-xl">⌨️</div>
-                    <span class="font-bold text-xl">MechKeys Hub</span>
-                </a>
-                <button class="mobile-menu-btn md:hidden p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu">
-                    <i class="fas fa-bars text-xl" id="menu-icon"></i>
-                </button>
-                <nav class="desktop-nav flex items-center gap-1">
-                    <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                    <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                    <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                    <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                    <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                    <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                    <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
-                    <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                    <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
-                    <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
-                    <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
-                </nav>
-            </div>
-        </div>
-    
-            <!-- Mobile Navigation -->
-            <nav class="mobile-nav" id="mobile-nav">
-                <!-- Search in Mobile Menu -->
-                <div class="mobile-search-wrapper px-3 py-2 border-b border-white/10">
-                    <form action="/search.html" method="get" class="flex items-center">
-                        <input type="text" name="q" placeholder="Search keyboards..." 
-                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-base" focus:outline-none focus:border-indigo-500">
-                        <button type="submit" class="ml-2 px-3 py-2 bg-indigo-600 rounded-lg">
-                            <i class="fas fa-search text-sm"></i>
-                        </button>
-                    </form>
-                </div>
-
-                <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
-                <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
-                <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
-                <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
+    <header class="border-b border-white/10 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="../index.html" class="text-2xl font-bold text-indigo-400">
+                <i class="fas fa-keyboard mr-2"></i>MechKeys Hub
+            </a>
+            <nav class="flex gap-2 flex-wrap">
+                <a href="../index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">All Keyboards</a>
+                <a href="index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Brands</a>
+                <a href="../best-value.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Best Value</a>
+                <a href="../compare.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Compare</a>
+                <a href="../guides.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Guides</a>
             </nav>
         </div>
     </header>
 
-            <!-- Breadcrumb -->
-            <nav aria-label="breadcrumb" class="max-w-7xl mx-auto px-4 py-3">
-                <ol class="flex items-center gap-2 text-sm text-gray-400">
-                    <li><a href="/" class="hover:text-white transition">Home</a></li>
-                    <li><i class="fas fa-chevron-right text-xs"></i></li>
-                    <li class="text-white" id="breadcrumb-current">Redragon</li>
-                </ol>
-            </nav>
-
-    
-    <script>
-        function toggleMobileMenu() {
-            const nav = document.getElementById('mobile-nav');
-            const icon = document.getElementById('menu-icon');
-            nav.classList.toggle('active');
-            if (nav.classList.contains('active')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-times');
-            } else {
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-            }
-        }
-        document.addEventListener('click', function(e) {
-            const nav = document.getElementById('mobile-nav');
-            const btn = document.querySelector('.mobile-menu-btn');
-            if (nav && btn && !nav.contains(e.target) && !btn.contains(e.target) && nav.classList.contains('active')) {
-                nav.classList.remove('active');
-                const icon = document.getElementById('menu-icon');
-                if (icon) {
-                    icon.classList.remove('fa-times');
-                    icon.classList.add('fa-bars');
-                }
-            }
-        });
-    </script>
-<style>
-    </style>
-
-    <script>
-        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
-            var menu = document.getElementById('mobile-menu');
-            var icon = this.querySelector('i');
-            menu.classList.toggle('hidden');
-            icon.classList.toggle('fa-bars');
-            icon.classList.toggle('fa-times');
-        });
-    </script>
-
-<main class="max-w-7xl mx-auto px-4 py-10">
+    <main class="max-w-7xl mx-auto px-4 py-10">
         <div class="mb-6">
             <a href="index.html" class="text-indigo-400 hover:underline text-sm">← All Brands</a>
         </div>
@@ -351,7 +43,7 @@
                 <div class="flex-1">
                     <div class="flex items-center gap-3 mb-2">
                         <h1 class="text-3xl font-bold text-red-400">Redragon</h1>
-                        <span class="bg-red-900/30 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30">22 Products</span>
+                        <span class="bg-red-900/30 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30">31 Products</span>
                     </div>
                     <p class="text-red-400 text-lg mb-2 opacity-80">Gaming Keyboards Under $60</p>
                     <p class="text-slate-300 max-w-2xl">Redragon specializes in affordable gaming peripherals with impressive features. Hot-swap switches, RGB lighting, macro keys, and solid build quality at budget prices. Great entry point for gaming enthusiasts.</p>
@@ -365,7 +57,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61CwxeydOAL._AC_UY218_.jpg" alt="Redragon K631 Gery 65% Wired RGB Gaming Keyboard, 68 Keys Compact Mechanical Keyboard w/100% Hot-Swap Socket, Free-Mod Plate Mounted PCB & Dedicated A" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61CwxeydOAL._AC_UY218_.jpg" alt="Redragon K631 Gery 65% Wired RGB Gaming Keyboard, 68 Keys Compact Mechanical Keyboard w/100% Hot-Swap Socket, Free-Mod Plate Mounted PCB & Dedicated A" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -393,7 +85,35 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71jPClBDPDL._AC_UY218_.jpg" alt="Redragon K580 VATA RGB LED Backlit Mechanical Gaming Keyboard with Macro Keys & Dedicated Media Cont" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61gJg0pc-4L._AC_UY218_.jpg" alt="Redragon K719 Wireless Gasket Gaming Keyboard w/Hype Screen & Knob, 95 Keys Mechanical Keyboard, Easy-Control 1.14’’ TFT Info Display, 5-Layer Noise Dampening, Custom Linear Switch, Jade Cloud Color" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Redragon K719 Wireless Gasket Gaming Keyboard w/Hype Screen & Knob, 95 Keys Mechanical Keyboard, Easy-Control 1.14’’ TFT Info Display, 5-Layer Noise Dampening, Custom Linear Switch, Jade Cloud Color</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.7/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-400">$69.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/71jPClBDPDL._AC_UY218_.jpg" alt="Redragon K580 VATA RGB LED Backlit Mechanical Gaming Keyboard with Macro Keys & Dedicated Media Cont" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -421,7 +141,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/710b8CHf2AL._AC_UY218_.jpg" alt="Mechanical Gaming Keyboard with Red Switches, Wired Keyboard Mechanical with RGB Backlit, Fully Progammable, Durable Aluminum Frame, Anti-Ghosting for" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/710b8CHf2AL._AC_UY218_.jpg" alt="Mechanical Gaming Keyboard with Red Switches, Wired Keyboard Mechanical with RGB Backlit, Fully Progammable, Durable Aluminum Frame, Anti-Ghosting for" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -449,7 +169,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61Yv5FQk-XL._AC_UY218_.jpg" alt="K742 Wireless Mechanical Gaming Keyboard with Knob, Bluetooth 5.0/2.4GHz/USB C Wired Creamy Keyboard with Number Pad for PC Computer, RGB Backlits, Ho" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61Yv5FQk-XL._AC_UY218_.jpg" alt="K742 Wireless Mechanical Gaming Keyboard with Knob, Bluetooth 5.0/2.4GHz/USB C Wired Creamy Keyboard with Number Pad for PC Computer, RGB Backlits, Ho" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -477,7 +197,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61uOqUtwc6L._AC_UY218_.jpg" alt="Womier DK75 75% Wireless Gaming Keyboard, RGB Backlit Creamy Keyboard with Multifunction Knob & Screen, Tri-Mode 2.4GHz/USB-C/BT5.0, Anti-Ghosting No-" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61uOqUtwc6L._AC_UY218_.jpg" alt="Womier DK75 75% Wireless Gaming Keyboard, RGB Backlit Creamy Keyboard with Multifunction Knob & Screen, Tri-Mode 2.4GHz/USB-C/BT5.0, Anti-Ghosting No-" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -505,7 +225,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61WzO55B9wL._AC_UY218_.jpg" alt="K673 PRO 75% Wireless Gasket RGB Gaming Keyboard, 3-Modes 81 Keys Compact Mechanical Keyboard Hot-Swap Socket, Dedicated Knob Control and 5-Layer Nois" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61WzO55B9wL._AC_UY218_.jpg" alt="K673 PRO 75% Wireless Gasket RGB Gaming Keyboard, 3-Modes 81 Keys Compact Mechanical Keyboard Hot-Swap Socket, Dedicated Knob Control and 5-Layer Nois" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -533,7 +253,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61y1Rc94rgL._AC_UY218_.jpg" alt="Redragon K709 PRO 65% Wireless Gasket RGB Gaming Keyboard, 68 Keys Hot-Swap Compact Mechanical Keyboard w/Free-Mod Socket, 5-Layer Noise Dampening & R" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61y1Rc94rgL._AC_UY218_.jpg" alt="Redragon K709 PRO 65% Wireless Gasket RGB Gaming Keyboard, 68 Keys Hot-Swap Compact Mechanical Keyboard w/Free-Mod Socket, 5-Layer Noise Dampening & R" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -561,7 +281,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71KBeJ1nz6L._AC_UY218_.jpg" alt="Redragon K556 RGB LED Backlit Wired Mechanical Gaming Keyboard, 104 Keys Hot-Swap Mechanical Keyboard w/Aluminum Base, Upgraded Socket and Noise Absor" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71KBeJ1nz6L._AC_UY218_.jpg" alt="Redragon K556 RGB LED Backlit Wired Mechanical Gaming Keyboard, 104 Keys Hot-Swap Mechanical Keyboard w/Aluminum Base, Upgraded Socket and Noise Absor" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -589,7 +309,63 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/618A+B25MKL._AC_UY218_.jpg" alt="Redragon K668 RGB Gaming Keyboard, 108 Keys Wired Mechanical Keyboard w/Extra 4 Hotkeys, Sound Absor" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71x07h8kwkL._AC_UY218_.jpg" alt="Redragon K686 PRO 98 Keys Wireless Gasket RGB Gaming Keyboard, 3-Mode PBT Mechanical Keyboard w/Hot-Swap South-Facing RGB Socket, Dedicated Knob Control & 5-Layer Noise Dampening, Gradient PBT Keycaps" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Redragon K686 PRO 98 Keys Wireless Gasket RGB Gaming Keyboard, 3-Mode PBT Mechanical Keyboard w/Hot-Swap South-Facing RGB Socket, Dedicated Knob Control & 5-Layer Noise Dampening, Gradient PBT Keycaps</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.6/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-400">$54.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/7122HAI+2sL._AC_UY218_.jpg" alt="Redragon K745 PRO Wireless Gasket RGB Gaming Keyboard, 108 Keys Mechanical Keyboard w/Extra 4 Hotkeys, Hot-Swap Socket, 5-Layer Noise Dampening, See-Through Round PBT Keycaps, Mint Mambo Switch" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Redragon K745 PRO Wireless Gasket RGB Gaming Keyboard, 108 Keys Mechanical Keyboard w/Extra 4 Hotkeys, Hot-Swap Socket, 5-Layer Noise Dampening, See-Through Round PBT Keycaps, Mint Mambo Switch</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.6/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-400">$59.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/618A+B25MKL._AC_UY218_.jpg" alt="Redragon K668 RGB Gaming Keyboard, 108 Keys Wired Mechanical Keyboard w/Extra 4 Hotkeys, Sound Absor" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -617,7 +393,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/617KI0P7BxL._AC_UY218_.jpg" alt="Redragon K689 Wired Gasket RGB Gaming Keyboard, 108 Keys Mechanical Keyboard w/Extra 4 Hotkeys, Upgr" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/617KI0P7BxL._AC_UY218_.jpg" alt="Redragon K689 Wired Gasket RGB Gaming Keyboard, 108 Keys Mechanical Keyboard w/Extra 4 Hotkeys, Upgr" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -645,7 +421,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61cJVGtAeIL._AC_UY218_.jpg" alt="K689 PRO Wireless Gasket RGB Gaming Keyboard, 108 Keys Mechanical Keyboard w/Extra 4 Hotkeys, Upgraded Hot-swappable Socket, 3-Layer Noise Dampening, " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61cJVGtAeIL._AC_UY218_.jpg" alt="K689 PRO Wireless Gasket RGB Gaming Keyboard, 108 Keys Mechanical Keyboard w/Extra 4 Hotkeys, Upgraded Hot-swappable Socket, 3-Layer Noise Dampening, " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -673,7 +449,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61Kb5bLtgmL._AC_UY218_.jpg" alt="K668 Wired Gasket RGB Gaming Keyboard, 108 Keys Mechanical Keyboard w/Extra 4 Hotkeys, Upgraded Hot-swappable Socket, Sound Absorbing Foam, Mixed Colo" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61Kb5bLtgmL._AC_UY218_.jpg" alt="K668 Wired Gasket RGB Gaming Keyboard, 108 Keys Mechanical Keyboard w/Extra 4 Hotkeys, Upgraded Hot-swappable Socket, Sound Absorbing Foam, Mixed Colo" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -701,7 +477,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71HVNBsiyXL._AC_UY218_.jpg" alt="Wireless Mechanical Keyboard, 3 Mode Gasket Mounted RGB Gaming Keyboard with Volume Knob, Pre-Lubed Linear Switches, MDA-Profile, 98 Keys Hot Swappabl" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71HVNBsiyXL._AC_UY218_.jpg" alt="Wireless Mechanical Keyboard, 3 Mode Gasket Mounted RGB Gaming Keyboard with Volume Knob, Pre-Lubed Linear Switches, MDA-Profile, 98 Keys Hot Swappabl" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -729,7 +505,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61yHTAbmFIL._AC_UY218_.jpg" alt="K580 VATA RGB LED Backlit Mechanical Gaming Keyboard with Macro Keys & Dedicated Media Controls, Hot-Swappable Socket, Onboard Macro Recording (Brown " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61yHTAbmFIL._AC_UY218_.jpg" alt="K580 VATA RGB LED Backlit Mechanical Gaming Keyboard with Macro Keys & Dedicated Media Controls, Hot-Swappable Socket, Onboard Macro Recording (Brown " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -757,7 +533,63 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71FSIp+tDNL._AC_UY218_.jpg" alt="Redragon K552 Mechanical Gaming Keyboard, 87-Key Compact, LED Gaming Keyboard with Red Switches, Anti-Ghosting, Metal Frame for PC Gaming & Typing, Be" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71VsXRc+fxL._AC_UY218_.jpg" alt="Redragon K512 Shiva RGB Backlit Membrane Gaming Keyboard with Multimedia Keys, Linear Mechanical-Feel Switch, 6 Extra On-Board Macro Keys, Dedicated Media Control, Detachable Wrist Rest" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Redragon K512 Shiva RGB Backlit Membrane Gaming Keyboard with Multimedia Keys, Linear Mechanical-Feel Switch, 6 Extra On-Board Macro Keys, Dedicated Media Control, Detachable Wrist Rest</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.5/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-400">$29.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61uofDvRldS._AC_UY218_.jpg" alt="Redragon K582 RGB Mechanical Gaming Keyboard, 100% 104 Keys Standard Layout Gaming Keyboard with Double-Shot ABS Keycaps, Dynamic 16.8M RGB Backlit & Linear Red Switch, Redefine Software Supported" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Redragon K582 RGB Mechanical Gaming Keyboard, 100% 104 Keys Standard Layout Gaming Keyboard with Double-Shot ABS Keycaps, Dynamic 16.8M RGB Backlit & Linear Red Switch, Redefine Software Supported</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.5/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-400">$32.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/71FSIp+tDNL._AC_UY218_.jpg" alt="Redragon K552 Mechanical Gaming Keyboard, 87-Key Compact, LED Gaming Keyboard with Red Switches, Anti-Ghosting, Metal Frame for PC Gaming & Typing, Be" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -785,7 +617,35 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71Bk2A2WmOL._AC_UY218_.jpg" alt="Redragon Mechanical Gaming Keyboard Wired, 11 Programmable Backlit Modes, Hot-Swappable Red Switch, " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71ytDGRs8hL._AC_UY218_.jpg" alt="Redragon K550 RGB Gaming Keyboard, 104 Keys + 12 Macro G Keys Wired Mechanical Keyboard w/Aluminum Top Plate, Custom Clicky Purple Switch, Extra USB Port & Wrist Rest" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Redragon K550 RGB Gaming Keyboard, 104 Keys + 12 Macro G Keys Wired Mechanical Keyboard w/Aluminum Top Plate, Custom Clicky Purple Switch, Extra USB Port & Wrist Rest</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.4/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-400">$64.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/71Bk2A2WmOL._AC_UY218_.jpg" alt="Redragon Mechanical Gaming Keyboard Wired, 11 Programmable Backlit Modes, Hot-Swappable Red Switch, " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -813,7 +673,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61IATVxjPyL._AC_UY218_.jpg" alt="K580 PRO Wireless RGB Gaming Keyboard, 3-Modes 104 Keys Mechanical Keyboard w/Hot-Swap Socket, Dedicated Media Controls & Onboard Macro Recording, Lin" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61IATVxjPyL._AC_UY218_.jpg" alt="K580 PRO Wireless RGB Gaming Keyboard, 3-Modes 104 Keys Mechanical Keyboard w/Hot-Swap Socket, Dedicated Media Controls & Onboard Macro Recording, Lin" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -841,7 +701,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61X1TbsLQWL._AC_UY218_.jpg" alt="Signature K650 Comfort Full-Size Wireless Keyboard with Wrist Rest, BLE Bluetooth or Logi Bolt USB Receiver, Deep-Cushioned Keys, Numpad, Compatible w" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61X1TbsLQWL._AC_UY218_.jpg" alt="Signature K650 Comfort Full-Size Wireless Keyboard with Wrist Rest, BLE Bluetooth or Logi Bolt USB Receiver, Deep-Cushioned Keys, Numpad, Compatible w" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -869,7 +729,63 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/6147uXUG0sL._AC_UY218_.jpg" alt="K631 HE Rapid Trigger RGB Gaming Keyboard, 68 Keys Wired Mechanical Keyboard w/Hyper-Fast Actuation, Hall Effect 8K Polling Magnetic Switch, Actuation" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61UVv+vB+1L._AC_UY218_.jpg" alt="Redragon K556 RGB LED Backlit Wired Mechanical Gaming Keyboard, 104 Keys Hot-Swap Mechanical Keyboard w/Aluminum Base, Upgraded Socket and Noise Absorbing Foams, Quiet Linear Red Switch" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Redragon K556 RGB LED Backlit Wired Mechanical Gaming Keyboard, 104 Keys Hot-Swap Mechanical Keyboard w/Aluminum Base, Upgraded Socket and Noise Absorbing Foams, Quiet Linear Red Switch</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.2/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-400">$44.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61AFbJi-e9L._AC_UY218_.jpg" alt="Redragon K556 SE RGB LED Backlit Wired Mechanical Gaming Keyboard, Aluminum Base, 104 Keys Upgraded Socket, 3.5mm Sound Absorbing Foams, Hot-Swap Linear Quiet Red Switch, Gradient Blue" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Redragon K556 SE RGB LED Backlit Wired Mechanical Gaming Keyboard, Aluminum Base, 104 Keys Upgraded Socket, 3.5mm Sound Absorbing Foams, Hot-Swap Linear Quiet Red Switch, Gradient Blue</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.2/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-400">$52.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/6147uXUG0sL._AC_UY218_.jpg" alt="K631 HE Rapid Trigger RGB Gaming Keyboard, 68 Keys Wired Mechanical Keyboard w/Hyper-Fast Actuation, Hall Effect 8K Polling Magnetic Switch, Actuation" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -897,7 +813,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71CHhIHeqSL._AC_UY218_.jpg" alt="Wired Gaming Keyboard and Mouse Combo, RGB Backlit, 75% Mini Macro Membrane Keyboard with Anti-Ghosting & Multimedia Keys + 8000 DPI Programmable Opti" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71CHhIHeqSL._AC_UY218_.jpg" alt="Wired Gaming Keyboard and Mouse Combo, RGB Backlit, 75% Mini Macro Membrane Keyboard with Anti-Ghosting & Multimedia Keys + 8000 DPI Programmable Opti" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -925,7 +841,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61QVdmMRIEL._AC_UY218_.jpg" alt="K618 PRO 3-Mode Wireless RGB Mechanical Keyboard, BT/2.4Ghz/Wired Low Profile Win/Mac Gaming Keyboard w/Ultra-Thin Design, Dedicated Media Control & L" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61QVdmMRIEL._AC_UY218_.jpg" alt="K618 PRO 3-Mode Wireless RGB Mechanical Keyboard, BT/2.4Ghz/Wired Low Profile Win/Mac Gaming Keyboard w/Ultra-Thin Design, Dedicated Media Control & L" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -953,7 +869,35 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61uUrX9hc1L._AC_UY218_.jpg" alt="BK7114 Low-Profile Wireless Computer Keyboard, 98 Keys Slim Office PC Scissors Mechanism Keyboard w/ 2.4G BT Wireless Connection, Tactile Quiet Keystr" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/615LGFVKipL._AC_UY218_.jpg" alt="Redragon K526 PRO RGB Wireless Membrane Gaming Keyboard, 104 Keys Mechanical-Feel Keyboard w/LED Info Display, Media/Backlit Knob Control, Smooth Linear Switch & Software Supported" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Redragon K526 PRO RGB Wireless Membrane Gaming Keyboard, 104 Keys Mechanical-Feel Keyboard w/LED Info Display, Media/Backlit Knob Control, Smooth Linear Switch & Software Supported</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.1/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-red-400">$25.64</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-red-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61uUrX9hc1L._AC_UY218_.jpg" alt="BK7114 Low-Profile Wireless Computer Keyboard, 98 Keys Slim Office PC Scissors Mechanism Keyboard w/ 2.4G BT Wireless Connection, Tactile Quiet Keystr" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -994,31 +938,5 @@
             <p>&copy; 2026 MechKeys Hub. As an Amazon Associate, we earn from qualifying purchases.</p>
         </div>
     </footer>
-
-    <!-- Related Links -->
-    <section class="py-12 px-4 bg-slate-900/50">
-        <div class="max-w-7xl mx-auto">
-            <h3 class="text-xl font-bold mb-6">Explore More</h3>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <a href="/60_percent.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">⌨️</div>
-                    <div class="font-semibold">60% Keyboards</div>
-                </a>
-                <a href="/best-value.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">💰</div>
-                    <div class="font-semibold">Best Value</div>
-                </a>
-                <a href="/switches.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">🎛️</div>
-                    <div class="font-semibold">Switches Guide</div>
-                </a>
-                <a href="/guides.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">📖</div>
-                    <div class="font-semibold">Buying Guides</div>
-                </a>
-            </div>
-        </div>
-    </section>
-
 </body>
 </html>

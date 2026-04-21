@@ -1,35 +1,4 @@
-<!DOCTY
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glorious Mechanical Keyboards - MechKeys Hub</title>
-    <meta name="description" content="Browse Glorious mechanical keyboards. Glorious is known for their innovative GMMK (Glorious Model O Keyboard) with hot-swappable modules. Premium components, excellent build quality, and a passionate community of enthusiasts.">
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Discover the best glorious. Expert reviews and recommendations at MechKeys Hub.">
-    <meta name="keywords" content="glorious, mechanical keyboard, review">
-    <link rel="canonical" href="https://mechkeys-hub.com/glorious.html">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mechkeys-hub.com/glorious.html">
-    <meta property="og:title" content="Glorious - MechKeys Hub">
-    <meta property="og:description" content="Discover the best glorious. Expert reviews and recommendations at MechKeys Hub.">
-    <meta property="og:image" content="https://mechkeys-hub.com/og-image.jpg">
-    <meta property="og:site_name" content="MechKeys Hub">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://mechkeys-hub.com/glorious.html">
-    <meta name="twitter:title" content="Glorious - MechKeys Hub">
-    <meta name="twitter:description" content="Discover the best glorious. Expert reviews and recommendations at MechKeys Hub.">
-    <meta name="twitter:image" content="https://mechkeys-hub.com/og-image.jpg">
-
-    <link rel="canonical" href="https://mechkeys-hub.vercel.app/brand/glorious.html">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,302 +13,25 @@
         .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
         .card-hover { transition: all 0.3s ease; }
         .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(99,102,241,0.15); }
-    
-        /* Mobile Navigation */
-        .mobile-menu-btn { display: none; }
-        .mobile-nav { display: none; }
-        
-        @media (max-width: 1023px) {
-            .mobile-menu-btn { display: flex; }
-            .desktop-nav { display: none !important; }
-            .mobile-nav {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: rgb(15 23 42 / 0.98);
-                backdrop-filter: blur(12px);
-                border-bottom: 1px solid rgba(255,255,255,0.1);
-                padding: 1rem;
-                flex-direction: column;
-                gap: 0.25rem;
-                z-index: 100;
-            }
-            .mobile-nav.active { display: flex; }
-            .mobile-nav button,
-            .mobile-nav .nav-link {
-                padding: 0.75rem 1rem;
-            min-height: 44px;
-            min-width: 44px; 
-                font-size: 1rem;
-                display: flex;
-                align-items: center;
-                gap: 0.75rem;
-            }
-            .mobile-nav .nav-link i { width: 20px; text-align: center; }
-        }
-        
-        /* Touch-friendly product cards on mobile */
-        @media (max-width: 640px) {
-            .product-grid { grid-template-columns: 1fr !important; }
-            .product-card { padding: 1rem; }
-            h1, h2 { font-size: 1.75rem !important; }
-            .hero-section { padding: 2rem 0.5rem !important; }
-            .stats-grid { grid-template-columns: repeat(2, 1fr) !important; }
-            .container { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
-            .grid { grid-template-columns: 1fr !important; }
-            .filters { flex-direction: column !important; gap: 0.5rem !important; }
-            .filter-btn { width: 100% !important; text-align: center !important; }
-        }
     </style>
-
-<style>
-.nav-btn {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
-    color: #e5e7eb;
-    font-size: 0.9375rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-}
-.nav-btn:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.nav-btn i {
-    font-size: 0.875rem;
-}
-.nav-btn-primary {
-    background: rgba(99, 102, 241, 0.2);
-    color: #a5b4fc;
-    border: 1px solid rgba(99, 102, 241, 0.4);
-}
-.nav-btn-primary:hover {
-    background: rgba(99, 102, 241, 0.35);
-    color: white;
-}
-.mobile-nav-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem;
-    border-radius: 0.75rem;
-    color: #d1d5db;
-    font-size: 0.75rem;
-    font-weight: 600;
-    transition: all 0.2s;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-decoration: none;
-}
-.mobile-nav-btn:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.mobile-nav-btn i {
-    font-size: 1.25rem;
-    margin-bottom: 0.25rem;
-}
-</style>
-
-
-<style>
-.nav-link {
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
-    color: #d1d5db;
-    font-size: 0.9375rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-}
-.nav-link:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.1);
-}
-.nav-link-primary {
-    background: rgba(99, 102, 241, 0.2);
-    color: #a5b4fc;
-    border: 1px solid rgba(99, 102, 241, 0.4);
-}
-.nav-link-primary:hover {
-    background: rgba(99, 102, 241, 0.35);
-    color: white;
-}
-.mobile-nav-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem;
-    border-radius: 0.75rem;
-    color: #d1d5db;
-    font-size: 0.75rem;
-    font-weight: 600;
-    transition: all 0.2s;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-decoration: none;
-}
-.mobile-nav-link:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.mobile-nav-link i {
-    font-size: 1.25rem;
-    margin-bottom: 0.25rem;
-}
-</style>
-
-
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://mechkeys-hub.com/"
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Glorious",
-            "item": "https://mechkeys-hub.com/glorious.html"
-        }
-    ]
-}
-    </script>
-
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "MechKeys Hub",
-    "url": "https://mechkeys-hub.com/",
-    "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://mechkeys-hub.com/search.html?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-    }
-}
-    </script>
 </head>
 <body class="gradient-bg min-h-screen text-white">
-    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
-        <div class="max-w-7xl mx-auto px-4 py-4">
-            <div class="flex items-center justify-between">
-                <a href="/" class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-xl">⌨️</div>
-                    <span class="font-bold text-xl">MechKeys Hub</span>
-                </a>
-                <button class="mobile-menu-btn md:hidden p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu">
-                    <i class="fas fa-bars text-xl" id="menu-icon"></i>
-                </button>
-                <nav class="desktop-nav flex items-center gap-1">
-                    <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                    <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                    <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                    <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                    <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                    <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                    <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
-                    <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                    <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
-                    <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
-                    <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
-                </nav>
-            </div>
-        </div>
-    
-            <!-- Mobile Navigation -->
-            <nav class="mobile-nav" id="mobile-nav">
-                <!-- Search in Mobile Menu -->
-                <div class="mobile-search-wrapper px-3 py-2 border-b border-white/10">
-                    <form action="/search.html" method="get" class="flex items-center">
-                        <input type="text" name="q" placeholder="Search keyboards..." 
-                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-base" focus:outline-none focus:border-indigo-500">
-                        <button type="submit" class="ml-2 px-3 py-2 bg-indigo-600 rounded-lg">
-                            <i class="fas fa-search text-sm"></i>
-                        </button>
-                    </form>
-                </div>
-
-                <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
-                <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
-                <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
-                <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
+    <header class="border-b border-white/10 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="../index.html" class="text-2xl font-bold text-indigo-400">
+                <i class="fas fa-keyboard mr-2"></i>MechKeys Hub
+            </a>
+            <nav class="flex gap-2 flex-wrap">
+                <a href="../index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">All Keyboards</a>
+                <a href="index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Brands</a>
+                <a href="../best-value.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Best Value</a>
+                <a href="../compare.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Compare</a>
+                <a href="../guides.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Guides</a>
             </nav>
         </div>
     </header>
 
-            <!-- Breadcrumb -->
-            <nav aria-label="breadcrumb" class="max-w-7xl mx-auto px-4 py-3">
-                <ol class="flex items-center gap-2 text-sm text-gray-400">
-                    <li><a href="/" class="hover:text-white transition">Home</a></li>
-                    <li><i class="fas fa-chevron-right text-xs"></i></li>
-                    <li class="text-white" id="breadcrumb-current">Glorious</li>
-                </ol>
-            </nav>
-
-    
-    <script>
-        function toggleMobileMenu() {
-            const nav = document.getElementById('mobile-nav');
-            const icon = document.getElementById('menu-icon');
-            nav.classList.toggle('active');
-            if (nav.classList.contains('active')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-times');
-            } else {
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-            }
-        }
-        document.addEventListener('click', function(e) {
-            const nav = document.getElementById('mobile-nav');
-            const btn = document.querySelector('.mobile-menu-btn');
-            if (nav && btn && !nav.contains(e.target) && !btn.contains(e.target) && nav.classList.contains('active')) {
-                nav.classList.remove('active');
-                const icon = document.getElementById('menu-icon');
-                if (icon) {
-                    icon.classList.remove('fa-times');
-                    icon.classList.add('fa-bars');
-                }
-            }
-        });
-    </script>
-<style>
-    </style>
-
-    <script>
-        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
-            var menu = document.getElementById('mobile-menu');
-            var icon = this.querySelector('i');
-            menu.classList.toggle('hidden');
-            icon.classList.toggle('fa-bars');
-            icon.classList.toggle('fa-times');
-        });
-    </script>
-
-<main class="max-w-7xl mx-auto px-4 py-10">
+    <main class="max-w-7xl mx-auto px-4 py-10">
         <div class="mb-6">
             <a href="index.html" class="text-indigo-400 hover:underline text-sm">← All Brands</a>
         </div>
@@ -365,7 +57,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71-mdutc7JL._AC_UY218_.jpg" alt="Gaming GMMK 2 - TKL Mechanical Keyboard - Custom 65% Keyboard - Compact -Hotswap w/Cherry Mx Style Switches - Incl. Double Shot Keycaps & Linear Switc" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71-mdutc7JL._AC_UY218_.jpg" alt="Gaming GMMK 2 - TKL Mechanical Keyboard - Custom 65% Keyboard - Compact -Hotswap w/Cherry Mx Style Switches - Incl. Double Shot Keycaps & Linear Switc" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -382,7 +74,7 @@
                         <span>✅ Swap</span>
                         <span>⬜ RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$56.97</span>
+                    <span class="text-xl font-bold text-cyan-400">56.97</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact TKL Layout</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
                 <a href="https://www.amazon.com/Glorious-Gaming-Keyboard-Swappable-Mechanical/dp/B09YZ48RQH/ref=sr_1_1?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -393,7 +85,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71HhS0EZTUL._AC_UY218_.jpg" alt="Gaming GMMK 2 Compact 65% Barebones (Frame Only) - Mechanical Gaming Keyboard Frame, Compact TKL Size (65%), Aluminium, Customisable, Per Key RGB, Ame" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71HhS0EZTUL._AC_UY218_.jpg" alt="Gaming GMMK 2 Compact 65% Barebones (Frame Only) - Mechanical Gaming Keyboard Frame, Compact TKL Size (65%), Aluminium, Customisable, Per Key RGB, Ame" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -410,7 +102,7 @@
                         <span>❌ Swap</span>
                         <span>🎨 RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$47.80</span>
+                    <span class="text-xl font-bold text-cyan-400">50.09</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact TKL Layout</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
                 <a href="https://www.amazon.com/Glorious-Gaming-Keyboard-Swappable-Mechanical/dp/B09YZ3WTZ8/ref=sr_1_5?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -421,7 +113,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/610b2gL7GkL._AC_UY218_.jpg" alt="Glorious Gaming - GMMK 3 Custom Mechanical Gaming Keyboard with Knob, 100% Keyboard Full Size, Modular Gasket System, Doubleshot PBT Keycaps, Aluminum" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/610b2gL7GkL._AC_UY218_.jpg" alt="Glorious Gaming - GMMK 3 Custom Mechanical Gaming Keyboard with Knob, 100% Keyboard Full Size, Modular Gasket System, Doubleshot PBT Keycaps, Aluminum" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -438,7 +130,7 @@
                         <span>✅ Swap</span>
                         <span>⬜ RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$169.99</span>
+                    <span class="text-xl font-bold text-cyan-400">169.99</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Gasket Mount</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">PBT Keycaps</span></div>
                 <a href="https://www.amazon.com/Glorious-Gaming-Mechanical-Doubleshot-Hotswappable/dp/B0DCHKYNWF/ref=sr_1_7?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -449,7 +141,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71uAlP7bK6L._AC_UY218_.jpg" alt="Gaming GMMK 2 Compact 65% Barebones (Frame Only) - Mechanical Gaming Keyboard Frame, Compact TKL Size (65%), Aluminium, Customisable, Per Key RGB, Ame" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71uAlP7bK6L._AC_UY218_.jpg" alt="Gaming GMMK 2 Compact 65% Barebones (Frame Only) - Mechanical Gaming Keyboard Frame, Compact TKL Size (65%), Aluminium, Customisable, Per Key RGB, Ame" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -466,7 +158,7 @@
                         <span>❌ Swap</span>
                         <span>🎨 RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$49.99</span>
+                    <span class="text-xl font-bold text-cyan-400">49.99</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact TKL Layout</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
                 <a href="https://www.amazon.com/Glorious-Gaming-Keyboard-Swappable-Mechanical/dp/B09YZ538FY/ref=sr_1_8?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -477,7 +169,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71JhqDP1oTL._AC_UY218_.jpg" alt="GMMK 2 Gaming Mechanical Keyboard - Hotswap Cherry Mx Style Linear Switches- Full Size Wired Keyword- Double Shot Keycaps, RGB - PC Setup Accessories " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71JhqDP1oTL._AC_UY218_.jpg" alt="GMMK 2 Gaming Mechanical Keyboard - Hotswap Cherry Mx Style Linear Switches- Full Size Wired Keyword- Double Shot Keycaps, RGB - PC Setup Accessories " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -494,7 +186,7 @@
                         <span>✅ Swap</span>
                         <span>🎨 RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$119.99</span>
+                    <span class="text-xl font-bold text-cyan-400">79.99</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Full Size with Numpad</span></div>
                 <a href="https://www.amazon.com/Glorious-Gaming-Keyboard-Swappable-Mechanical/dp/B09YZ3BNYP/ref=sr_1_2?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -505,7 +197,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61tsb9esimL._AC_UY218_.jpg" alt="Gaming - GMMK 3 Custom Mechanical Gaming Keyboard with Knob, 75% Tenkeyless Keyboard, Modular Gasket System, Doubleshot PBT Keycaps, Aluminum Switch P" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61tsb9esimL._AC_UY218_.jpg" alt="Gaming - GMMK 3 Custom Mechanical Gaming Keyboard with Knob, 75% Tenkeyless Keyboard, Modular Gasket System, Doubleshot PBT Keycaps, Aluminum Switch P" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -522,7 +214,7 @@
                         <span>✅ Swap</span>
                         <span>⬜ RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$144.06</span>
+                    <span class="text-xl font-bold text-cyan-400">144.06</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Gasket Mount</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">PBT Keycaps</span></div>
                 <a href="https://www.amazon.com/Glorious-Gaming-Mechanical-Tenkeyless-Hotswappable/dp/B0DCHKHZNS/ref=sr_1_11?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -533,7 +225,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61FPoM8PhvL._AC_UY218_.jpg" alt="Gaming GMMK PRO 75% Barebones Black (Frame Only) - Modular Mechanical Gaming Keyboard, TKL Size (75%), 3.3lb Frame, RGB, Fully Customisable, 5-Pin Swi" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61FPoM8PhvL._AC_UY218_.jpg" alt="Gaming GMMK PRO 75% Barebones Black (Frame Only) - Modular Mechanical Gaming Keyboard, TKL Size (75%), 3.3lb Frame, RGB, Fully Customisable, 5-Pin Swi" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -550,7 +242,7 @@
                         <span>❌ Swap</span>
                         <span>🎨 RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$132.59</span>
+                    <span class="text-xl font-bold text-cyan-400">79.99</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact TKL Layout</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
                 <a href="https://www.amazon.com/Glorious-Gaming-Barebones-Black-Frame-PC/dp/B09963YS4P/ref=sr_1_3?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -561,7 +253,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61r2QjJ-6iL._AC_UY218_.jpg" alt="Gaming GMMK PRO 75% - Modular Mechanical Gaming Keyboard, TKL Size, 1.5kg Frame, Fox Switches, Fully Customizable, Coiled Cable, Wrist Rest, White PBT" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61r2QjJ-6iL._AC_UY218_.jpg" alt="Gaming GMMK PRO 75% - Modular Mechanical Gaming Keyboard, TKL Size, 1.5kg Frame, Fox Switches, Fully Customizable, Coiled Cable, Wrist Rest, White PBT" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -578,7 +270,7 @@
                         <span>❌ Swap</span>
                         <span>🎨 RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$139.99</span>
+                    <span class="text-xl font-bold text-cyan-400">149</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">PBT Keycaps</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact TKL Layout</span></div>
                 <a href="https://www.amazon.com/Glorious-Gaming-GMMK-PRO-75-PC/dp/B09WRSX7JX/ref=sr_1_14?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -589,7 +281,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61pLEO9BVhL._AC_UY218_.jpg" alt="Glorious Gaming - GMMK 3 Custom Mechanical Gaming Full Size Keyboard with Knob, Modular Gasket System, Doubleshot PBT Keycaps, Aluminum Switch Plate, " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61pLEO9BVhL._AC_UY218_.jpg" alt="Glorious Gaming - GMMK 3 Custom Mechanical Gaming Full Size Keyboard with Knob, Modular Gasket System, Doubleshot PBT Keycaps, Aluminum Switch Plate, " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -606,7 +298,7 @@
                         <span>✅ Swap</span>
                         <span>⬜ RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$149.99</span>
+                    <span class="text-xl font-bold text-cyan-400">149.99</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Gasket Mount</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">PBT Keycaps</span></div>
                 <a href="https://www.amazon.com/Glorious-Gaming-Mechanical-Doubleshot-Hotswappable/dp/B0DCHR635V/ref=sr_1_15?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -617,7 +309,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71suZ8LSwDL._AC_UY218_.jpg" alt="Glorious GMMK Modular Mechanical Gaming Keyboard - 60% Compact Size (61 Key) - RGB LED Backlit, Brown Switches, Hot Swap Switches (Black)(GMMK-Compact" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71suZ8LSwDL._AC_UY218_.jpg" alt="Glorious GMMK Modular Mechanical Gaming Keyboard - 60% Compact Size (61 Key) - RGB LED Backlit, Brown Switches, Hot Swap Switches (Black)(GMMK-Compact" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -634,7 +326,7 @@
                         <span>✅ Swap</span>
                         <span>🎨 RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$34.44</span>
+                    <span class="text-xl font-bold text-cyan-400">34.44</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
                 <a href="https://www.amazon.com/Glorious-Modular-Mechanical-Gaming-Keyboard/dp/B08KGQM8D6/ref=sr_1_4?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -645,7 +337,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61DC+tutIDL._AC_UY218_.jpg" alt="Gaming - GMMK 3 Custom Mechanical Gaming Keyboard with Knob, 75% Tenkeyless Keyboard, Modular Gasket System, Doubleshot PBT Keycaps, Aluminum Switch P" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61DC+tutIDL._AC_UY218_.jpg" alt="Gaming - GMMK 3 Custom Mechanical Gaming Keyboard with Knob, 75% Tenkeyless Keyboard, Modular Gasket System, Doubleshot PBT Keycaps, Aluminum Switch P" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -662,7 +354,7 @@
                         <span>✅ Swap</span>
                         <span>⬜ RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$129.99</span>
+                    <span class="text-xl font-bold text-cyan-400">129.99</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Gasket Mount</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">PBT Keycaps</span></div>
                 <a href="https://www.amazon.com/Glorious-Gaming-Mechanical-Tenkeyless-Hotswappable/dp/B0DCHP3ZSD/ref=sr_1_6?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -673,7 +365,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71gnq-D5WzL._AC_UY218_.jpg" alt="Glorious Custom Gaming Keyboard - GMMK 85% Percent TKL Barebone - USB C Wired Mechanical Keyboard Kit - RGB Hot Swappable Switches & Keycaps - Black M" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71gnq-D5WzL._AC_UY218_.jpg" alt="Glorious Custom Gaming Keyboard - GMMK 85% Percent TKL Barebone - USB C Wired Mechanical Keyboard Kit - RGB Hot Swappable Switches & Keycaps - Black M" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -690,7 +382,7 @@
                         <span>✅ Swap</span>
                         <span>🎨 RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$40.09</span>
+                    <span class="text-xl font-bold text-cyan-400">40.09</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact TKL Layout</span></div>
                 <a href="https://www.amazon.com/Glorious-Custom-Gaming-Keyboard-Mechanical/dp/B01MSVHZTT/ref=sr_1_12?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -701,7 +393,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61ocUN8iK0L._AC_UY218_.jpg" alt="Gaming GMMK PRO 75% Barebones White (Frame Only) - Modular Mechanical Gaming Keyboard, TKL Size (75%), 3.3lb Frame, RGB, Fully Customisable, 5-Pin Swi" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61ocUN8iK0L._AC_UY218_.jpg" alt="Gaming GMMK PRO 75% Barebones White (Frame Only) - Modular Mechanical Gaming Keyboard, TKL Size (75%), 3.3lb Frame, RGB, Fully Customisable, 5-Pin Swi" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -729,7 +421,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71iGrttV-EL._AC_UY218_.jpg" alt="GMMK White Ice Edition - Compact (Pre-Built)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71iGrttV-EL._AC_UY218_.jpg" alt="GMMK White Ice Edition - Compact (Pre-Built)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -746,7 +438,7 @@
                         <span>❌ Swap</span>
                         <span>⬜ RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$57.00</span>
+                    <span class="text-xl font-bold text-cyan-400">57</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Great Value</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Popular Choice</span></div>
                 <a href="https://www.amazon.com/GLORIOUS-GMMK-White-Ice-Pre-Built/dp/B0877DQJJR/ref=sr_1_16?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -757,7 +449,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61em+fDCw-L._AC_UY218_.jpg" alt="Glorious Gaming - GMMK 3 Barebones Custom Gaming Keyboard Kit with Knob, 100% Mechanical Keyboard Full Size, Modular Gasket System, Hotswappable MX, S" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61em+fDCw-L._AC_UY218_.jpg" alt="Glorious Gaming - GMMK 3 Barebones Custom Gaming Keyboard Kit with Knob, 100% Mechanical Keyboard Full Size, Modular Gasket System, Hotswappable MX, S" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -774,7 +466,7 @@
                         <span>✅ Swap</span>
                         <span>⬜ RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$119.99</span>
+                    <span class="text-xl font-bold text-cyan-400">99.99</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Gasket Mount</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Full Size with Numpad</span></div>
                 <a href="https://www.amazon.com/Glorious-Gaming-Barebones-Mechanical-Hotswappable/dp/B0DCGT7P3H/ref=sr_1_9?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -785,7 +477,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61rhLm8JQ0L._AC_UY218_.jpg" alt="Glorious Gaming GMMK 3 PRO Wireless Mechanical Keyboard: 75% TKL, Bluetooth & 2.4GHz, Hotswappable MX Switches, Aluminum Body, Gasket System, Doublesh" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61rhLm8JQ0L._AC_UY218_.jpg" alt="Glorious Gaming GMMK 3 PRO Wireless Mechanical Keyboard: 75% TKL, Bluetooth & 2.4GHz, Hotswappable MX Switches, Aluminum Body, Gasket System, Doublesh" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -802,7 +494,7 @@
                         <span>✅ Swap</span>
                         <span>⬜ RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-cyan-400">$65.46</span>
+                    <span class="text-xl font-bold text-cyan-400">65.46</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Gasket Mount</span></div>
                 <a href="https://www.amazon.com/Glorious-Gaming-GMMK-Wireless-Mechanical-Keyboard/dp/B0DDR3YLQS/ref=sr_1_10?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -826,31 +518,5 @@
             <p>&copy; 2026 MechKeys Hub. As an Amazon Associate, we earn from qualifying purchases.</p>
         </div>
     </footer>
-
-    <!-- Related Links -->
-    <section class="py-12 px-4 bg-slate-900/50">
-        <div class="max-w-7xl mx-auto">
-            <h3 class="text-xl font-bold mb-6">Explore More</h3>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <a href="/60_percent.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">⌨️</div>
-                    <div class="font-semibold">60% Keyboards</div>
-                </a>
-                <a href="/best-value.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">💰</div>
-                    <div class="font-semibold">Best Value</div>
-                </a>
-                <a href="/switches.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">🎛️</div>
-                    <div class="font-semibold">Switches Guide</div>
-                </a>
-                <a href="/guides.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">📖</div>
-                    <div class="font-semibold">Buying Guides</div>
-                </a>
-            </div>
-        </div>
-    </section>
-
 </body>
 </html>

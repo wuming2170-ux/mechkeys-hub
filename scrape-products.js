@@ -22,7 +22,7 @@ const LOG_FILE = path.join(__dirname, 'scrape-log.txt');
 const BACKUP_FILE = path.join(__dirname, 'all-products-collected.json');
 
 // 每天抓取数量
-const DAILY_LIMIT = 30;
+const DAILY_LIMIT = 50;
 
 // 请求间隔（毫秒）- 避免请求过快
 const REQUEST_DELAY = 1500;
@@ -314,12 +314,33 @@ async function main() {
     
     // 搜索关键词列表（按销量优先级）
     const searchQueries = [
+        // 主流品牌
         'best seller mechanical keyboard amazon',
         'top rated gaming mechanical keyboard',
         'best mechanical keyboard 2026 amazon',
         'keychron mechanical keyboard amazon best seller',
         'leopold mechanical keyboard amazon',
-        'ducky mechanical keyboard amazon'
+        'ducky mechanical keyboard amazon',
+        // 更多品牌
+        'filco mechanical keyboard amazon',
+        'steelseries mechanical keyboard amazon',
+        'corsair mechanical keyboard amazon',
+        'razer hunting keyboard amazon',
+        'logitech mx mechanical keyboard',
+        'glorious mechanical keyboard amazon',
+        // 新兴/性价比品牌
+        'akko mechanical keyboard amazon',
+        'aula mechanical keyboard amazon',
+        'redragon gaming keyboard amazon',
+        'rk royal kludge mechanical keyboard',
+        'kbdfans mechanical keyboard',
+        // 类型
+        'hot swap mechanical keyboard amazon',
+        'wireless mechanical keyboard amazon',
+        '60 percent mechanical keyboard',
+        'compact gaming keyboard amazon',
+        'quiet mechanical keyboard silent',
+        'ergonomic mechanical keyboard'
     ];
     
     const allProducts = [];

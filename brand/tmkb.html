@@ -1,35 +1,4 @@
-<!DOCTY
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TMKB Mechanical Keyboards - MechKeys Hub</title>
-    <meta name="description" content="Browse TMKB mechanical keyboards. TMKB specializes in Hall Effect magnetic switches with rapid trigger technology. Popular among competitive gamers who need the fastest response times and customizable actuation.">
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Discover the best tmkb. Expert reviews and recommendations at MechKeys Hub.">
-    <meta name="keywords" content="tmkb, mechanical keyboard, review">
-    <link rel="canonical" href="https://mechkeys-hub.com/tmkb.html">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mechkeys-hub.com/tmkb.html">
-    <meta property="og:title" content="Tmkb - MechKeys Hub">
-    <meta property="og:description" content="Discover the best tmkb. Expert reviews and recommendations at MechKeys Hub.">
-    <meta property="og:image" content="https://mechkeys-hub.com/og-image.jpg">
-    <meta property="og:site_name" content="MechKeys Hub">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://mechkeys-hub.com/tmkb.html">
-    <meta name="twitter:title" content="Tmkb - MechKeys Hub">
-    <meta name="twitter:description" content="Discover the best tmkb. Expert reviews and recommendations at MechKeys Hub.">
-    <meta name="twitter:image" content="https://mechkeys-hub.com/og-image.jpg">
-
-    <link rel="canonical" href="https://mechkeys-hub.vercel.app/brand/tmkb.html">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,302 +13,25 @@
         .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
         .card-hover { transition: all 0.3s ease; }
         .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(99,102,241,0.15); }
-    
-        /* Mobile Navigation */
-        .mobile-menu-btn { display: none; }
-        .mobile-nav { display: none; }
-        
-        @media (max-width: 1023px) {
-            .mobile-menu-btn { display: flex; }
-            .desktop-nav { display: none !important; }
-            .mobile-nav {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: rgb(15 23 42 / 0.98);
-                backdrop-filter: blur(12px);
-                border-bottom: 1px solid rgba(255,255,255,0.1);
-                padding: 1rem;
-                flex-direction: column;
-                gap: 0.25rem;
-                z-index: 100;
-            }
-            .mobile-nav.active { display: flex; }
-            .mobile-nav button,
-            .mobile-nav .nav-link {
-                padding: 0.75rem 1rem;
-            min-height: 44px;
-            min-width: 44px; 
-                font-size: 1rem;
-                display: flex;
-                align-items: center;
-                gap: 0.75rem;
-            }
-            .mobile-nav .nav-link i { width: 20px; text-align: center; }
-        }
-        
-        /* Touch-friendly product cards on mobile */
-        @media (max-width: 640px) {
-            .product-grid { grid-template-columns: 1fr !important; }
-            .product-card { padding: 1rem; }
-            h1, h2 { font-size: 1.75rem !important; }
-            .hero-section { padding: 2rem 0.5rem !important; }
-            .stats-grid { grid-template-columns: repeat(2, 1fr) !important; }
-            .container { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
-            .grid { grid-template-columns: 1fr !important; }
-            .filters { flex-direction: column !important; gap: 0.5rem !important; }
-            .filter-btn { width: 100% !important; text-align: center !important; }
-        }
     </style>
-
-<style>
-.nav-btn {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
-    color: #e5e7eb;
-    font-size: 0.9375rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-}
-.nav-btn:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.nav-btn i {
-    font-size: 0.875rem;
-}
-.nav-btn-primary {
-    background: rgba(99, 102, 241, 0.2);
-    color: #a5b4fc;
-    border: 1px solid rgba(99, 102, 241, 0.4);
-}
-.nav-btn-primary:hover {
-    background: rgba(99, 102, 241, 0.35);
-    color: white;
-}
-.mobile-nav-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem;
-    border-radius: 0.75rem;
-    color: #d1d5db;
-    font-size: 0.75rem;
-    font-weight: 600;
-    transition: all 0.2s;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-decoration: none;
-}
-.mobile-nav-btn:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.mobile-nav-btn i {
-    font-size: 1.25rem;
-    margin-bottom: 0.25rem;
-}
-</style>
-
-
-<style>
-.nav-link {
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
-    color: #d1d5db;
-    font-size: 0.9375rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-}
-.nav-link:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.1);
-}
-.nav-link-primary {
-    background: rgba(99, 102, 241, 0.2);
-    color: #a5b4fc;
-    border: 1px solid rgba(99, 102, 241, 0.4);
-}
-.nav-link-primary:hover {
-    background: rgba(99, 102, 241, 0.35);
-    color: white;
-}
-.mobile-nav-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem;
-    border-radius: 0.75rem;
-    color: #d1d5db;
-    font-size: 0.75rem;
-    font-weight: 600;
-    transition: all 0.2s;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-decoration: none;
-}
-.mobile-nav-link:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.mobile-nav-link i {
-    font-size: 1.25rem;
-    margin-bottom: 0.25rem;
-}
-</style>
-
-
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://mechkeys-hub.com/"
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Tmkb",
-            "item": "https://mechkeys-hub.com/tmkb.html"
-        }
-    ]
-}
-    </script>
-
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "MechKeys Hub",
-    "url": "https://mechkeys-hub.com/",
-    "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://mechkeys-hub.com/search.html?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-    }
-}
-    </script>
 </head>
 <body class="gradient-bg min-h-screen text-white">
-    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
-        <div class="max-w-7xl mx-auto px-4 py-4">
-            <div class="flex items-center justify-between">
-                <a href="/" class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-xl">⌨️</div>
-                    <span class="font-bold text-xl">MechKeys Hub</span>
-                </a>
-                <button class="mobile-menu-btn md:hidden p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu">
-                    <i class="fas fa-bars text-xl" id="menu-icon"></i>
-                </button>
-                <nav class="desktop-nav flex items-center gap-1">
-                    <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                    <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                    <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                    <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                    <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                    <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                    <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
-                    <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                    <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
-                    <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
-                    <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
-                </nav>
-            </div>
-        </div>
-    
-            <!-- Mobile Navigation -->
-            <nav class="mobile-nav" id="mobile-nav">
-                <!-- Search in Mobile Menu -->
-                <div class="mobile-search-wrapper px-3 py-2 border-b border-white/10">
-                    <form action="/search.html" method="get" class="flex items-center">
-                        <input type="text" name="q" placeholder="Search keyboards..." 
-                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-base" focus:outline-none focus:border-indigo-500">
-                        <button type="submit" class="ml-2 px-3 py-2 bg-indigo-600 rounded-lg">
-                            <i class="fas fa-search text-sm"></i>
-                        </button>
-                    </form>
-                </div>
-
-                <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
-                <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
-                <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
-                <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
+    <header class="border-b border-white/10 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="../index.html" class="text-2xl font-bold text-indigo-400">
+                <i class="fas fa-keyboard mr-2"></i>MechKeys Hub
+            </a>
+            <nav class="flex gap-2 flex-wrap">
+                <a href="../index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">All Keyboards</a>
+                <a href="index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Brands</a>
+                <a href="../best-value.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Best Value</a>
+                <a href="../compare.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Compare</a>
+                <a href="../guides.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Guides</a>
             </nav>
         </div>
     </header>
 
-            <!-- Breadcrumb -->
-            <nav aria-label="breadcrumb" class="max-w-7xl mx-auto px-4 py-3">
-                <ol class="flex items-center gap-2 text-sm text-gray-400">
-                    <li><a href="/" class="hover:text-white transition">Home</a></li>
-                    <li><i class="fas fa-chevron-right text-xs"></i></li>
-                    <li class="text-white" id="breadcrumb-current">Tmkb</li>
-                </ol>
-            </nav>
-
-    
-    <script>
-        function toggleMobileMenu() {
-            const nav = document.getElementById('mobile-nav');
-            const icon = document.getElementById('menu-icon');
-            nav.classList.toggle('active');
-            if (nav.classList.contains('active')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-times');
-            } else {
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-            }
-        }
-        document.addEventListener('click', function(e) {
-            const nav = document.getElementById('mobile-nav');
-            const btn = document.querySelector('.mobile-menu-btn');
-            if (nav && btn && !nav.contains(e.target) && !btn.contains(e.target) && nav.classList.contains('active')) {
-                nav.classList.remove('active');
-                const icon = document.getElementById('menu-icon');
-                if (icon) {
-                    icon.classList.remove('fa-times');
-                    icon.classList.add('fa-bars');
-                }
-            }
-        });
-    </script>
-<style>
-    </style>
-
-    <script>
-        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
-            var menu = document.getElementById('mobile-menu');
-            var icon = this.querySelector('i');
-            menu.classList.toggle('hidden');
-            icon.classList.toggle('fa-bars');
-            icon.classList.toggle('fa-times');
-        });
-    </script>
-
-<main class="max-w-7xl mx-auto px-4 py-10">
+    <main class="max-w-7xl mx-auto px-4 py-10">
         <div class="mb-6">
             <a href="index.html" class="text-indigo-400 hover:underline text-sm">← All Brands</a>
         </div>
@@ -351,7 +43,7 @@
                 <div class="flex-1">
                     <div class="flex items-center gap-3 mb-2">
                         <h1 class="text-3xl font-bold text-orange-400">TMKB</h1>
-                        <span class="bg-orange-900/30 text-orange-400 px-3 py-1 rounded-full text-sm font-semibold border border-orange-500/30">14 Products</span>
+                        <span class="bg-orange-900/30 text-orange-400 px-3 py-1 rounded-full text-sm font-semibold border border-orange-500/30">9 Products</span>
                     </div>
                     <p class="text-orange-400 text-lg mb-2 opacity-80">Hall Effect & Rapid Trigger Specialists</p>
                     <p class="text-slate-300 max-w-2xl">TMKB specializes in Hall Effect magnetic switches with rapid trigger technology. Popular among competitive gamers who need the fastest response times and customizable actuation.</p>
@@ -360,12 +52,12 @@
         </div>
 
         <!-- Products Grid -->
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
             
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71BeP1WQx2L._AC_UY218_.jpg" alt="TMKB T63 Gaming Keyboard, 60% Wireless Mechanical Keyboard with Bluetooth/2.4G/Type-C, Compact 63 Keys Anti-Ghosting, RGB Backlight, Linear Red Switch" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71BeP1WQx2L._AC_UY218_.jpg" alt="TMKB T63 Gaming Keyboard, 60% Wireless Mechanical Keyboard with Bluetooth/2.4G/Type-C, Compact 63 Keys Anti-Ghosting, RGB Backlight, Linear Red Switch" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -393,7 +85,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/617cwyBDQtL._AC_UY218_.jpg" alt="TMKB Falcon M1SE and T68SE，Gaming Mouse and 60% Mechanical Gaming Keyboard Combo, 12800DPI, RGB, Ergonomic with Red Switch-White" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61sE0VH0paL._AC_UY218_.jpg" alt="TMKB Falcon M1SE and T68SE，Gaming Mouse and 60% Mechanical Gaming Keyboard Combo, 12800DPI, RGB, Ergonomic with Red Switch-White" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -413,34 +105,6 @@
                     <span class="text-xl font-bold text-orange-400">$39.98</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
-                    Check Price on Amazon →
-                </a>
-            </div>
-        </article>
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
-            <div class="p-5">
-                <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61sE0VH0paL._AC_UY218_.jpg" alt="TMKB 60% Mechanical Gaming Keyboard, Red Linear Switch, LED Backlight, Anti-Ghosting, Detachable USB-C, Double-Shot Keycaps, 61 Keys, Wired, White" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">60%</span>
-                        </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">TMKB 60% Mechanical Gaming Keyboard, Red Linear Switch, LED Backlight, Anti-Ghosting, Detachable USB-C, Double-Shot Keycaps, 61 Keys, Wired, White</h3>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4.6/10
-                        <span class="text-slate-600">|</span>
-                        <span>❌ Swap</span>
-                        <span>🎨 RGB</span>
-                    </div>
-                    <span class="text-xl font-bold text-orange-400">$29.99</span>
-                </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
                 <a href="https://www.amazon.com/TMKB-Mechanical-Anti-Ghosting-Detachable-Double-Shot/dp/B0DSL67F2B/ref=sr_1_3?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
                     Check Price on Amazon →
                 </a>
@@ -449,7 +113,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61KiB92mLSL._AC_UY218_.jpg" alt="TMKB T68E 60% Wired Gaming Mechanical Keyboard, RGB Backlit Hot-Swappable Gasket Mount, Creamy Keyboard with Pre-Lubed Blueberry Switch, White" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61KiB92mLSL._AC_UY218_.jpg" alt="TMKB T68E 60% Wired Gaming Mechanical Keyboard, RGB Backlit Hot-Swappable Gasket Mount, Creamy Keyboard with Pre-Lubed Blueberry Switch, White" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -477,7 +141,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/610yFgBrH6L._AC_UY218_.jpg" alt="T68SE 60% Gaming Mechanical Keyboard,Ultra Compact Mini 68 Key with Blue Switches Wired Keyboard,Anti-Ghosting Keys, for Windows Laptops and PC Gamers" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/610yFgBrH6L._AC_UY218_.jpg" alt="T68SE 60% Gaming Mechanical Keyboard,Ultra Compact Mini 68 Key with Blue Switches Wired Keyboard,Anti-Ghosting Keys, for Windows Laptops and PC Gamers" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -505,7 +169,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71BeP1WQx2L._AC_UY218_.jpg" alt="TMKB T63 Gaming Keyboard, 60% Wireless Mechanical Keyboard with Bluetooth/2.4G/Type-C, Compact 63 Keys Anti-Ghosting, RGB Backlight, Clicky Blue Switc" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61XogzWL2zL._AC_UY218_.jpg" alt="TMKB T63 Gaming Keyboard, 60% Wireless Mechanical Keyboard with Bluetooth/2.4G/Type-C, Compact 63 Keys Anti-Ghosting, RGB Backlight, Clicky Blue Switc" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -524,34 +188,6 @@
                     </div>
                     <span class="text-xl font-bold text-orange-400">$39.98</span>
                 </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
-                    Check Price on Amazon →
-                </a>
-            </div>
-        </article>
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
-            <div class="p-5">
-                <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61XogzWL2zL._AC_UY218_.jpg" alt="TMKB T68SE Gaming Keyboard, 60% Mechanical Keyboard, LED Backlit Ultra-Compact 68 Keys Wired Mini Keyboard with Separate Arrow/Control Keys for Window" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">60%</span>
-                        </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">TMKB T68SE Gaming Keyboard, 60% Mechanical Keyboard, LED Backlit Ultra-Compact 68 Keys Wired Mini Keyboard with Separate Arrow/Control Keys for Window</h3>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4.5/10
-                        <span class="text-slate-600">|</span>
-                        <span>❌ Swap</span>
-                        <span>🎨 RGB</span>
-                    </div>
-                    <span class="text-xl font-bold text-orange-400">$29.99</span>
-                </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
                 <a href="https://www.amazon.com/TMKB-Keyboard-Ultra-Compact-Mechanical-T68SE/dp/B0BHSPL274/ref=sr_1_4?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
                     Check Price on Amazon →
@@ -561,7 +197,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61XogzWL2zL._AC_UY218_.jpg" alt="TMKB T68SE Gaming Keyboard, 60% Mechanical Keyboard, LED Backlit Ultra-Compact 68 Keys Wired Mini Keyboard with Separate Arrow/Control Keys for Window" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71cd3Qs3fEL._AC_UY218_.jpg" alt="TMKB T68SE Gaming Keyboard, 60% Mechanical Keyboard, LED Backlit Ultra-Compact 68 Keys Wired Mini Keyboard with Separate Arrow/Control Keys for Window" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -580,34 +216,6 @@
                     </div>
                     <span class="text-xl font-bold text-orange-400">$29.99</span>
                 </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
-                    Check Price on Amazon →
-                </a>
-            </div>
-        </article>
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
-            <div class="p-5">
-                <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71cd3Qs3fEL._AC_UY218_.jpg" alt="Keyboard, T102 104 Keys Gaming Keyboard and Mouse Combo with RGB Backlit Number Pad, All-Metal Panel Waterproof Light Up PC Keyboard,USB Wired Compute" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
-                        </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Keyboard, T102 104 Keys Gaming Keyboard and Mouse Combo with RGB Backlit Number Pad, All-Metal Panel Waterproof Light Up PC Keyboard,USB Wired Compute</h3>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4.4/10
-                        <span class="text-slate-600">|</span>
-                        <span>❌ Swap</span>
-                        <span>🎨 RGB</span>
-                    </div>
-                    <span class="text-xl font-bold text-orange-400">$24.29</span>
-                </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Full Size with Numpad</span></div>
                 <a href="https://www.amazon.com/AULA-Keyboard-Backlit-Computer-Windows/dp/B0B3RJML38/ref=sr_1_15?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
                     Check Price on Amazon →
@@ -617,7 +225,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61rTeFwtauL._AC_UY218_.jpg" alt="TMKB Falcon M1SE Gaming Mouse, T68SE 60% Mechanical Gaming Keyboard, LED Backlit, 12800DPI Optical Sensor with Brown Switch-White" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/716DtKV6d+L._AC_UY218_.jpg" alt="TMKB Falcon M1SE Gaming Mouse, T68SE 60% Mechanical Gaming Keyboard, LED Backlit, 12800DPI Optical Sensor with Brown Switch-White" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -636,34 +244,6 @@
                     </div>
                     <span class="text-xl font-bold text-orange-400">$39.98</span>
                 </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Optical Switches</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
-                    Check Price on Amazon →
-                </a>
-            </div>
-        </article>
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
-            <div class="p-5">
-                <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/716DtKV6d+L._AC_UY218_.jpg" alt="DK63 60% Wireless Mechanical Gaming Keyboard | Bluetooth/2.4G/Wired Keyboard | RGB Backlit Compact 63 Keys Mini Office Keyboard | with Blue Switch | f" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Clicky Blue</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">60%</span>
-                        </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">DK63 60% Wireless Mechanical Gaming Keyboard | Bluetooth/2.4G/Wired Keyboard | RGB Backlit Compact 63 Keys Mini Office Keyboard | with Blue Switch | f</h3>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4.3/10
-                        <span class="text-slate-600">|</span>
-                        <span>❌ Swap</span>
-                        <span>🎨 RGB</span>
-                    </div>
-                    <span class="text-xl font-bold text-orange-400">$39.99</span>
-                </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
                 <a href="https://www.amazon.com/DIERYA-T63-Mechanical-Bluetooth-Typist-Black/dp/B0CP5NTTKL/ref=sr_1_21?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
                     Check Price on Amazon →
@@ -673,7 +253,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71WgukvwvML._AC_UY218_.jpg" alt="TMKB T63 Gaming Keyboard, 60% Wireless Mechanical Keyboard with Bluetooth/2.4G/Type-C, Compact 63 Keys Anti-Ghosting, RGB Backlight, Clicky Blue Switc" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71WgukvwvML._AC_UY218_.jpg" alt="TMKB T63 Gaming Keyboard, 60% Wireless Mechanical Keyboard with Bluetooth/2.4G/Type-C, Compact 63 Keys Anti-Ghosting, RGB Backlight, Clicky Blue Switc" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -701,7 +281,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61W+4PSmimL._AC_UY218_.jpg" alt="TMKB Falcon M1SE Gaming Mouse, T68SE 60% Mechanical Gaming Keyboard, LED Backlit, 12800DPI Optical Sensor with Blue Switch-White" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61G0uqSAzbL._AC_UY218_.jpg" alt="TMKB Falcon M1SE Gaming Mouse, T68SE 60% Mechanical Gaming Keyboard, LED Backlit, 12800DPI Optical Sensor with Blue Switch-White" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -719,34 +299,6 @@
                         <span>🎨 RGB</span>
                     </div>
                     <span class="text-xl font-bold text-orange-400">$39.98</span>
-                </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Optical Switches</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
-                    Check Price on Amazon →
-                </a>
-            </div>
-        </article>
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
-            <div class="p-5">
-                <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61G0uqSAzbL._AC_UY218_.jpg" alt="TMKB T68 60% Wireless Mechanical Gaming Keyboard, Tri-Mode BT5.0/2.4GHz/USB-C with Red Linear Switch, RGB Backlight, Anti-Ghosting, Compact 68 Keys, W" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">60%</span>
-                        </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">TMKB T68 60% Wireless Mechanical Gaming Keyboard, Tri-Mode BT5.0/2.4GHz/USB-C with Red Linear Switch, RGB Backlight, Anti-Ghosting, Compact 68 Keys, W</h3>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4/10
-                        <span class="text-slate-600">|</span>
-                        <span>❌ Swap</span>
-                        <span>🎨 RGB</span>
-                    </div>
-                    <span class="text-xl font-bold text-orange-400">$39.99</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
                 <a href="https://www.amazon.com/TMKB-T68-Mechanical-Backlight-Anti-Ghosting/dp/B0FCMLLNPD/ref=sr_1_20?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -770,31 +322,5 @@
             <p>&copy; 2026 MechKeys Hub. As an Amazon Associate, we earn from qualifying purchases.</p>
         </div>
     </footer>
-
-    <!-- Related Links -->
-    <section class="py-12 px-4 bg-slate-900/50">
-        <div class="max-w-7xl mx-auto">
-            <h3 class="text-xl font-bold mb-6">Explore More</h3>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <a href="/60_percent.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">⌨️</div>
-                    <div class="font-semibold">60% Keyboards</div>
-                </a>
-                <a href="/best-value.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">💰</div>
-                    <div class="font-semibold">Best Value</div>
-                </a>
-                <a href="/switches.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">🎛️</div>
-                    <div class="font-semibold">Switches Guide</div>
-                </a>
-                <a href="/guides.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">📖</div>
-                    <div class="font-semibold">Buying Guides</div>
-                </a>
-            </div>
-        </div>
-    </section>
-
 </body>
 </html>

@@ -1,35 +1,4 @@
-<!DOCTY
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logitech Mechanical Keyboards - MechKeys Hub</title>
-    <meta name="description" content="Browse Logitech mechanical keyboards. Logitech is a household name in computer peripherals. Their mechanical keyboards combine Swiss engineering with premium materials, smart features like adaptive lighting, and multi-device connectivity.">
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Discover the best logitech. Expert reviews and recommendations at MechKeys Hub.">
-    <meta name="keywords" content="logitech, mechanical keyboard, review">
-    <link rel="canonical" href="https://mechkeys-hub.com/logitech.html">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mechkeys-hub.com/logitech.html">
-    <meta property="og:title" content="Logitech - MechKeys Hub">
-    <meta property="og:description" content="Discover the best logitech. Expert reviews and recommendations at MechKeys Hub.">
-    <meta property="og:image" content="https://mechkeys-hub.com/og-image.jpg">
-    <meta property="og:site_name" content="MechKeys Hub">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://mechkeys-hub.com/logitech.html">
-    <meta name="twitter:title" content="Logitech - MechKeys Hub">
-    <meta name="twitter:description" content="Discover the best logitech. Expert reviews and recommendations at MechKeys Hub.">
-    <meta name="twitter:image" content="https://mechkeys-hub.com/og-image.jpg">
-
-    <link rel="canonical" href="https://mechkeys-hub.vercel.app/brand/logitech.html">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,302 +13,25 @@
         .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
         .card-hover { transition: all 0.3s ease; }
         .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(99,102,241,0.15); }
-    
-        /* Mobile Navigation */
-        .mobile-menu-btn { display: none; }
-        .mobile-nav { display: none; }
-        
-        @media (max-width: 1023px) {
-            .mobile-menu-btn { display: flex; }
-            .desktop-nav { display: none !important; }
-            .mobile-nav {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: rgb(15 23 42 / 0.98);
-                backdrop-filter: blur(12px);
-                border-bottom: 1px solid rgba(255,255,255,0.1);
-                padding: 1rem;
-                flex-direction: column;
-                gap: 0.25rem;
-                z-index: 100;
-            }
-            .mobile-nav.active { display: flex; }
-            .mobile-nav button,
-            .mobile-nav .nav-link {
-                padding: 0.75rem 1rem;
-            min-height: 44px;
-            min-width: 44px; 
-                font-size: 1rem;
-                display: flex;
-                align-items: center;
-                gap: 0.75rem;
-            }
-            .mobile-nav .nav-link i { width: 20px; text-align: center; }
-        }
-        
-        /* Touch-friendly product cards on mobile */
-        @media (max-width: 640px) {
-            .product-grid { grid-template-columns: 1fr !important; }
-            .product-card { padding: 1rem; }
-            h1, h2 { font-size: 1.75rem !important; }
-            .hero-section { padding: 2rem 0.5rem !important; }
-            .stats-grid { grid-template-columns: repeat(2, 1fr) !important; }
-            .container { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
-            .grid { grid-template-columns: 1fr !important; }
-            .filters { flex-direction: column !important; gap: 0.5rem !important; }
-            .filter-btn { width: 100% !important; text-align: center !important; }
-        }
     </style>
-
-<style>
-.nav-btn {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
-    color: #e5e7eb;
-    font-size: 0.9375rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-}
-.nav-btn:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.nav-btn i {
-    font-size: 0.875rem;
-}
-.nav-btn-primary {
-    background: rgba(99, 102, 241, 0.2);
-    color: #a5b4fc;
-    border: 1px solid rgba(99, 102, 241, 0.4);
-}
-.nav-btn-primary:hover {
-    background: rgba(99, 102, 241, 0.35);
-    color: white;
-}
-.mobile-nav-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem;
-    border-radius: 0.75rem;
-    color: #d1d5db;
-    font-size: 0.75rem;
-    font-weight: 600;
-    transition: all 0.2s;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-decoration: none;
-}
-.mobile-nav-btn:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.mobile-nav-btn i {
-    font-size: 1.25rem;
-    margin-bottom: 0.25rem;
-}
-</style>
-
-
-<style>
-.nav-link {
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
-    color: #d1d5db;
-    font-size: 0.9375rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-}
-.nav-link:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.1);
-}
-.nav-link-primary {
-    background: rgba(99, 102, 241, 0.2);
-    color: #a5b4fc;
-    border: 1px solid rgba(99, 102, 241, 0.4);
-}
-.nav-link-primary:hover {
-    background: rgba(99, 102, 241, 0.35);
-    color: white;
-}
-.mobile-nav-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem;
-    border-radius: 0.75rem;
-    color: #d1d5db;
-    font-size: 0.75rem;
-    font-weight: 600;
-    transition: all 0.2s;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-decoration: none;
-}
-.mobile-nav-link:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.mobile-nav-link i {
-    font-size: 1.25rem;
-    margin-bottom: 0.25rem;
-}
-</style>
-
-
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://mechkeys-hub.com/"
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Logitech",
-            "item": "https://mechkeys-hub.com/logitech.html"
-        }
-    ]
-}
-    </script>
-
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "MechKeys Hub",
-    "url": "https://mechkeys-hub.com/",
-    "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://mechkeys-hub.com/search.html?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-    }
-}
-    </script>
 </head>
 <body class="gradient-bg min-h-screen text-white">
-    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
-        <div class="max-w-7xl mx-auto px-4 py-4">
-            <div class="flex items-center justify-between">
-                <a href="/" class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-xl">⌨️</div>
-                    <span class="font-bold text-xl">MechKeys Hub</span>
-                </a>
-                <button class="mobile-menu-btn md:hidden p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu">
-                    <i class="fas fa-bars text-xl" id="menu-icon"></i>
-                </button>
-                <nav class="desktop-nav flex items-center gap-1">
-                    <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                    <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                    <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                    <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                    <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                    <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                    <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
-                    <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                    <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
-                    <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
-                    <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
-                </nav>
-            </div>
-        </div>
-    
-            <!-- Mobile Navigation -->
-            <nav class="mobile-nav" id="mobile-nav">
-                <!-- Search in Mobile Menu -->
-                <div class="mobile-search-wrapper px-3 py-2 border-b border-white/10">
-                    <form action="/search.html" method="get" class="flex items-center">
-                        <input type="text" name="q" placeholder="Search keyboards..." 
-                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-base" focus:outline-none focus:border-indigo-500">
-                        <button type="submit" class="ml-2 px-3 py-2 bg-indigo-600 rounded-lg">
-                            <i class="fas fa-search text-sm"></i>
-                        </button>
-                    </form>
-                </div>
-
-                <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
-                <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
-                <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
-                <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
+    <header class="border-b border-white/10 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="../index.html" class="text-2xl font-bold text-indigo-400">
+                <i class="fas fa-keyboard mr-2"></i>MechKeys Hub
+            </a>
+            <nav class="flex gap-2 flex-wrap">
+                <a href="../index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">All Keyboards</a>
+                <a href="index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Brands</a>
+                <a href="../best-value.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Best Value</a>
+                <a href="../compare.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Compare</a>
+                <a href="../guides.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Guides</a>
             </nav>
         </div>
     </header>
 
-            <!-- Breadcrumb -->
-            <nav aria-label="breadcrumb" class="max-w-7xl mx-auto px-4 py-3">
-                <ol class="flex items-center gap-2 text-sm text-gray-400">
-                    <li><a href="/" class="hover:text-white transition">Home</a></li>
-                    <li><i class="fas fa-chevron-right text-xs"></i></li>
-                    <li class="text-white" id="breadcrumb-current">Logitech</li>
-                </ol>
-            </nav>
-
-    
-    <script>
-        function toggleMobileMenu() {
-            const nav = document.getElementById('mobile-nav');
-            const icon = document.getElementById('menu-icon');
-            nav.classList.toggle('active');
-            if (nav.classList.contains('active')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-times');
-            } else {
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-            }
-        }
-        document.addEventListener('click', function(e) {
-            const nav = document.getElementById('mobile-nav');
-            const btn = document.querySelector('.mobile-menu-btn');
-            if (nav && btn && !nav.contains(e.target) && !btn.contains(e.target) && nav.classList.contains('active')) {
-                nav.classList.remove('active');
-                const icon = document.getElementById('menu-icon');
-                if (icon) {
-                    icon.classList.remove('fa-times');
-                    icon.classList.add('fa-bars');
-                }
-            }
-        });
-    </script>
-<style>
-    </style>
-
-    <script>
-        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
-            var menu = document.getElementById('mobile-menu');
-            var icon = this.querySelector('i');
-            menu.classList.toggle('hidden');
-            icon.classList.toggle('fa-bars');
-            icon.classList.toggle('fa-times');
-        });
-    </script>
-
-<main class="max-w-7xl mx-auto px-4 py-10">
+    <main class="max-w-7xl mx-auto px-4 py-10">
         <div class="mb-6">
             <a href="index.html" class="text-indigo-400 hover:underline text-sm">← All Brands</a>
         </div>
@@ -351,7 +43,7 @@
                 <div class="flex-1">
                     <div class="flex items-center gap-3 mb-2">
                         <h1 class="text-3xl font-bold text-blue-400">Logitech</h1>
-                        <span class="bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full text-sm font-semibold border border-blue-500/30">18 Products</span>
+                        <span class="bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full text-sm font-semibold border border-blue-500/30">23 Products</span>
                     </div>
                     <p class="text-blue-400 text-lg mb-2 opacity-80">Premium Reliability & Swiss Engineering</p>
                     <p class="text-slate-300 max-w-2xl">Logitech is a household name in computer peripherals. Their mechanical keyboards combine Swiss engineering with premium materials, smart features like adaptive lighting, and multi-device connectivity.</p>
@@ -365,7 +57,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/610z5HRKIjL._AC_UY218_.jpg" alt="Logitech G413 SE Mechanical Gaming Keyboard and Logitech G502 HERO High Performance Gaming Mouse Bundle" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/610z5HRKIjL._AC_UY218_.jpg" alt="Logitech G413 SE Mechanical Gaming Keyboard and Logitech G502 HERO High Performance Gaming Mouse Bundle" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -393,7 +85,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61U-zlxQmWL._AC_UY218_.jpg" alt="Logitech G413 TKL SE Mechanical Gaming Keyboard - Compact Backlit Keyboard with Tactile Mechanical Switches, Anti-Ghosting, Compatible with Windows, m" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61U-zlxQmWL._AC_UY218_.jpg" alt="Logitech G413 TKL SE Mechanical Gaming Keyboard - Compact Backlit Keyboard with Tactile Mechanical Switches, Anti-Ghosting, Compatible with Windows, m" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -421,7 +113,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/51K1mE5uVyL._AC_UY218_.jpg" alt="PRO Mechanical Gaming Keyboard, Ultra Portable Tenkeyless Design, Detachable Micro USB Cable, 16.8 Million Color LIGHTSYNC RGB Backlit Keys" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/51K1mE5uVyL._AC_UY218_.jpg" alt="PRO Mechanical Gaming Keyboard, Ultra Portable Tenkeyless Design, Detachable Micro USB Cable, 16.8 Million Color LIGHTSYNC RGB Backlit Keys" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -449,7 +141,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71TyGobdfQL._AC_UY218_.jpg" alt="PRO Mechanical Gaming Keyboard - Ultra-Portable Tenkeyless Design, Detachable USB Cable, LIGHTSYNC RGB Backlit Keys, Official League of Legends Editio" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71TyGobdfQL._AC_UY218_.jpg" alt="PRO Mechanical Gaming Keyboard - Ultra-Portable Tenkeyless Design, Detachable USB Cable, LIGHTSYNC RGB Backlit Keys, Official League of Legends Editio" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -477,7 +169,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61thTSgqWOL._AC_UY218_.jpg" alt="Logitech G413 SE Full-Size Mechanical Gaming Keyboard - Backlit Keyboard with Tactile Mechanical Swi" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61thTSgqWOL._AC_UY218_.jpg" alt="Logitech G413 SE Full-Size Mechanical Gaming Keyboard - Backlit Keyboard with Tactile Mechanical Swi" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -505,7 +197,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61c2wJQNQZL._AC_UY218_.jpg" alt="MX Keys S Combo - Performance Wireless Keyboard and Mouse with Palm Rest, Customizable Illumination, Fast Scrolling, Bluetooth, USB C, for Windows, Li" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61c2wJQNQZL._AC_UY218_.jpg" alt="MX Keys S Combo - Performance Wireless Keyboard and Mouse with Palm Rest, Customizable Illumination, Fast Scrolling, Bluetooth, USB C, for Windows, Li" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -533,7 +225,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71kgPdXPx1L._AC_UY218_.jpg" alt="MX Keys S for Mac, Wireless Keyboard, Fluid, Precise Laptop-Like Typing, Programmable Keys, Backlit, Bluetooth USB C Rechargeable for MacBook Pro, Mac" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71kgPdXPx1L._AC_UY218_.jpg" alt="MX Keys S for Mac, Wireless Keyboard, Fluid, Precise Laptop-Like Typing, Programmable Keys, Backlit, Bluetooth USB C Rechargeable for MacBook Pro, Mac" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -561,7 +253,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/611OJscHryL._AC_UY218_.jpg" alt="K845 Mechanical Illuminated Keyboard, Mechanical Switches, Strong Adjustable Tilt Legs, Full Size, Aluminum Top Case, 104 Keys, USB Corded, Windows (T" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/611OJscHryL._AC_UY218_.jpg" alt="K845 Mechanical Illuminated Keyboard, Mechanical Switches, Strong Adjustable Tilt Legs, Full Size, Aluminum Top Case, 104 Keys, USB Corded, Windows (T" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -589,7 +281,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71G7uXAb9BL._AC_UY218_.jpg" alt="MX Keys S Wireless Keyboard, Low Profile, Fluid Precise Quiet Typing, Programmable Keys, Backlighting, Bluetooth, USB C Rechargeable, for Windows PC, " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71G7uXAb9BL._AC_UY218_.jpg" alt="MX Keys S Wireless Keyboard, Low Profile, Fluid Precise Quiet Typing, Programmable Keys, Backlighting, Bluetooth, USB C Rechargeable, for Windows PC, " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -617,7 +309,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61+6kI9ATAL._AC_UY218_.jpg" alt="MX Mechanical Mini for Mac Wireless Illuminated Keyboard, Low-Profile Performance Switches, Tactile Quiet Keys, Backlit, Bluetooth, USB-C, Apple, iPad" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61+6kI9ATAL._AC_UY218_.jpg" alt="MX Mechanical Mini for Mac Wireless Illuminated Keyboard, Low-Profile Performance Switches, Tactile Quiet Keys, Backlit, Bluetooth, USB-C, Apple, iPad" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -645,7 +337,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61bBov3WvhL._AC_UY218_.jpg" alt="F108 PRO - Wireless Mechanical Keyboard with Screen & Knob,Full Size Keyboard with 8000mAh Battery,Pre-lubed Switches,Side Printed PBT Keycaps,RGB Bac" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61kFc75+7OL._AC_UY218_.jpg" alt="F108 PRO - Wireless Mechanical Keyboard with Screen & Knob,Full Size Keyboard with 8000mAh Battery,Pre-lubed Switches,Side Printed PBT Keycaps,RGB Bac" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -659,38 +351,10 @@
                     <div class="flex items-center gap-2 text-xs text-slate-300">
                         <span class="text-yellow-400">★</span> 4.4/10
                         <span class="text-slate-600">|</span>
-                        <span>✅ Swap</span>
-                        <span>🎨 RGB</span>
-                    </div>
-                    <span class="text-xl font-bold text-blue-400">$89.99</span>
-                </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
-                    Check Price on Amazon →
-                </a>
-            </div>
-        </article>
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
-            <div class="p-5">
-                <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61kFc75+7OL._AC_UY218_.jpg" alt="Logitech G515 Lightspeed TKL Low Profile Wireless Gaming Keyboard, LIGHTSYNC RGB, Thin Tenkeyless Design, PBT Keycaps, Tactile (Brown) Mechanical Swit" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Tactile Brown</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
-                        </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Logitech G515 Lightspeed TKL Low Profile Wireless Gaming Keyboard, LIGHTSYNC RGB, Thin Tenkeyless Design, PBT Keycaps, Tactile (Brown) Mechanical Swit</h3>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4.4/10
-                        <span class="text-slate-600">|</span>
                         <span>❌ Swap</span>
                         <span>🎨 RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-blue-400">$158.49</span>
+                    <span class="text-xl font-bold text-blue-400">$89.99</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">PBT Keycaps</span></div>
                 <a href="https://www.amazon.com/Logitech-Lightspeed-Tenkeyless-Double-Shot-Mechanical/dp/B0D1DN9GR2/ref=sr_1_16?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -701,7 +365,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/81Hxk0dV6uL._AC_UY218_.jpg" alt="Keyboard Carrying Case, Compatible with Logitech MX Mechanical Wireless / MK955 / Signature Slim K950 / G413 SE, Hard Shell Travel Bag (Dark Gray)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/81Hxk0dV6uL._AC_UY218_.jpg" alt="Keyboard Carrying Case, Compatible with Logitech MX Mechanical Wireless / MK955 / Signature Slim K950 / G413 SE, Hard Shell Travel Bag (Dark Gray)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -729,7 +393,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61ge3d+MQwL._AC_UY218_.jpg" alt="MX Mechanical Mini Wireless Illuminated Keyboard, Clicky Switches, Backlit, Bluetooth, USB-C, macOS, Windows, Linux, iOS, Android, Metal" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61ge3d+MQwL._AC_UY218_.jpg" alt="MX Mechanical Mini Wireless Illuminated Keyboard, Clicky Switches, Backlit, Bluetooth, USB-C, macOS, Windows, Linux, iOS, Android, Metal" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -757,7 +421,91 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71y+Sl+qWwL._AC_UY218_.jpg" alt="Logitech G213 Prodigy Gaming Keyboard - Wired RGB Backlit Keyboard with Mech-Dome Keys, Palm Rest, A" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/51J05wjSVGL._AC_UY218_.jpg" alt="Logitech K845 Mechanical Illuminated Keyboard, Mechanical Switches, Strong Adjustable Tilt Legs, Full Size, Aluminum Top Case, 104 Keys, USB Corded, Windows (TTC Brown Switches)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Logitech K845 Mechanical Illuminated Keyboard, Mechanical Switches, Strong Adjustable Tilt Legs, Full Size, Aluminum Top Case, 104 Keys, USB Corded, Windows (TTC Brown Switches)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.4/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-blue-400">$0</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/51J05wjSVGL._AC_UY218_.jpg" alt="Logitech K845 Mechanical Illuminated Keyboard,Mechanical Switches, Strong Adjustable Tilt Legs, Full Size, Aluminum Top Case, 104 Keys, USB Corded, Windows (TTC Blue Switches)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Logitech K845 Mechanical Illuminated Keyboard,Mechanical Switches, Strong Adjustable Tilt Legs, Full Size, Aluminum Top Case, 104 Keys, USB Corded, Windows (TTC Blue Switches)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.4/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-blue-400">$67.69</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61+6kI9ATAL._AC_UY218_.jpg" alt="Logitech MX Mechanical Mini for Mac Wireless Illuminated Keyboard, Low-Profile Performance Switches, Tactile Quiet Keys, Backlit, Bluetooth, USB-C, Apple, iPad - Space Grey (Renewed)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Logitech MX Mechanical Mini for Mac Wireless Illuminated Keyboard, Low-Profile Performance Switches, Tactile Quiet Keys, Backlit, Bluetooth, USB-C, Apple, iPad - Space Grey (Renewed)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.4/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-blue-400">$88.20</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/71y+Sl+qWwL._AC_UY218_.jpg" alt="Logitech G213 Prodigy Gaming Keyboard - Wired RGB Backlit Keyboard with Mech-Dome Keys, Palm Rest, A" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -785,7 +533,35 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61++ok6AqtL._AC_UY218_.jpg" alt="Logitech MX Mechanical Wireless Illuminated Performance Keyboard, Tactile Quiet Switches, Backlit Ke" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61FYlW5tsFL._AC_UY218_.jpg" alt="Logitech Alto Keys K98M Wireless Mechanical Keyboard, Customizable Keyboard with Vibration Absorbing Gasket, Backlit Keys, Bluetooth, USB-C Charging, for PC, Mac, Laptops - Off-White" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Logitech Alto Keys K98M Wireless Mechanical Keyboard, Customizable Keyboard with Vibration Absorbing Gasket, Backlit Keys, Bluetooth, USB-C Charging, for PC, Mac, Laptops - Off-White</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.3/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-blue-400">$120.00</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61++ok6AqtL._AC_UY218_.jpg" alt="Logitech MX Mechanical Wireless Illuminated Performance Keyboard, Tactile Quiet Switches, Backlit Ke" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -813,7 +589,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61++ok6AqtL._AC_UY218_.jpg" alt="MX Mechanical Wireless Illuminated Performance Keyboard, Linear Switches, Backlit Keys, Bluetooth, USB-C, macOS, Windows, Linux, iOS, Android, Metal" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61++ok6AqtL._AC_UY218_.jpg" alt="MX Mechanical Wireless Illuminated Performance Keyboard, Linear Switches, Backlit Keys, Bluetooth, USB-C, macOS, Windows, Linux, iOS, Android, Metal" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -841,27 +617,83 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/613HGbeOmYL._AC_UY218_.jpg" alt="K71M RGB Mechanical Gaming Keyboard with Media Control Knob, Switches (Blue), 107 Keys w/Full NKRO, PBT Keycaps, Multimedia Hotkeys, Detachable USB-C " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61FO2QWeK3L._AC_UY218_.jpg" alt="Logitech G915 X Low-Profile Wired Mechanical Gaming Keyboard, Double-Shot PBT Keycaps, Fully Programmable Keys, RGB Lighting, Aluminum Finish, GL Brown Tactile Switches - PC/Mac - Black" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
                             <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
                         </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K71M RGB Mechanical Gaming Keyboard with Media Control Knob, Switches (Blue), 107 Keys w/Full NKRO, PBT Keycaps, Multimedia Hotkeys, Detachable USB-C </h3>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Logitech G915 X Low-Profile Wired Mechanical Gaming Keyboard, Double-Shot PBT Keycaps, Fully Programmable Keys, RGB Lighting, Aluminum Finish, GL Brown Tactile Switches - PC/Mac - Black</h3>
                     </div>
                 </div>
                 <div class="flex items-center justify-between mb-2">
                     <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4/10
+                        <span class="text-yellow-400">★</span> 4.1/10
                         <span class="text-slate-600">|</span>
                         <span>❌ Swap</span>
-                        <span>🎨 RGB</span>
+                        <span>⬜ RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-blue-400">$84.90</span>
+                    <span class="text-xl font-bold text-blue-400">$169.99</span>
                 </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">PBT Keycaps</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Media Controls</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61FO2QWeK3L._AC_UY218_.jpg" alt="Logitech G915 X Low-Profile Wired Mechanical Gaming Keyboard, Double-Shot PBT Keycaps, Fully Programmable Keys, RGB Lighting, Aluminum Finish, GL Red Linear Switches - PC/Mac" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Logitech G915 X Low-Profile Wired Mechanical Gaming Keyboard, Double-Shot PBT Keycaps, Fully Programmable Keys, RGB Lighting, Aluminum Finish, GL Red Linear Switches - PC/Mac</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 3.9/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-blue-400">$169.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61iged2bMlL._AC_UY218_.jpg" alt="Logitech G915 X Lightspeed Low-Profile Wireless Gaming Keyboard, Double-Shot PBT Keycaps, Fully Programmable Keys, RGB Backlighting, Sleek Aluminum Finishing, GL Red Linear Switches - PC/Mac - Black" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Logitech G915 X Lightspeed Low-Profile Wireless Gaming Keyboard, Double-Shot PBT Keycaps, Fully Programmable Keys, RGB Backlighting, Sleek Aluminum Finishing, GL Red Linear Switches - PC/Mac - Black</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 3.7/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-blue-400">$229.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
                     Check Price on Amazon →
                 </a>
             </div>
@@ -882,31 +714,5 @@
             <p>&copy; 2026 MechKeys Hub. As an Amazon Associate, we earn from qualifying purchases.</p>
         </div>
     </footer>
-
-    <!-- Related Links -->
-    <section class="py-12 px-4 bg-slate-900/50">
-        <div class="max-w-7xl mx-auto">
-            <h3 class="text-xl font-bold mb-6">Explore More</h3>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <a href="/60_percent.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">⌨️</div>
-                    <div class="font-semibold">60% Keyboards</div>
-                </a>
-                <a href="/best-value.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">💰</div>
-                    <div class="font-semibold">Best Value</div>
-                </a>
-                <a href="/switches.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">🎛️</div>
-                    <div class="font-semibold">Switches Guide</div>
-                </a>
-                <a href="/guides.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">📖</div>
-                    <div class="font-semibold">Buying Guides</div>
-                </a>
-            </div>
-        </div>
-    </section>
-
 </body>
 </html>

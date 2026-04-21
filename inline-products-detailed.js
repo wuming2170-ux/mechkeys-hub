@@ -11076,5 +11076,940 @@ const topProducts = [
         ],
         "source": "serpapi",
         "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Majestouch 3 TKL Double Shot PBT Mechanical Keyboard Cherry MX Red",
+        "amazon_asin": "B0BBV2HY6F",
+        "price": "$129.00",
+        "rating": 4.3,
+        "reviews": 8,
+        "brand": "Cherry",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61ep2nnUI1L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BBV2HY6F?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Majestouch 3 Full Size Double Shot PBT Mechanical Keyboard Cherry MX Brown",
+        "amazon_asin": "B0BBV4625G",
+        "price": "$154.32",
+        "rating": 4.4,
+        "reviews": 20,
+        "brand": "Cherry",
+        "layout": "Full Size",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61VCA8r1olL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BBV4625G?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Majestouch 2SS TKL Double Shot PBT Mechanical Keyboard",
+        "amazon_asin": "B08QRG6X3V",
+        "price": "$99.00",
+        "rating": 4.6,
+        "reviews": 7,
+        "brand": "Other",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61iUE9S8ZpL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B08QRG6X3V?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Majestouch 3 Ninja TKL Laser Engraved PBT Mechanical Keyboard (Cherry MX Brown)",
+        "amazon_asin": "B0BGKS273R",
+        "price": "$147.48",
+        "rating": 5,
+        "reviews": 4,
+        "brand": "Cherry",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/514D6hi0XvL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BGKS273R?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Majestouch 3 TKL Double Shot PBT Mechanical Keyboard Cherry MX Brown",
+        "amazon_asin": "B0BBV1SSW8",
+        "price": "$151.49",
+        "rating": 4.3,
+        "reviews": 8,
+        "brand": "Cherry",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61ep2nnUI1L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BBV1SSW8?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Majestouch 3 HAKUA TKL Keyboard (Cherry MX Brown)",
+        "amazon_asin": "B0FDW2GSDD",
+        "price": "$130.00",
+        "rating": "0",
+        "reviews": "0",
+        "brand": "Cherry",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61NL-5yKxiL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FDW2GSDD?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Majestouch 3 Ninja Laser Engraved PBT Mechanical Keyboard (Cherry MX Red)",
+        "amazon_asin": "B0BGKR52NX",
+        "price": "$139.00",
+        "rating": "0",
+        "reviews": "0",
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61cMtBC9a1L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BGKR52NX?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Majestouch 2 Mechanical Keyboard (Cherry MX Brown)",
+        "amazon_asin": "B004VKUSG6",
+        "price": "$0",
+        "rating": 4.3,
+        "reviews": 269,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61N5rLdyTtL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B004VKUSG6?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "YZ98 Gasket Mechanical Keyboard,99 Key Hot Swappable BT5.0/2.4G/USB-C Wireless NKRO 98% 1800 Layout with RGB LED Backlit for Linux/Win/Mac(Black, Cocoa Cream V2 Switch)",
+        "amazon_asin": "B0D9Y4NY7F",
+        "price": "$57.81",
+        "rating": 4.5,
+        "reviews": 125,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71SWZRHEBsL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0D9Y4NY7F?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Stingray Ninja Low Profile Mechanical Keyboard Cherry MX Low Profile Red",
+        "amazon_asin": "B07MNNC2VJ",
+        "price": "$163.90",
+        "rating": 4.9,
+        "reviews": 15,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61d-XVG0bXL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B07MNNC2VJ?tag=mechkeyshub-20",
+        "categories": [
+            "General"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "MX Mechanical Full-Size Wireless Mechanical Keyboard, Tactile Quiet Switches, Low Profile Backlit Keys, Bluetooth, USB-C, Multi-Device Performance, Windows/macOS Graphite, Bulk Packaging",
+        "amazon_asin": "B0FZMMNZ95",
+        "price": "$159.99",
+        "rating": 5,
+        "reviews": 2,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/51SaAGOz-OL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FZMMNZ95?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Apex 7 Mechanical Gaming Keyboard – OLED Smart Display – USB Passthrough and Media Controls – Linear , Quiet – RGB Backlit (Red Switch)",
+        "amazon_asin": "B07SWNSXQN",
+        "price": "$129.99",
+        "rating": 4.6,
+        "reviews": 1100,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/81yOuAUQAiL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B07SWNSXQN?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Apex Pro Gen 3 OmniPoint 3.0 HyperMagnetic Switches — Adjustable Actuation — Rapid Trigger — Game-Ready Presets — Protection Mode — Rapid Tap/SOCD — OLED — RGB — PBT Keycaps — USB-C",
+        "amazon_asin": "B0D4RKYZJ5",
+        "price": "$224.99",
+        "rating": 4.4,
+        "reviews": 201,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71tbHaSmb+L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0D4RKYZJ5?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Apex Pro TKL Gen 3 OmniPoint 3.0 HyperMagnetic Switches — Adjustable Actuation — Rapid Trigger — Game-Ready Presets — Protection Mode — Rapid Tap/SOCD — OLED — RGB — PBT Keycaps — USB-C",
+        "amazon_asin": "B0DGZLHN8G",
+        "price": "$164.95",
+        "rating": 4.7,
+        "reviews": 388,
+        "brand": "Other",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/713vLZcw3FL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DGZLHN8G?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Apex Pro HyperMagnetic Gaming Keyboard — Adjustable Actuation — OLED Screen — RGB – USB Passthrough​",
+        "amazon_asin": "B07SVJJCP3",
+        "price": "$0",
+        "rating": 4.7,
+        "reviews": 4000,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71HmUNj01VL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B07SVJJCP3?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "SteelSeries Apex 3 RGB Gaming Keyboard – 10-Zone RGB Illumination – IP32 Water Resistant – Premium Magnetic Wrist Rest (Whisper Quiet Gaming Switch) (Renewed)",
+        "amazon_asin": "B0898R8DTH",
+        "price": "$37.99",
+        "rating": 4.5,
+        "reviews": 579,
+        "brand": "SteelSeries",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/81L8fk7SGQL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0898R8DTH?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "New Apex 9 TKL – HotSwap Optical Mini Keyboard – TKL Esports Design – Optical Switches – RGB Customization – Aluminum Alloy Frame – Double Shot PBT Keycaps",
+        "amazon_asin": "B0B169JSRT",
+        "price": "$139.99",
+        "rating": 4.6,
+        "reviews": 402,
+        "brand": "Other",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71Mi6qhb2aL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0B169JSRT?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Apex 7 Mechanical Gaming Keyboard – OLED Smart Display – USB Passthrough and Media Controls – Tactile and Clicky – RGB Backlit (Blue Switch)",
+        "amazon_asin": "B07SRCSML4",
+        "price": "$143.99",
+        "rating": 4.7,
+        "reviews": 578,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/81yOuAUQAiL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B07SRCSML4?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "SteelSeries Apex 7 TKL Mechanic Keyboards, Mechanical Gaming Keyboard",
+        "amazon_asin": "B07RWDX9TW",
+        "price": "$146.99",
+        "rating": 4.4,
+        "reviews": 135,
+        "brand": "SteelSeries",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/615Ib-WCIoS._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B07RWDX9TW?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "SteelSeries Apex 7 TKL Mechanical USB Gaming Keyboard",
+        "amazon_asin": "B07VFK33Q6",
+        "price": "$129.99",
+        "rating": 4.3,
+        "reviews": 438,
+        "brand": "SteelSeries",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61yxZosfL9L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B07VFK33Q6?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Apex 7 TKL Compact Mechanical Gaming Keyboard – OLED Smart Display – USB Passthrough and Media Controls – Linear and Quiet – RGB Backlit (Red Switch)",
+        "amazon_asin": "B07TGQ7CNF",
+        "price": "$179.09",
+        "rating": 4.7,
+        "reviews": 1900,
+        "brand": "Other",
+        "layout": "TKL",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/811-0kItnvL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B07TGQ7CNF?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent",
+            "Portable"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Apex Pro Mini Wireless Keyboard - 60% Design - OmniPoint 2.0 - Quantum 2.0 Wireless - Double Shot PBT Keycaps - Black",
+        "amazon_asin": "B0B16JFF54",
+        "price": "$215.99",
+        "rating": 4.4,
+        "reviews": 305,
+        "brand": "Other",
+        "layout": "60%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71NFUiC1XaL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0B16JFF54?tag=mechkeyshub-20",
+        "categories": [
+            "Portable",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "K100 AIR Wireless RGB Mechanical Gaming Keyboard - Ultra-Thin, Sub-1ms Slipstream, Low-Latency Bluetooth, Cherry MX Ultra Low Profile Keyswitches - NA Layout, QWERTY - Black",
+        "amazon_asin": "B0BDMLY69R",
+        "price": "$169.99",
+        "rating": 4.5,
+        "reviews": 4600,
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61VrrJ8rDZL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BDMLY69R?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Vanguard 96 Wired Mechanical Gaming Keyboard – 96% Layout, MLX Fusion Tactile Switches, 8000Hz Polling, LCD Display, Virtual Stream Deck, G-Keys, SOCD Flashtap, QWERTY US – Black",
+        "amazon_asin": "B0FKHNFR8G",
+        "price": "$149.99",
+        "rating": 4,
+        "reviews": 94,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/71fjsPsNCdL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FKHNFR8G?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "K65 RGB MINI 60% Mechanical Wired Gaming Keyboard – Cherry MX Speed Switches – PBT Double-Shot Keycaps – iCUE Compatible – QWERTY NA – White",
+        "amazon_asin": "B09GTRMJXY",
+        "price": "$54.99",
+        "rating": 4.5,
+        "reviews": 83,
+        "brand": "Cherry",
+        "layout": "60%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/51N8qQpcBtL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09GTRMJXY?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "K65 Plus Wireless 75% RGB Hot-Swappable Mechanical Gaming Keyboard – Pre-Lubricated MLX Fusion Tactile Switches – Dual-Layer Sound Dampening – PBT Keycaps – QWERTY NA – Black",
+        "amazon_asin": "B0D9W9KBT3",
+        "price": "$129.99",
+        "rating": 4.2,
+        "reviews": 86,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/81xeTeYNFJL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0D9W9KBT3?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "K60 RGB TKL RGB Tenkeyless Optical-Mechanical Wired Gaming Keyboard - OPX Switches - Polycarbonate Keycaps - iCUE Compatible - QWERTY NA Layout - Black",
+        "amazon_asin": "B0BBWL8WX7",
+        "price": "$69.99",
+        "rating": 4.4,
+        "reviews": 175,
+        "brand": "Other",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61f+pqReaHL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BBWL8WX7?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Vanguard PRO 96 Wired Hall Effect Magnetic Mechanical Gaming Keyboard – 96% Layout, MGX Hyperdrive Switches, 8000Hz Polling, Rapid Trigger, Virtual Stream Deck, SOCD Flashtap, QWERTY US",
+        "amazon_asin": "B0FKHPRZ45",
+        "price": "$189.99",
+        "rating": 3.8,
+        "reviews": 126,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71OlC89bOWL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FKHPRZ45?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "K70 CORE TKL Wireless RGB Tenkeyless Mechanical Gaming Keyboard – Pre-Lubed MLX Red v2 Linear Switches, SOCD, ABS Double-Shot Keycaps, Sound Dampening, 1000Hz Polling, QWERTY NA – Black",
+        "amazon_asin": "B0D7J3T8LH",
+        "price": "$124.99",
+        "rating": 4.2,
+        "reviews": 77,
+        "brand": "Other",
+        "layout": "TKL",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/81dfrNLyvnL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0D7J3T8LH?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Vanguard 96 Wireless Mechanical RGB Gaming Keyboard – QWERTY US, 96% Layout, Hot-Swappable MLX Switches, 8000Hz Hyper-Polling, Stream Deck Integration, Flashtap SOCD – Black",
+        "amazon_asin": "B0GNSBL1H3",
+        "price": "$199.99",
+        "rating": "0",
+        "reviews": "0",
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71v1i2Yd-oL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0GNSBL1H3?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Vanguard 96 Wired Mechanical Gaming Keyboard – 96% Layout, MLX Plasma Linear Switches, 8000Hz Polling, LCD Display, Virtual Stream Deck, G-Keys, SOCD Flashtap, QWERTY US – Black",
+        "amazon_asin": "B0FKJBZHTW",
+        "price": "$179.99",
+        "rating": 4.2,
+        "reviews": 38,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/71fjsPsNCdL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FKJBZHTW?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Ornata V3 Gaming Keyboard: Low Profile Keys - Mecha Membrane Switches - UV Coated Keycaps - Backlit Media Keys - 10 Zone RGB Lighting - Spill Resistant - Magnetic Wrist Wrest - Snap Tap",
+        "amazon_asin": "B09X6FKCBD",
+        "price": "$64.99",
+        "rating": 4.5,
+        "reviews": 1000,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71YW8+KhOwL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09X6FKCBD?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Huntsman V3 Pro TKL Esports Gaming Keyboard: Analog Optical Switches - Razer Snap Tap - Rapid Trigger - Adjustable Actuation - Media Keys & Dial - Doubleshot PBT Keycaps - Wrist Rest - Black",
+        "amazon_asin": "B0CG7BWG7J",
+        "price": "$199.99",
+        "rating": 4.3,
+        "reviews": 966,
+        "brand": "Razer",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/81y14ID9oHL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CG7BWG7J?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Huntsman V3 Pro TKL 8KHz Esports Gaming Keyboard: Analog Optical Switches Gen 2-8000 Hz Polling Snap Tap - Rapid Trigger - Adjustable Actuation - Media Controls - PBT Keycaps - Black",
+        "amazon_asin": "B0FRPGVP9G",
+        "price": "$219.99",
+        "rating": 4.1,
+        "reviews": 168,
+        "brand": "Other",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/81zUBZKswJL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FRPGVP9G?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Tartarus V2 Gaming Keypad: Mecha Membrane Key Switches - One Handed Keyboard - 32 Programmable Keys - Customizable Chroma RGB Lighting - Programmable Macros - Snap Tap - Black",
+        "amazon_asin": "B07754PYFK",
+        "price": "$74.95",
+        "rating": 4.4,
+        "reviews": 12500,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71r3ktfakgL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B07754PYFK?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Huntsman V3 Pro Esports Gaming Keyboard: Analog Optical Switches - Razer Snap Tap - Rapid Trigger - Adjustable Actuation - Media Keys & Dial - Doubleshot PBT Keycaps - Wrist Rest - Black",
+        "amazon_asin": "B0CG7FQML2",
+        "price": "$200.62",
+        "rating": 4.3,
+        "reviews": 966,
+        "brand": "Razer",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/81XP54BIpQL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CG7FQML2?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "BlackWidow V4 X Mechanical Gaming Keyboard: Green Switches Tactile & Clicky - 6 Macro Keys - Chroma RGB - Doubleshot ABS Keycaps - Sound Dampening & Stabilizers - Pokémon Edition",
+        "amazon_asin": "B0FCVB8QNR",
+        "price": "$146.99",
+        "rating": 4.4,
+        "reviews": 377,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/815cLDf95YL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FCVB8QNR?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "BlackWidow V4 Low Profile TKL HyperSpeed Wireless Gaming Keyboard: Orange Mechanical Switches - 2.4GHz Wireless & Bluetooth - Multi-Function Roller - 3 Control Buttons - Long Battery Life",
+        "amazon_asin": "B0FH7QJ6QQ",
+        "price": "$119.70",
+        "rating": 4.2,
+        "reviews": 43,
+        "brand": "Other",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/81oTs5rmvVL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FH7QJ6QQ?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "BlackWidow V4 Low Profile HyperSpeed Wireless Gaming Keyboard: Yellow Mechanical Switches - 2.4GHz Wireless & Bluetooth - Multi-Function Roller - 11 Control Buttons - Long Battery Life",
+        "amazon_asin": "B0FH7V1TRN",
+        "price": "$199.99",
+        "rating": 4.2,
+        "reviews": 40,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71FhaN2nK3L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FH7V1TRN?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Razer BlackWidow V4 Mini HyperSpeed Wireless Hot Swappable 65% Gaming Keyboard: HyperSpeed Wireless & Bluetooth 5.0 - Orange Switches Tactile & Quiet - Phantom Pudding Keycap(Renewed)",
+        "amazon_asin": "B0DQRCRS1G",
+        "price": "$79.99",
+        "rating": 4.8,
+        "reviews": 7,
+        "brand": "Razer",
+        "layout": "65%",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/7183Vusae5L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DQRCRS1G?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent",
+            "Portable",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "MX Mechanical Full-Size Wireless Mechanical Keyboard, Tactile Quiet Switches, Low Profile Backlit Keys, Bluetooth, USB-C, Multi-Device Performance, Windows/macOS Graphite, Bulk Packaging",
+        "amazon_asin": "B0FZMMNZ95",
+        "price": "$159.99",
+        "rating": 5,
+        "reviews": 2,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/51SaAGOz-OL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FZMMNZ95?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "MX Mechanical Mini for Mac Wireless Illuminated Keyboard, Low-Profile Performance Switches, Tactile Quiet Keys, Backlit, Bluetooth, USB-C, Apple, iPad - Pale Grey",
+        "amazon_asin": "B09LK63PKB",
+        "price": "$0",
+        "rating": 4.3,
+        "reviews": 515,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/61t9weP8ReL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09LK63PKB?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent",
+            "Portable",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "MX Keys Mini Minimalist Wireless Illuminated Keyboard, Compact, Bluetooth, Backlit, USB-C, Compatible with Apple macOS, iOS, Windows, Linux, Android, Metal Build - Graphite",
+        "amazon_asin": "B098JPSVKY",
+        "price": "$99.99",
+        "rating": 4.5,
+        "reviews": 4000,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71lsfH+ww3L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B098JPSVKY?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "MX Keys Combo for Business | Gen 2, Full Size Wireless Keyboard and Wireless Mouse, with Keyboard Palm Rest, Bluetooth, Logi Bolt, Quiet Clicks, Windows/Mac/Chrome/Linux - Graphite",
+        "amazon_asin": "B09W4X9BMV",
+        "price": "$199.99",
+        "rating": 4.4,
+        "reviews": 170,
+        "brand": "Other",
+        "layout": "Full Size",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61t5SFFELwL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09W4X9BMV?tag=mechkeyshub-20",
+        "categories": [
+            "Silent",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "MK250 Bluetooth Wireless Mouse and Keyboard Combo: Fast & Easy Connectivity, Compact Wireless Keyboard, Ambidextrous Mouse, Durable Build - Windows/MacOS - Graphite",
+        "amazon_asin": "B0F36RKWDH",
+        "price": "$23.99",
+        "rating": 4.3,
+        "reviews": 740,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61cisC35TCL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0F36RKWDH?tag=mechkeyshub-20",
+        "categories": [
+            "Portable",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Wave Keys MK670 Combo, Wireless Ergonomic Keyboard with Signature M550 L Wireless Mouse, Comfortable Natural Typing, Bluetooth, Logi Bolt, for Multi-OS, Windows/Mac - Graphite",
+        "amazon_asin": "B0BTNXW6W2",
+        "price": "$79.99",
+        "rating": 4.2,
+        "reviews": 978,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71ONC-gQH5L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BTNXW6W2?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Logitech MX Mechanical Mini for Mac Wireless Illuminated Keyboard, Low-Profile Performance Switches, Tactile Quiet Keys, Backlit, Bluetooth, USB-C, Apple, iPad - Space Grey (Renewed)",
+        "amazon_asin": "B0CN1MS518",
+        "price": "$88.20",
+        "rating": 4.4,
+        "reviews": 111,
+        "brand": "Logitech",
+        "layout": "Other",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/61+6kI9ATAL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CN1MS518?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent",
+            "Portable",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Gaming Keyboard GMBK 75% - Swappable MX Compatible keycaps, Detachable USB Cable, IP57 Water and dust Resistant, 10 Zone RGB Lighting, Quiet switches - 321x137x41 mm - English QWERTY Layout",
+        "amazon_asin": "B0FKVBZ2PD",
+        "price": "$49.99",
+        "rating": 4.5,
+        "reviews": 419,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61LKUhIvToL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FKVBZ2PD?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Gaming - GMMK 3 HE Rapid Trigger Keyboard, Hall Effect, 8K Polling Rate, MX Mechanical & Magnetic Switches, Hotswappable 100% Keyboard, Modular Gasket System, Doubleshot PBT keycaps (Black)",
+        "amazon_asin": "B0DCH5GHVR",
+        "price": "$216.59",
+        "rating": 3.9,
+        "reviews": 81,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61FI+jO0O9L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DCH5GHVR?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10008",
+        "name": "Gaming GMMK 2-65 Percent Keyboard - White Custom Layout - Compact Low-Profile - Hotswap w/Cherry Mx Style Switches - Incl. Double Shot Keycaps & Linear Switches",
+        "amazon_asin": "B09YZ4L8SJ",
+        "price": "$119.99",
+        "rating": 4.5,
+        "reviews": 419,
+        "brand": "Cherry",
+        "layout": "65%",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/71tjIdtQjaL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B09YZ4L8SJ?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable",
+            "Hot-swap"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
     }
 ];

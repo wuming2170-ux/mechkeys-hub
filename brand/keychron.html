@@ -1,35 +1,4 @@
-<!DOCTY
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keychron Mechanical Keyboards - MechKeys Hub</title>
-    <meta name="description" content="Browse Keychron mechanical keyboards. Keychron has become the go-to brand for mechanical keyboard enthusiasts worldwide. Known for their premium build quality, hot-swappable PCBs, and excellent value. From compact 60% to full-size with numpad, Keychron offers something for everyone.">
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Discover the best keychron. Expert reviews and recommendations at MechKeys Hub.">
-    <meta name="keywords" content="keychron, mechanical keyboard, review">
-    <link rel="canonical" href="https://mechkeys-hub.com/keychron.html">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mechkeys-hub.com/keychron.html">
-    <meta property="og:title" content="Keychron - MechKeys Hub">
-    <meta property="og:description" content="Discover the best keychron. Expert reviews and recommendations at MechKeys Hub.">
-    <meta property="og:image" content="https://mechkeys-hub.com/og-image.jpg">
-    <meta property="og:site_name" content="MechKeys Hub">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://mechkeys-hub.com/keychron.html">
-    <meta name="twitter:title" content="Keychron - MechKeys Hub">
-    <meta name="twitter:description" content="Discover the best keychron. Expert reviews and recommendations at MechKeys Hub.">
-    <meta name="twitter:image" content="https://mechkeys-hub.com/og-image.jpg">
-
-    <link rel="canonical" href="https://mechkeys-hub.vercel.app/brand/keychron.html">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,302 +13,25 @@
         .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
         .card-hover { transition: all 0.3s ease; }
         .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(99,102,241,0.15); }
-    
-        /* Mobile Navigation */
-        .mobile-menu-btn { display: none; }
-        .mobile-nav { display: none; }
-        
-        @media (max-width: 1023px) {
-            .mobile-menu-btn { display: flex; }
-            .desktop-nav { display: none !important; }
-            .mobile-nav {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: rgb(15 23 42 / 0.98);
-                backdrop-filter: blur(12px);
-                border-bottom: 1px solid rgba(255,255,255,0.1);
-                padding: 1rem;
-                flex-direction: column;
-                gap: 0.25rem;
-                z-index: 100;
-            }
-            .mobile-nav.active { display: flex; }
-            .mobile-nav button,
-            .mobile-nav .nav-link {
-                padding: 0.75rem 1rem;
-            min-height: 44px;
-            min-width: 44px; 
-                font-size: 1rem;
-                display: flex;
-                align-items: center;
-                gap: 0.75rem;
-            }
-            .mobile-nav .nav-link i { width: 20px; text-align: center; }
-        }
-        
-        /* Touch-friendly product cards on mobile */
-        @media (max-width: 640px) {
-            .product-grid { grid-template-columns: 1fr !important; }
-            .product-card { padding: 1rem; }
-            h1, h2 { font-size: 1.75rem !important; }
-            .hero-section { padding: 2rem 0.5rem !important; }
-            .stats-grid { grid-template-columns: repeat(2, 1fr) !important; }
-            .container { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
-            .grid { grid-template-columns: 1fr !important; }
-            .filters { flex-direction: column !important; gap: 0.5rem !important; }
-            .filter-btn { width: 100% !important; text-align: center !important; }
-        }
     </style>
-
-<style>
-.nav-btn {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
-    color: #e5e7eb;
-    font-size: 0.9375rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-}
-.nav-btn:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.nav-btn i {
-    font-size: 0.875rem;
-}
-.nav-btn-primary {
-    background: rgba(99, 102, 241, 0.2);
-    color: #a5b4fc;
-    border: 1px solid rgba(99, 102, 241, 0.4);
-}
-.nav-btn-primary:hover {
-    background: rgba(99, 102, 241, 0.35);
-    color: white;
-}
-.mobile-nav-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem;
-    border-radius: 0.75rem;
-    color: #d1d5db;
-    font-size: 0.75rem;
-    font-weight: 600;
-    transition: all 0.2s;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-decoration: none;
-}
-.mobile-nav-btn:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.mobile-nav-btn i {
-    font-size: 1.25rem;
-    margin-bottom: 0.25rem;
-}
-</style>
-
-
-<style>
-.nav-link {
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
-    color: #d1d5db;
-    font-size: 0.9375rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-}
-.nav-link:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.1);
-}
-.nav-link-primary {
-    background: rgba(99, 102, 241, 0.2);
-    color: #a5b4fc;
-    border: 1px solid rgba(99, 102, 241, 0.4);
-}
-.nav-link-primary:hover {
-    background: rgba(99, 102, 241, 0.35);
-    color: white;
-}
-.mobile-nav-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem;
-    border-radius: 0.75rem;
-    color: #d1d5db;
-    font-size: 0.75rem;
-    font-weight: 600;
-    transition: all 0.2s;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-decoration: none;
-}
-.mobile-nav-link:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
-}
-.mobile-nav-link i {
-    font-size: 1.25rem;
-    margin-bottom: 0.25rem;
-}
-</style>
-
-
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://mechkeys-hub.com/"
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Keychron",
-            "item": "https://mechkeys-hub.com/keychron.html"
-        }
-    ]
-}
-    </script>
-
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "MechKeys Hub",
-    "url": "https://mechkeys-hub.com/",
-    "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://mechkeys-hub.com/search.html?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-    }
-}
-    </script>
 </head>
 <body class="gradient-bg min-h-screen text-white">
-    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
-        <div class="max-w-7xl mx-auto px-4 py-4">
-            <div class="flex items-center justify-between">
-                <a href="/" class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-xl">⌨️</div>
-                    <span class="font-bold text-xl">MechKeys Hub</span>
-                </a>
-                <button class="mobile-menu-btn md:hidden p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu">
-                    <i class="fas fa-bars text-xl" id="menu-icon"></i>
-                </button>
-                <nav class="desktop-nav flex items-center gap-1">
-                    <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                    <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                    <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                    <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                    <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                    <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                    <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
-                    <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                    <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
-                    <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
-                    <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
-                </nav>
-            </div>
-        </div>
-    
-            <!-- Mobile Navigation -->
-            <nav class="mobile-nav" id="mobile-nav">
-                <!-- Search in Mobile Menu -->
-                <div class="mobile-search-wrapper px-3 py-2 border-b border-white/10">
-                    <form action="/search.html" method="get" class="flex items-center">
-                        <input type="text" name="q" placeholder="Search keyboards..." 
-                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-base" focus:outline-none focus:border-indigo-500">
-                        <button type="submit" class="ml-2 px-3 py-2 bg-indigo-600 rounded-lg">
-                            <i class="fas fa-search text-sm"></i>
-                        </button>
-                    </form>
-                </div>
-
-                <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
-                <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
-                <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
-                <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
+    <header class="border-b border-white/10 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="../index.html" class="text-2xl font-bold text-indigo-400">
+                <i class="fas fa-keyboard mr-2"></i>MechKeys Hub
+            </a>
+            <nav class="flex gap-2 flex-wrap">
+                <a href="../index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">All Keyboards</a>
+                <a href="index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Brands</a>
+                <a href="../best-value.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Best Value</a>
+                <a href="../compare.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Compare</a>
+                <a href="../guides.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Guides</a>
             </nav>
         </div>
     </header>
 
-            <!-- Breadcrumb -->
-            <nav aria-label="breadcrumb" class="max-w-7xl mx-auto px-4 py-3">
-                <ol class="flex items-center gap-2 text-sm text-gray-400">
-                    <li><a href="/" class="hover:text-white transition">Home</a></li>
-                    <li><i class="fas fa-chevron-right text-xs"></i></li>
-                    <li class="text-white" id="breadcrumb-current">Keychron</li>
-                </ol>
-            </nav>
-
-    
-    <script>
-        function toggleMobileMenu() {
-            const nav = document.getElementById('mobile-nav');
-            const icon = document.getElementById('menu-icon');
-            nav.classList.toggle('active');
-            if (nav.classList.contains('active')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-times');
-            } else {
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-            }
-        }
-        document.addEventListener('click', function(e) {
-            const nav = document.getElementById('mobile-nav');
-            const btn = document.querySelector('.mobile-menu-btn');
-            if (nav && btn && !nav.contains(e.target) && !btn.contains(e.target) && nav.classList.contains('active')) {
-                nav.classList.remove('active');
-                const icon = document.getElementById('menu-icon');
-                if (icon) {
-                    icon.classList.remove('fa-times');
-                    icon.classList.add('fa-bars');
-                }
-            }
-        });
-    </script>
-<style>
-    </style>
-
-    <script>
-        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
-            var menu = document.getElementById('mobile-menu');
-            var icon = this.querySelector('i');
-            menu.classList.toggle('hidden');
-            icon.classList.toggle('fa-bars');
-            icon.classList.toggle('fa-times');
-        });
-    </script>
-
-<main class="max-w-7xl mx-auto px-4 py-10">
+    <main class="max-w-7xl mx-auto px-4 py-10">
         <div class="mb-6">
             <a href="index.html" class="text-indigo-400 hover:underline text-sm">← All Brands</a>
         </div>
@@ -351,7 +43,7 @@
                 <div class="flex-1">
                     <div class="flex items-center gap-3 mb-2">
                         <h1 class="text-3xl font-bold text-orange-400">Keychron</h1>
-                        <span class="bg-orange-900/30 text-orange-400 px-3 py-1 rounded-full text-sm font-semibold border border-orange-500/30">36 Products</span>
+                        <span class="bg-orange-900/30 text-orange-400 px-3 py-1 rounded-full text-sm font-semibold border border-orange-500/30">45 Products</span>
                     </div>
                     <p class="text-orange-400 text-lg mb-2 opacity-80">The Most Popular Mechanical Keyboard Brand</p>
                     <p class="text-slate-300 max-w-2xl">Keychron has become the go-to brand for mechanical keyboard enthusiasts worldwide. Known for their premium build quality, hot-swappable PCBs, and excellent value. From compact 60% to full-size with numpad, Keychron offers something for everyone.</p>
@@ -365,7 +57,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/615I+-+6IVL._AC_UY218_.jpg" alt="K3 QMK Ultra-Slim Wireless Mechanical Keyboard Version 3, 75% Layout Hot Swappable Banana Switch, RGB Backlight Rechargeable Wired Bluetooth Professio" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/615I+-+6IVL._AC_UY218_.jpg" alt="K3 QMK Ultra-Slim Wireless Mechanical Keyboard Version 3, 75% Layout Hot Swappable Banana Switch, RGB Backlight Rechargeable Wired Bluetooth Professio" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -393,7 +85,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71xnVFsv4NL._AC_UY218_.jpg" alt="Q6 Ultra 8K Polling Rate Aluminum Wireless Mechanical Keyboard, 2.4 GHz/Bluetooth/Wired Full-Size Custom RGB, Hot-Swappable Silk POM Banana Switch for" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71xnVFsv4NL._AC_UY218_.jpg" alt="Q6 Ultra 8K Polling Rate Aluminum Wireless Mechanical Keyboard, 2.4 GHz/Bluetooth/Wired Full-Size Custom RGB, Hot-Swappable Silk POM Banana Switch for" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -421,7 +113,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/6197von8d0L._AC_UY218_.jpg" alt="K10 Max Wireless Custom Mechanical Keyboard, QMK 2.4 GHz Bluetooth Full-Size with Hot-swappable Keychron Super Banana Switch Compatible with Mac Windo" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/6197von8d0L._AC_UY218_.jpg" alt="K10 Max Wireless Custom Mechanical Keyboard, QMK 2.4 GHz Bluetooth Full-Size with Hot-swappable Keychron Super Banana Switch Compatible with Mac Windo" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -449,7 +141,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/717voB73UzL._AC_UY218_.jpg" alt="K5 Version 2 Wireless Bluetooth 5.2 Mechanical Keyboard, Low Profile Milk POM Switch 100% Full-Size Layout QMK Programmable, White Backlight with Shin" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/717voB73UzL._AC_UY218_.jpg" alt="K5 Version 2 Wireless Bluetooth 5.2 Mechanical Keyboard, Low Profile Milk POM Switch 100% Full-Size Layout QMK Programmable, White Backlight with Shin" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -477,7 +169,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71Kf5h+HaQL._AC_UY218_.jpg" alt="B3 Pro 75% Ultra-Slim Wireless Keyboard, 2.4GHz, Bluetooth 5.2 / Wired USB Connection, Portable Silent White Bluetooth Keyboard for Mac Windows Linux " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71Kf5h+HaQL._AC_UY218_.jpg" alt="B3 Pro 75% Ultra-Slim Wireless Keyboard, 2.4GHz, Bluetooth 5.2 / Wired USB Connection, Portable Silent White Bluetooth Keyboard for Mac Windows Linux " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -505,7 +197,63 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71ayR53urCL._AC_UY218_.jpg" alt="K2 HE Rapid Trigger Wireless Custom Keyboard with Hall Effect Gateron Double-Rail Magnetic Switch, QMK 2.4 GHz Bluetooth 5.2 RGB Compatible with Mac W" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61ZWleMKetL._AC_UY218_.jpg" alt="V3 Wired Custom Mechanical Keyboard, TKL Tenkeyless QMK/VIA Programmable Macro with Hot-swappable Keychron K Pro Brown Switch Compatible with Mac Windows Linux (Frosted Black-Translucent)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">V3 Wired Custom Mechanical Keyboard, TKL Tenkeyless QMK/VIA Programmable Macro with Hot-swappable Keychron K Pro Brown Switch Compatible with Mac Windows Linux (Frosted Black-Translucent)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.7/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$70.54</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61ukjOVJ9qL._AC_UY218_.jpg" alt="V6 Wired Custom Mechanical Keyboard Knob Version, Full-size QMK/VIA Programmable Macro with Hot-swappable Keychron K Pro Brown Switch Compatible with Mac Windows Linux Black (Non-Transparent)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">V6 Wired Custom Mechanical Keyboard Knob Version, Full-size QMK/VIA Programmable Macro with Hot-swappable Keychron K Pro Brown Switch Compatible with Mac Windows Linux Black (Non-Transparent)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.7/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$84.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/71ayR53urCL._AC_UY218_.jpg" alt="K2 HE Rapid Trigger Wireless Custom Keyboard with Hall Effect Gateron Double-Rail Magnetic Switch, QMK 2.4 GHz Bluetooth 5.2 RGB Compatible with Mac W" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -533,7 +281,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61mO6oYFZnL._AC_UY218_.jpg" alt="K3 Version 2, 75% Layout 84 Keys Ultra-Slim Wireless Bluetooth/USB Wired Mechanical Keyboard with White Backlit, Hot-Swappable Low-Profile Keychron Op" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61mO6oYFZnL._AC_UY218_.jpg" alt="K3 Version 2, 75% Layout 84 Keys Ultra-Slim Wireless Bluetooth/USB Wired Mechanical Keyboard with White Backlit, Hot-Swappable Low-Profile Keychron Op" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -561,7 +309,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61hML+wIMfL._AC_UY218_.jpg" alt="K2 Wireless Mechanical Keyboard, 75% Layout 84 Key Bluetooth/USB-C Wired Compact RGB Backlit Anti Ghosting/N-Key Rollover, Gateron G Pro Brown Switch " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71D-AH14cvL._AC_UY218_.jpg" alt="K2 Wireless Mechanical Keyboard, 75% Layout 84 Key Bluetooth/USB-C Wired Compact RGB Backlit Anti Ghosting/N-Key Rollover, Gateron G Pro Brown Switch " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -580,34 +328,6 @@
                     </div>
                     <span class="text-xl font-bold text-orange-400">$99.99</span>
                 </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
-                    Check Price on Amazon →
-                </a>
-            </div>
-        </article>
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
-            <div class="p-5">
-                <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71D-AH14cvL._AC_UY218_.jpg" alt="K4 HE – 96% Compact Hall Effect Wireless Mechanical Keyboard with Number Pad, Magnetic Switch, Rapid Trigger, Custom RGB, QMK/VIA, 2.4GHz/BT5.2/Wired," class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Magnetic/Hall Effect</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">98-key</span>
-                        </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K4 HE – 96% Compact Hall Effect Wireless Mechanical Keyboard with Number Pad, Magnetic Switch, Rapid Trigger, Custom RGB, QMK/VIA, 2.4GHz/BT5.2/Wired,</h3>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4.6/10
-                        <span class="text-slate-600">|</span>
-                        <span>❌ Swap</span>
-                        <span>🎨 RGB</span>
-                    </div>
-                    <span class="text-xl font-bold text-orange-400">$144.99</span>
-                </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Rapid Trigger</span></div>
                 <a href="https://www.amazon.com/Keychron-K4-HE-Wireless-Mechanical/dp/B0DZGY1R6C/ref=sr_1_19?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
                     Check Price on Amazon →
@@ -617,7 +337,91 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71FLyzHDCEL._AC_UY218_.jpg" alt="K8 HE TKL Hall Effect Wireless Mechanical Keyboard, Magnetic Hot-Swappable Switches, Rapid Trigger, QMK/VIA, RGB, 2.4GHz/Bluetooth 5.2/Wired, Aluminum" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61ozM9WWtmL._AC_UY218_.jpg" alt="V3 Wired Custom Mechanical Keyboard Knob Version, TKL QMK/VIA Programmable with Hot-swappable Keychron K Pro Brown Switch Compatible with Mac Windows Linux Carbon Black (Non-Transparent)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">V3 Wired Custom Mechanical Keyboard Knob Version, TKL QMK/VIA Programmable with Hot-swappable Keychron K Pro Brown Switch Compatible with Mac Windows Linux Carbon Black (Non-Transparent)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.6/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$80.74</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61mnSsyGMzL._AC_UY218_.jpg" alt="K10 Max Wireless Custom Mechanical Keyboard, QMK 2.4 GHz Bluetooth Full-Size with Hot-swappable Keychron Super Red Switch Compatible with Mac Windows Linux (RGB Backlit)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K10 Max Wireless Custom Mechanical Keyboard, QMK 2.4 GHz Bluetooth Full-Size with Hot-swappable Keychron Super Red Switch Compatible with Mac Windows Linux (RGB Backlit)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.6/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$119.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61ozM9WWtmL._AC_UY218_.jpg" alt="V3 Wired Custom Mechanical Keyboard Knob Version, TKL QMK/VIA Programmable with Hot-swappable Keychron K Pro Brown Switch Compatible with Mac Windows Linux Carbon Black (Non-Transparent)" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">V3 Wired Custom Mechanical Keyboard Knob Version, TKL QMK/VIA Programmable with Hot-swappable Keychron K Pro Brown Switch Compatible with Mac Windows Linux Carbon Black (Non-Transparent)</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.6/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$80.74</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/71FLyzHDCEL._AC_UY218_.jpg" alt="K8 HE TKL Hall Effect Wireless Mechanical Keyboard, Magnetic Hot-Swappable Switches, Rapid Trigger, QMK/VIA, RGB, 2.4GHz/Bluetooth 5.2/Wired, Aluminum" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -645,7 +449,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71aAft9KbWL._AC_UY218_.jpg" alt="K8 HE TKL Wireless Mechanical Keyboard Hot Swappable Hall Effect Magnetic Switches 2.4 GHz/Bluetooth/Wired QMK/VIA Custom RGB Backlit Aluminum for Mac" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71aAft9KbWL._AC_UY218_.jpg" alt="K8 HE TKL Wireless Mechanical Keyboard Hot Swappable Hall Effect Magnetic Switches 2.4 GHz/Bluetooth/Wired QMK/VIA Custom RGB Backlit Aluminum for Mac" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -673,7 +477,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61ioq+AEmlL._AC_UY218_.jpg" alt="K2 HE Rapid Trigger Wireless Custom Keyboard with Hall Effect Gateron Double-Rail Magnetic Switch, QMK 2.4 GHz Bluetooth 5.2 RGB Compatible with Mac W" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61ioq+AEmlL._AC_UY218_.jpg" alt="K2 HE Rapid Trigger Wireless Custom Keyboard with Hall Effect Gateron Double-Rail Magnetic Switch, QMK 2.4 GHz Bluetooth 5.2 RGB Compatible with Mac W" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -701,7 +505,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71mGOrFUSeL._AC_UY218_.jpg" alt="K8 HE TKL Hall Effect Wireless Mechanical Keyboard, Magnetic Hot-Swappable Switches, Rapid Trigger, QMK/VIA, RGB, 2.4GHz/Bluetooth 5.2/Wired, Aluminum" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71mGOrFUSeL._AC_UY218_.jpg" alt="K8 HE TKL Hall Effect Wireless Mechanical Keyboard, Magnetic Hot-Swappable Switches, Rapid Trigger, QMK/VIA, RGB, 2.4GHz/Bluetooth 5.2/Wired, Aluminum" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -729,7 +533,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71sel8PrUJL._AC_UY218_.jpg" alt="Q1 HE Wireless Custom Keyboard Rapid Trigger QMK Launcher 2.4 GHz Bluetooth 5.2 with Gateron Double-Rail Magnetic Switch, RGB Compatible with Mac Wind" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71sel8PrUJL._AC_UY218_.jpg" alt="Q1 HE Wireless Custom Keyboard Rapid Trigger QMK Launcher 2.4 GHz Bluetooth 5.2 with Gateron Double-Rail Magnetic Switch, RGB Compatible with Mac Wind" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -757,7 +561,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71P6X0q8AcL._AC_UY218_.jpg" alt="K3 Version 3 QMK Low Profile Mechanical Keyboard Wireless, 84 Keys Programmable Bluetooth 5.2/Wired Connection, Shine-Through Keycaps RGB Backlit Comp" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71P6X0q8AcL._AC_UY218_.jpg" alt="K3 Version 3 QMK Low Profile Mechanical Keyboard Wireless, 84 Keys Programmable Bluetooth 5.2/Wired Connection, Shine-Through Keycaps RGB Backlit Comp" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -785,7 +589,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61n1rXpRA4L._AC_UY218_.jpg" alt="Node75 Wireless Mechanical Keyboard, 75% Hot Swappable Custom Low Profile Keyboard, 84 Keys Computer Gaming Keyboards, Supports Touch Gestures, PBT Ke" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61x3nRatR9L._AC_UY218_.jpg" alt="Node75 Wireless Mechanical Keyboard, 75% Hot Swappable Custom Low Profile Keyboard, 84 Keys Computer Gaming Keyboards, Supports Touch Gestures, PBT Ke" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -799,38 +603,10 @@
                     <div class="flex items-center gap-2 text-xs text-slate-300">
                         <span class="text-yellow-400">★</span> 4.5/10
                         <span class="text-slate-600">|</span>
-                        <span>✅ Swap</span>
-                        <span>🎨 RGB</span>
-                    </div>
-                    <span class="text-xl font-bold text-orange-400">$99.95</span>
-                </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
-                    Check Price on Amazon →
-                </a>
-            </div>
-        </article>
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
-            <div class="p-5">
-                <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61x3nRatR9L._AC_UY218_.jpg" alt="K3 Version 2, 84 Keys Ultra-Slim Wireless Bluetooth/USB Wired Mechanical Keyboard with White LED Backlit, Low-Profile Keychron Mechanical Red Switch C" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
-                        </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K3 Version 2, 84 Keys Ultra-Slim Wireless Bluetooth/USB Wired Mechanical Keyboard with White LED Backlit, Low-Profile Keychron Mechanical Red Switch C</h3>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4.4/10
-                        <span class="text-slate-600">|</span>
                         <span>❌ Swap</span>
                         <span>🎨 RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-orange-400">$84.00</span>
+                    <span class="text-xl font-bold text-orange-400">$99.95</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Low Profile</span></div>
                 <a href="https://www.amazon.com/Keychron-K3-Wireless-Mechanical-Keyboard/dp/B08LSBTTQX/ref=sr_1_3?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -841,7 +617,231 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61OS8Ptfl2L._AC_UY218_.jpg" alt="K8 Tenkeyless Wireless Mechanical Keyboard for Mac, White Backlight, Bluetooth, Multitasking, Type-C Wired Gaming Keyboard for Windows with Brown Swit" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61BD671xg7L._AC_UY218_.jpg" alt="Keychron C2 Full Size Wired Mechanical Keyboard Compatible with Mac, Keychron Brown Switch, 104 Keys ABS Retro Color Keycaps Gaming Keyboard for Windows, USB-C Type-C Braid Cable" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">Keychron C2 Full Size Wired Mechanical Keyboard Compatible with Mac, Keychron Brown Switch, 104 Keys ABS Retro Color Keycaps Gaming Keyboard for Windows, USB-C Type-C Braid Cable</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.5/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$48.44</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61wQjmfVjCL._AC_UY218_.jpg" alt="K4 96% Layout 100 Keys Wireless Bluetooth 5.1/Wired USB Mechanical Gaming Keyboard with Keychron Super Brown Switch White LED Backlight N-Key Rollover for Mac Windows PC-Version 2" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Other</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K4 96% Layout 100 Keys Wireless Bluetooth 5.1/Wired USB Mechanical Gaming Keyboard with Keychron Super Brown Switch White LED Backlight N-Key Rollover for Mac Windows PC-Version 2</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.5/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$79.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61BD671xg7L._AC_UY218_.jpg" alt="C2 Full Size Wired Mechanical Keyboard Compatible with Mac, Keychron Brown Switch, 104 Keys ABS Retro Color Keycaps Gaming Keyboard for Windows, USB-C Type-C Braid Cable" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">C2 Full Size Wired Mechanical Keyboard Compatible with Mac, Keychron Brown Switch, 104 Keys ABS Retro Color Keycaps Gaming Keyboard for Windows, USB-C Type-C Braid Cable</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.5/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$48.44</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61+E4eLlSWL._AC_UY218_.jpg" alt="K10 Pro Wireless Custom Mechanical Keyboard, Full-Size QMK/VIA Programmable Bluetooth/Wired White Backlight with Hot-swappable Keychron Super Brown Switch Compatible with Mac Windows Linux" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K10 Pro Wireless Custom Mechanical Keyboard, Full-Size QMK/VIA Programmable Bluetooth/Wired White Backlight with Hot-swappable Keychron Super Brown Switch Compatible with Mac Windows Linux</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.5/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$91.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/616P6EAYVXL._AC_UY218_.jpg" alt="K10 Full Size 104 Keys Bluetooth Wireless Mechanical Gaming Keyboard for Mac Windows with Keychron Super Brown Switch, Multitasking/White LED Backlight/USB C Wired Computer Keyboard" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K10 Full Size 104 Keys Bluetooth Wireless Mechanical Gaming Keyboard for Mac Windows with Keychron Super Brown Switch, Multitasking/White LED Backlight/USB C Wired Computer Keyboard</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.4/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$84.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61J1eiXwYFL._AC_UY218_.jpg" alt="K10 Pro Wireless Custom Mechanical Keyboard, Full-Size QMK/VIA Programmable Bluetooth/Wired White Backlight with Hot-swappable Keychron K Pro Red Switch Compatible with Mac Windows Linux" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K10 Pro Wireless Custom Mechanical Keyboard, Full-Size QMK/VIA Programmable Bluetooth/Wired White Backlight with Hot-swappable Keychron K Pro Red Switch Compatible with Mac Windows Linux</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.4/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$91.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/613jmltWw9L._AC_UY218_.jpg" alt="C2 Full Size Wired Mechanical Keyboard Compatible with Mac, Keychron Red Switch, 104 Keys ABS Retro Color Keycaps Gaming Keyboard for Windows, USB-C Type-C Braid Cable" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">C2 Full Size Wired Mechanical Keyboard Compatible with Mac, Keychron Red Switch, 104 Keys ABS Retro Color Keycaps Gaming Keyboard for Windows, USB-C Type-C Braid Cable</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.4/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$48.59</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61RsUqT08JL._AC_UY218_.jpg" alt="K10 Full Size 104 Keys Bluetooth Wireless Mechanical Gaming Keyboard for Mac Windows with Keychron Super Red Switch, Multitasking/White LED Backlight/USB C Wired Computer Keyboard" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K10 Full Size 104 Keys Bluetooth Wireless Mechanical Gaming Keyboard for Mac Windows with Keychron Super Red Switch, Multitasking/White LED Backlight/USB C Wired Computer Keyboard</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.4/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$84.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61OS8Ptfl2L._AC_UY218_.jpg" alt="K8 Tenkeyless Wireless Mechanical Keyboard for Mac, White Backlight, Bluetooth, Multitasking, Type-C Wired Gaming Keyboard for Windows with Brown Swit" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -869,7 +869,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61C-YQ5Fc6L._AC_UY218_.jpg" alt="K2 75% Layout Bluetooth Wireless Mechanical Keyboard Super Switch/White LED Backlit/USB C/Anti Ghosting/N-Key Rollover, 84 Keys Gaming Keyboard for Ma" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61C-YQ5Fc6L._AC_UY218_.jpg" alt="K2 75% Layout Bluetooth Wireless Mechanical Keyboard Super Switch/White LED Backlit/USB C/Anti Ghosting/N-Key Rollover, 84 Keys Gaming Keyboard for Ma" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -897,7 +897,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61QD-5d+vPS._AC_UY218_.jpg" alt="K6 Bluetooth 5.1 Wireless Mechanical Keyboard with Keychron K Pro Brown Switch/LED Backlit/Rechargeable Battery, 68 Keys Compact Keyboard Compatible w" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61QD-5d+vPS._AC_UY218_.jpg" alt="K6 Bluetooth 5.1 Wireless Mechanical Keyboard with Keychron K Pro Brown Switch/LED Backlit/Rechargeable Battery, 68 Keys Compact Keyboard Compatible w" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -925,7 +925,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61x3nRatR9L._AC_UY218_.jpg" alt="K3 Version 2, 84 Keys Ultra-Slim Wireless Bluetooth/USB Wired Mechanical Keyboard with White LED Backlit, Low-Profile Keychron Mechanical Brown Switch" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61x3nRatR9L._AC_UY218_.jpg" alt="K3 Version 2, 84 Keys Ultra-Slim Wireless Bluetooth/USB Wired Mechanical Keyboard with White LED Backlit, Low-Profile Keychron Mechanical Brown Switch" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -953,7 +953,35 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61fK6WWESFS._AC_UY218_.jpg" alt="K8 Tenkeyless Wireless Mechanical Keyboard for Mac, RGB Backlight, Bluetooth, Multitasking, Type-C Wired Gaming Keyboard for Windows with Gateron G Pr" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/618KOG0KvmL._AC_UY218_.jpg" alt="C2 Full Size Hot-swappable Wired Mechanical Keyboard Compatible with Mac, Keychron Red Switch, 104 Keys ABS Retro Color Keycaps Gaming Keyboard for Windows, USB-C Type-C Braid Cable" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">C2 Full Size Hot-swappable Wired Mechanical Keyboard Compatible with Mac, Keychron Red Switch, 104 Keys ABS Retro Color Keycaps Gaming Keyboard for Windows, USB-C Type-C Braid Cable</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 4.3/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$54.39</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61fK6WWESFS._AC_UY218_.jpg" alt="K8 Tenkeyless Wireless Mechanical Keyboard for Mac, RGB Backlight, Bluetooth, Multitasking, Type-C Wired Gaming Keyboard for Windows with Gateron G Pr" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -981,7 +1009,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61WsBGAY+xL._AC_UY218_.jpg" alt="K3 75% Layout 84-Key Ultra-Slim Hot-Swappable Wireless Bluetooth Mechanical Keyboard with Low-Profile Keychron Optical Brown Switch/White LED Backligh" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61WsBGAY+xL._AC_UY218_.jpg" alt="K3 75% Layout 84-Key Ultra-Slim Hot-Swappable Wireless Bluetooth Mechanical Keyboard with Low-Profile Keychron Optical Brown Switch/White LED Backligh" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -1009,7 +1037,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71h+dJOxnNL._AC_UY218_.jpg" alt="Ultra-Slim B2 Pro Bluetooth Keyboard 2.4 GHz Wireless Lightweight 96% Launcher Support with Numeric Keypad Compatible for Mac Windows Linux - Space Gr" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61AhukM78GL._AC_UY218_.jpg" alt="Ultra-Slim B2 Pro Bluetooth Keyboard 2.4 GHz Wireless Lightweight 96% Launcher Support with Numeric Keypad Compatible for Mac Windows Linux - Space Gr" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -1024,65 +1052,9 @@
                         <span class="text-yellow-400">★</span> 4.2/10
                         <span class="text-slate-600">|</span>
                         <span>❌ Swap</span>
-                        <span>⬜ RGB</span>
+                        <span>🎨 RGB</span>
                     </div>
                     <span class="text-xl font-bold text-orange-400">$35.99</span>
-                </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
-                    Check Price on Amazon →
-                </a>
-            </div>
-        </article>
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
-            <div class="p-5">
-                <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/614vkJ2UxFL._AC_UY218_.jpg" alt="K3 75% QMK Wireless Mechanical Keyboard, Bluetooth 5.2/Wired Connection Custom Programmable RGB, Hot-Swappable with Low Profile Red Switch for Mac Win" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">75%</span>
-                        </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K3 75% QMK Wireless Mechanical Keyboard, Bluetooth 5.2/Wired Connection Custom Programmable RGB, Hot-Swappable with Low Profile Red Switch for Mac Win</h3>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4.1/10
-                        <span class="text-slate-600">|</span>
-                        <span>✅ Swap</span>
-                        <span>🎨 RGB</span>
-                    </div>
-                    <span class="text-xl font-bold text-orange-400">$94.99</span>
-                </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
-                    Check Price on Amazon →
-                </a>
-            </div>
-        </article>
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
-            <div class="p-5">
-                <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61AhukM78GL._AC_UY218_.jpg" alt="K3 QMK Ultra-Slim Wireless Mechanical Gaming Keyboard, 75% Layout with Banana Switch, White LED Backlight Rechargeable Wired Bluetooth Professional Of" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">75%</span>
-                        </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K3 QMK Ultra-Slim Wireless Mechanical Gaming Keyboard, 75% Layout with Banana Switch, White LED Backlight Rechargeable Wired Bluetooth Professional Of</h3>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4.1/10
-                        <span class="text-slate-600">|</span>
-                        <span>❌ Swap</span>
-                        <span>🎨 RGB</span>
-                    </div>
-                    <span class="text-xl font-bold text-orange-400">$63.74</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Compact Layout</span></div>
                 <a href="https://www.amazon.com/Keychron-Ultra-Slim-Mechanical-Rechargeable-Professional/dp/B0F9Y27M6Q/ref=sr_1_6?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -1093,7 +1065,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61Xi+szqmbL._AC_UY218_.jpg" alt="Air75 V3 Hot Swappable Wireless Mechanical Keyboard, 84 Keys 75% Custom Low Profile Keyboard with Knob, RGB Backlit, Gasket Mounted, Support Bluetooth" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61rgwLf3KXL._AC_UY218_.jpg" alt="Air75 V3 Hot Swappable Wireless Mechanical Keyboard, 84 Keys 75% Custom Low Profile Keyboard with Knob, RGB Backlit, Gasket Mounted, Support Bluetooth" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -1107,38 +1079,10 @@
                     <div class="flex items-center gap-2 text-xs text-slate-300">
                         <span class="text-yellow-400">★</span> 4.1/10
                         <span class="text-slate-600">|</span>
-                        <span>✅ Swap</span>
-                        <span>🎨 RGB</span>
-                    </div>
-                    <span class="text-xl font-bold text-orange-400">$159.95</span>
-                </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
-                    Check Price on Amazon →
-                </a>
-            </div>
-        </article>
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
-            <div class="p-5">
-                <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61rgwLf3KXL._AC_UY218_.jpg" alt="K8 Version 2 TKL Wireless Mechanical Keyboard, QMK/Launcher Bluetooth 5.2/Wired, RGB Backlit Shine-Through PBT Keycaps, Super Red Switch, Aluminum Fra" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">TKL</span>
-                        </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K8 Version 2 TKL Wireless Mechanical Keyboard, QMK/Launcher Bluetooth 5.2/Wired, RGB Backlit Shine-Through PBT Keycaps, Super Red Switch, Aluminum Fra</h3>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4/10
-                        <span class="text-slate-600">|</span>
                         <span>❌ Swap</span>
                         <span>🎨 RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-orange-400">$99.99</span>
+                    <span class="text-xl font-bold text-orange-400">$159.95</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">PBT Keycaps</span></div>
                 <a href="https://www.amazon.com/Keychron-Wireless-Mechanical-Bluetooth-Shine-Through/dp/B0DNYQ9GDK/ref=sr_1_8?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -1149,7 +1093,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71ILk9MqE3L._AC_UY218_.jpg" alt="Q1 Ultra 8K 75% Wireless Mechanical Keyboard, Aluminum Hot-Swappable RGB Backlight, Brown Switch, 82 Keys, 4000mAh Battery, 2.4GHz/Bluetooth/Wired, QM" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71ILk9MqE3L._AC_UY218_.jpg" alt="Q1 Ultra 8K 75% Wireless Mechanical Keyboard, Aluminum Hot-Swappable RGB Backlight, Brown Switch, 82 Keys, 4000mAh Battery, 2.4GHz/Bluetooth/Wired, QM" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -1177,7 +1121,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/619e4QgeHWL._AC_UY218_.jpg" alt="Q6 Max QMK/VIA Bluetooth Wireless /2.4 GHz/USB-C Wired Custom Mechanical Keyboard, Full Size Programmable Knob RGB Backlit Hot-Swappable Gateron Brown" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61y4omvSs6L._AC_UY218_.jpg" alt="Q6 Max QMK/VIA Bluetooth Wireless /2.4 GHz/USB-C Wired Custom Mechanical Keyboard, Full Size Programmable Knob RGB Backlit Hot-Swappable Gateron Brown" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -1191,38 +1135,10 @@
                     <div class="flex items-center gap-2 text-xs text-slate-300">
                         <span class="text-yellow-400">★</span> 4/10
                         <span class="text-slate-600">|</span>
-                        <span>✅ Swap</span>
-                        <span>🎨 RGB</span>
-                    </div>
-                    <span class="text-xl font-bold text-orange-400">$239.99</span>
-                </div>
-                <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Hot-Swappable</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span></div>
-                <a href="https://www.amazon.com/sspa/click?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
-                    Check Price on Amazon →
-                </a>
-            </div>
-        </article>
-        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
-            <div class="p-5">
-                <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61y4omvSs6L._AC_UY218_.jpg" alt="K17 Max 96% Layout QMK/Launcher Ultra-Slim Wireless/Type-C Wired Mechanical Keyboard with White LED Backlit, Low-Profile Gateron Mechanical Brown Swit" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex flex-wrap gap-1 mb-1">
-                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Tactile Brown</span>
-                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">98-key</span>
-                        </div>
-                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K17 Max 96% Layout QMK/Launcher Ultra-Slim Wireless/Type-C Wired Mechanical Keyboard with White LED Backlit, Low-Profile Gateron Mechanical Brown Swit</h3>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                        <span class="text-yellow-400">★</span> 4/10
-                        <span class="text-slate-600">|</span>
                         <span>❌ Swap</span>
                         <span>🎨 RGB</span>
                     </div>
-                    <span class="text-xl font-bold text-orange-400">$94.99</span>
+                    <span class="text-xl font-bold text-orange-400">$239.99</span>
                 </div>
                 <div class="flex flex-wrap gap-1 mb-3"><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">RGB Backlight</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Wireless</span><span class="bg-slate-700/50 px-2 py-1 rounded text-xs">Low Profile</span></div>
                 <a href="https://www.amazon.com/Keychron-Ultra-Slim-Mechanical-Low-Profile-Compatible/dp/B0DCK11YRR/ref=sr_1_15?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
@@ -1233,7 +1149,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/71IkpGsEk6L._AC_UY218_.jpg" alt="C3 Pro TKL 80% Wired Mechanical Keyboard, 8K Polling Rate, QMK/VIA Programmable, Hot-Swappable, RGB Backlit Shine-Through Keycaps, Super Brown Switch," class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/71IkpGsEk6L._AC_UY218_.jpg" alt="C3 Pro TKL 80% Wired Mechanical Keyboard, 8K Polling Rate, QMK/VIA Programmable, Hot-Swappable, RGB Backlit Shine-Through Keycaps, Super Brown Switch," class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -1261,7 +1177,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61oai+iOFrL._AC_UY218_.jpg" alt="K3 Version 2, 75% Layout 84 Keys Ultra-Slim Wireless Bluetooth/USB Wired Mechanical Keyboard with RGB Backlit, Hot-Swappable Low-Profile Keychron Opti" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61oai+iOFrL._AC_UY218_.jpg" alt="K3 Version 2, 75% Layout 84 Keys Ultra-Slim Wireless Bluetooth/USB Wired Mechanical Keyboard with RGB Backlit, Hot-Swappable Low-Profile Keychron Opti" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -1289,7 +1205,35 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61dBqSe5-bL._AC_UY218_.jpg" alt="K8 Wireless Mechanical Keyboard – Silent Red Switch for Quiet Office and Gaming, TKL 87 Keys, Soft White LED Backlight, Bluetooth & USB-C Wired Connec" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61jAoFG1+8L._AC_UY218_.jpg" alt="K10 Full Size 104 Keys Bluetooth Wireless Mechanical Gaming Keyboard for Mac Windows with Keychron Silent K Pro Red Switch, Multitasking/White LED Backlight/USB C Wired Computer Keyboard" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-wrap gap-1 mb-1">
+                            <span class="text-xs px-2 py-1 rounded-full font-semibold bg-slate-700 text-slate-300">undefined</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Linear Red</span>
+                            <span class="text-xs px-2 py-1 rounded-full bg-slate-700 text-slate-300">Full Size</span>
+                        </div>
+                        <h3 class="font-bold text-sm leading-tight mb-1 truncate">K10 Full Size 104 Keys Bluetooth Wireless Mechanical Gaming Keyboard for Mac Windows with Keychron Silent K Pro Red Switch, Multitasking/White LED Backlight/USB C Wired Computer Keyboard</h3>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2 text-xs text-slate-300">
+                        <span class="text-yellow-400">★</span> 3.9/10
+                        <span class="text-slate-600">|</span>
+                        <span>❌ Swap</span>
+                        <span>⬜ RGB</span>
+                    </div>
+                    <span class="text-xl font-bold text-orange-400">$84.99</span>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-3"></div>
+                <a href="?tag=mechkeyshub-20" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center text-sm font-semibold transition">
+                    Check Price on Amazon →
+                </a>
+            </div>
+        </article>
+        <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
+            <div class="p-5">
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="https://m.media-amazon.com/images/I/61dBqSe5-bL._AC_UY218_.jpg" alt="K8 Wireless Mechanical Keyboard – Silent Red Switch for Quiet Office and Gaming, TKL 87 Keys, Soft White LED Backlight, Bluetooth & USB-C Wired Connec" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-blue-900/50 text-blue-300">⚖️ Mid-Range</span>
@@ -1317,7 +1261,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/61gENtLI8GL._AC_UY218_.jpg" alt="K8 Max QMK Wireless Custom Mechanical Keyboard, TKL 80% Layout Bluetooth/2.4G/USB-C Programmable, RGB Backlit Hot Swappable Super Red Switch NKRO for " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/61gENtLI8GL._AC_UY218_.jpg" alt="K8 Max QMK Wireless Custom Mechanical Keyboard, TKL 80% Layout Bluetooth/2.4G/USB-C Programmable, RGB Backlit Hot Swappable Super Red Switch NKRO for " class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-purple-900/50 text-purple-300">💎 Premium</span>
@@ -1345,7 +1289,7 @@
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-orange-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
-                    <img src="https://m.media-amazon.com/images/I/51nrnVjKIZL._AC_UY218_.jpg" alt="Low-Profile Keyboard Travel Pouch for K3 / K3 Pro / K3 Max / K12 / S1 – Saffiano Leather Sleeve for 75% Compact Slim Mechanical Keyboards, Orange" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
+                    <img src="https://m.media-amazon.com/images/I/51nrnVjKIZL._AC_UY218_.jpg" alt="Low-Profile Keyboard Travel Pouch for K3 / K3 Pro / K3 Max / K12 / S1 – Saffiano Leather Sleeve for 75% Compact Slim Mechanical Keyboards, Orange" class="w-20 h-20 object-contain rounded-lg bg-white/5" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>No Image</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="flex flex-wrap gap-1 mb-1">
                             <span class="text-xs px-2 py-1 rounded-full font-semibold bg-emerald-900/50 text-emerald-300">💰 Budget</span>
@@ -1386,31 +1330,5 @@
             <p>&copy; 2026 MechKeys Hub. As an Amazon Associate, we earn from qualifying purchases.</p>
         </div>
     </footer>
-
-    <!-- Related Links -->
-    <section class="py-12 px-4 bg-slate-900/50">
-        <div class="max-w-7xl mx-auto">
-            <h3 class="text-xl font-bold mb-6">Explore More</h3>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <a href="/60_percent.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">⌨️</div>
-                    <div class="font-semibold">60% Keyboards</div>
-                </a>
-                <a href="/best-value.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">💰</div>
-                    <div class="font-semibold">Best Value</div>
-                </a>
-                <a href="/switches.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">🎛️</div>
-                    <div class="font-semibold">Switches Guide</div>
-                </a>
-                <a href="/guides.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">📖</div>
-                    <div class="font-semibold">Buying Guides</div>
-                </a>
-            </div>
-        </div>
-    </section>
-
 </body>
 </html>
