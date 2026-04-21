@@ -388,3 +388,24 @@
 [2026-04-18T22:03:35.762Z]    Other: 5 款
 [2026-04-18T22:03:35.815Z] 更新网站统计: 产品467, 品牌24
 [2026-04-18T22:03:35.815Z] ========== 抓取完成: 5 款新产品 ==========
+[2026-04-21T02:33:13.562Z] ========== 开始抓取: 2026-04-21T02:33:13.562Z ==========
+[2026-04-21T02:33:13.563Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-21T02:33:18.976Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-21T02:33:21.033Z] 新增产品: B0F62XJWMF - AULA - AULA WIN60 HE PRO 60% Mechanical Gaming Keyboard W
+[2026-04-21T02:33:22.550Z] 新增产品: B0F8H61968 - AULA - AULA F75 Pro Wireless Mechanical Keyboard with Kno
+[2026-04-21T02:33:27.082Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-21T02:33:29.675Z] 新增产品: B0D99P16XP - Other - Kailh Box White Clicky Keyboard Switch,3-pin 45gf 
+[2026-04-21T02:33:34.185Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-21T02:33:36.318Z] 新增产品: B0GK8ZFLVJ - Other - K3 Max SE QMK Wireless (2.4 GHz & Bluetooth) Custo
+[2026-04-21T02:33:40.827Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-21T02:33:47.935Z] 新增产品: B0G62P1X7X - Other - Ergonomic Wireless Keyboard and Mouse Combo, Wave 
+[2026-04-21T02:33:52.444Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-21T02:33:54.497Z] 新增产品: B0BSNZPB6V - Cherry - One 3 SF Aura 65% Mechanical Keyboard: Quack Mecha
+[2026-04-21T02:33:56.029Z] 新增产品: B0FLX6H62D - Other - C75 Wireless Mechanical Keyboard,75% Layout, Hot-S
+[2026-04-21T02:33:57.544Z] 新增产品: B0GL6Y4MVQ - Other - LEOBOG A98 Wireless Mechanical Keyboard, Tri-Mode 
+[2026-04-21T02:34:02.062Z] 保存成功: 8 款新产品, 总计 475
+[2026-04-21T02:34:02.062Z]    AULA: 2 款
+[2026-04-21T02:34:02.062Z]    Other: 5 款
+[2026-04-21T02:34:02.062Z]    Cherry: 1 款
+[2026-04-21T02:34:02.108Z] 更新网站统计: 产品475, 品牌24
+[2026-04-21T02:34:02.108Z] ========== 抓取完成: 8 款新产品 ==========

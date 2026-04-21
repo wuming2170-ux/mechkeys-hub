@@ -10927,5 +10927,154 @@ const topProducts = [
         ],
         "source": "serpapi",
         "scraped_at": "2026-04-18"
+    },
+    {
+        "id": "10007",
+        "name": "AULA WIN60 HE PRO 60% Mechanical Gaming Keyboard Wired, Magnetic Switch Hot Swappable, Adjustable Actuation Rapid Trigger Mode, 8000Hz Polling Rate, RGB Small Keyboard 60 Percent Compact Design for PC",
+        "amazon_asin": "B0F62XJWMF",
+        "price": "$45.99",
+        "rating": 4.3,
+        "reviews": 99,
+        "brand": "AULA",
+        "layout": "60%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/613BZu3TwUL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0F62XJWMF?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Portable"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10007",
+        "name": "AULA F75 Pro Wireless Mechanical Keyboard with Knob,75% Hot Swappable Custom Gaming Keyboards,RGB Backlit,Pre-lubed Switches,Side Printed PBT Keycaps Creamy Sounding Computer Keyboard, Line White",
+        "amazon_asin": "B0F8H61968",
+        "price": "$66.49",
+        "rating": 4.7,
+        "reviews": 96,
+        "brand": "AULA",
+        "layout": "75%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71DMKGhYLWL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0F8H61968?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10007",
+        "name": "Kailh Box White Clicky Keyboard Switch,3-pin 45gf Pre-Lubed Dustproof Waterproof RGB SMD Key Switches for 3D Prints and Mechanical Gaming Keyboard(White,45pcs)",
+        "amazon_asin": "B0D99P16XP",
+        "price": "$16.61",
+        "rating": 4.7,
+        "reviews": 125,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Clicky",
+        "image": "https://m.media-amazon.com/images/I/61-Bk2wOFUL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0D99P16XP?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10007",
+        "name": "K3 Max SE QMK Wireless (2.4 GHz & Bluetooth) Custom Mechanical Keyboard with Ultra-Slim Body Launcher Support Hot-swappable Low-Profile Switch PBT Keycaps Compatible with Mac Windows Linux",
+        "amazon_asin": "B0GK8ZFLVJ",
+        "price": "$104.99",
+        "rating": "0",
+        "reviews": "0",
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/717ngcg0kfL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0GK8ZFLVJ?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10007",
+        "name": "Ergonomic Wireless Keyboard and Mouse Combo, Wave Keys Keyboard with Wrist Rest for Natural Typing, 3 DPI Adjustable Ergonomic Silent Mouse for Computer/Laptop/Windows/Mac (Latte Color-A)",
+        "amazon_asin": "B0G62P1X7X",
+        "price": "$37.99",
+        "rating": 4.1,
+        "reviews": 893,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71aJ5tMJV4L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0G62P1X7X?tag=mechkeyshub-20",
+        "categories": [
+            "Silent",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10007",
+        "name": "One 3 SF Aura 65% Mechanical Keyboard: Quack Mechanics Dampening, Hot-Swappable Cherry MX Slient Red Switches, High-Density PBT Tripleshot Keycaps, RGB, US, Black",
+        "amazon_asin": "B0BSNZPB6V",
+        "price": "$0",
+        "rating": 4.6,
+        "reviews": 15,
+        "brand": "Cherry",
+        "layout": "65%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71xeuxAFmhL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BSNZPB6V?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10007",
+        "name": "C75 Wireless Mechanical Keyboard,75% Layout, Hot-Swappable NKRO,BT5.0/2.4G/USB-C Mode,Dye-Sub PBT MOA Keycaps,RGB Gasket Mount,Cute Cake Design for Mac/Win/Gaming (Blue, Milk V2 Switch)",
+        "amazon_asin": "B0FLX6H62D",
+        "price": "$82.79",
+        "rating": 4.8,
+        "reviews": 284,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71ctwpZTMkL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FLX6H62D?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
+    },
+    {
+        "id": "10007",
+        "name": "LEOBOG A98 Wireless Mechanical Keyboard, Tri-Mode BT5.0/2.4GHz/USB-C, Creamy Keyboard with Number Pad, Gasket Structure Hot Swappable, PBT Keycaps, RGB Backlit Pink Gaming Keyboard with Knob for PC",
+        "amazon_asin": "B0GL6Y4MVQ",
+        "price": "$59.99",
+        "rating": 4.5,
+        "reviews": 92,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61D7S5+03bL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0GL6Y4MVQ?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-04-21"
     }
 ];
