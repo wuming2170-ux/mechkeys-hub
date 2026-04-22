@@ -529,3 +529,22 @@
 [2026-04-21T22:04:59.133Z] 新增产品: B0GFT7FTLT - Other - Node100 Wireless Mechanical Keyboard, Hot Swappabl
 [2026-04-21T22:05:00.657Z] 新增产品: B0G24YWPPM - Other - Node75 Wireless Mechanical Keyboard, 75% Hot Swapp
 [2026-04-21T22:05:02.171Z] 新增产品: B07ZWK2TQT - Other - Ergo K860 Wireless Ergonomic Keyboard - Split Keyb
+[2026-04-22T22:00:06.701Z] ========== 开始抓取: 2026-04-22T22:00:06.701Z ==========
+[2026-04-22T22:00:06.702Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-22T22:00:09.286Z] 新增产品: B0G1MSDD2K - Other - RedThunder K10 Wired Gaming Keyboard & Mouse Combo
+[2026-04-22T22:00:10.824Z] 新增产品: B0B2DPYVNT - Keychron - Keychron V6 Wired Custom Mechanical Keyboard Knob 
+[2026-04-22T22:00:12.348Z] 新增产品: B0FLX67G4R - Other - YUNZII C75 Wireless Mechanical Keyboard,75% Layout
+[2026-04-22T22:00:16.854Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-22T22:00:19.273Z] 新增产品: B0G1MSDD2K - Other - RedThunder K10 Wired Gaming Keyboard & Mouse Combo
+[2026-04-22T22:00:20.791Z] 新增产品: B0F3MKVPPT - Cherry - CHERRY XTRFY MX 3.1, Wired Mechanical Gaming Keybo
+[2026-04-22T22:00:22.316Z] 新增产品: B0BQBSH6NQ - Logitech - Logitech G PRO X TKL Lightspeed Wireless Gaming Ke
+[2026-04-22T22:00:23.833Z] 新增产品: B079HQBYDD - Other - TECWARE Phantom 87 Key RGB Mechanical Gaming Keybo
+[2026-04-22T22:00:28.401Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-22T22:00:34.450Z] 新增产品: B0G3TGDDNW - Other - ProtoArc K310 Pro Bluetooth Mechanical Keyboard, W
+[2026-04-22T22:00:35.958Z] 新增产品: B0G1MPTSJ3 - Other - RedThunder K10 Wired Gaming Keyboard, Mouse Wrist 
+[2026-04-22T22:00:37.491Z] 新增产品: B0DT6SWLK5 - Other - YUNZII IF99 Wireless Mechanical Gaming Keyboard wi
+[2026-04-22T22:00:38.999Z] 新增产品: B0G3FRBM2Y - Keychron - Keychron V6 8K Full Size Wired Mechanical Keyboard
+[2026-04-22T22:00:40.510Z] 新增产品: B0B2DPYVNT - Keychron - Keychron V6 Wired Custom Mechanical Keyboard Knob 
+[2026-04-22T22:00:45.014Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-22T22:00:53.825Z] 新增产品: B0DBV3X3BM - Other - Q5 HE Rapid Trigger Gaming Keyboard Wireless with 
+[2026-04-22T22:00:58.351Z] 搜索: leopold mechanical keyboard amazon
