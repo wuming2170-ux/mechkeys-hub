@@ -818,3 +818,46 @@
 [2026-04-25T22:09:52.059Z]    Logitech: 1 款
 [2026-04-25T22:09:52.120Z] 更新网站统计: 产品625, 品牌24
 [2026-04-25T22:09:52.120Z] ========== 抓取完成: 50 款新产品 ==========
+[2026-04-26T22:02:40.141Z] ========== 开始抓取: 2026-04-26T22:02:40.141Z ==========
+[2026-04-26T22:02:40.142Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-26T22:02:46.212Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-26T22:02:54.668Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-26T22:02:59.608Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-26T22:03:04.704Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-26T22:03:07.524Z] 新增产品: B06XMRQ68B - Other - G Pro Mechanical Gaming Keyboard, 16.8 Million Col
+[2026-04-26T22:03:12.039Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-26T22:03:16.048Z] 新增产品: B0GL7JV88F - Other - C98 Wireless Mechanical Keyboard with Number Pad,9
+[2026-04-26T22:03:17.569Z] 新增产品: B0GL7NXR11 - Other - B98 PRO QMK/VIA Wireless Mechanical Gaming Keyboar
+[2026-04-26T22:03:19.088Z] 新增产品: B0CYCNTYHJ - Cherry - Origin Vintage Double Shot PBT Mechanical Keyboard
+[2026-04-26T22:03:20.612Z] 新增产品: B09Y2JPPNC - Cherry - One 3 Classic Hotswap RGB Mechanical Keyboard (Che
+[2026-04-26T22:03:22.121Z] 新增产品: B09Y2KY2NV - Cherry - One 3 TKL Pure White Hotswap RGB Mechanical Keyboa
+[2026-04-26T22:03:26.636Z] 搜索: filco mechanical keyboard amazon
+[2026-04-26T22:03:30.439Z] 新增产品: B0GFTJW96W - Other - Node100 Wireless Mechanical Keyboard, Hot Swappabl
+[2026-04-26T22:03:31.960Z] 新增产品: B00426HI8U - Other - Slim Type Wired Keyboard (K72357USA),Black
+[2026-04-26T22:03:36.491Z] 搜索: steelseries mechanical keyboard amazon
+[2026-04-26T22:03:38.689Z] 新增产品: B082Y66P6G - Other - 64795 High Water Resistant Gaming Keyboard, Silent
+[2026-04-26T22:03:40.198Z] 新增产品: B09SJ3S7JG - SteelSeries - SteelSeries Apex 3 TKL RGB Gaming Keyboard – Tenke
+[2026-04-26T22:03:41.705Z] 新增产品: B0GG49ZNQ7 - Other - ROG Falchion Ace 75 HE Wired Analog/Hall Effect Ga
+[2026-04-26T22:03:46.213Z] 搜索: corsair mechanical keyboard amazon
+[2026-04-26T22:03:50.286Z] 新增产品: B0GJXBMY43 - Other - ROG Azoth 96 HE Wireless Hall Effect Gaming Keyboa
+[2026-04-26T22:03:51.825Z] 新增产品: B0GG49ZNQ7 - Other - ROG Falchion Ace 75 HE Wired Analog/Hall Effect Ga
+[2026-04-26T22:03:56.346Z] 搜索: razer hunting keyboard amazon
+[2026-04-26T22:03:58.948Z] 新增产品: B0GG49ZNQ7 - Other - ROG Falchion Ace 75 HE Wired Analog/Hall Effect Ga
+[2026-04-26T22:04:00.498Z] 新增产品: B0F1MKZJMH - Other - Wireless Typewriter Style Mechanical Gaming Keyboa
+[2026-04-26T22:04:05.001Z] 搜索: logitech mx mechanical keyboard
+[2026-04-26T22:04:08.190Z] 新增产品: B0GFTJW96W - Other - Node100 Wireless Mechanical Keyboard, Hot Swappabl
+[2026-04-26T22:04:09.709Z] 新增产品: B0FFMD551Q - Other - KN104 Wireless Mechanical Gaming Keyboard, 100% Fu
+[2026-04-26T22:04:11.223Z] 新增产品: B09DVLTFJR - Other - POP Keys Mechanical Wireless Keyboard with Customi
+[2026-04-26T22:04:12.736Z] 新增产品: B0BTNY72VD - Other - Wave Keys Wireless Ergonomic Keyboard with Cushion
+[2026-04-26T22:04:14.244Z] 新增产品: B0BTNZSXLG - Other - Wave Keys for Mac, Wireless Ergonomic Keyboard wit
+[2026-04-26T22:04:15.754Z] 新增产品: B0C4CQCW83 - Other - Epic Work Bundle, Epic Wireless Keyboard and Epic 
+[2026-04-26T22:04:17.262Z] 新增产品: B0FFG3G4MK - Other - Ergonomic Keyboard and Mouse Combo, Full Size Cord
+[2026-04-26T22:04:21.767Z] 搜索: glorious mechanical keyboard amazon
+[2026-04-26T22:04:24.117Z] 新增产品: B09969XDKV - Glorious - Glorious Gaming GMMK PRO 75% Barebones White (Fram
+[2026-04-26T22:04:25.624Z] 新增产品: B0DCHFKHGB - Other - Gaming - GMMK 3 HE Rapid Trigger Keyboard, Hall Ef
+[2026-04-26T22:04:27.130Z] 新增产品: B0DCHK7X1G - Other - Gaming - GMMK 3 Custom Mechanical Gaming Keyboard 
+[2026-04-26T22:04:31.635Z] 搜索: akko mechanical keyboard amazon
+[2026-04-26T22:04:34.887Z] 新增产品: B0GL7MNLPV - Other - B98 PRO QMK/VIA Wireless Mechanical Gaming Keyboar
+[2026-04-26T22:04:36.421Z] 新增产品: B0CP7BBCC8 - Other - Magnetic Switches Rapid Trigger Gaming Keyboard, M
+[2026-04-26T22:04:37.932Z] 新增产品: B0FK56GW7B - Other - Galaxy100 Lite QMK/VIA Gaming Keyboard with 8000mA
+[2026-04-26T22:04:39.437Z] 新增产品: B0FVFH3HDY - Other - JIN01 65% Mechanical Keyboard RGB 2.4G Wireless/Bl
