@@ -917,3 +917,28 @@
 [2026-04-28T22:02:07.855Z] 新增产品: B08TB6G183 - Glorious - Glorious GMMK Modular Mechanical Gaming Keyboard -
 [2026-04-28T22:02:09.362Z] 新增产品: B01D8YNJH0 - Other - Custom Gaming Keyboard - GMMK 100% Percent Full Si
 [2026-04-28T22:02:10.870Z] 新增产品: B0DCHFN25T - Other - Gaming - GMMK 3 PRO HE: Wireless Gaming Keyboard R
+[2026-04-29T22:00:10.847Z] ========== 开始抓取: 2026-04-29T22:00:10.847Z ==========
+[2026-04-29T22:00:10.847Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-29T22:00:23.678Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-29T22:00:45.444Z] 新增产品: B08XBQ79MN - HyperX - HyperX Alloy Origins 60 - Mechanical Gaming Keyboa
+[2026-04-29T22:00:49.967Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-29T22:00:57.521Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-29T22:01:10.578Z] 新增产品: B0G24KLD4V - Other - V1 8K Custom Mechanical Keyboard, 75% Wired Layout
+[2026-04-30T22:02:14.403Z] ========== 开始抓取: 2026-04-30T22:02:14.403Z ==========
+[2026-04-30T22:02:14.405Z] 搜索: best seller mechanical keyboard amazon
+[2026-04-30T22:02:20.612Z] 搜索: top rated gaming mechanical keyboard
+[2026-04-30T22:02:24.987Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-04-30T22:02:32.330Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-04-30T22:02:34.824Z] 新增产品: B0CSXYG85H - Other - Q6 Max QMK/VIA Bluetooth Wireless /2.4 GHz/USB-C W
+[2026-04-30T22:02:36.340Z] 新增产品: B0D14LQ9XW - Other - V6 Max Wireless Custom Mechanical Keyboard, 2.4 GH
+[2026-04-30T22:02:37.853Z] 新增产品: B0G24KLD4V - Other - V1 8K Custom Mechanical Keyboard, 75% Wired Layout
+[2026-04-30T22:02:39.361Z] 新增产品: B0CR1K6SBT - Other - Q1 Max RGB QMK/VIA Custom Mechanical Keyboard, Ful
+[2026-04-30T22:02:43.865Z] 搜索: leopold mechanical keyboard amazon
+[2026-04-30T22:02:51.369Z] 新增产品: B0CSXYG85H - Other - Q6 Max QMK/VIA Bluetooth Wireless /2.4 GHz/USB-C W
+[2026-04-30T22:02:52.877Z] 新增产品: B0BWGM4W2F - Cherry - FC900RBT Bluetooth Blue/Grey PD Double Shot PBT Me
+[2026-04-30T22:02:54.404Z] 新增产品: B0BWNS37PJ - Cherry - NP900RBT Charcoal Blue Bluetooth PD Double Shot PB
+[2026-04-30T22:02:58.946Z] 搜索: ducky mechanical keyboard amazon
+[2026-04-30T22:03:04.958Z] 新增产品: B0DT11Z7FX - Cherry - One 2 Pro Mini Mechanical Keyboard, RGB LED - Cher
+[2026-04-30T22:03:06.482Z] 新增产品: B0GKCD32NM - Other - OK-M - 98% Wireless Mechanical Gaming Keyboard : G
+[2026-04-30T22:03:08.006Z] 新增产品: B0BNC5GLRZ - Other - One 2 Pro Mini Mechanical Keyboard, RGB LED - Kail
+[2026-04-30T22:03:12.521Z] 搜索: filco mechanical keyboard amazon
