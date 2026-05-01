@@ -942,3 +942,36 @@
 [2026-04-30T22:03:06.482Z] 新增产品: B0GKCD32NM - Other - OK-M - 98% Wireless Mechanical Gaming Keyboard : G
 [2026-04-30T22:03:08.006Z] 新增产品: B0BNC5GLRZ - Other - One 2 Pro Mini Mechanical Keyboard, RGB LED - Kail
 [2026-04-30T22:03:12.521Z] 搜索: filco mechanical keyboard amazon
+[2026-05-01T22:00:09.058Z] ========== 开始抓取: 2026-05-01T22:00:09.058Z ==========
+[2026-05-01T22:00:09.059Z] 搜索: best seller mechanical keyboard amazon
+[2026-05-01T22:00:15.067Z] 新增产品: B0G1MSDD2K - Other - RedThunder K10 Wired Gaming Keyboard & Mouse Combo
+[2026-05-01T22:00:19.622Z] 搜索: top rated gaming mechanical keyboard
+[2026-05-01T22:00:25.042Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-05-01T22:00:28.741Z] 新增产品: B0DZH6371B - Keychron - Keychron K4 HE 96% Wireless Hall Effect Keyboard w
+[2026-05-01T22:00:33.244Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-05-01T22:00:36.065Z] 新增产品: B0DYNBB3CW - Other - K4 Pro Custom Wireless Mechanical Keyboard, 100 Ke
+[2026-05-01T22:00:37.601Z] 新增产品: B0G24KLD4V - Other - V1 8K Custom Mechanical Keyboard, 75% Wired Layout
+[2026-05-01T22:00:42.117Z] 搜索: leopold mechanical keyboard amazon
+[2026-05-01T22:00:52.041Z] 新增产品: B0BWGM4W2F - Cherry - FC900RBT Bluetooth Blue/Grey PD Double Shot PBT Me
+[2026-05-01T22:00:53.565Z] 新增产品: B0BWNS37PJ - Cherry - NP900RBT Charcoal Blue Bluetooth PD Double Shot PB
+[2026-05-01T22:00:58.101Z] 搜索: ducky mechanical keyboard amazon
+[2026-05-01T22:01:00.463Z] 新增产品: B0DT11Z7FX - Cherry - One 2 Pro Mini Mechanical Keyboard, RGB LED - Cher
+[2026-05-01T22:01:01.993Z] 新增产品: B0BNC5GLRZ - Other - One 2 Pro Mini Mechanical Keyboard, RGB LED - Kail
+[2026-05-01T22:01:06.516Z] 搜索: filco mechanical keyboard amazon
+[2026-05-01T22:01:10.966Z] 新增产品: B0BSVPJHLJ - Cherry - Majestouch Convertible 3 TKL Bluetooth Mechanical 
+[2026-05-01T22:01:12.483Z] 新增产品: B09YXQC766 - Cherry - Majestouch 2SC TKL Double Shot PBT Mechanical Keyb
+[2026-05-01T22:01:14.013Z] 新增产品: B0G1YSV177 - Other - K716 Wireless Mechanical Keyboard with Knob, Gaske
+[2026-05-01T22:01:15.523Z] 新增产品: B0FWJBR3Q4 - Other - Halo V2 IO Wireless Mechanical Keyboard with PBT K
+[2026-05-01T22:01:17.039Z] 新增产品: B0BJYXJLLP - Cherry - Majestouch Xacro M3A 65% Mechanical Keyboard (Cher
+[2026-05-01T22:01:21.554Z] 搜索: steelseries mechanical keyboard amazon
+[2026-05-01T22:01:27.187Z] 新增产品: B0FD5276Z6 - Other - BlackWidow V4 TKL HyperSpeed Wireless Hot Swappabl
+[2026-05-01T22:01:28.727Z] 新增产品: B000UVRU6G - Other - QcK Large Gaming Mousepad — Black — Non-Slip Silic
+[2026-05-01T22:01:33.256Z] 搜索: corsair mechanical keyboard amazon
+[2026-05-01T22:01:38.427Z] 新增产品: B08YJNBWYY - Cherry - Corsair K60 RGB Pro SE Mechanical Gaming Keyboard 
+[2026-05-01T22:01:39.944Z] 新增产品: B0GSZNNKXV - Other - K65 Plus Wireless 75% RGB Hot-Swappable Mechanical
+[2026-05-01T22:01:44.468Z] 搜索: razer hunting keyboard amazon
+[2026-05-01T22:01:49.452Z] 新增产品: B0GMM88ZTW - Razer - Razer Pro Type Ergo Wireless Split Ergonomic RGB K
+[2026-05-01T22:01:53.974Z] 搜索: logitech mx mechanical keyboard
+[2026-05-01T22:01:56.772Z] 新增产品: B0FWJBR3Q4 - Other - Halo V2 IO Wireless Mechanical Keyboard with PBT K
+[2026-05-01T22:01:58.290Z] 新增产品: B0CTJ832YW - Logitech - Logitech MX Mechanical Mini Bluetooth Keyboard, Ta
+[2026-05-01T22:02:02.822Z] 搜索: glorious mechanical keyboard amazon
