@@ -975,3 +975,30 @@
 [2026-05-01T22:01:56.772Z] 新增产品: B0FWJBR3Q4 - Other - Halo V2 IO Wireless Mechanical Keyboard with PBT K
 [2026-05-01T22:01:58.290Z] 新增产品: B0CTJ832YW - Logitech - Logitech MX Mechanical Mini Bluetooth Keyboard, Ta
 [2026-05-01T22:02:02.822Z] 搜索: glorious mechanical keyboard amazon
+[2026-05-02T22:00:05.792Z] ========== 开始抓取: 2026-05-02T22:00:05.792Z ==========
+[2026-05-02T22:00:05.793Z] 搜索: best seller mechanical keyboard amazon
+[2026-05-02T22:00:10.189Z] 新增产品: B0FH6BHLV3 - AULA - AULA F106 PRO Wireless Mechanical Keyboard,Full Si
+[2026-05-02T22:00:14.753Z] 搜索: top rated gaming mechanical keyboard
+[2026-05-02T22:00:21.003Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-05-02T22:00:26.398Z] 新增产品: B0FH6BHLV3 - AULA - AULA F106 PRO Wireless Mechanical Keyboard,Full Si
+[2026-05-02T22:00:27.907Z] 新增产品: B0FQP36W6K - Other - MCHOSE UT98 Wireless Mechanical Keyboard Compact G
+[2026-05-02T22:00:29.467Z] 新增产品: B08JSNFW53 - Other - Merdia LED Backlit Full Size Wired Mechanical Gami
+[2026-05-02T22:00:33.978Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-05-02T22:00:44.967Z] 新增产品: B0D14LQ9XW - Other - V6 Max Wireless Custom Mechanical Keyboard, 2.4 GH
+[2026-05-02T22:00:46.495Z] 新增产品: B0GJ6943DQ - Other - V3 8K TKL Wired Mechanical Keyboard, 8000 Hz Polli
+[2026-05-02T22:00:51.004Z] 搜索: leopold mechanical keyboard amazon
+[2026-05-02T22:00:53.553Z] 新增产品: B0BWGM4W2F - Cherry - FC900RBT Bluetooth Blue/Grey PD Double Shot PBT Me
+[2026-05-02T22:00:55.060Z] 新增产品: B0FH6BHLV3 - Other - F106 PRO Wireless Mechanical Keyboard,Full Size Ga
+[2026-05-02T22:00:56.581Z] 新增产品: B0BWNS37PJ - Cherry - NP900RBT Charcoal Blue Bluetooth PD Double Shot PB
+[2026-05-02T22:00:58.122Z] 新增产品: B0B8K2MLFB - Cherry - FC650MDSBT Bluetooth Blue/Grey PD 65% Double Shot 
+[2026-05-02T22:01:02.647Z] 搜索: ducky mechanical keyboard amazon
+[2026-05-03T22:02:13.960Z] ========== 开始抓取: 2026-05-03T22:02:13.960Z ==========
+[2026-05-03T22:02:13.961Z] 搜索: best seller mechanical keyboard amazon
+[2026-05-03T22:03:11.042Z] 新增产品: B097BDWXHM - Magegee - MageGee 75% Mechanical Gaming Keyboard, Red Switch
+[2026-05-03T22:03:15.561Z] 搜索: top rated gaming mechanical keyboard
+[2026-05-03T22:03:18.654Z] 新增产品: B08XBQ79MN - HyperX - HyperX Alloy Origins 60 - Mechanical Gaming Keyboa
+[2026-05-03T22:03:23.184Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-05-03T22:03:32.019Z] 新增产品: B0F48S9RZB - AULA - AULA F108 PRO - Wireless Mechanical Keyboard with 
+[2026-05-03T22:03:36.576Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-05-03T22:03:41.308Z] 新增产品: B0G24KLD4V - Other - V1 8K Custom Mechanical Keyboard, 75% Wired Layout
+[2026-05-03T22:03:45.836Z] 搜索: leopold mechanical keyboard amazon
