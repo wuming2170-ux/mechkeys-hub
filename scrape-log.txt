@@ -1002,3 +1002,31 @@
 [2026-05-03T22:03:36.576Z] 搜索: keychron mechanical keyboard amazon best seller
 [2026-05-03T22:03:41.308Z] 新增产品: B0G24KLD4V - Other - V1 8K Custom Mechanical Keyboard, 75% Wired Layout
 [2026-05-03T22:03:45.836Z] 搜索: leopold mechanical keyboard amazon
+[2026-05-04T22:00:07.785Z] ========== 开始抓取: 2026-05-04T22:00:07.785Z ==========
+[2026-05-04T22:00:07.786Z] 搜索: best seller mechanical keyboard amazon
+[2026-05-04T22:00:23.753Z] 新增产品: B0DKNKX46Q - Other - EPOMAKER Galaxy100 QMK/VIA Wireless Gaming Keyboar
+[2026-05-04T22:00:25.299Z] 新增产品: B07WJ5D3H4 - Other - Amazon Basics Wired QWERTY Keyboard, Works with Wi
+[2026-05-04T22:00:26.833Z] 新增产品: B08CN9ZV2N - Keychron - Keychron C2 Full Size 104 Keys Wired Mechanical Ga
+[2026-05-04T22:00:31.339Z] 搜索: top rated gaming mechanical keyboard
+[2026-05-04T22:00:38.645Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-05-04T22:00:40.680Z] 新增产品: B0DKNKX46Q - Other - EPOMAKER Galaxy100 QMK/VIA Wireless Gaming Keyboar
+[2026-05-04T22:00:42.187Z] 新增产品: B0F48S9RZB - AULA - AULA F108 PRO - Wireless Mechanical Keyboard with 
+[2026-05-04T22:00:43.732Z] 新增产品: B08CN9ZV2N - Keychron - Keychron C2 Full Size 104 Keys Wired Mechanical Ga
+[2026-05-04T22:00:48.255Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-05-04T22:00:50.731Z] 新增产品: B0B2DPFWGR - Keychron - V6 Wired Custom Mechanical Keyboard, Full-Size QMK
+[2026-05-04T22:00:55.242Z] 搜索: leopold mechanical keyboard amazon
+[2026-05-05T22:02:07.299Z] ========== 开始抓取: 2026-05-05T22:02:07.299Z ==========
+[2026-05-05T22:02:07.300Z] 搜索: best seller mechanical keyboard amazon
+[2026-05-05T22:02:14.354Z] 新增产品: B07WJ5D3H4 - Other - Amazon Basics Wired QWERTY Keyboard, Works with Wi
+[2026-05-05T22:02:18.898Z] 搜索: top rated gaming mechanical keyboard
+[2026-05-05T22:02:39.002Z] 新增产品: B0GNYVNTW2 - Logitech - Logitech G512 X 98 Dual SWAP, Hot-Swappable TMR An
+[2026-05-05T22:02:40.551Z] 新增产品: B0DQXT1R29 - Other - ATTACK SHARK X68 HE Rapid Trigger Mechanical Gamin
+[2026-05-05T22:02:45.069Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-05-05T22:03:09.568Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-05-05T22:03:23.179Z] 新增产品: B0DBV2LGK6 - Other - Q5 HE Rapid Trigger Gaming Keyboard Wireless with 
+[2026-05-05T22:03:24.718Z] 新增产品: B0B2DPFWGR - Keychron - V6 Wired Custom Mechanical Keyboard, Full-Size QMK
+[2026-05-05T22:03:29.237Z] 搜索: leopold mechanical keyboard amazon
+[2026-05-05T22:03:55.042Z] 新增产品: B0BWGM4W2F - Cherry - FC900RBT Bluetooth Blue/Grey PD Double Shot PBT Me
+[2026-05-05T22:03:56.554Z] 新增产品: B0GZ4BZJWP - Cherry - NP750RBT Bluetooth Grey/Blue Wireless Double Shot 
+[2026-05-05T22:03:58.077Z] 新增产品: B0BWNS37PJ - Cherry - NP900RBT Charcoal Blue Bluetooth PD Double Shot PB
+[2026-05-05T22:04:02.608Z] 搜索: ducky mechanical keyboard amazon
