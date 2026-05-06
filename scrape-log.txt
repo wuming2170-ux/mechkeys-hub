@@ -1030,3 +1030,11 @@
 [2026-05-05T22:03:56.554Z] 新增产品: B0GZ4BZJWP - Cherry - NP750RBT Bluetooth Grey/Blue Wireless Double Shot 
 [2026-05-05T22:03:58.077Z] 新增产品: B0BWNS37PJ - Cherry - NP900RBT Charcoal Blue Bluetooth PD Double Shot PB
 [2026-05-05T22:04:02.608Z] 搜索: ducky mechanical keyboard amazon
+[2026-05-06T22:02:07.853Z] ========== 开始抓取: 2026-05-06T22:02:07.853Z ==========
+[2026-05-06T22:02:07.854Z] 搜索: best seller mechanical keyboard amazon
+[2026-05-06T22:02:13.905Z] 新增产品: B0GNYVNTW2 - Logitech - Logitech G512 X 98 Dual SWAP, Hot-Swappable TMR An
+[2026-05-06T22:02:15.434Z] 新增产品: B0GKFPG4XM - AULA - 75% Mechanical Keyboard Case for Aula F75 Pro / F7
+[2026-05-06T22:02:16.951Z] 新增产品: B07WJ5D3H4 - Other - Amazon Basics Wired QWERTY Keyboard, Works with Wi
+[2026-05-06T22:02:21.502Z] 搜索: top rated gaming mechanical keyboard
+[2026-05-06T22:02:33.535Z] 新增产品: B0DQXT1R29 - Other - ATTACK SHARK X68 HE Rapid Trigger Mechanical Gamin
+[2026-05-06T22:02:38.044Z] 搜索: best mechanical keyboard 2026 amazon
