@@ -1159,3 +1159,37 @@
 [2026-05-07T22:06:12.899Z]    HyperX: 2 款
 [2026-05-07T22:06:12.965Z] 更新网站统计: 产品675, 品牌24
 [2026-05-07T22:06:12.965Z] ========== 抓取完成: 50 款新产品 ==========
+[2026-05-08T22:00:08.526Z] ========== 开始抓取: 2026-05-08T22:00:08.526Z ==========
+[2026-05-08T22:00:08.526Z] 搜索: best seller mechanical keyboard amazon
+[2026-05-08T22:00:13.692Z] 搜索: top rated gaming mechanical keyboard
+[2026-05-08T22:00:18.259Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-05-08T22:00:22.857Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-05-08T22:00:24.283Z] 新增产品: B0B2DPFWGR - Keychron - V6 Wired Custom Mechanical Keyboard, Full-Size QMK
+[2026-05-08T22:00:25.796Z] 新增产品: B0F2FD4HRC - Other - C2 Pro Wired Mechanical Keyboard with 8K Hz Pollin
+[2026-05-08T22:00:30.308Z] 搜索: leopold mechanical keyboard amazon
+[2026-05-08T22:00:35.673Z] 搜索: ducky mechanical keyboard amazon
+[2026-05-08T22:00:38.072Z] 新增产品: B0DSZGQ3MD - Cherry - One 2 Pro Mini White Edition Mechanical Keyboard, 
+[2026-05-08T22:00:42.613Z] 搜索: filco mechanical keyboard amazon
+[2026-05-08T22:00:45.696Z] 新增产品: B08QRYZSPC - Cherry - Majestouch 2SS Double Shot PBT Full Size Mechanica
+[2026-05-08T22:00:50.200Z] 搜索: steelseries mechanical keyboard amazon
+[2026-05-08T22:00:56.133Z] 搜索: corsair mechanical keyboard amazon
+[2026-05-08T22:00:58.527Z] 新增产品: B0GSZNNKXV - Other - K65 Plus Wireless 75% RGB Hot-Swappable Mechanical
+[2026-05-08T22:01:03.033Z] 搜索: razer hunting keyboard amazon
+[2026-05-08T22:01:07.282Z] 搜索: logitech mx mechanical keyboard
+[2026-05-08T22:01:10.439Z] 新增产品: B07XD3VS62 - Other - MX Keys Keyboard
+[2026-05-08T22:01:14.963Z] 搜索: glorious mechanical keyboard amazon
+[2026-05-08T22:01:19.452Z] 搜索: akko mechanical keyboard amazon
+[2026-05-08T22:01:21.594Z] 新增产品: B0DK3PLKTJ - Akko - AKKO x MG108B Bun Wonderland Mechanical Keyboard H
+[2026-05-08T22:01:26.122Z] 搜索: aula mechanical keyboard amazon
+[2026-05-08T22:01:30.663Z] 搜索: redragon gaming keyboard amazon
+[2026-05-08T22:01:33.178Z] 新增产品: B019O9BLVY - Other - K552P Mechanical Gaming Keyboard TKL with 18 Backl
+[2026-05-08T22:01:34.689Z] 新增产品: B0FD9Y4D15 - Other - Wired Gaming Keyboard, RGB Backlit, 60% Compact Qu
+[2026-05-08T22:01:39.192Z] 搜索: rk royal kludge mechanical keyboard
+[2026-05-08T22:01:41.190Z] 新增产品: B0CJ2QJX5B - Cherry - R75 Mechanical Keyboard Wired with Volume Knob, 75
+[2026-05-08T22:01:42.712Z] 新增产品: B0FBW4MLDJ - Other - M100 Mechanical Keyboard w/Screen & Dual Knobs, 96
+[2026-05-08T22:01:47.215Z] 搜索: kbdfans mechanical keyboard
+[2026-05-08T22:01:53.930Z] 搜索: hot swap mechanical keyboard amazon
+[2026-05-08T22:01:55.712Z] 新增产品: B0FDKLTVHN - Redragon - Redragon K745 PRO Wireless Gasket RGB Gaming Keybo
+[2026-05-08T22:02:00.236Z] 搜索: wireless mechanical keyboard amazon
+[2026-05-08T22:02:01.673Z] 新增产品: B0D2J2SNL7 - Other - LexonElec M96 Wireless Gaming Keyboard,Knob Contro
+[2026-05-08T22:02:06.178Z] 搜索: 60 percent mechanical keyboard
