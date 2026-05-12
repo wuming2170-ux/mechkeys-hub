@@ -1306,3 +1306,34 @@
 [2026-05-11T22:05:55.437Z]    Feker: 1 款
 [2026-05-11T22:05:55.506Z] 更新网站统计: 产品707, 品牌25
 [2026-05-11T22:05:55.506Z] ========== 抓取完成: 32 款新产品 ==========
+[2026-05-12T22:03:01.345Z] ========== 开始抓取: 2026-05-12T22:03:01.345Z ==========
+[2026-05-12T22:03:01.345Z] 搜索: best seller mechanical keyboard amazon
+[2026-05-12T22:03:07.312Z] 搜索: top rated gaming mechanical keyboard
+[2026-05-12T22:03:11.611Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-05-12T22:03:15.844Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-05-12T22:03:17.275Z] 新增产品: B08CN8NQGX - Other - C1 Wired Mechanical Keyboard for Mac and Windows, 
+[2026-05-12T22:03:21.787Z] 搜索: leopold mechanical keyboard amazon
+[2026-05-12T22:03:23.192Z] 新增产品: B0BWNV9K35 - Cherry - FC750RBT Bluetooth Grey/Blue PD TKL Double Shot PB
+[2026-05-12T22:03:27.719Z] 搜索: ducky mechanical keyboard amazon
+[2026-05-12T22:03:33.719Z] 搜索: filco mechanical keyboard amazon
+[2026-05-12T22:03:35.496Z] 新增产品: B0050ODQEI - Cherry - Majestouch Ninja TKL (Cherry MX Black) Keyboard
+[2026-05-12T22:03:40.002Z] 搜索: steelseries mechanical keyboard amazon
+[2026-05-12T22:03:44.620Z] 搜索: corsair mechanical keyboard amazon
+[2026-05-12T22:03:48.775Z] 搜索: razer hunting keyboard amazon
+[2026-05-12T22:03:50.589Z] 新增产品: B0GFXSYH6H - Other - Huntsman V3 Pro TKL 8KHz Esports Gaming Keyboard: 
+[2026-05-12T22:03:52.093Z] 新增产品: B0GMM88ZTW - Razer - Razer Pro Type Ergo Wireless Split Ergonomic RGB K
+[2026-05-12T22:03:56.598Z] 搜索: logitech mx mechanical keyboard
+[2026-05-12T22:04:03.578Z] 搜索: glorious mechanical keyboard amazon
+[2026-05-12T22:04:08.118Z] 搜索: akko mechanical keyboard amazon
+[2026-05-12T22:04:12.476Z] 搜索: aula mechanical keyboard amazon
+[2026-05-12T22:04:17.401Z] 搜索: redragon gaming keyboard amazon
+[2026-05-12T22:04:22.285Z] 搜索: rk royal kludge mechanical keyboard
+[2026-05-12T22:04:31.760Z] 搜索: kbdfans mechanical keyboard
+[2026-05-12T22:04:36.992Z] 搜索: hot swap mechanical keyboard amazon
+[2026-05-12T22:04:39.234Z] 新增产品: B0FNMSG1L6 - Other - YUNZII B75 PRO Wireless Mechanical Keyboard,75% La
+[2026-05-12T22:04:43.761Z] 搜索: wireless mechanical keyboard amazon
+[2026-05-12T22:04:48.837Z] 搜索: 60 percent mechanical keyboard
+[2026-05-12T22:04:53.122Z] 搜索: compact gaming keyboard amazon
+[2026-05-12T22:04:55.181Z] 新增产品: B0CV915WG6 - Other - Legion K310 RGB Wired Gaming Keyboard - Ultra-Fast
+[2026-05-12T22:04:56.705Z] 新增产品: B0DR7RNW16 - Other - 60% Wired Gaming Keyboard, RGB Backlit Ultra-Compa
+[2026-05-12T22:05:01.210Z] 搜索: quiet mechanical keyboard silent
