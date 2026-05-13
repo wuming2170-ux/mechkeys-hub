@@ -1337,3 +1337,29 @@
 [2026-05-12T22:04:55.181Z] 新增产品: B0CV915WG6 - Other - Legion K310 RGB Wired Gaming Keyboard - Ultra-Fast
 [2026-05-12T22:04:56.705Z] 新增产品: B0DR7RNW16 - Other - 60% Wired Gaming Keyboard, RGB Backlit Ultra-Compa
 [2026-05-12T22:05:01.210Z] 搜索: quiet mechanical keyboard silent
+[2026-05-13T22:00:07.891Z] ========== 开始抓取: 2026-05-13T22:00:07.891Z ==========
+[2026-05-13T22:00:07.892Z] 搜索: best seller mechanical keyboard amazon
+[2026-05-13T22:00:13.804Z] 搜索: top rated gaming mechanical keyboard
+[2026-05-13T22:00:18.150Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-05-13T22:00:23.874Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-05-13T22:00:27.708Z] 新增产品: B08CN8NQGX - Other - C1 Wired Mechanical Keyboard for Mac and Windows, 
+[2026-05-13T22:00:32.210Z] 搜索: leopold mechanical keyboard amazon
+[2026-05-13T22:00:33.410Z] 新增产品: B0BWNV9K35 - Cherry - FC750RBT Bluetooth Grey/Blue PD TKL Double Shot PB
+[2026-05-13T22:00:37.938Z] 搜索: ducky mechanical keyboard amazon
+[2026-05-13T22:00:47.910Z] 搜索: filco mechanical keyboard amazon
+[2026-05-13T22:00:49.727Z] 新增产品: B0050ODQEI - Cherry - Majestouch Ninja TKL (Cherry MX Black) Keyboard
+[2026-05-13T22:00:54.230Z] 搜索: steelseries mechanical keyboard amazon
+[2026-05-13T22:00:59.203Z] 搜索: corsair mechanical keyboard amazon
+[2026-05-13T22:01:08.333Z] 搜索: razer hunting keyboard amazon
+[2026-05-13T22:01:14.622Z] 新增产品: B0GFXSYH6H - Other - Huntsman V3 Pro TKL 8KHz Esports Gaming Keyboard: 
+[2026-05-13T22:01:16.133Z] 新增产品: B0GMM88ZTW - Razer - Razer Pro Type Ergo Wireless Split Ergonomic RGB K
+[2026-05-13T22:01:20.638Z] 搜索: logitech mx mechanical keyboard
+[2026-05-13T22:01:25.663Z] 搜索: glorious mechanical keyboard amazon
+[2026-05-13T22:01:29.489Z] 新增产品: B0DCHBQVB8 - Other - Gaming - GMMK 3 Barebones Custom Gaming Keyboard K
+[2026-05-13T22:01:31.028Z] 新增产品: B07886Z1R7 - Other - Kailh Box Brown Mechanical Keyboard Switches: Reli
+[2026-05-13T22:01:35.531Z] 搜索: akko mechanical keyboard amazon
+[2026-05-13T22:01:42.900Z] 搜索: aula mechanical keyboard amazon
+[2026-05-13T22:01:49.406Z] 搜索: redragon gaming keyboard amazon
+[2026-05-13T22:01:53.711Z] 搜索: rk royal kludge mechanical keyboard
+[2026-05-13T22:01:58.490Z] 搜索: kbdfans mechanical keyboard
+[2026-05-13T22:02:07.215Z] 搜索: hot swap mechanical keyboard amazon
