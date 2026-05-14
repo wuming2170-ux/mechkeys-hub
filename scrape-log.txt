@@ -1363,3 +1363,18 @@
 [2026-05-13T22:01:53.711Z] 搜索: rk royal kludge mechanical keyboard
 [2026-05-13T22:01:58.490Z] 搜索: kbdfans mechanical keyboard
 [2026-05-13T22:02:07.215Z] 搜索: hot swap mechanical keyboard amazon
+[2026-05-14T22:02:37.465Z] ========== 开始抓取: 2026-05-14T22:02:37.465Z ==========
+[2026-05-14T22:02:37.466Z] 搜索: best seller mechanical keyboard amazon
+[2026-05-14T22:02:42.583Z] 搜索: top rated gaming mechanical keyboard
+[2026-05-14T22:02:52.784Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-05-14T22:02:58.268Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-05-14T22:02:59.962Z] 新增产品: B0G4QYRD5L - Other - B31 Wireless Silent Keyboard, 75% Layout Quiet Typ
+[2026-05-14T22:03:04.466Z] 搜索: leopold mechanical keyboard amazon
+[2026-05-14T22:03:05.889Z] 新增产品: B0BWNV9K35 - Cherry - FC750RBT Bluetooth Grey/Blue PD TKL Double Shot PB
+[2026-05-14T22:03:10.417Z] 搜索: ducky mechanical keyboard amazon
+[2026-05-14T22:03:14.666Z] 搜索: filco mechanical keyboard amazon
+[2026-05-14T22:03:19.083Z] 搜索: steelseries mechanical keyboard amazon
+[2026-05-14T22:03:24.669Z] 搜索: corsair mechanical keyboard amazon
+[2026-05-14T22:03:29.422Z] 搜索: razer hunting keyboard amazon
+[2026-05-14T22:03:30.844Z] 新增产品: B0GWNHWWN8 - Other - Huntsman V3 TKL 8KHz Esports Gaming Keyboard — Ana
+[2026-05-14T22:03:35.372Z] 搜索: logitech mx mechanical keyboard
