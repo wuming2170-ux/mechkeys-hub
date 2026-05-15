@@ -1378,3 +1378,69 @@
 [2026-05-14T22:03:29.422Z] 搜索: razer hunting keyboard amazon
 [2026-05-14T22:03:30.844Z] 新增产品: B0GWNHWWN8 - Other - Huntsman V3 TKL 8KHz Esports Gaming Keyboard — Ana
 [2026-05-14T22:03:35.372Z] 搜索: logitech mx mechanical keyboard
+[2026-05-15T22:02:56.384Z] ========== 开始抓取: 2026-05-15T22:02:56.384Z ==========
+[2026-05-15T22:02:56.384Z] 搜索: best seller mechanical keyboard amazon
+[2026-05-15T22:03:01.040Z] 搜索: top rated gaming mechanical keyboard
+[2026-05-15T22:03:05.451Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-05-15T22:03:10.298Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-05-15T22:03:11.957Z] 新增产品: B0GJ5KZLGJ - Other - V5 8K 96% Wired Mechanical Keyboard, 8000 Hz Polli
+[2026-05-15T22:03:16.466Z] 搜索: leopold mechanical keyboard amazon
+[2026-05-15T22:03:18.296Z] 新增产品: B0BWG3WM83 - Cherry - FC900RBT Bluetooth Blue/Grey PD Double Shot PBT Me
+[2026-05-15T22:03:19.810Z] 新增产品: B0B8K2B42K - Cherry - FC650MDS Blue/Grey PD 65% Double Shot PBT Mechanic
+[2026-05-15T22:03:24.346Z] 搜索: ducky mechanical keyboard amazon
+[2026-05-15T22:03:33.828Z] 搜索: filco mechanical keyboard amazon
+[2026-05-15T22:03:43.263Z] 搜索: steelseries mechanical keyboard amazon
+[2026-05-15T22:03:57.539Z] 搜索: corsair mechanical keyboard amazon
+[2026-05-15T22:04:07.434Z] 搜索: razer hunting keyboard amazon
+[2026-05-15T22:04:18.801Z] 新增产品: B0FRPFNW9Y - Other - Huntsman V3 Pro TKL 8KHz Esports Gaming Keyboard: 
+[2026-05-15T22:04:20.312Z] 新增产品: B0GWNHWWN8 - Other - Huntsman V3 TKL 8KHz Esports Gaming Keyboard — Ana
+[2026-05-15T22:04:24.859Z] 搜索: logitech mx mechanical keyboard
+[2026-05-15T22:04:30.443Z] 搜索: glorious mechanical keyboard amazon
+[2026-05-15T22:04:31.827Z] 新增产品: B0DCHBQVB8 - Other - Gaming - GMMK 3 Barebones Custom Gaming Keyboard K
+[2026-05-15T22:04:33.362Z] 新增产品: B07886Z1R7 - Other - Kailh Box Brown Mechanical Keyboard Switches: Reli
+[2026-05-15T22:04:37.875Z] 搜索: akko mechanical keyboard amazon
+[2026-05-15T22:04:42.478Z] 搜索: aula mechanical keyboard amazon
+[2026-05-15T22:04:55.758Z] 搜索: redragon gaming keyboard amazon
+[2026-05-15T22:05:53.220Z] ========== 开始抓取: 2026-05-15T22:05:53.220Z ==========
+[2026-05-15T22:05:53.220Z] 搜索: best seller mechanical keyboard amazon
+[2026-05-15T22:05:57.012Z] 搜索: top rated gaming mechanical keyboard
+[2026-05-15T22:06:00.315Z] 搜索: best mechanical keyboard 2026 amazon
+[2026-05-15T22:06:03.596Z] 搜索: keychron mechanical keyboard amazon best seller
+[2026-05-15T22:06:03.899Z] 新增产品: B0GJ5KZLGJ - Other - V5 8K 96% Wired Mechanical Keyboard, 8000 Hz Polli
+[2026-05-15T22:06:08.412Z] 搜索: leopold mechanical keyboard amazon
+[2026-05-15T22:06:08.698Z] 新增产品: B0BWG3WM83 - Cherry - FC900RBT Bluetooth Blue/Grey PD Double Shot PBT Me
+[2026-05-15T22:06:10.217Z] 新增产品: B0B8K2B42K - Cherry - FC650MDS Blue/Grey PD 65% Double Shot PBT Mechanic
+[2026-05-15T22:06:14.754Z] 搜索: ducky mechanical keyboard amazon
+[2026-05-15T22:06:18.432Z] 搜索: filco mechanical keyboard amazon
+[2026-05-15T22:06:21.687Z] 搜索: steelseries mechanical keyboard amazon
+[2026-05-15T22:06:24.955Z] 搜索: corsair mechanical keyboard amazon
+[2026-05-15T22:06:28.224Z] 搜索: razer hunting keyboard amazon
+[2026-05-15T22:06:28.442Z] 新增产品: B0FRPFNW9Y - Other - Huntsman V3 Pro TKL 8KHz Esports Gaming Keyboard: 
+[2026-05-15T22:06:29.953Z] 新增产品: B0GWNHWWN8 - Other - Huntsman V3 TKL 8KHz Esports Gaming Keyboard — Ana
+[2026-05-15T22:06:34.494Z] 搜索: logitech mx mechanical keyboard
+[2026-05-15T22:06:38.207Z] 搜索: glorious mechanical keyboard amazon
+[2026-05-15T22:06:38.464Z] 新增产品: B0DCHBQVB8 - Other - Gaming - GMMK 3 Barebones Custom Gaming Keyboard K
+[2026-05-15T22:06:40.004Z] 新增产品: B07886Z1R7 - Other - Kailh Box Brown Mechanical Keyboard Switches: Reli
+[2026-05-15T22:06:44.517Z] 搜索: akko mechanical keyboard amazon
+[2026-05-15T22:06:48.497Z] 搜索: aula mechanical keyboard amazon
+[2026-05-15T22:06:51.964Z] 搜索: redragon gaming keyboard amazon
+[2026-05-15T22:06:55.405Z] 搜索: rk royal kludge mechanical keyboard
+[2026-05-15T22:06:57.319Z] 新增产品: B0D5HCQPY8 - Other - R65 Wireless Mechanical Keyboard with Volume Knob,
+[2026-05-15T22:07:01.824Z] 搜索: kbdfans mechanical keyboard
+[2026-05-15T22:07:21.836Z] 搜索: hot swap mechanical keyboard amazon
+[2026-05-15T22:07:26.580Z] 搜索: wireless mechanical keyboard amazon
+[2026-05-15T22:07:54.047Z] 搜索: 60 percent mechanical keyboard
+[2026-05-15T22:07:58.892Z] 搜索: compact gaming keyboard amazon
+[2026-05-15T22:08:15.846Z] 新增产品: B0CV915WG6 - Other - Legion K310 RGB Wired Gaming Keyboard - Ultra-Fast
+[2026-05-15T22:08:20.361Z] 搜索: quiet mechanical keyboard silent
+[2026-05-15T22:08:25.394Z] 搜索: ergonomic mechanical keyboard
+[2026-05-15T22:08:27.061Z] 新增产品: B0DF2CZZ8Z - Feker - MechLands Feker Alice98 Ergonomic 98 Keys Custom M
+[2026-05-15T22:08:28.586Z] 新增产品: B0BLZPLWX4 - Other - Perixx PERIBOARD-335RD Wired Ergonomic Mechanical 
+[2026-05-15T22:08:30.119Z] 新增产品: B0BTNY72VD - Logitech - Logitech Wave Keys Wireless Ergonomic Keyboard wit
+[2026-05-15T22:08:34.643Z] 保存成功: 12 款新产品, 总计 719
+[2026-05-15T22:08:34.643Z]    Other: 8 款
+[2026-05-15T22:08:34.643Z]    Cherry: 2 款
+[2026-05-15T22:08:34.644Z]    Feker: 1 款
+[2026-05-15T22:08:34.644Z]    Logitech: 1 款
+[2026-05-15T22:08:34.709Z] 更新网站统计: 产品719, 品牌25
+[2026-05-15T22:08:34.710Z] ========== 抓取完成: 12 款新产品 ==========

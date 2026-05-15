@@ -15429,5 +15429,224 @@ const topProducts = [
         ],
         "source": "serpapi",
         "scraped_at": "2026-05-11"
+    },
+    {
+        "id": "10013",
+        "name": "V5 8K 96% Wired Mechanical Keyboard, 8000 Hz Polling Rate Hot-Swappable QMK Programmable Keyboard with Numpad & Knob, RGB Backlit, Ergonomic for Mac Windows Linux-Tactile Banana Switch",
+        "amazon_asin": "B0GJ5KZLGJ",
+        "price": "$84.99",
+        "rating": 5,
+        "reviews": 7,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/71UMtVsnJIL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0GJ5KZLGJ?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-05-15"
+    },
+    {
+        "id": "10013",
+        "name": "FC900RBT Bluetooth Blue/Grey PD Double Shot PBT Mechanical Keyboard (Cherry MX Blue)",
+        "amazon_asin": "B0BWG3WM83",
+        "price": "$155.00",
+        "rating": "0",
+        "reviews": "0",
+        "brand": "Cherry",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/51AAvXXHf0L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BWG3WM83?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-05-15"
+    },
+    {
+        "id": "10013",
+        "name": "FC650MDS Blue/Grey PD 65% Double Shot PBT Mechanical Keyboard (Cherry MX Silent Red)",
+        "amazon_asin": "B0B8K2B42K",
+        "price": "$100.00",
+        "rating": 5,
+        "reviews": 1,
+        "brand": "Cherry",
+        "layout": "65%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/610gO-2KY9L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0B8K2B42K?tag=mechkeyshub-20",
+        "categories": [
+            "Silent"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-05-15"
+    },
+    {
+        "id": "10013",
+        "name": "Huntsman V3 Pro TKL 8KHz Esports Gaming Keyboard: Analog Optical Switches Gen 2-8000 Hz Polling Snap Tap - Rapid Trigger - Adjustable Actuation - Media Controls - PBT Keycaps - White",
+        "amazon_asin": "B0FRPFNW9Y",
+        "price": "$219.99",
+        "rating": 4.2,
+        "reviews": 191,
+        "brand": "Other",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/81oFMyCdrBL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0FRPFNW9Y?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-05-15"
+    },
+    {
+        "id": "10013",
+        "name": "Huntsman V3 TKL 8KHz Esports Gaming Keyboard — Analog Optical Switches Gen 2 with Rapid Trigger, Adjustable Actuation, Snap Tap, PBT Keycaps, True 8000hz Polling Rate, Onboard Memory — Black",
+        "amazon_asin": "B0GWNHWWN8",
+        "price": "$169.99",
+        "rating": "0",
+        "reviews": "0",
+        "brand": "Other",
+        "layout": "TKL",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71P4uJGbjJL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0GWNHWWN8?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-05-15"
+    },
+    {
+        "id": "10013",
+        "name": "Gaming - GMMK 3 Barebones Custom Gaming Keyboard Kit with Knob, 75% Mechanical Keyboard, Modular Gasket System, Hotswappable MX, Sound Dampening Foam, Aluminum Switch Plate (Black)",
+        "amazon_asin": "B0DCHBQVB8",
+        "price": "$80.99",
+        "rating": 3.9,
+        "reviews": 264,
+        "brand": "Other",
+        "layout": "75%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61X0G0fGyML._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DCHBQVB8?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-05-15"
+    },
+    {
+        "id": "10013",
+        "name": "Kailh Box Brown Mechanical Keyboard Switches: Reliable Dustproof 120-Pack - Perfect for Precise Typing and Moderate Gaming",
+        "amazon_asin": "B07886Z1R7",
+        "price": "$39.99",
+        "rating": 4.4,
+        "reviews": 85,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/51Q+n4O5CPL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B07886Z1R7?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-05-15"
+    },
+    {
+        "id": "10013",
+        "name": "R65 Wireless Mechanical Keyboard with Volume Knob, Tri-Mode 2.4G/USB-C/BT Gasket Mounted 60% Gaming Keyboard with 66Keys, PBT Keycaps, QMK/VIA, Hot Swappable Cream Switch, Blue",
+        "amazon_asin": "B0D5HCQPY8",
+        "price": "$63.99",
+        "rating": 4.5,
+        "reviews": 527,
+        "brand": "Other",
+        "layout": "60%",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61-UMnULNgL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0D5HCQPY8?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-05-15"
+    },
+    {
+        "id": "10013",
+        "name": "Legion K310 RGB Wired Gaming Keyboard - Ultra-Fast Reaction Time with Tactile Keys, Quiet Key Membrane Switches, Silent Operation, RGB Illumination - Water Resistant & Compact Design",
+        "amazon_asin": "B0CV915WG6",
+        "price": "$29.99",
+        "rating": 4.2,
+        "reviews": 99,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Tactile",
+        "image": "https://m.media-amazon.com/images/I/61peKYcMY0L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0CV915WG6?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming",
+            "Silent",
+            "Portable"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-05-15"
+    },
+    {
+        "id": "10013",
+        "name": "MechLands Feker Alice98 Ergonomic 98 Keys Custom Mechanical Keyboard, VIA Programmable, USB-C Wired Gaming Keyboard, Hot Swappable, 5 Layer Paddings, Control Knob, NKRO, RGB for Win/Mac (Black)",
+        "amazon_asin": "B0DF2CZZ8Z",
+        "price": "$89.99",
+        "rating": 4.1,
+        "reviews": 183,
+        "brand": "Feker",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/61V2qW04S8L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0DF2CZZ8Z?tag=mechkeyshub-20",
+        "categories": [
+            "Gaming"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-05-15"
+    },
+    {
+        "id": "10013",
+        "name": "Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard - Low-Profile Red Linear Switches - Programmable Feature with Macro Keys - Compatible with Windows and Mac OS X - US English",
+        "amazon_asin": "B0BLZPLWX4",
+        "price": "$54.99",
+        "rating": 4,
+        "reviews": 53,
+        "brand": "Other",
+        "layout": "Other",
+        "switch": "Linear",
+        "image": "https://m.media-amazon.com/images/I/71B5Kh6Xe+L._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BLZPLWX4?tag=mechkeyshub-20",
+        "categories": [
+            "Portable"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-05-15"
+    },
+    {
+        "id": "10013",
+        "name": "Logitech Wave Keys Wireless Ergonomic Keyboard with Cushioned Palm Rest, Comfortable Natural Typing, Easy-Switch, Bluetooth, Logi Bolt Receiver, for Multi-OS, Windows/Mac - Graphite",
+        "amazon_asin": "B0BTNY72VD",
+        "price": "$59.99",
+        "rating": 4.3,
+        "reviews": 2700,
+        "brand": "Logitech",
+        "layout": "Other",
+        "switch": "Other",
+        "image": "https://m.media-amazon.com/images/I/71Yp7pxBFOL._AC_UY218_.jpg",
+        "link": "https://www.amazon.com/dp/B0BTNY72VD?tag=mechkeyshub-20",
+        "categories": [
+            "Wireless"
+        ],
+        "source": "serpapi",
+        "scraped_at": "2026-05-15"
     }
 ];
