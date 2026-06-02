@@ -14,7 +14,7 @@ const html = `<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mechanical Keyboard Switches Guide 2025 | MechKeys Hub</title>
     <meta name="description" content="Complete guide to mechanical keyboard switches. Learn the difference between linear, tactile, and clicky switches.">
-    <link rel="canonical" href="https://mechkeys-hub.vercel.app/switches.html">
+    <link rel="canonical" href="https://mechkeyshub.com/switches.html">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

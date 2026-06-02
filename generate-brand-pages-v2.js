@@ -100,7 +100,7 @@ function generateBrandPage(brand, prods) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${info.name} Mechanical Keyboards - MechKeys Hub</title>
     <meta name="description" content="Browse ${info.name} mechanical keyboards. ${info.desc}">
-    <link rel="canonical" href="https://mechkeys-hub.vercel.app/brand/${brand.toLowerCase().replace(/[^a-z0-9]/g, '-')}.html">
+    <link rel="canonical" href="https://mechkeyshub.com/brand/${brand.toLowerCase().replace(/[^a-z0-9]/g, '-')}.html">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -212,7 +212,7 @@ function generateBrandIndex() {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mechanical Keyboard Brands - MechKeys Hub</title>
     <meta name="description" content="Browse mechanical keyboards by brand. Compare top brands like Keychron, Logitech, Redragon, AULA, Razer, and more. ${sorted.length} brands and ${products.length} products.">
-    <link rel="canonical" href="https://mechkeys-hub.vercel.app/brand/">
+    <link rel="canonical" href="https://mechkeyshub.com/brand/">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>

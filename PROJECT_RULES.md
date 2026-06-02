@@ -1,7 +1,7 @@
 # MechKeys Hub 建站规则
 
 ## 项目信息
-- **网站**: https://mechkeys-hub.vercel.app/
+- **网站**: https://mechkeyshub.com/
 - **GitHub**: https://github.com/wuming2170-ux/mechkeys-hub
 - **追踪ID**: mechkeyshub-20 (Amazon Associates)
 - **主题**: 机械键盘产品评测与购买指南
@@ -222,7 +222,7 @@ Compare → /compare.html
 ```html
 <title>[Page Title] | MechKeys Hub</title>
 <meta name="description" content="[Description under 160 chars]">
-<link rel="canonical" href="https://mechkeys-hub.com/[page].html">
+<link rel="canonical" href="https://mechkeyshub.com/[page].html">
 ```
 
 ### 6.2 结构化数据
