@@ -16,19 +16,19 @@ WEBSITE_SCHEMA = '''    <!-- Schema.org Structured Data -->
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "MechKeys Hub",
-        "url": "https://mechkeys-hub.com/",
+        "url": "https://mechkeyshub.com/",
         "description": "Expert reviews and buying guides for the best mechanical keyboards of 2025. Compare switches, layouts, and find your perfect keyboard.",
         "publisher": {
             "@type": "Organization",
             "name": "MechKeys Hub",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://mechkeys-hub.com/logo.png"
+                "url": "https://mechkeyshub.com/logo.png"
             }
         },
         "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://mechkeys-hub.com/?q={search_term_string}",
+            "target": "https://mechkeyshub.com/?q={search_term_string}",
             "query-input": "required name=search_term_string"
         }
     }
@@ -44,7 +44,7 @@ WEBSITE_SCHEMA = '''    <!-- Schema.org Structured Data -->
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://mechkeys-hub.com/"
+                "item": "https://mechkeyshub.com/"
             }
         ]
     }

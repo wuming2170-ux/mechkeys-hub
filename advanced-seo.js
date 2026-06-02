@@ -12,7 +12,7 @@ function create404Page() {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - Page Not Found | MechKeys Hub</title>
     <meta name="description" content="Page not found - The mechanical keyboard resource you're looking for doesn't exist.">
-    <link rel="canonical" href="https://mechkeys-hub.com/404.html">
+    <link rel="canonical" href="https://mechkeyshub.com/404.html">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -81,13 +81,13 @@ function addStructuredData(filePath) {
         "@type": "ItemList",
         "name": `Best Mechanical Keyboards - ${fileName.replace('.html', '').replace(/-/g, ' ').toUpperCase()}`,
         "description": `Expert reviews of the best mechanical keyboards. Updated 2026.`,
-        "url": `https://mechkeys-hub.com/${fileName}`,
+        "url": `https://mechkeyshub.com/${fileName}`,
         "numberOfItems": 280,
         "itemListElement": [
             {
                 "@type": "ListItem",
                 "position": 1,
-                "url": "https://mechkeys-hub.com/60_percent.html"
+                "url": "https://mechkeyshub.com/60_percent.html"
             }
         ]
     };
@@ -98,8 +98,8 @@ function addStructuredData(filePath) {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mechkeys-hub.com/" },
-                { "@type": "ListItem", "position": 2, "name": fileName.replace('.html', '').replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()), "item": `https://mechkeys-hub.com/${fileName}` }
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mechkeyshub.com/" },
+                { "@type": "ListItem", "position": 2, "name": fileName.replace('.html', '').replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()), "item": `https://mechkeyshub.com/${fileName}` }
             ]
         };
         
@@ -113,10 +113,10 @@ function addStructuredData(filePath) {
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "MechKeys Hub",
-            "url": "https://mechkeys-hub.com/",
+            "url": "https://mechkeyshub.com/",
             "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://mechkeys-hub.com/search.html?q={search_term_string}",
+                "target": "https://mechkeyshub.com/search.html?q={search_term_string}",
                 "query-input": "required name=search_term_string"
             }
         };

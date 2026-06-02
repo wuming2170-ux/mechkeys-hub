@@ -77,22 +77,22 @@ const seoMetaTemplate = (config, pageUrl, pageName) => `
     <!-- SEO Meta Tags -->
     <meta name="description" content="${config.description}">
     <meta name="keywords" content="${config.keywords}">
-    <link rel="canonical" href="https://mechkeys-hub.com${pageUrl}">
+    <link rel="canonical" href="https://mechkeyshub.com${pageUrl}">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mechkeys-hub.com${pageUrl}">
+    <meta property="og:url" content="https://mechkeyshub.com${pageUrl}">
     <meta property="og:title" content="${config.title}">
     <meta property="og:description" content="${config.description}">
-    <meta property="og:image" content="https://mechkeys-hub.com/og-image.jpg">
+    <meta property="og:image" content="https://mechkeyshub.com/og-image.jpg">
     <meta property="og:site_name" content="MechKeys Hub">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://mechkeys-hub.com${pageUrl}">
+    <meta name="twitter:url" content="https://mechkeyshub.com${pageUrl}">
     <meta name="twitter:title" content="${config.title}">
     <meta name="twitter:description" content="${config.description}">
-    <meta name="twitter:image" content="https://mechkeys-hub.com/og-image.jpg">
+    <meta name="twitter:image" content="https://mechkeyshub.com/og-image.jpg">
 `;
 
 // Add lazy loading to images
