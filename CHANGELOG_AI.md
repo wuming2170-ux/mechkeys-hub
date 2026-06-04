@@ -6,6 +6,18 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-04 - 60% vs 75% Compare Workflow Copy Enhancement
+
+Type: Compare page content enhancement
+
+Completed Items:
+
+- Enhanced the Programming and IDE workflow copy with F5, F10, F11, and F12 examples for VS Code and JetBrains IDE usage.
+- Enhanced the Excel / Office workflow copy with F2 and F4 spreadsheet examples.
+- Strengthened the 60% learning curve section while preserving the existing URL, SEO metadata, schema, FAQ, affiliate recommendations, affiliate links, and internal links.
+
+Preview or Production: Preview
+
 ### 2026-06-04 - 60% vs 75% Keyboard Compare Page
 
 Type: Compare page and internal linking update
