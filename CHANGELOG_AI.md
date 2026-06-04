@@ -6,6 +6,21 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-04 - Claude Desktop Critical Audit PC P0 Fixes
+
+Type: SEO and affiliate CTA fix
+
+Completed Items:
+
+- Fixed invalid Brand page Amazon affiliate CTAs that pointed only to `?tag=mechkeyshub-20`.
+- Removed duplicate `<html>` / `<head>` structure remnants from `compare.html`, `guide-beginners.html`, and `guides.html`.
+- Corrected homepage social URL metadata to use `https://mechkeyshub.com/` instead of `/index.html`.
+- Consolidated homepage WebSite JSON-LD to a single schema with SearchAction targeting `/search.html?q={search_term_string}`.
+- Added `noindex,follow` robots meta to `search.html`.
+- Confirmed no URL, canonical, sitemap, P1/P2, or Compare Expansion changes were included.
+
+Preview or Production: Preview
+
 ### 2026-06-04 - Mobile UX Audit P0 Production Release
 
 Type: Production release
