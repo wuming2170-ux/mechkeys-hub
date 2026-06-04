@@ -1,7 +1,7 @@
 # PROJECT_CONTEXT.md
 
 Last Updated: 2026-06-04
-Current Phase: Technical SEO Stabilization
+Current Phase: Compare Expansion Readiness
 
 ## Site Identity
 
@@ -9,36 +9,43 @@ MechKeysHub is a mechanical keyboard information site focused on structured, tru
 
 ## Strategic Direction
 
-The near-term strategy is to stabilize the site's technical SEO baseline before expanding comparison coverage. Work should protect domain consistency, metadata quality, canonical integrity, sitemap hygiene, and the established collaboration rules.
+The technical SEO stabilization baseline is complete. The near-term strategy is to keep that baseline intact while preparing controlled, high-quality Compare Expansion work.
 
 Next Phase: Compare Expansion
 
 ## Current Phase
 
-Technical SEO Stabilization
+Compare Expansion Readiness
 
-This phase is focused on keeping the already completed SEO foundation stable while preparing the project for broader comparison content expansion.
+This phase is focused on keeping completed SEO, repository, and AI-collaboration foundations stable while preparing the project for broader comparison content expansion. Page content, SEO metadata, URLs, and production publishing remain protected unless explicitly approved.
 
 ## Milestone Log
 
-- Domain unification completed.
-- Canonical cleanup completed.
-- Sitemap cleanup completed.
-- Metadata P0/P1 cleanup completed.
-- AGENTS.md established.
-- Preview-first workflow established.
+- Domain unification completed. Status: Done.
+- Canonical cleanup completed. Status: Done.
+- Sitemap cleanup completed. Status: Done.
+- Robots cleanup completed. Status: Done.
+- Metadata P0/P1 cleanup completed. Status: Done.
+- AGENTS.md established. Status: Done.
+- PROJECT_CONTEXT.md established. Status: Done.
+- CHANGELOG_AI.md established. Status: Done.
+- Preview-first workflow established. Status: Done.
+- GitHub + Vercel workflow established. Status: Done.
+- Local repository cleanup completed for unused `ozon*` files and future `extract*` residues. Status: Done.
 
 ## Current Priorities
 
 | Priority | Owner | Status |
 | --- | --- | --- |
-| Preserve the technical SEO baseline established during stabilization. | Codex | Active |
+| Preserve the completed technical SEO baseline during Compare Expansion readiness. | Codex | Active |
 | Keep all future changes preview-first before any production release. | Codex | Active |
-| Prepare for Compare Expansion without changing existing page or SEO content in this phase. | Claude / ChatGPT / Codex | Pending |
+| Keep `CHANGELOG_AI.md` updated after important project work. | Claude / ChatGPT / Codex | Active |
+| Prepare the first controlled Compare Expansion scope without changing existing page or SEO content in this phase. | Claude / ChatGPT / Codex | Pending |
+| Domain unification, canonical cleanup, sitemap cleanup, robots cleanup, metadata P0/P1 cleanup, governance setup, and local repository cleanup. | Claude / ChatGPT / Codex | Done |
 
 ## Do Not Do List
 
-- Do not modify page content during Technical SEO Stabilization unless explicitly requested.
+- Do not modify page content during Compare Expansion Readiness unless explicitly requested.
 - Do not modify SEO content, metadata, canonical rules, or sitemap behavior unless explicitly requested.
 - Do not modify AGENTS.md unless explicitly requested.
 - Do not publish to Production without explicit approval.
