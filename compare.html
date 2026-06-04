@@ -1,4 +1,4 @@
-<!DOCTY
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -215,12 +215,15 @@
     <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
         <div class="max-w-7xl mx-auto px-4 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-xl">⌨️</div>
-                    <span class="font-bold text-xl">MechKeys Hub</span>
-                </a>
-                <nav class="desktop-nav flex items-center gap-1">
-                    <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
+	                <a href="/" class="flex items-center gap-3">
+	                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-xl">⌨️</div>
+	                    <span class="font-bold text-xl">MechKeys Hub</span>
+	                </a>
+	                <button class="mobile-menu-btn lg:hidden p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+	                    <i class="fas fa-bars text-xl" id="menu-icon"></i>
+	                </button>
+	                <nav class="desktop-nav flex items-center gap-1">
+	                    <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
                     <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
                     <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
                     <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
@@ -301,16 +304,6 @@
     </script>
 <style>
     </style>
-
-    <script>
-        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
-            var menu = document.getElementById('mobile-menu');
-            var icon = this.querySelector('i');
-            menu.classList.toggle('hidden');
-            icon.classList.toggle('fa-bars');
-            icon.classList.toggle('fa-times');
-        });
-    </script>
 
 <main class="max-w-7xl mx-auto px-4 py-8">
         <div class="text-center mb-8">
@@ -12465,43 +12458,41 @@
             </tr>
         `).join('');
 
-        // Pros
-        const prosRow = `
-            <tr class="border-t border-white/5 hover:bg-white/5">
-                <td class="p-4 text-slate-400 font-medium">Key Pros</td>
-                <td class="p-4 text-center">
-                    <ul class="text-sm text-left space-y-1">
-                        ${selectedProducts.map(p => p.pros.map(pro => `<li class="text-green-400"><i class="fas fa-plus mr-1"></i>${pro}</li>`).join('')).join('</ul></td><td class="p-4 text-center"><ul class="text-sm text-left space-y-1">')}
-                    </ul>
-                </td>
-            </tr>
-        `;
+	        // Pros
+	        const prosRow = `
+	            <tr class="border-t border-white/5 hover:bg-white/5">
+	                <td class="p-4 text-slate-400 font-medium">Key Pros</td>
+	                ${selectedProducts.map(p => `
+	                    <td class="p-4 text-center">
+	                        <ul class="text-sm text-left space-y-1">
+	                            ${p.pros.map(pro => `<li class="text-green-400"><i class="fas fa-plus mr-1"></i>${pro}</li>`).join('')}
+	                        </ul>
+	                    </td>
+	                `).join('')}
+	            </tr>
+	        `;
 
         // Verdict
-        const verdictRow = `
-            <tr class="border-t border-white/10 bg-slate-900/50">
-                <td class="p-4 text-slate-400 font-semibold">Best For</td>
-                <td class="p-4 text-center">
-                    <div class="text-sm">
-                        ${selectedProducts.map(p => {
-                            let verdict = '';
-                            if (p.price_tier === 'budget') verdict = '💰 Budget buyers';
-                            else if (p.price_tier === 'premium') verdict = '💎 Premium users';
-                            else verdict = '⚖️ Best value';
-                            
-                            if (p.layout === '60%' || p.layout === '65%') verdict += '<br>🎮 Compact gaming';
-                            else if (p.layout === 'TKL') verdict += '<br>🖥️ Balanced use';
-                            else if (p.layout === 'Full Size') verdict += '<br>📝 Office/Numpad';
-                            else verdict += '<br>🔢 Compact + Numpad';
-                            
-                            if (p.connectivity.includes('Bluetooth')) verdict += '<br>📡 Wireless';
-                            
-                            return `<div class="mb-2">${verdict}</div>`;
-                        }).join('')}
-                    </div>
-                </td>
-            </tr>
-        `;
+	        const verdictRow = `
+	            <tr class="border-t border-white/10 bg-slate-900/50">
+	                <td class="p-4 text-slate-400 font-semibold">Best For</td>
+	                ${selectedProducts.map(p => {
+	                    let verdict = '';
+	                    if (p.price_tier === 'budget') verdict = '💰 Budget buyers';
+	                    else if (p.price_tier === 'premium') verdict = '💎 Premium users';
+	                    else verdict = '⚖️ Best value';
+
+	                    if (p.layout === '60%' || p.layout === '65%') verdict += '<br>🎮 Compact gaming';
+	                    else if (p.layout === 'TKL') verdict += '<br>🖥️ Balanced use';
+	                    else if (p.layout === 'Full Size') verdict += '<br>📝 Office/Numpad';
+	                    else verdict += '<br>🔢 Compact + Numpad';
+
+	                    if (p.connectivity.includes('Bluetooth')) verdict += '<br>📡 Wireless';
+
+	                    return `<td class="p-4 text-center"><div class="text-sm">${verdict}</div></td>`;
+	                }).join('')}
+	            </tr>
+	        `;
 
         tbody.innerHTML = featureRows + prosRow + verdictRow;
     }
