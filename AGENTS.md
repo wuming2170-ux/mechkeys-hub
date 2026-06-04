@@ -14,6 +14,12 @@ Long-term operating rules for the `mechkeys-hub` project.
 - Always use a preview-first workflow.
 - Do not deploy directly to production.
 - Always create a Vercel preview first.
+- Standard completion flow for important project updates:
+  1. Update `CHANGELOG_AI.md`.
+  2. Git Commit.
+  3. GitHub Push.
+  4. Vercel Preview.
+  5. Wait for Production confirmation.
 - Merge to `main` only after explicit user confirmation.
 - Production deploys require explicit user confirmation.
 - Do not rename the repository.
@@ -24,6 +30,28 @@ Long-term operating rules for the `mechkeys-hub` project.
 - Do not commit temporary scripts.
 - Do not commit local cache files.
 - Keep changes scoped to the user's request.
+
+## CHANGELOG_AI.md Maintenance Rules
+
+- After completing any important project update, update `CHANGELOG_AI.md`.
+- Important project updates include:
+  - SEO fixes
+  - Compare pages
+  - Guide pages
+  - navigation adjustments
+  - internal linking adjustments
+  - affiliate system adjustments
+  - Finder / Tool features
+  - Production releases
+- `CHANGELOG_AI.md` is append-only.
+- Do not delete historical records.
+- Do not overwrite historical records.
+- Do not rewrite old entries.
+- Each `CHANGELOG_AI.md` record must include:
+  - date
+  - type
+  - completed items
+  - Preview or Production
 
 ## SEO Domain Rules
 
