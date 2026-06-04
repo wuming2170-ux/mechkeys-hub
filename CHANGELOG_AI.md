@@ -6,6 +6,19 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-04 - 60% vs 75% Keyboard Compare Page
+
+Type: Compare page and internal linking update
+
+Completed Items:
+
+- Added the first Compare Expansion content page at `/compare/60-vs-75-keyboard.html`.
+- Implemented buyer-focused Quick Verdict, comparison table, workflow sections, learning curve, desk space analysis, affiliate recommendation section, FAQ, FAQPage schema, and BreadcrumbList schema.
+- Added internal links to the compare guide from `compare.html`, `60_percent.html`, and `75_percent.html`.
+- Added the new Compare URL to `sitemap.xml` using the production SEO domain.
+
+Preview or Production: Preview
+
 ### 2026-06-04 - Claude Desktop Critical Audit PC P0 Production Release
 
 Type: Production release
