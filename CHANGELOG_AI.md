@@ -6,6 +6,18 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-04 - Mobile UX Audit P0 Production Release
+
+Type: Production release
+
+Completed Items:
+
+- Merged the confirmed Mobile UX Audit P0 fixes into `main`.
+- Published the Mobile UX P0 navigation, script, compare table, and DOCTYPE fixes to Production.
+- Confirmed no P1/P2 work, URL changes, canonical changes, or sitemap changes were included.
+
+Preview or Production: Production
+
 ### 2026-06-04 - Mobile UX Audit P0 Fixes
 
 Type: Navigation and compare UX fix
