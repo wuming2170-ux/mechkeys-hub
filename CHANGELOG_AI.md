@@ -6,6 +6,18 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-04 - Claude Desktop Critical Audit PC P0 Production Release
+
+Type: Production release
+
+Completed Items:
+
+- Merged the confirmed Claude Desktop Critical Audit PC P0 fixes into `main`.
+- Published the Brand affiliate CTA, duplicate HTML/head, homepage social URL, WebSite schema/SearchAction, and search noindex fixes to Production.
+- Confirmed no P1/P2 work, Compare Expansion, URL changes, canonical changes, or sitemap changes were included.
+
+Preview or Production: Production
+
 ### 2026-06-04 - Claude Desktop Critical Audit PC P0 Fixes
 
 Type: SEO and affiliate CTA fix
