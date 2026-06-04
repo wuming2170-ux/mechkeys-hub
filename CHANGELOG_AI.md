@@ -6,6 +6,19 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-04 - Repository Cleanup
+
+Type: Affiliate system cleanup
+
+Completed Items:
+
+- Removed unreferenced `ozon*` files and the `ozon-image-proxy` directory from the repository.
+- Confirmed no `extract*` files were present for deletion.
+- Added root-level `.gitignore` rules for future `ozon*` and `extract*` local residues.
+- Confirmed no modified HTML files were present and no website pages were deleted.
+
+Preview or Production: Preview
+
 ### 2026-06-04 - Technical SEO Stabilization Baseline
 
 Actors: Claude, ChatGPT, Codex
