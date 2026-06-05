@@ -210,6 +210,13 @@
 
     <script>
     let searchIndex = [];
+    const AFFILIATE_TAG = 'mechkeyshub-20';
+
+    function getAmazonProductUrl(product) {
+        const sourceUrl = product.url || product.link || '';
+        const asin = product.amazon_asin || (sourceUrl.match(/\/dp\/([A-Z0-9]{10})(?:[/?]|$)/i) || [])[1];
+        return asin ? `https://www.amazon.com/dp/${asin.toUpperCase()}/?tag=${AFFILIATE_TAG}` : null;
+    }
     
     function toggleMobileMenu() {
         const nav = document.getElementById('mobile-nav');
@@ -268,6 +275,7 @@
         container.innerHTML = results.map(p => {
             const price = parseFloat((p.price || '$0').replace(/[^0-9.]/g, '')) || 0;
             const priceClass = price < 50 ? 'text-emerald-400' : price < 100 ? 'text-amber-400' : 'text-indigo-400';
+            const amazonUrl = getAmazonProductUrl(p);
             
             return `<article class="product-card rounded-2xl p-6 card-hover border border-white/10">
                 <div class="aspect-video bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
@@ -280,8 +288,8 @@
                     <span class="text-yellow-400">★ ${p.rating || 4.5}/5</span>
                     <span class="text-2xl font-bold ${priceClass}">${p.price || 'N/A'}</span>
                 </div>
-                ${p.url && p.url.startsWith("https://www.amazon.com/") ? `
-                <a href="${p.url}" target="_blank" class="block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition">
+                ${amazonUrl ? `
+                <a href="${amazonUrl}" target="_blank" class="block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition">
                     Check Price →
                 </a>
                 ` : `

@@ -12611,11 +12611,13 @@ const topProducts = [
     }
 ];
         
-        document.addEventListener('DOMContentLoaded', function() {
-        if (typeof topProducts !== 'undefined' && topProducts.length > 0) {
-            renderProducts(topProducts);
+        const AFFILIATE_TAG = 'mechkeyshub-20';
+
+        function getAmazonProductUrl(product) {
+            const sourceUrl = product.url || product.link || '';
+            const asin = product.amazon_asin || (sourceUrl.match(/\/dp\/([A-Z0-9]{10})(?:[/?]|$)/i) || [])[1];
+            return asin ? `https://www.amazon.com/dp/${asin.toUpperCase()}/?tag=${AFFILIATE_TAG}` : null;
         }
-    });
 </script>
     <script>
         const budgetProducts = topProducts.filter(p => {
@@ -12636,6 +12638,10 @@ const topProducts = [
         `).join('');
 
         document.getElementById('budget-products').innerHTML = budgetProducts.map(p => `
+            ${(() => {
+                const amazonUrl = getAmazonProductUrl(p);
+                const pros = Array.isArray(p.pros) ? p.pros : [];
+                return `
             <article class="bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition relative">
                 <div class="aspect-[16/10] bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
                     <img alt="What to Look For - MechKeys Hub" loading="lazy" src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';this.parentElement.style.background='linear-gradient(135deg,#1e1b4b,#0f172a)';">
@@ -12645,10 +12651,12 @@ const topProducts = [
                 <p class="text-gray-400 text-sm mb-4">${p.tagline}</p>
                 <div class="text-2xl font-bold text-amber-400 mb-4">${p.price}</div>
                 <div class="flex flex-wrap gap-2 mb-4">
-                    ${p.pros.slice(0, 2).map(pro => `<span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-1 rounded">✓ ${pro}</span>`).join('')}
+                    ${pros.slice(0, 2).map(pro => `<span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-1 rounded">✓ ${pro}</span>`).join('')}
                 </div>
-                ${p.url && p.url.startsWith("https://www.amazon.com/") ? `<a href="${p.url}" class="block w-full py-3 bg-amber-600 hover:bg-amber-700 rounded-xl text-center font-semibold transition">Check on Amazon →</a>` : `<div class="block w-full py-3 bg-slate-700/60 rounded-xl text-center font-semibold text-slate-300">Currently unavailable on Amazon</div>`}
+                ${amazonUrl ? `<a href="${amazonUrl}" class="block w-full py-3 bg-amber-600 hover:bg-amber-700 rounded-xl text-center font-semibold transition">Check on Amazon →</a>` : `<div class="block w-full py-3 bg-slate-700/60 rounded-xl text-center font-semibold text-slate-300">Currently unavailable on Amazon</div>`}
             </article>
+                `;
+            })()}
         `).join('');
     </script>
 

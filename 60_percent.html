@@ -12584,21 +12584,22 @@ const topProducts = [
     }
 ];
 
+        const AFFILIATE_TAG = 'mechkeyshub-20';
 
-        
-        
-        document.addEventListener('DOMContentLoaded', function() {
-            if (typeof topProducts !== 'undefined' && topProducts.length > 0) {
-                const filtered = topProducts.filter(p => p.layout === '60%');
-                renderProducts(filtered);
-            }
-        });
+        function getAmazonProductUrl(product) {
+            const sourceUrl = product.url || product.link || '';
+            const asin = product.amazon_asin || (sourceUrl.match(/\/dp\/([A-Z0-9]{10})(?:[/?]|$)/i) || [])[1];
+            return asin ? `https://www.amazon.com/dp/${asin.toUpperCase()}/?tag=${AFFILIATE_TAG}` : null;
+        }
 </script>
     <script>
         // Filter 60% keyboards
         const keyboards60 = topProducts.filter(p => p.layout.includes('60%'));
         
         document.getElementById('products').innerHTML = keyboards60.map(p => `
+            ${(() => {
+                const amazonUrl = getAmazonProductUrl(p);
+                return `
             <article class="bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-indigo-500/50 transition">
                 <div class="flex items-start justify-between mb-4">
                     <span class="badge ${p.price_tier === 'budget' ? 'bg-green-900 text-green-300' : p.price_tier === 'mid' ? 'bg-blue-900 text-blue-300' : 'bg-purple-900 text-purple-300'} px-3 py-1 rounded-full text-xs font-semibold">
@@ -12620,8 +12621,8 @@ const topProducts = [
                 <div class="flex items-center justify-between mb-4">
                     <span class="text-2xl font-bold text-indigo-400">${p.price}</span>
                 </div>
-                ${p.url && p.url.startsWith("https://www.amazon.com/") ? `
-                <a href="${p.url}" class="block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition mb-2">
+                ${amazonUrl ? `
+                <a href="${amazonUrl}" class="block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition mb-2">
                     Check Price →
                 </a>
                 <p class="text-xs text-gray-500 text-center">*Affiliate link</p>
@@ -12631,6 +12632,8 @@ const topProducts = [
                 </div>
                 `}
             </article>
+                `;
+            })()}
         `).join('');
     </script>
 

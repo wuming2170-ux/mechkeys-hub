@@ -6,6 +6,20 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-05 - Affiliate and Product Data Preview Blocker Fixes
+
+Type: Affiliate and product data fix
+
+Completed Items:
+
+- Fixed `search.html` search result Amazon CTAs so product links are generated from existing ASINs as standard `/dp/ASIN/?tag=mechkeyshub-20` affiliate URLs.
+- Fixed `best-value.html` runtime rendering errors so budget product cards and Amazon purchase buttons render normally.
+- Removed the stale `renderProducts` call from `60_percent.html` to eliminate the runtime error while preserving the existing product grid.
+- Scoped Amazon URL normalization to the affected `search.html`, `best-value.html`, and `60_percent.html` outputs.
+- Confirmed no URL structure, canonical, sitemap, robots, or Production deployment changes were included.
+
+Preview or Production: Preview
+
 ### 2026-06-05 - Affiliate and Product Data P0/P1 Fixes
 
 Type: Affiliate and product data fix
