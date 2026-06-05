@@ -6,6 +6,20 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-05 - Header and Navigation UI Unification
+
+Type: Navigation UI update
+
+Completed Items:
+
+- Unified the site header visual style, logo treatment, desktop navigation, and mobile hamburger navigation around the newer `/compare/60-vs-75-keyboard.html` pattern.
+- Applied the unified navigation to the homepage, layout pages, category/function pages, guide pages, brand pages, compare pages, and the top-level brands redirect page.
+- Kept Search as a navigation link instead of a persistent desktop search box to avoid desktop header overflow while preserving a consistent search entry.
+- Extended the hamburger breakpoint through 1279px and added a compact desktop navigation rule for 1280px-1399px to preserve 768px-1023px usability and prevent 1280px overflow.
+- Confirmed canonical URLs, sitemap, robots, Schema, affiliate links, and the 60% vs 75% Compare page body content were not changed.
+
+Preview or Production: Preview
+
 ### 2026-06-05 - Affiliate and Product Data P0/P1 Production Release
 
 Type: Production release

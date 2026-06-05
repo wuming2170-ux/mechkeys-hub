@@ -9,14 +9,14 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Discover the best mechanical keyboards of 2026 with expert reviews. Compare 60%, 65%, TKL & full-size keyboards. Find perfect switch types, RGB, wireless options. Up to $200 budget covered.">
     <meta name="keywords" content="best mechanical keyboard 2026, mechanical keyboard review, gaming keyboard, mechanical keyboard switch, cherry mx, gateron, keychron, Leopold, best budget mechanical keyboard">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Best Mechanical Keyboards 2026 - Reviews & Buying Guide | MechKeys Hub">
     <meta property="og:description" content="Discover the best mechanical keyboards of 2026 with expert reviews. Compare 60%, 65%, TKL & full-size keyboards. Find perfect switch types, RGB, wireless options. Up to $200 budget covered.">
     <meta property="og:image" content="https://mechkeyshub.com/og-image.jpg">
     <meta property="og:site_name" content="MechKeys Hub">
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://mechkeyshub.com/">
@@ -26,16 +26,16 @@
 
     <meta name="keywords" content="best mechanical keyboard 2026, mechanical keyboard review, gaming keyboard, mechanical keyboard switch, cherry mx, gateron, keychron, Leopold, best budget mechanical keyboard">
     <link rel="canonical" href="https://mechkeyshub.com/">
-    
+
     <!-- Open Graph -->
     <meta property="og:title" content="Best Mechanical Keyboards 2026 - Reviews & Buying Guide | MechKeys Hub">
     <meta property="og:description" content="Discover the best mechanical keyboards of 2026 with expert reviews. Compare 60%, 65%, TKL & full-size keyboards. Find perfect switch types, RGB, wireless options. Up to $200 budget covered.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mechkeyshub.com/">
-    
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <style>
         :root {
             --primary: #6366f1;
@@ -55,7 +55,7 @@
         .badge-premium { background: #7c2d12; color: #fca5a5; }
         .switch-badge { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
         .nav-link { padding: 0.5rem 0.75rem; border-radius: 0.5rem; color: #d1d5db; font-size: 0.9375rem; font-weight: 500; transition: all 0.2s; white-space: nowrap; }
-        
+
         /* Search Box */
         #search-input::placeholder { color: #9ca3af; }
         #search-input:focus { width: 200px; }
@@ -66,12 +66,21 @@
         .search-result-item { padding: 0.75rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); cursor: pointer; transition: background 0.2s; }
         .search-result-item:hover { background: rgba(99, 102, 241, 0.2); }
         .search-result-item:last-child { border-bottom: none; }
-        
+
         /* Mobile Navigation */
         .mobile-menu-btn { display: none; }
         .mobile-nav { display: none; }
-        
-        @media (max-width: 1023px) {
+
+
+        @media (min-width: 1280px) and (max-width: 1399px) {
+            .desktop-nav { gap: 0; }
+            .desktop-nav .nav-link {
+                gap: 0.35rem;
+                padding: 0.45rem 0.55rem;
+                font-size: 0.875rem;
+            }
+        }
+        @media (max-width: 1279px) {
             .mobile-menu-btn { display: flex; }
             .desktop-nav { display: none !important; }
             .mobile-nav {
@@ -93,7 +102,7 @@
             .mobile-nav .nav-link {
                 padding: 0.75rem 1rem;
             min-height: 44px;
-            min-width: 44px; 
+            min-width: 44px;
                 font-size: 1rem;
                 display: flex;
                 align-items: center;
@@ -101,7 +110,7 @@
             }
             .mobile-nav .nav-link i { width: 20px; text-align: center; }
         }
-        
+
         /* Touch-friendly product cards on mobile */
         @media (max-width: 640px) {
             .product-grid { grid-template-columns: 1fr !important; }
@@ -109,6 +118,54 @@
             h1, h2 { font-size: 1.75rem !important; }
             .hero-section { padding: 2rem 0.5rem !important; }
             .stats-grid { grid-template-columns: repeat(2, 1fr) !important; }
+        }
+
+        /* Unified MechKeysHub navigation */
+        .nav-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            border-radius: 0.5rem;
+            color: #d1d5db;
+            font-size: 0.9375rem;
+            font-weight: 500;
+            line-height: 1.25;
+            transition: all 0.2s;
+            white-space: nowrap;
+            text-decoration: none;
+        }
+        .nav-link:hover { color: white; background: rgba(255, 255, 255, 0.1); }
+        .mobile-menu-btn { display: none; }
+        .mobile-nav { display: none; }
+        @media (max-width: 1279px) {
+            .mobile-menu-btn { display: flex; }
+            .desktop-nav { display: none !important; }
+            .mobile-nav {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgb(15 23 42 / 0.98);
+                backdrop-filter: blur(12px);
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+                padding: 1rem;
+                flex-direction: column;
+                gap: 0.25rem;
+                z-index: 100;
+            }
+            .mobile-nav.active { display: flex; }
+            .mobile-nav .nav-link {
+                padding: 0.75rem 1rem;
+                min-height: 44px;
+                min-width: 44px;
+                font-size: 1rem;
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+            }
+            .mobile-nav .nav-link i { width: 20px; text-align: center; }
         }
     </style>
     <!-- Schema.org Structured Data -->
@@ -134,7 +191,7 @@
         }
     }
     </script>
-    
+
     <!-- BreadcrumbList Schema -->
     <script type="application/ld+json">
     {
@@ -150,7 +207,7 @@
         ]
     }
     </script>
-    
+
     <!-- Product List Schema -->
     <script type="application/ld+json">
     {
@@ -183,74 +240,46 @@
     </script>
     </head>
 <body class="gradient-bg text-white min-h-screen">
-    <!-- Header -->
-    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
-        <div class="max-w-7xl mx-auto px-4 py-3 md:py-4">
+    <header class="sticky top-0 z-50 bg-slate-950/92 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="flex items-center gap-2 md:gap-3">
-                    <div class="w-8 h-8 md:w-10 md:h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-lg md:text-xl">⌨️</div>
-                    <span class="font-bold text-lg md:text-xl">MechKeys Hub</span>
+                <a href="/" class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-lg bg-cyan-500/20 border border-cyan-300/30 flex items-center justify-center text-cyan-200">
+                        <i class="fas fa-keyboard"></i>
+                    </div>
+                    <span class="font-bold text-xl">MechKeys Hub</span>
                 </a>
-                
-                <!-- Search Box -->
-                <div class="hidden md:flex items-center relative mx-4">
-                    <form action="/search.html" method="get" id="search-form" class="flex items-center w-48 lg:w-64">
-                        <input type="text" name="q" id="search-input" placeholder="Search keyboards..." 
-                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-2 pl-10 text-sm focus:outline-none focus:border-indigo-500 focus:bg-white/15 transition"
-                               autocomplete="off">
-                        <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"></i>
-                    </form>
-                    <button type="submit" form="search-form" class="ml-1 px-3 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-lg transition">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                    <div id="search-results" class="absolute top-full left-0 right-12 mt-2 bg-slate-800 border border-white/20 rounded-xl shadow-2xl max-h-96 overflow-y-auto hidden z-50"></div>
-                </div>
-                
-                <!-- Mobile Menu Button -->
-                <button class="mobile-menu-btn lg:hidden p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+                <button class="mobile-menu-btn p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false">
                     <i class="fas fa-bars text-xl" id="menu-icon"></i>
                 </button>
-                
-                <!-- Desktop Navigation -->
-                <nav class="desktop-nav flex items-center gap-1">
-                    <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                    <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                    <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                    <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                    <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                    <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                    <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
+                <nav class="desktop-nav flex items-center gap-1" aria-label="Primary navigation">
+                    <a href="/" class="nav-link"><i class="fas fa-home text-cyan-400"></i><span>Home</span></a>
+                    <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-cyan-400"></i><span>60%</span></a>
+                    <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-cyan-400"></i><span>65%</span></a>
+                    <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-cyan-400"></i><span>75%</span></a>
+                    <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-cyan-400"></i><span>TKL</span></a>
+                    <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-cyan-400"></i><span>Full Size</span></a>
+                    <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-amber-400"></i><span>Brands</span></a>
                     <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                    <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
+                    <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-emerald-400"></i><span>Switches</span></a>
                     <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
                     <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
+                    <a href="/search.html" class="nav-link"><i class="fas fa-search text-cyan-400"></i><span>Search</span></a>
                 </nav>
             </div>
-            
-            <!-- Mobile Navigation -->
-            <nav class="mobile-nav" id="mobile-nav">
-                <!-- Search in Mobile Menu -->
-                <div class="mobile-search-wrapper px-3 py-2 border-b border-white/10">
-                    <form action="/search.html" method="get" class="flex items-center">
-                        <input type="text" name="q" placeholder="Search keyboards..." 
-                               class="flex-1 bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-base" focus:outline-none focus:border-indigo-500">
-                        <button type="submit" class="ml-2 px-3 py-2 bg-indigo-600 rounded-lg">
-                            <i class="fas fa-search text-sm"></i>
-                        </button>
-                    </form>
-                </div>
-
-                <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
+            <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+                <a href="/" class="nav-link"><i class="fas fa-home text-cyan-400"></i><span>Home</span></a>
+                <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-cyan-400"></i><span>60%</span></a>
+                <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-cyan-400"></i><span>65%</span></a>
+                <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-cyan-400"></i><span>75%</span></a>
+                <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-cyan-400"></i><span>TKL</span></a>
+                <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-cyan-400"></i><span>Full Size</span></a>
+                <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-amber-400"></i><span>Brands</span></a>
                 <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
+                <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-emerald-400"></i><span>Switches</span></a>
                 <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
                 <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
+                <a href="/search.html" class="nav-link"><i class="fas fa-search text-cyan-400"></i><span>Search</span></a>
             </nav>
         </div>
     </header>
@@ -264,7 +293,7 @@
                 </ol>
             </nav>
 
-    
+
     <script>
         function toggleMobileMenu() {
             const nav = document.getElementById('mobile-nav');
@@ -305,7 +334,7 @@
                     Switch Guide
                 </a>
             </div>
-            
+
             <!-- Quick Stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
                 <div class="bg-white/5 rounded-2xl p-6">
@@ -368,7 +397,7 @@
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">🏆 Best Mechanical Keyboards 2026</h2>
                 <p class="text-gray-400 max-w-2xl mx-auto">Our top-rated mechanical keyboards based on extensive testing, performance, and value</p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="keyboard-grid">
                 <!-- Products loaded via JS -->
             </div>
@@ -382,7 +411,7 @@
                 <h2 class="text-3xl font-bold mb-4">🔴 Blue vs Brown vs Red: Find Your Switch</h2>
                 <p class="text-gray-400">The feel of your keyboard matters. Learn the difference between switch types.</p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
                 <div class="bg-blue-500/10 border border-blue-500/30 rounded-2xl p-6 text-center">
                     <div class="text-4xl mb-4">🔵</div>
@@ -454,7 +483,7 @@
                     <ul class="space-y-2 text-gray-400 text-sm">
                         <li><a href="/brand/keychron.html" class="hover:text-white">Keychron</a></li>
                         <li><a href="/brand/ducky.html" class="hover:text-white">Ducky</a></li>
-                        
+
                         <li><a href="/brand/leopold.html" class="hover:text-white">Leopold</a></li>
                             <li><a href="/brand/filco.html" class="hover:text-white">Filco</a></li>
                     </ul>
@@ -471,7 +500,7 @@
                 <div>
                     <h4 class="font-bold mb-4">Affiliate Disclosure</h4>
                     <p class="text-gray-400 text-sm">
-                        MechKeys Hub is a participant in the Amazon Services LLC Associates Program. 
+                        MechKeys Hub is a participant in the Amazon Services LLC Associates Program.
                         We earn commissions from qualifying purchases at no extra cost to you.
                     </p>
                 </div>
@@ -12749,7 +12778,7 @@ const topProducts = [
     function renderProducts(products) {
     const grid = document.getElementById('keyboard-grid');
     if (!grid) return;
-    
+
     grid.innerHTML = products.map(p => `
         <article class="product-card rounded-2xl p-6 card-hover border border-white/10">
             <div class="flex items-start justify-between mb-4">
@@ -12784,33 +12813,33 @@ const topProducts = [
 
     // Search functionality
     let searchIndex = [];
-    
+
     // Load search index
     fetch('/search-index.json')
         .then(r => r.json())
         .then(data => { searchIndex = data; });
-    
+
     function performSearch(query) {
         if (!query || query.length < 2) return [];
         const q = query.toLowerCase();
-        return searchIndex.filter(p => 
+        return searchIndex.filter(p =>
             p.name.toLowerCase().includes(q) ||
             p.brand.toLowerCase().includes(q) ||
             (p.switch_type && p.switch_type.toLowerCase().includes(q)) ||
             (p.layout && p.layout.toLowerCase().includes(q))
         ).slice(0, 8);
     }
-    
+
     function renderSearchResults(results, query) {
         const container = document.getElementById('search-results');
         if (!container) return;
-        
+
         if (results.length === 0) {
             container.innerHTML = '<div class="p-4 text-gray-400 text-center">No results found</div>';
             container.classList.remove('hidden');
             return;
         }
-        
+
         container.innerHTML = results.map(p => `
             <a href="${p.url}" target="_blank" class="search-result-item block">
                 <div class="flex items-center gap-3">
@@ -12824,11 +12853,11 @@ const topProducts = [
         `).join('');
         container.classList.remove('hidden');
     }
-    
+
     // Search input events
     const searchInput = document.getElementById('search-input');
     const searchResults = document.getElementById('search-results');
-    
+
     if (searchInput) {
         searchInput.addEventListener('input', function(e) {
             const query = e.target.value.trim();
@@ -12839,7 +12868,7 @@ const topProducts = [
             const results = performSearch(query);
             renderSearchResults(results, query);
         });
-        
+
         searchInput.addEventListener('focus', function() {
             if (this.value.trim().length >= 2) {
                 const results = performSearch(this.value.trim());
@@ -12847,7 +12876,7 @@ const topProducts = [
             }
         });
     }
-    
+
     // Close search results when clicking outside
     document.addEventListener('click', function(e) {
         if (!e.target.closest('#search-input') && !e.target.closest('#search-results')) {

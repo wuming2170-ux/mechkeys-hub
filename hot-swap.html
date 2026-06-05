@@ -10,7 +10,7 @@
     <meta name="description" content="Discover the best hot swap. Expert reviews and recommendations at MechKeys Hub.">
     <meta name="keywords" content="hot swap, mechanical keyboard, review">
     <link rel="canonical" href="https://mechkeyshub.com/hot-swap.html">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mechkeyshub.com/hot-swap.html">
@@ -18,7 +18,7 @@
     <meta property="og:description" content="Discover the best hot swap. Expert reviews and recommendations at MechKeys Hub.">
     <meta property="og:image" content="https://mechkeyshub.com/og-image.jpg">
     <meta property="og:site_name" content="MechKeys Hub">
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://mechkeyshub.com/hot-swap.html">
@@ -39,7 +39,16 @@
         .nav-link { padding: 0.5rem 0.75rem; border-radius: 0.5rem; color: #d1d5db; font-size: 0.9375rem; font-weight: 500; transition: all 0.2s; white-space: nowrap; }
         .mobile-menu-btn { display: none; }
         .mobile-nav { display: none; }
-        @media (max-width: 1023px) {
+
+        @media (min-width: 1280px) and (max-width: 1399px) {
+            .desktop-nav { gap: 0; }
+            .desktop-nav .nav-link {
+                gap: 0.35rem;
+                padding: 0.45rem 0.55rem;
+                font-size: 0.875rem;
+            }
+        }
+        @media (max-width: 1279px) {
             .mobile-menu-btn { display: flex; }
             .desktop-nav { display: none !important; }
             .mobile-nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: rgb(15 23 42 / 0.98); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,255,255,0.1); padding: 1rem; flex-direction: column; gap: 0.25rem; z-index: 100; }
@@ -52,6 +61,54 @@
         }
         @media (max-width: 640px) {
             .product-grid { grid-template-columns: 1fr !important; }
+        }
+
+        /* Unified MechKeysHub navigation */
+        .nav-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            border-radius: 0.5rem;
+            color: #d1d5db;
+            font-size: 0.9375rem;
+            font-weight: 500;
+            line-height: 1.25;
+            transition: all 0.2s;
+            white-space: nowrap;
+            text-decoration: none;
+        }
+        .nav-link:hover { color: white; background: rgba(255, 255, 255, 0.1); }
+        .mobile-menu-btn { display: none; }
+        .mobile-nav { display: none; }
+        @media (max-width: 1279px) {
+            .mobile-menu-btn { display: flex; }
+            .desktop-nav { display: none !important; }
+            .mobile-nav {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgb(15 23 42 / 0.98);
+                backdrop-filter: blur(12px);
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+                padding: 1rem;
+                flex-direction: column;
+                gap: 0.25rem;
+                z-index: 100;
+            }
+            .mobile-nav.active { display: flex; }
+            .mobile-nav .nav-link {
+                padding: 0.75rem 1rem;
+                min-height: 44px;
+                min-width: 44px;
+                font-size: 1rem;
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+            }
+            .mobile-nav .nav-link i { width: 20px; text-align: center; }
         }
     </style>
 
@@ -91,46 +148,46 @@
     </script>
 </head>
 <body class="gradient-bg text-white min-h-screen">
-    <!-- Header -->
-    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10">
-        <div class="max-w-7xl mx-auto px-4 py-3 md:py-4">
+    <header class="sticky top-0 z-50 bg-slate-950/92 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="flex items-center gap-2 md:gap-3">
-                    <div class="w-8 h-8 md:w-10 md:h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-lg md:text-xl">⌨️</div>
-                    <span class="font-bold text-lg md:text-xl">MechKeys Hub</span>
+                <a href="/" class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-lg bg-cyan-500/20 border border-cyan-300/30 flex items-center justify-center text-cyan-200">
+                        <i class="fas fa-keyboard"></i>
+                    </div>
+                    <span class="font-bold text-xl">MechKeys Hub</span>
                 </a>
-                <!-- Mobile Menu Button -->
-                <button class="mobile-menu-btn lg:hidden p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+                <button class="mobile-menu-btn p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false">
                     <i class="fas fa-bars text-xl" id="menu-icon"></i>
                 </button>
-                
-                <!-- Desktop Navigation -->
-                <nav class="desktop-nav flex items-center gap-1">
-                    <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                    <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                    <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                    <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                    <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                    <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                    <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
+                <nav class="desktop-nav flex items-center gap-1" aria-label="Primary navigation">
+                    <a href="/" class="nav-link"><i class="fas fa-home text-cyan-400"></i><span>Home</span></a>
+                    <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-cyan-400"></i><span>60%</span></a>
+                    <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-cyan-400"></i><span>65%</span></a>
+                    <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-cyan-400"></i><span>75%</span></a>
+                    <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-cyan-400"></i><span>TKL</span></a>
+                    <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-cyan-400"></i><span>Full Size</span></a>
+                    <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-amber-400"></i><span>Brands</span></a>
                     <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                    <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
+                    <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-emerald-400"></i><span>Switches</span></a>
                     <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
                     <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
+                    <a href="/search.html" class="nav-link"><i class="fas fa-search text-cyan-400"></i><span>Search</span></a>
                 </nav>
             </div>
-            <nav class="mobile-nav" id="mobile-nav">
-                <a href="/" class="nav-link"><i class="fas fa-home text-indigo-400"></i><span>Home</span></a>
-                <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>60%</span></a>
-                <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-indigo-400"></i><span>65%</span></a>
-                <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>75%</span></a>
-                <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-indigo-400"></i><span>TKL</span></a>
-                <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-indigo-400"></i><span>Full Size</span></a>
-                <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-purple-400"></i><span>Brands</span></a>
+            <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+                <a href="/" class="nav-link"><i class="fas fa-home text-cyan-400"></i><span>Home</span></a>
+                <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-cyan-400"></i><span>60%</span></a>
+                <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-cyan-400"></i><span>65%</span></a>
+                <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-cyan-400"></i><span>75%</span></a>
+                <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-cyan-400"></i><span>TKL</span></a>
+                <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-cyan-400"></i><span>Full Size</span></a>
+                <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-amber-400"></i><span>Brands</span></a>
                 <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
-                <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-amber-400"></i><span>Switches</span></a>
+                <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-emerald-400"></i><span>Switches</span></a>
                 <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
                 <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
+                <a href="/search.html" class="nav-link"><i class="fas fa-search text-cyan-400"></i><span>Search</span></a>
             </nav>
         </div>
     </header>
@@ -178,7 +235,7 @@
         icon.classList.toggle('fa-bars');
         icon.classList.toggle('fa-times');
     }
-    
+
     const topProducts = [
     {
         "id": "b0fy6qgkqm",
@@ -15373,7 +15430,7 @@ document.addEventListener('click', function(e) {
     function renderProducts(products) {
         const grid = document.getElementById('keyboard-grid');
         if (!grid) return;
-        
+
         grid.innerHTML = products.map(p => `
             <article class="product-card rounded-2xl p-6 card-hover border border-white/10">
                 <div class="flex items-start justify-between mb-4">

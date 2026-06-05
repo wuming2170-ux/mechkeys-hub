@@ -13,20 +13,106 @@
         .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
         .card-hover { transition: all 0.3s ease; }
         .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(99,102,241,0.15); }
+
+        /* Unified MechKeysHub navigation */
+        .nav-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            border-radius: 0.5rem;
+            color: #d1d5db;
+            font-size: 0.9375rem;
+            font-weight: 500;
+            line-height: 1.25;
+            transition: all 0.2s;
+            white-space: nowrap;
+            text-decoration: none;
+        }
+        .nav-link:hover { color: white; background: rgba(255, 255, 255, 0.1); }
+        .mobile-menu-btn { display: none; }
+        .mobile-nav { display: none; }
+
+        @media (min-width: 1280px) and (max-width: 1399px) {
+            .desktop-nav { gap: 0; }
+            .desktop-nav .nav-link {
+                gap: 0.35rem;
+                padding: 0.45rem 0.55rem;
+                font-size: 0.875rem;
+            }
+        }
+        @media (max-width: 1279px) {
+            .mobile-menu-btn { display: flex; }
+            .desktop-nav { display: none !important; }
+            .mobile-nav {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgb(15 23 42 / 0.98);
+                backdrop-filter: blur(12px);
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+                padding: 1rem;
+                flex-direction: column;
+                gap: 0.25rem;
+                z-index: 100;
+            }
+            .mobile-nav.active { display: flex; }
+            .mobile-nav .nav-link {
+                padding: 0.75rem 1rem;
+                min-height: 44px;
+                min-width: 44px;
+                font-size: 1rem;
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+            }
+            .mobile-nav .nav-link i { width: 20px; text-align: center; }
+        }
     </style>
 </head>
 <body class="gradient-bg min-h-screen text-white">
-    <header class="border-b border-white/10 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="../index.html" class="text-2xl font-bold text-indigo-400">
-                <i class="fas fa-keyboard mr-2"></i>MechKeys Hub
-            </a>
-            <nav class="flex gap-2 flex-wrap">
-                <a href="../index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">All Keyboards</a>
-                <a href="index.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Brands</a>
-                <a href="../best-value.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Best Value</a>
-                <a href="../compare.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Compare</a>
-                <a href="../guides.html" class="px-4 py-2 rounded-lg hover:bg-white/10 transition">Guides</a>
+    <header class="sticky top-0 z-50 bg-slate-950/92 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-lg bg-cyan-500/20 border border-cyan-300/30 flex items-center justify-center text-cyan-200">
+                        <i class="fas fa-keyboard"></i>
+                    </div>
+                    <span class="font-bold text-xl">MechKeys Hub</span>
+                </a>
+                <button class="mobile-menu-btn p-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false">
+                    <i class="fas fa-bars text-xl" id="menu-icon"></i>
+                </button>
+                <nav class="desktop-nav flex items-center gap-1" aria-label="Primary navigation">
+                    <a href="/" class="nav-link"><i class="fas fa-home text-cyan-400"></i><span>Home</span></a>
+                    <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-cyan-400"></i><span>60%</span></a>
+                    <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-cyan-400"></i><span>65%</span></a>
+                    <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-cyan-400"></i><span>75%</span></a>
+                    <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-cyan-400"></i><span>TKL</span></a>
+                    <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-cyan-400"></i><span>Full Size</span></a>
+                    <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-amber-400"></i><span>Brands</span></a>
+                    <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
+                    <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-emerald-400"></i><span>Switches</span></a>
+                    <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
+                    <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
+                    <a href="/search.html" class="nav-link"><i class="fas fa-search text-cyan-400"></i><span>Search</span></a>
+                </nav>
+            </div>
+            <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+                <a href="/" class="nav-link"><i class="fas fa-home text-cyan-400"></i><span>Home</span></a>
+                <a href="/60_percent.html" class="nav-link"><i class="fas fa-th-large text-cyan-400"></i><span>60%</span></a>
+                <a href="/65_percent.html" class="nav-link"><i class="fas fa-th-large text-cyan-400"></i><span>65%</span></a>
+                <a href="/75_percent.html" class="nav-link"><i class="fas fa-th text-cyan-400"></i><span>75%</span></a>
+                <a href="/tkl.html" class="nav-link"><i class="fas fa-th text-cyan-400"></i><span>TKL</span></a>
+                <a href="/full-size.html" class="nav-link"><i class="fas fa-keyboard text-cyan-400"></i><span>Full Size</span></a>
+                <a href="/brands.html" class="nav-link"><i class="fas fa-tags text-amber-400"></i><span>Brands</span></a>
+                <a href="/best-value.html" class="nav-link"><i class="fas fa-fire text-orange-400"></i><span>Best Value</span></a>
+                <a href="/switches.html" class="nav-link"><i class="fas fa-toggle-on text-emerald-400"></i><span>Switches</span></a>
+                <a href="/compare.html" class="nav-link"><i class="fas fa-balance-scale text-blue-400"></i><span>Compare</span></a>
+                <a href="/guides.html" class="nav-link"><i class="fas fa-book text-green-400"></i><span>Guides</span></a>
+                <a href="/search.html" class="nav-link"><i class="fas fa-search text-cyan-400"></i><span>Search</span></a>
             </nav>
         </div>
     </header>
@@ -53,7 +139,7 @@
 
         <!-- Products Grid -->
         <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
-            
+
         <article class="bg-slate-800/50 rounded-2xl overflow-hidden border border-white/10 hover:border-yellow-500/50 transition card-hover">
             <div class="p-5">
                 <div class="flex items-start gap-3 mb-3">
@@ -154,5 +240,33 @@
             <p>&copy; 2026 MechKeys Hub. As an Amazon Associate, we earn from qualifying purchases.</p>
         </div>
     </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const nav = document.getElementById('mobile-nav');
+            const icon = document.getElementById('menu-icon');
+            const btn = document.querySelector('.mobile-menu-btn');
+            if (!nav || !icon) return;
+            nav.classList.toggle('active');
+            const isOpen = nav.classList.contains('active');
+            icon.classList.toggle('fa-bars', !isOpen);
+            icon.classList.toggle('fa-times', isOpen);
+            if (btn) btn.setAttribute('aria-expanded', String(isOpen));
+        }
+
+        document.addEventListener('click', function(e) {
+            const nav = document.getElementById('mobile-nav');
+            const btn = document.querySelector('.mobile-menu-btn');
+            if (nav && btn && !nav.contains(e.target) && !btn.contains(e.target) && nav.classList.contains('active')) {
+                nav.classList.remove('active');
+                btn.setAttribute('aria-expanded', 'false');
+                const icon = document.getElementById('menu-icon');
+                if (icon) {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            }
+        });
+    </script>
 </body>
 </html>
