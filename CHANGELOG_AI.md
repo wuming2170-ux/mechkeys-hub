@@ -6,6 +6,22 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-05 - Affiliate and Product Data P0/P1 Fixes
+
+Type: Affiliate and product data fix
+
+Completed Items:
+
+- Removed confirmed 404 Amazon purchase CTAs for unavailable Filco Ninja Majestouch-2 and Filco Majestouch Convertible II listings.
+- Replaced the confirmed Filco Majestouch 2 product link with the verified Amazon `/dp/B004VKUSG6/` page and affiliate tag.
+- Added standard Amazon `/dp/ASIN/?tag=mechkeyshub-20` URLs to product records that had ASINs but no `url` field.
+- Replaced `$0` product prices with `Check current price` instead of fabricating prices.
+- Replaced confirmed broken Filco image URLs with either a verified Amazon image or an inline unavailable-image placeholder.
+- Added guarded purchase CTA rendering so unavailable products show status text instead of invalid Amazon buttons.
+- Confirmed no URL structure, canonical, sitemap, robots, or Production deployment changes were included.
+
+Preview or Production: Preview
+
 ### 2026-06-05 - 60% vs 75% Keyboard Compare Page Production Release
 
 Type: Production release
