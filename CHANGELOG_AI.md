@@ -6,6 +6,19 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-05 - 60% vs 75% Keyboard Compare Page Production Release
+
+Type: Production release
+
+Completed Items:
+
+- Merged the confirmed 60% vs 75% Keyboard Compare page work into `main`.
+- Published the first Compare Expansion page at `/compare/60-vs-75-keyboard.html` to Production.
+- Included the workflow copy enhancement for Programming / IDE, Excel / Office, and the 60% learning curve section.
+- Confirmed no URL, canonical, schema, FAQ, affiliate product recommendation, affiliate link, or internal link changes were added beyond the confirmed preview scope.
+
+Preview or Production: Production
+
 ### 2026-06-04 - 60% vs 75% Compare Workflow Copy Enhancement
 
 Type: Compare page content enhancement
