@@ -6,6 +6,18 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-05 - Affiliate and Product Data P0/P1 Production Release
+
+Type: Production release
+
+Completed Items:
+
+- Merged the confirmed Affiliate and Product Data P0/P1 fixes into `main`.
+- Published the Amazon affiliate URL, missing product URL, `$0` product price, broken Filco image, unavailable product CTA, search result affiliate link, `best-value.html`, and `60_percent.html` runtime fixes to Production.
+- Confirmed no Compare Expansion, P2 work, URL structure, canonical, sitemap, robots, or unrelated changes were included.
+
+Preview or Production: Production
+
 ### 2026-06-05 - Affiliate and Product Data Preview Blocker Fixes
 
 Type: Affiliate and product data fix
