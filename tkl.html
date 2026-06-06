@@ -12629,6 +12629,20 @@ const topProducts = [
 ];
 
 
+function formatProductPrice(price) {
+    if (price === null || price === undefined) return "Check current price";
+    const value = String(price).trim();
+    if (!value || value === "0" || value === "$0" || value === "$0.00") return "Check current price";
+    if (/check current price/i.test(value)) return "Check current price";
+    const numeric = Number(value.replace(/[^0-9.]/g, ""));
+    if (!Number.isFinite(numeric) || numeric <= 0) return "Check current price";
+    return `$${numeric.toFixed(2)}`;
+}
+
+function formatRating(rating) {
+    if (rating === null || rating === undefined || String(rating).trim() === "") return "N/A";
+    return String(rating).trim();
+}
 
 
 const filtered = topProducts.filter(p => p.layout === 'TKL');
@@ -12639,7 +12653,7 @@ const filtered = topProducts.filter(p => p.layout === 'TKL');
                     <span class="badge ${p.price_tier === 'budget' ? 'bg-green-900 text-green-300' : p.price_tier === 'mid' ? 'bg-blue-900 text-blue-300' : 'bg-purple-900 text-purple-300'} px-3 py-1 rounded-full text-xs font-semibold">
                         ${p.price_tier === 'budget' ? '💰 Budget' : p.price_tier === 'mid' ? '⭐ Value' : '💎 Premium'}
                     </span>
-                    <span class="text-amber-400 font-bold">${p.rating}/10</span>
+                    <span class="text-amber-400 font-bold">${formatRating(p.rating)}/5</span>
                 </div>
                 <div class="aspect-[16/10] bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
                     <img loading="lazy" src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';this.parentElement.style.background='linear-gradient(135deg,#1e1b4b,#0f172a)';">
@@ -12653,11 +12667,11 @@ const filtered = topProducts.filter(p => p.layout === 'TKL');
                     ${p.hot_swap ? '<span class="text-xs bg-indigo-600 px-2 py-1 rounded">Hot-swap</span>' : ''}
                 </div>
                 <div class="flex items-center justify-between mb-4">
-                    <span class="text-2xl font-bold text-indigo-400">${p.price}</span>
+                    <span class="text-2xl font-bold text-indigo-400">${formatProductPrice(p.price)}</span>
                 </div>
                 ${p.url && p.url.startsWith("https://www.amazon.com/") ? `
                 <a href="${p.url}" class="block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition mb-2">
-                    Check Price →
+                    Check Price on Amazon →
                 </a>
                 <p class="text-xs text-gray-500 text-center">*Affiliate link</p>
                 ` : `

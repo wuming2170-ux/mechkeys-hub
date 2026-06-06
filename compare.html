@@ -12659,6 +12659,21 @@
     }
 ];
 
+    function formatProductPrice(price) {
+        if (price === null || price === undefined) return "Check current price";
+        const value = String(price).trim();
+        if (!value || value === "0" || value === "$0" || value === "$0.00") return "Check current price";
+        if (/check current price/i.test(value)) return "Check current price";
+        const numeric = Number(value.replace(/[^0-9.]/g, ""));
+        if (!Number.isFinite(numeric) || numeric <= 0) return "Check current price";
+        return `$${numeric.toFixed(2)}`;
+    }
+
+    function formatRating(rating) {
+        if (rating === null || rating === undefined || String(rating).trim() === "") return "N/A";
+        return String(rating).trim();
+    }
+
     let selectedProducts = [];
 
     function renderProductSelector() {
@@ -12669,7 +12684,7 @@
                 id="btn-${p.id}">
                 <img loading="lazy" src="${p.image}" alt="${p.name}" class="w-full h-16 object-contain mb-2 rounded">
                 <div class="font-medium text-xs leading-tight">${p.name}</div>
-                <div class="text-indigo-400 text-xs mt-1">${p.price}</div>
+                <div class="text-indigo-400 text-xs mt-1">${formatProductPrice(p.price)}</div>
             </button>
         `).join('');
     }
@@ -12716,15 +12731,15 @@
                     <th class="p-4 text-center min-w-48">
                         <img loading="lazy" src="${p.image}" alt="${p.name}" class="w-24 h-16 object-contain mx-auto mb-2">
                         <div class="font-semibold text-sm">${p.name}</div>
-                        <div class="text-indigo-400 font-bold mt-1">${p.price}</div>
+                        <div class="text-indigo-400 font-bold mt-1">${formatProductPrice(p.price)}</div>
                         <div class="flex items-center justify-center gap-1 mt-1">
                             <span class="text-yellow-400">★</span>
-                            <span>${p.rating}</span>
+                            <span>${formatRating(p.rating)}/5</span>
                         </div>
                         ${p.url && p.url.startsWith("https://www.amazon.com/") ? `
                         <a href="${p.url}" target="_blank"
                             class="inline-block mt-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-lg text-sm transition">
-                            View on Amazon <i class="fas fa-external-link-alt ml-1"></i>
+                            Check Price on Amazon → <i class="fas fa-external-link-alt ml-1"></i>
                         </a>
                         ` : `
                         <div class="inline-block mt-2 px-4 py-2 bg-slate-700/60 rounded-lg text-sm text-slate-300">
