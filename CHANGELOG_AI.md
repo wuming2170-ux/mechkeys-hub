@@ -6,6 +6,19 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-06 - Header and Navigation UI Production Release
+
+Type: Production release
+
+Completed Items:
+
+- Merged the confirmed Header / Navigation unification and `search.html` usability fix into `main`.
+- Published the unified Header / Navigation and visible Search page input to Production.
+- Confirmed searches for `keychron` and `silent` return results, no-result searches show an empty state, and Amazon result links continue to use `tag=mechkeyshub-20`.
+- Confirmed no new Compare page, body content rewrite, URL structure, canonical, sitemap, robots, Schema, or affiliate link rule changes were included.
+
+Preview or Production: Production
+
 ### 2026-06-06 - Search Page Usability Preview Fix
 
 Type: Search and navigation usability fix
