@@ -6,6 +6,20 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-06 - Search Page Usability Preview Fix
+
+Type: Search and navigation usability fix
+
+Completed Items:
+
+- Added a clearly visible body search form to `search.html` so the Header Search navigation entry leads to a usable search page on desktop, tablet, and mobile.
+- Added live search behavior for typed queries while preserving the existing `/search.html?q=` URL pattern and SearchAction schema.
+- Confirmed searches for `keychron` and `silent` return results, no-result searches show an empty state, and Amazon result links continue to use `tag=mechkeyshub-20`.
+- Re-verified the unified Header / Navigation across the priority pages and responsive widths without restoring the old desktop header search box.
+- Confirmed canonical URLs, sitemap, robots, Schema, affiliate links, and the 60% vs 75% Compare page body content were not changed.
+
+Preview or Production: Preview
+
 ### 2026-06-05 - Header and Navigation UI Unification
 
 Type: Navigation UI update
