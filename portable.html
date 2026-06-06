@@ -15427,6 +15427,21 @@ document.addEventListener('click', function(e) {
     }
 ]
 
+    function formatProductPrice(price) {
+        if (price === null || price === undefined) return "Check current price";
+        const value = String(price).trim();
+        if (!value || value === "0" || value === "$0" || value === "$0.00") return "Check current price";
+        if (/check current price/i.test(value)) return "Check current price";
+        const numeric = Number(value.replace(/[^0-9.]/g, ""));
+        if (!Number.isFinite(numeric) || numeric <= 0) return "Check current price";
+        return `$${numeric.toFixed(2)}`;
+    }
+
+    function formatRating(rating) {
+        if (rating === null || rating === undefined || String(rating).trim() === "") return "N/A";
+        return String(rating).trim();
+    }
+
     function renderProducts(products) {
         const grid = document.getElementById('keyboard-grid');
         if (!grid) return;
@@ -15446,12 +15461,12 @@ document.addEventListener('click', function(e) {
                 <h3 class="text-lg font-bold mb-2 line-clamp-2">${p.name}</h3>
                 <p class="text-gray-400 text-sm mb-4">${p.tagline || ''}</p>
                 <div class="flex items-center justify-between mb-4">
-                    <span class="text-yellow-400">★ ${p.rating || '4.5'}/5</span>
-                    <span class="text-2xl font-bold text-indigo-400">${p.price || 'N/A'}</span>
+                    <span class="text-yellow-400">★ ${formatRating(p.rating)}/5</span>
+                    <span class="text-2xl font-bold text-indigo-400">${formatProductPrice(p.price)}</span>
                 </div>
                 ${p.url && p.url.startsWith("https://www.amazon.com/") ? `
                 <a href="${p.url}" target="_blank" class="block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition">
-                    Check Price →
+                    Check Price on Amazon →
                 </a>
                 ` : `
                 <div class="block w-full py-3 bg-slate-700/60 rounded-xl text-center font-semibold text-slate-300">

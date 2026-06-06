@@ -6,6 +6,48 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-06 - Product Card Trust UI Consistency Production Release
+
+Type: Production release
+
+Completed Items:
+
+- Merged the confirmed Product Card Trust / UI Consistency fixes into `main`.
+- Published the Brand product card `undefined` badge cleanup to Production.
+- Preserved product titles, prices, ratings, Amazon URLs, and `tag=mechkeyshub-20` affiliate tags while removing visible dirty badge output.
+- Excluded Compare page changes from this Production release per confirmation scope.
+- Confirmed no new Compare page, URL structure, canonical, sitemap, robots, Header / Navigation, Compare page body, or affiliate tag rule changes were included.
+
+Preview or Production: Production
+
+### 2026-06-06 - Brand Product Card Undefined Badge Fix
+
+Type: Product card trust and UI consistency fix
+
+Completed Items:
+
+- Removed visible `undefined` product card badges from Brand pages.
+- Verified missing badge or switch/feature values are not replaced with fabricated labels.
+- Kept product titles, prices, ratings, Amazon URLs, and `tag=mechkeyshub-20` affiliate tags unchanged.
+- Confirmed no Header / Navigation, Compare page, canonical, sitemap, robots, URL structure, or Production deployment changes were included.
+
+Preview or Production: Preview
+
+### 2026-06-06 - Product Card UX Consistency Preview Fixes
+
+Type: Frontend and affiliate UX consistency fix
+
+Completed Items:
+
+- Removed duplicate product image `alt` attributes from `60_percent.html` and `best-value.html`, keeping product-name alt text only.
+- Unified product rating display to `/5` across homepage, layout pages, category pages, brand pages, search results, compare tooling, and the 60% vs 75% Compare affiliate recommendation section.
+- Replaced missing-rating fallback `4.5` displays with `N/A` handling on category and search product cards.
+- Normalized product price display so numeric product prices render as `$XX.XX` and zero or missing prices render as `Check current price`.
+- Unified Amazon purchase CTA copy to `Check Price on Amazon →` while preserving existing Amazon URLs and `tag=mechkeyshub-20` affiliate tags.
+- Confirmed no URL structure, canonical, sitemap, robots, Schema, Compare page body structure, or affiliate tag rule changes were included.
+
+Preview or Production: Preview
+
 ### 2026-06-06 - Header and Navigation UI Production Release
 
 Type: Production release
