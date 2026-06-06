@@ -6,6 +6,19 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-06 - Brand Product Card Undefined Badge Fix
+
+Type: Product card trust and UI consistency fix
+
+Completed Items:
+
+- Removed visible `undefined` product card badges from Brand pages.
+- Verified missing badge or switch/feature values are not replaced with fabricated labels.
+- Kept product titles, prices, ratings, Amazon URLs, and `tag=mechkeyshub-20` affiliate tags unchanged.
+- Confirmed no Header / Navigation, Compare page, canonical, sitemap, robots, URL structure, or Production deployment changes were included.
+
+Preview or Production: Preview
+
 ### 2026-06-06 - Product Card UX Consistency Preview Fixes
 
 Type: Frontend and affiliate UX consistency fix
