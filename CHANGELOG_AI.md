@@ -6,6 +6,18 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-08 - 60% vs 75% Compare CTA Consistency Production Release
+
+Type: Production release
+
+Completed Items:
+
+- Merged the confirmed 60% vs 75% Compare CTA consistency fix into `main`.
+- Published the Amazon CTA label update for `/compare/60-vs-75-keyboard.html` to Production.
+- Confirmed the existing Amazon URLs, `tag=mechkeyshub-20` affiliate tags, canonical, `og:url`, `twitter:url`, FAQPage schema, BreadcrumbList schema, sitemap, robots, and page body content outside the CTA labels were preserved.
+
+Preview or Production: Production
+
 ### 2026-06-08 - 60% vs 75% Compare CTA Consistency Fix
 
 Type: Affiliate CTA consistency fix
