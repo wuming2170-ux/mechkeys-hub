@@ -6,6 +6,18 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-08 - 60% vs 75% Compare CTA Consistency Fix
+
+Type: Affiliate CTA consistency fix
+
+Completed Items:
+
+- Standardized the 60% vs 75% Compare page Amazon CTA labels from `View on Amazon` to `Check Price on Amazon →`.
+- Preserved the existing Amazon URLs and `tag=mechkeyshub-20` affiliate tags.
+- Preserved the page canonical, `og:url`, `twitter:url`, FAQPage schema, BreadcrumbList schema, FAQ, sitemap, robots, and page body content outside the CTA labels.
+
+Preview or Production: Preview
+
 ### 2026-06-06 - Product Card Trust UI Consistency Production Release
 
 Type: Production release
