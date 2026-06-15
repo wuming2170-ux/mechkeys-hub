@@ -237,8 +237,10 @@ TKL — Best Value Pick (Target: $90–$130)
 Candidate products:
 
 * Keychron K8 Pro (~$110–$120, wireless TKL, QMK/VIA, aluminum frame, hot-swap, Keychron official Amazon store)
+* Keychron K8 Max (~$115, wireless TKL, QMK/VIA, hot-swap, Keychron Amazon listing)
+* Keychron K8 HE TKL (~$130, wireless TKL, Hall Effect switches, QMK/VIA, Keychron Amazon listing)
 
-Note: K8 Pro has multiple variants (switch type, color). Codex selects the main wired+wireless hot-swap variant. Confirm ASIN for that specific variant.
+Note: K8 Pro has multiple variants (switch type, color). Codex selects the main wired+wireless hot-swap variant when a specific ASIN passes verification. For the preview fix, K8 Max was rejected because the repository Amazon crawl rating was 3.5/5, below the requested 4.0/5 threshold. Keychron K8 HE TKL ASIN B0DY17T591 was selected instead because the Amazon /dp/ASIN/ endpoint was reachable and repository Amazon crawl data confirmed Keychron branding, TKL naming, $129.99 price, and 4.5/5 rating.
 
 TKL — Premium Pick (Target: $150–$220)
 

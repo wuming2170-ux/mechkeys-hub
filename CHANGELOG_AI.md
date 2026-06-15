@@ -6,6 +6,17 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-15 - TKL vs 75% Affiliate Picks and Metadata Fix
+Type: Affiliate and metadata fix
+Completed Items:
+- Replaced the TKL Best Value pick from Corsair K70 CORE TKL Wireless to Keychron K8 HE TKL to avoid two Corsair recommendations in the TKL section.
+- Verified Amazon /dp/ASIN/ reachability for Keychron K8 HE TKL (B0DY17T591), Keychron K2 HE (B0DCVQBMVP), and Keychron Q1 Ultra 8K (B0G4M99132); Amazon returned anti-bot interstitial content for body scraping, so price/rating/layout details were cross-checked against repository Amazon crawl data and Keychron official layout references.
+- Rejected Keychron K8 Max as the TKL Best Value replacement because the repository Amazon crawl rating was 3.5/5, below the requested 4.0/5 threshold.
+- Confirmed Keychron K2 HE ASIN B0DCVQBMVP remains a 75% Hall Effect Keychron K2 HE listing in repository Amazon crawl data with $129.99 price and 4.6/5 rating.
+- Confirmed Keychron Q1 Ultra 8K ASIN B0G4M99132 remains a 75% / 82-key Keychron Q1 Ultra 8K listing in repository Amazon crawl data with $229.99 price and 4.0/5 rating.
+- Updated og:description to match the meta description and standardized og:site_name to MechKeysHub.
+Preview or Production: Preview
+
 ### 2026-06-15 - TKL vs 75% Compare Preview Route Recovery
 Type: Preview route recovery
 Completed Items:
