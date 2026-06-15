@@ -6,6 +6,19 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-15 - TKL vs 75% Keyboard Compare Page
+Type: Compare page
+Completed Items:
+- Added the second Compare Expansion content page at /compare/tkl-vs-75-keyboard.html.
+- Implemented Quick Verdict, comparison table, navigation cluster section, keycap compatibility section, user scenario breakdown, workflow friction analysis, affiliate recommendation section (6 products, 2 layouts × 3 tiers), FAQ, FAQPage schema, and BreadcrumbList schema.
+- Added internal links to /compare/60-vs-75-keyboard.html, /75_percent.html, /tkl.html, /compare.html, and /guide-beginners.html from the new page.
+- Added new Compare URL to sitemap.xml using the production SEO domain.
+- Verified all Amazon affiliate links use /dp/ASIN/?tag=mechkeyshub-20 format.
+- Confirmed no modifications to existing pages, canonical URLs, robots.txt, or sitemap existing entries.
+- Substituted Corsair K70 CORE TKL Wireless for Keychron K8 Pro because the current repository-verifiable product data did not include a confirmed K8 Pro ASIN, layout, price, and rating set.
+- Substituted Keychron Q1 Ultra 8K for Keychron Q1 Max because the current repository-verifiable product data did not include a confirmed Q1 Max rating, while Q1 Ultra 8K had confirmed 75% layout, ASIN, price, and rating data.
+Preview or Production: Preview
+
 ### 2026-06-08 - 60% vs 75% Compare CTA Consistency Production Release
 
 Type: Production release
