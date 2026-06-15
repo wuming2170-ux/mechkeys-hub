@@ -6,6 +6,15 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-15 - TKL vs 75% Compare Preview Route Recovery
+Type: Preview route recovery
+Completed Items:
+- Investigated the reported stale Preview URL for /compare/tkl-vs-75-keyboard.html returning homepage content.
+- Confirmed the local Vercel preview build output includes /compare/tkl-vs-75-keyboard.html as a static file.
+- Re-created a Vercel Preview from the verified prebuilt output without publishing Production.
+- Verified the page content locally at the direct compare URL, including H1, SEO URLs, FAQPage schema, BreadcrumbList schema, 6 Amazon CTAs, affiliate tag preservation, console errors, and 390px mobile overflow.
+Preview or Production: Preview
+
 ### 2026-06-15 - TKL vs 75% Keyboard Compare Page
 Type: Compare page
 Completed Items:
