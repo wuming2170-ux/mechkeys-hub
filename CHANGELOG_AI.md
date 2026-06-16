@@ -6,6 +6,15 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-16 - P0 Layout Factual Errors and Guide Metadata Fix
+Type: Content fact and metadata fix
+Completed Items:
+- Fixed P0 layout factual errors for 65%, TKL, and full-size pages.
+- Replaced placeholder guide metadata for guide pages.
+- Standardized og:site_name to MechKeysHub in allowed scoped files.
+- No Production published.
+Preview or Production: Preview
+
 ### 2026-06-16 - TKL / 75% Internal Links and Favicon Production Release
 Type: Production release
 Completed Items:
