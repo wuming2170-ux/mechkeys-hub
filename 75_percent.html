@@ -12601,18 +12601,6 @@ const topProducts = [
     }
 ];
 
-
-
-function formatProductPrice(price) {
-    if (price === null || price === undefined) return "Check current price";
-    const value = String(price).trim();
-    if (!value || value === "0" || value === "$0" || value === "$0.00") return "Check current price";
-    if (/check current price/i.test(value)) return "Check current price";
-    const numeric = Number(value.replace(/[^0-9.]/g, ""));
-    if (!Number.isFinite(numeric) || numeric <= 0) return "Check current price";
-    return `$${numeric.toFixed(2)}`;
-}
-
 function formatRating(rating) {
     if (rating === null || rating === undefined || String(rating).trim() === "") return "N/A";
     return String(rating).trim();
@@ -12639,9 +12627,6 @@ const filtered = topProducts.filter(p => p.layout === '75%');
                     <span class="text-xs bg-slate-700 px-2 py-1 rounded">${p.switch_type}</span>
                     <span class="text-xs bg-slate-700 px-2 py-1 rounded">${p.connectivity}</span>
                     ${p.hot_swap ? '<span class="text-xs bg-indigo-600 px-2 py-1 rounded">Hot-swap</span>' : ''}
-                </div>
-                <div class="flex items-center justify-between mb-4">
-                    <span class="text-2xl font-bold text-indigo-400">${formatProductPrice(p.price)}</span>
                 </div>
                 ${p.url && p.url.startsWith("https://www.amazon.com/") ? `
                 <a href="${p.url}" class="block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition mb-2">

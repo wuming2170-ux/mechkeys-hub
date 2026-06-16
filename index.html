@@ -12772,19 +12772,6 @@ const topProducts = [
     }
 ];
 
-
-
-
-    function formatProductPrice(price) {
-        if (price === null || price === undefined) return "Check current price";
-        const value = String(price).trim();
-        if (!value || value === "0" || value === "$0" || value === "$0.00") return "Check current price";
-        if (/check current price/i.test(value)) return "Check current price";
-        const numeric = Number(value.replace(/[^0-9.]/g, ""));
-        if (!Number.isFinite(numeric) || numeric <= 0) return "Check current price";
-        return `$${numeric.toFixed(2)}`;
-    }
-
     function formatRating(rating) {
         if (rating === null || rating === undefined || String(rating).trim() === "") return "N/A";
         return String(rating).trim();
@@ -12810,7 +12797,6 @@ const topProducts = [
             <p class="text-gray-400 text-sm mb-4">${p.tagline || ''}</p>
             <div class="flex items-center justify-between mb-4">
                 <span class="text-yellow-400">★ ${formatRating(p.rating)}/5</span>
-                <span class="text-2xl font-bold text-indigo-400">${formatProductPrice(p.price)}</span>
             </div>
             ${p.url && p.url.startsWith("https://www.amazon.com/") ? `
             <a href="${p.url}" target="_blank" class="block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition">
@@ -12861,7 +12847,7 @@ const topProducts = [
                     <img src="${p.image}" alt="${p.name}" class="w-12 h-12 object-cover rounded-lg" onerror="this.loading="lazy" src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%231e293b%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%236474b4%22 font-size=%2240%22>⌨️</text></svg>'">
                     <div class="flex-1 min-w-0">
                         <div class="font-semibold text-sm truncate">${p.name}</div>
-                        <div class="text-xs text-gray-400">${p.brand || ''} · ${formatProductPrice(p.price)} · ★ ${formatRating(p.rating)}/5</div>
+                        <div class="text-xs text-gray-400">${p.brand || ''} · ★ ${formatRating(p.rating)}/5</div>
                     </div>
                 </div>
             </a>

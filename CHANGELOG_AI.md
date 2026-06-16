@@ -6,6 +6,18 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-16 - Product Card Hardcoded Price Display Removal
+Type: Product card trust and affiliate display fix
+Completed Items:
+- Removed hardcoded Amazon price display from product cards.
+- Product JSON data was not modified.
+- Amazon links and affiliate tags were not modified.
+- CTA text remains Check Price on Amazon →.
+- Compare child pages were not modified.
+- Production not published.
+- Browser automation skipped.
+Preview or Production: Preview
+
 ### 2026-06-16 - P0 Layout and Guide Metadata Production Release
 Type: Production release
 Completed Items:
