@@ -6,6 +6,20 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-16 - Product Card Hardcoded Price Display Removal Production Release
+Type: Production release
+Completed Items:
+- Removed hardcoded Amazon price display from product cards published to Production.
+- Product JSON data was not modified.
+- Amazon links and affiliate tags were not modified.
+- CTA text remains Check Price on Amazon →.
+- Compare child pages were not modified.
+- sitemap.xml / robots.txt / search.html were not modified.
+- Production URL: https://mechkeyshub.com
+- commit: 173714912f11f3780b92bb34b41989a9a79d8655
+- browser automation skipped.
+Preview or Production: Production
+
 ### 2026-06-16 - Product Card Hardcoded Price Display Removal
 Type: Product card trust and affiliate display fix
 Completed Items:
