@@ -6,6 +6,14 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-16 - TKL vs 75% Internal Links and Favicon Fix
+Type: Internal linking and favicon fix
+Completed Items:
+- Added internal links from TKL / 75% / 60 vs 75 pages to TKL vs 75% comparison.
+- Fixed favicon.ico 404.
+- No Production published.
+Preview or Production: Preview
+
 ### 2026-06-16 - TKL vs 75% Compare Production Release
 Type: Production release
 Completed Items:
