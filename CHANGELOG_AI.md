@@ -6,6 +6,21 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-16 - P0 Layout and Guide Metadata Production Release
+Type: Production release
+Completed Items:
+- P0 layout factual fixes published to Production.
+- 65_percent.html corrected to explain dedicated arrow keys and no function row.
+- tkl.html corrected to explain TKL removes only the numpad and keeps F-row / arrows / nav cluster.
+- full-size.html corrected to explain full-size includes F-row / arrows / nav cluster / numpad.
+- 7 guide pages metadata placeholders replaced.
+- og:site_name standardized to MechKeysHub in the scoped pages.
+- Production URL: https://mechkeyshub.com
+- commit: 75977ec9a349a6d821a59fdc1797ebc79f8cacd3
+- No changes to compare child pages / sitemap.xml / robots.txt / search.html / product JSON / Amazon links / CTA text.
+- Browser automation skipped.
+Preview or Production: Production
+
 ### 2026-06-16 - P0 Layout Factual Errors and Guide Metadata Fix
 Type: Content fact and metadata fix
 Completed Items:
