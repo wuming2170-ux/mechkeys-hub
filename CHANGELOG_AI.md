@@ -6,6 +6,14 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-16 - TKL vs 75% Compare Category Entry
+Type: Internal discovery fix
+Completed Items:
+- Added TKL vs 75% comparison entry to Compare category page.
+- Internal discovery fixed before Production.
+- Production still not published.
+Preview or Production: Preview
+
 ### 2026-06-15 - TKL vs 75% Affiliate Picks and Metadata Fix
 Type: Affiliate and metadata fix
 Completed Items:
