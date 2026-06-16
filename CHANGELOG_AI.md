@@ -6,6 +6,18 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-16 - TKL vs 75% Compare Production Release
+Type: Production release
+Completed Items:
+- TKL vs 75% Compare page published to Production at https://mechkeyshub.com/compare/tkl-vs-75-keyboard.html.
+- Compare 分类页已加入 TKL vs 75% 入口 at https://mechkeyshub.com/compare.html.
+- Published from reviewed commit 9b0c7f2edc01a09d9672f58e73b0ef369b4fd6c6.
+- Affiliate 修复已包含: TKL Best Value 从 Corsair K70 CORE TKL Wireless 改为 Keychron K8 HE TKL.
+- Confirmed ASIN B0DY17T591 for the Keychron K8 HE TKL recommendation.
+- Claude 最终复审结论: 可发布 Production，无必须修复项.
+- Confirmed robots.txt / search.html / compare/60-vs-75-keyboard.html were not modified for this Production release.
+Preview or Production: Production
+
 ### 2026-06-16 - TKL vs 75% Compare Category Entry
 Type: Internal discovery fix
 Completed Items:
