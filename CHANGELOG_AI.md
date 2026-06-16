@@ -6,6 +6,30 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-16 - TKL / 75% Internal Links and Favicon Production Release
+Type: Production release
+Completed Items:
+- Internal links from TKL / 75% / 60 vs 75 pages to TKL vs 75% comparison published to Production.
+- favicon.ico 404 fixed on Production.
+- Production URL: https://mechkeyshub.com
+- Related pages:
+  - https://mechkeyshub.com/tkl.html
+  - https://mechkeyshub.com/75_percent.html
+  - https://mechkeyshub.com/compare/60-vs-75-keyboard.html
+  - https://mechkeyshub.com/favicon.ico
+- Published from reviewed commit 84456d78b0cc915051c0d57b320eb4796df09c88.
+- Confirmed robots.txt / search.html / product recommendations / Amazon links / CTA copy were not modified.
+- Automatic browser verification skipped; mobile check will be completed manually by the user.
+Preview or Production: Production
+
+### 2026-06-16 - TKL vs 75% Internal Links and Favicon Fix
+Type: Internal linking and favicon fix
+Completed Items:
+- Added internal links from TKL / 75% / 60 vs 75 pages to TKL vs 75% comparison.
+- Fixed favicon.ico 404.
+- No Production published.
+Preview or Production: Preview
+
 ### 2026-06-16 - TKL vs 75% Compare Production Release
 Type: Production release
 Completed Items:
