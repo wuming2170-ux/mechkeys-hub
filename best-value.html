@@ -321,61 +321,121 @@
 <section class="py-12 px-4">
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-12">
-                <span class="inline-block px-4 py-2 bg-amber-500/20 text-amber-400 rounded-full text-sm font-semibold mb-4">💰 BUDGET PICKS</span>
-                <h1 class="text-3xl md:text-5xl font-bold mb-4">Best Value Keyboards Under $100</h1>
-                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
-                    Great mechanical keyboards don't have to break the bank.
-                    These budget picks deliver excellent quality without the premium price.
+                <span class="inline-block px-4 py-2 bg-amber-500/20 text-amber-400 rounded-full text-sm font-semibold mb-4">💰 EDITOR'S PICKS</span>
+                <h1 class="text-3xl md:text-5xl font-bold mb-4">Best Value Mechanical Keyboards</h1>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                    Value is not only about finding the lowest price. A good mechanical keyboard should match your layout needs, switch preference, desk setup, and upgrade plans without paying for features you will not use. These editor-curated picks highlight practical boards across budgets and use cases. Ratings, images, and Amazon links come from existing MechKeysHub product data, while the notes below explain why each board is worth a closer look.
                 </p>
             </div>
 
-            <!-- Budget Picks Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="budget-products"></div>
+            <!-- Quick Picks -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8 text-center">Quick Picks</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <a href="#best-overall" class="bg-white/5 hover:bg-white/10 rounded-xl p-5 border border-white/10 transition">
+                        <div class="text-sm text-amber-300 font-semibold mb-1">Best Overall</div>
+                        <div class="font-bold">AULA F75 Pro Wireless</div>
+                    </a>
+                    <a href="#best-budget" class="bg-white/5 hover:bg-white/10 rounded-xl p-5 border border-white/10 transition">
+                        <div class="text-sm text-amber-300 font-semibold mb-1">Best Budget</div>
+                        <div class="font-bold">Redragon K631</div>
+                    </a>
+                    <a href="#best-wireless" class="bg-white/5 hover:bg-white/10 rounded-xl p-5 border border-white/10 transition">
+                        <div class="text-sm text-amber-300 font-semibold mb-1">Best Wireless</div>
+                        <div class="font-bold">Keychron K10 Max</div>
+                    </a>
+                    <a href="#best-gaming" class="bg-white/5 hover:bg-white/10 rounded-xl p-5 border border-white/10 transition">
+                        <div class="text-sm text-amber-300 font-semibold mb-1">Best for Gaming</div>
+                        <div class="font-bold">TMKB 60% Hall Effect</div>
+                    </a>
+                    <a href="#best-office" class="bg-white/5 hover:bg-white/10 rounded-xl p-5 border border-white/10 transition">
+                        <div class="text-sm text-amber-300 font-semibold mb-1">Best for Office</div>
+                        <div class="font-bold">Logitech MX Mechanical</div>
+                    </a>
+                    <a href="#best-premium" class="bg-white/5 hover:bg-white/10 rounded-xl p-5 border border-white/10 transition">
+                        <div class="text-sm text-amber-300 font-semibold mb-1">Best Premium</div>
+                        <div class="font-bold">Ducky One 3 SF Daybreak</div>
+                    </a>
+                </div>
+            </div>
 
-            <!-- Buying Guide -->
-            <div class="mt-16">
-                <h2 class="text-3xl font-bold mb-8 text-center">🎯 Budget Buying Guide</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="bg-white/5 rounded-2xl p-6 border border-white/10">
-                        <h3 class="text-xl font-bold mb-4 text-indigo-400">What to Look For</h3>
-                        <ul class="space-y-3 text-gray-300">
-                            <li class="flex items-start gap-3"><i class="fas fa-check text-emerald-400 mt-1"></i><span><strong>Hot-swap sockets</strong> - Replace switches without soldering</span></li>
-                            <li class="flex items-start gap-3"><i class="fas fa-check text-emerald-400 mt-1"></i><span><strong>PBT keycaps</strong> - More durable than ABS, won't shine</span></li>
-                            <li class="flex items-start gap-3"><i class="fas fa-check text-emerald-400 mt-1"></i><span><strong>USB-C</strong> - Modern connectivity, reversible</span></li>
-                            <li class="flex items-start gap-3"><i class="fas fa-check text-emerald-400 mt-1"></i><span><strong>Gateron switches</strong> - Better than Cherry MX at same price</span></li>
-                        </ul>
+            <!-- Featured Picks -->
+            <div class="mb-16">
+                <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
+                    <div>
+                        <h2 class="text-3xl font-bold">Featured Picks</h2>
+                        <p class="text-gray-400 mt-2">Six focused recommendations selected from existing MechKeysHub product data.</p>
                     </div>
-                    <div class="bg-white/5 rounded-2xl p-6 border border-white/10">
-                        <h3 class="text-xl font-bold mb-4 text-red-400">What to Avoid</h3>
-                        <ul class="space-y-3 text-gray-300">
-                            <li class="flex items-start gap-3"><i class="fas fa-times text-red-400 mt-1"></i><span><strong>Outemu switches</strong> - Cheap but inconsistent quality</span></li>
-                            <li class="flex items-start gap-3"><i class="fas fa-times text-red-400 mt-1"></i><span><strong>No branding</strong> - Often indicates low quality</span></li>
-                            <li class="flex items-start gap-3"><i class="fas fa-times text-red-400 mt-1"></i><span><strong>Micro-USB</strong> - Old standard, avoid</span></li>
-                            <li class="flex items-start gap-3"><i class="fas fa-times text-red-400 mt-1"></i><span><strong>Proprietary software</strong> - May not work on all OS</span></li>
-                        </ul>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="featured-products"></div>
+            </div>
+
+            <!-- More Keyboards -->
+            <div class="mb-16">
+                <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
+                    <div>
+                        <h2 class="text-3xl font-bold">More Keyboards to Consider</h2>
+                        <p class="text-gray-400 mt-2">Additional existing picks for readers who want more options after the editor shortlist.</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" id="more-products"></div>
+            </div>
+
+            <!-- How to Choose -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8 text-center">How to Choose a Best Value Keyboard</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-white/5 rounded-xl p-6 border border-white/10">
+                        <h3 class="text-xl font-bold mb-3 text-cyan-300">Start with layout</h3>
+                        <p class="text-gray-300">Choose full-size or 96% if you need a numpad, 75% or TKL for a balanced desk setup, and 60% or 65% only if you are comfortable using layers for missing keys.</p>
+                    </div>
+                    <div class="bg-white/5 rounded-xl p-6 border border-white/10">
+                        <h3 class="text-xl font-bold mb-3 text-cyan-300">Pick the right switch feel</h3>
+                        <p class="text-gray-300">Linear switches are smooth for gaming and fast typing, tactile switches add feedback for writing, and clicky switches are best saved for spaces where noise is welcome.</p>
+                    </div>
+                    <div class="bg-white/5 rounded-xl p-6 border border-white/10">
+                        <h3 class="text-xl font-bold mb-3 text-cyan-300">Check wireless and hot-swap needs</h3>
+                        <p class="text-gray-300">Wireless keeps a desk clean, while hot-swap makes future switch changes easier. Both are useful, but neither matters if the board does not fit your everyday workflow.</p>
+                    </div>
+                    <div class="bg-white/5 rounded-xl p-6 border border-white/10">
+                        <h3 class="text-xl font-bold mb-3 text-cyan-300">Watch the tradeoffs</h3>
+                        <p class="text-gray-300">A better value board spends its budget on the parts you feel every day: stable case construction, keycaps, switches, connectivity, and software support instead of novelty extras.</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Switch recommendations -->
-            <div class="mt-16 bg-gradient-to-r from-amber-500/10 to-orange-500/10 rounded-2xl p-8 border border-amber-500/30">
-                <h2 class="text-xl md:text-2xl font-bold mb-6">🔴 Best Switches Under $100</h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="text-center">
-                        <div class="text-3xl mb-2">🟡</div>
-                        <h3 class="font-bold mb-2">Budget Linear</h3>
-                        <p class="text-gray-400 text-sm"><strong>Gateron Red/Yellow</strong> - Smooth, quiet, great for gaming. ~$0.30/switch</p>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-3xl mb-2">🟤</div>
-                        <h3 class="font-bold mb-2">Budget Tactile</h3>
-                        <p class="text-gray-400 text-sm"><strong>Gateron Brown</strong> - Subtle bump, good for typing. ~$0.30/switch</p>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-3xl mb-2">🔵</div>
-                        <h3 class="font-bold mb-2">Budget Clicky</h3>
-                        <p class="text-gray-400 text-sm"><strong>Kailh Box White</strong> - Crisp click, more durable. ~$0.40/switch</p>
-                    </div>
+            <!-- FAQ -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8 text-center">FAQ</h2>
+                <div class="space-y-4 max-w-4xl mx-auto">
+                    <details class="bg-white/5 rounded-xl p-6 border border-white/10">
+                        <summary class="font-bold cursor-pointer">What makes a mechanical keyboard a good value?</summary>
+                        <p class="text-gray-300 mt-3">A good value keyboard balances build quality, layout, switch feel, connectivity, and repair or upgrade potential. The cheapest option is not always the best value if it cuts corners on the parts you use every day.</p>
+                    </details>
+                    <details class="bg-white/5 rounded-xl p-6 border border-white/10">
+                        <summary class="font-bold cursor-pointer">Should I choose wired or wireless?</summary>
+                        <p class="text-gray-300 mt-3">Wired is simple and dependable, especially for gaming. Wireless is more convenient for shared desks, laptops, and cleaner setups, but it is worth checking whether the board also supports USB-C for fallback use.</p>
+                    </details>
+                    <details class="bg-white/5 rounded-xl p-6 border border-white/10">
+                        <summary class="font-bold cursor-pointer">Is hot-swap worth prioritizing?</summary>
+                        <p class="text-gray-300 mt-3">Hot-swap is useful if you may change switches later or want an easier repair path. If you already know the exact switch feel you like, layout and build quality can matter just as much.</p>
+                    </details>
+                </div>
+            </div>
+
+            <!-- Related Links -->
+            <div>
+                <h2 class="text-3xl font-bold mb-8 text-center">Related Links</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <a href="/guide-budget.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
+                        <div class="font-semibold">Budget Mechanical Keyboard Guide</div>
+                    </a>
+                    <a href="/compare/60-vs-75-keyboard.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
+                        <div class="font-semibold">60% vs 75% Keyboard</div>
+                    </a>
+                    <a href="/compare/tkl-vs-75-keyboard.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
+                        <div class="font-semibold">TKL vs 75% Keyboard</div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -12652,35 +12712,136 @@ const topProducts = [
     <script>
 
         function formatRating(rating) {
-            if (rating === null || rating === undefined || String(rating).trim() === "") return "N/A";
+            if (rating === null || rating === undefined || String(rating).trim() === "" || Number(rating) === 0) return "N/A";
             return String(rating).trim();
         }
 
-        const budgetProducts = topProducts.filter(p => {
-            const price = parseFloat(p.price.replace(/[^0-9.]/g, ''));
-            return price <= 100;
-        });
+        function escapeHtml(value) {
+            return String(value || "")
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#39;");
+        }
 
-        document.getElementById('budget-products').innerHTML = budgetProducts.map(p => `
-            ${(() => {
-                const amazonUrl = getAmazonProductUrl(p);
-                const pros = Array.isArray(p.pros) ? p.pros : [];
-                return `
-            <article class="bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition relative">
+        const featuredPickMeta = [
+            {
+                asin: "B0D83KCLPR",
+                label: "Best Overall",
+                anchor: "best-overall",
+                points: ["75% layout with knob", "Hot-swappable build", "Wireless and USB-C modes"],
+                reason: "A practical all-rounder for readers who want a compact daily keyboard without giving up arrow keys or upgrade flexibility."
+            },
+            {
+                asin: "B0BX6B4K6S",
+                label: "Best Budget",
+                anchor: "best-budget",
+                points: ["Compact 65% layout", "Hot-swap socket support", "Wired USB-C simplicity"],
+                reason: "A straightforward pick for first mechanical keyboard buyers who want useful enthusiast features in a smaller board."
+            },
+            {
+                asin: "B0D631D7N9",
+                label: "Best Wireless",
+                anchor: "best-wireless",
+                points: ["Full-size layout", "Bluetooth and 2.4GHz wireless", "Hot-swappable Keychron platform"],
+                reason: "Best for users who want a wireless workhorse with a numpad and a familiar full-size workflow."
+            },
+            {
+                asin: "B0FJRGTFF3",
+                label: "Best for Gaming",
+                anchor: "best-gaming",
+                points: ["60% compact footprint", "Hall Effect rapid trigger focus", "USB-C wired connection"],
+                reason: "A strong gaming-focused option for players who prefer a compact board and fast switch behavior."
+            },
+            {
+                asin: "B0FZMMNZ95",
+                label: "Best for Office",
+                anchor: "best-office",
+                points: ["Full-size productivity layout", "Low-profile tactile feel", "Multi-device wireless design"],
+                reason: "A sensible office pick for laptop and desktop users who want quieter tactile typing and a numpad."
+            },
+            {
+                asin: "B09RLXG4KW",
+                label: "Best Premium",
+                anchor: "best-premium",
+                points: ["65% enthusiast layout", "Hot-swappable switches", "PBT keycaps and dampened build"],
+                reason: "Best for buyers who want a more polished compact board with stronger keycap and build priorities."
+            }
+        ];
+
+        function findProductByAsin(asin) {
+            return topProducts.find(product => {
+                const sourceUrl = product.url || product.link || "";
+                const sourceAsin = product.amazon_asin || (sourceUrl.match(/\/dp\/([A-Z0-9]{10})(?:[/?]|$)/i) || [])[1];
+                return sourceAsin && sourceAsin.toUpperCase() === asin;
+            });
+        }
+
+        function renderProductImage(product) {
+            return `
                 <div class="aspect-[16/10] bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
-                    <img loading="lazy" src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';this.parentElement.style.background='linear-gradient(135deg,#1e1b4b,#0f172a)';">
+                    <img loading="lazy" src="${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}" class="w-full h-full object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';this.parentElement.style.background='linear-gradient(135deg,#1e1b4b,#0f172a)';">
                     <span class="text-5xl hidden items-center justify-center">⌨️</span>
                 </div>
-                <h3 class="text-xl font-bold mb-2">${p.name}</h3>
-                <p class="text-gray-400 text-sm mb-4">${p.tagline}</p>
-                <div class="flex flex-wrap gap-2 mb-4">
-                    ${pros.slice(0, 2).map(pro => `<span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-1 rounded">✓ ${pro}</span>`).join('')}
+            `;
+        }
+
+        function renderAmazonCta(product) {
+            const amazonUrl = getAmazonProductUrl(product);
+            return amazonUrl
+                ? `<a href="${amazonUrl}" class="block w-full py-3 bg-amber-600 hover:bg-amber-700 rounded-xl text-center font-semibold transition">Check Price on Amazon →</a>`
+                : `<div class="block w-full py-3 bg-slate-700/60 rounded-xl text-center font-semibold text-slate-300">Currently unavailable on Amazon</div>`;
+        }
+
+        const featuredProducts = featuredPickMeta
+            .map(meta => ({ meta, product: findProductByAsin(meta.asin) }))
+            .filter(item => item.product);
+
+        document.getElementById('featured-products').innerHTML = featuredProducts.map(({ meta, product }) => `
+            <article id="${meta.anchor}" class="bg-white/5 rounded-xl p-6 border border-white/10 hover:border-amber-500/50 transition">
+                <div class="inline-flex items-center px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-sm font-semibold mb-4">${meta.label}</div>
+                ${renderProductImage(product)}
+                <div class="flex items-center gap-2 text-sm text-amber-300 mb-3">
+                    <i class="fas fa-star"></i>
+                    <span>${formatRating(product.rating)}/5</span>
                 </div>
-                ${amazonUrl ? `<a href="${amazonUrl}" class="block w-full py-3 bg-amber-600 hover:bg-amber-700 rounded-xl text-center font-semibold transition">Check Price on Amazon →</a>` : `<div class="block w-full py-3 bg-slate-700/60 rounded-xl text-center font-semibold text-slate-300">Currently unavailable on Amazon</div>`}
+                <h3 class="text-xl font-bold mb-3">${escapeHtml(product.name)}</h3>
+                <ul class="space-y-2 text-gray-300 text-sm mb-4">
+                    ${meta.points.slice(0, 3).map(point => `<li class="flex items-start gap-2"><i class="fas fa-check text-emerald-400 mt-1"></i><span>${escapeHtml(point)}</span></li>`).join('')}
+                </ul>
+                <p class="text-gray-400 text-sm mb-5">${escapeHtml(meta.reason)}</p>
+                ${renderAmazonCta(product)}
             </article>
-                `;
-            })()}
         `).join('');
+
+        const featuredAsins = new Set(featuredPickMeta.map(meta => meta.asin));
+        const moreProducts = topProducts
+            .filter(product => {
+                const amazonUrl = getAmazonProductUrl(product);
+                const asin = product.amazon_asin || (amazonUrl && (amazonUrl.match(/\/dp\/([A-Z0-9]{10})/i) || [])[1]);
+                return amazonUrl && product.image && product.name && !featuredAsins.has(String(asin || '').toUpperCase()) && Number(product.rating) > 0;
+            })
+            .sort((a, b) => Number(b.rating) - Number(a.rating))
+            .slice(0, 10);
+
+        document.getElementById('more-products').innerHTML = moreProducts.map(product => {
+            const pros = Array.isArray(product.pros) ? product.pros : [];
+            return `
+                <article class="bg-white/5 rounded-xl p-5 border border-white/10 hover:border-amber-500/50 transition">
+                    ${renderProductImage(product)}
+                    <div class="flex items-center gap-2 text-sm text-amber-300 mb-2">
+                        <i class="fas fa-star"></i>
+                        <span>${formatRating(product.rating)}/5</span>
+                    </div>
+                    <h3 class="text-base font-bold mb-2">${escapeHtml(product.name)}</h3>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        ${pros.slice(0, 2).map(pro => `<span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-1 rounded">✓ ${escapeHtml(pro)}</span>`).join('')}
+                    </div>
+                    ${renderAmazonCta(product)}
+                </article>
+            `;
+        }).join('');
     </script>
 
     <footer class="py-8 px-4 border-t border-white/10 mt-12">
@@ -12688,31 +12849,6 @@ const topProducts = [
             <p>© 2026 MechKeys Hub. As an Amazon Associate we earn from qualifying purchases.</p>
         </div>
     </footer>
-
-    <!-- Related Links -->
-    <section class="py-12 px-4 bg-slate-900/50">
-        <div class="max-w-7xl mx-auto">
-            <h3 class="text-xl font-bold mb-6">Explore More</h3>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <a href="/60_percent.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">⌨️</div>
-                    <div class="font-semibold">60% Keyboards</div>
-                </a>
-                <a href="/best-value.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">💰</div>
-                    <div class="font-semibold">Best Value</div>
-                </a>
-                <a href="/switches.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">🎛️</div>
-                    <div class="font-semibold">Switches Guide</div>
-                </a>
-                <a href="/guides.html" class="p-4 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10">
-                    <div class="text-2xl mb-2">📖</div>
-                    <div class="font-semibold">Buying Guides</div>
-                </a>
-            </div>
-        </div>
-    </section>
 
 </body>
 </html>

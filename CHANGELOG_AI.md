@@ -6,6 +6,21 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-17 - Best Value Editorial Picks Preview
+Type: Best Value page editorial structure pilot
+Completed Items:
+- Updated the homepage Best Value entry from a fixed-price-positioned label to Editor's Top Picks.
+- Updated homepage description metadata to remove the fixed budget claim.
+- Reworked best-value.html from a long budget product list into an editor-curated guide with Hero, Quick Picks, Featured Picks, More Keyboards to Consider, How to Choose, FAQ, and Related Links.
+- Selected six Featured Picks from existing best-value.html product data only.
+- Product JSON data was not modified.
+- Amazon links and affiliate tags were not modified.
+- CTA text remains Check Price on Amazon →.
+- Compare child pages, sitemap.xml, robots.txt, search.html, use-case pages, layout pages, and brand pages were not modified.
+- Production not published.
+- Browser automation skipped.
+Preview or Production: Preview
+
 ### 2026-06-16 - Product Card Hardcoded Price Display Removal Production Release
 Type: Production release
 Completed Items:
