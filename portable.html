@@ -15432,6 +15432,29 @@ document.addEventListener('click', function(e) {
         return String(rating).trim();
     }
 
+    function renderTierBadge(priceTier) {
+        const badges = {
+            budget: {
+                className: 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30',
+                label: '💰 Budget'
+            },
+            mid: {
+                className: 'bg-amber-500/20 text-amber-400 border border-amber-500/30',
+                label: '⭐ Best Value'
+            },
+            premium: {
+                className: 'bg-purple-500/20 text-purple-400 border border-purple-500/30',
+                label: '💎 Premium'
+            },
+            high: {
+                className: 'bg-purple-500/20 text-purple-400 border border-purple-500/30',
+                label: '💎 Premium'
+            }
+        };
+        const badge = badges[priceTier];
+        return badge ? `<span class="badge ${badge.className}">${badge.label}</span>` : '';
+    }
+
     function renderProducts(products) {
         const grid = document.getElementById('keyboard-grid');
         if (!grid) return;
@@ -15439,9 +15462,7 @@ document.addEventListener('click', function(e) {
         grid.innerHTML = products.map(p => `
             <article class="product-card rounded-2xl p-6 card-hover border border-white/10">
                 <div class="flex items-start justify-between mb-4">
-                    <span class="badge ${p.price_tier === 'budget' ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' : p.price_tier === 'mid' ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30' : 'bg-purple-500/20 text-purple-400 border border-purple-500/30'}">
-                        ${p.price_tier === 'budget' ? '💰 Budget' : p.price_tier === 'mid' ? '⭐ Best Value' : '💎 Premium'}
-                    </span>
+                    ${renderTierBadge(p.price_tier)}
                     <span class="switch-badge">${p.switch_type || 'Linear'}</span>
                 </div>
                 <div class="aspect-video bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl mb-4 flex items-center justify-center overflow-hidden">

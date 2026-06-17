@@ -329,24 +329,6 @@
                 </p>
             </div>
 
-            <!-- Price comparison table -->
-            <div class="bg-white/5 rounded-2xl p-8 mb-12 border border-white/10 overflow-x-auto">
-                <h2 class="text-xl md:text-2xl font-bold mb-6">💸 Price Comparison</h2>
-                <table class="w-full text-left">
-                    <thead>
-                        <tr class="text-gray-400 text-sm border-b border-white/10">
-                            <th class="py-3 px-4">Keyboard</th>
-                            <th class="py-3 px-4">Layout</th>
-                            <th class="py-3 px-4">Switch</th>
-                            <th class="py-3 px-4">Connectivity</th>
-                            <th class="py-3 px-4">Hot-swap</th>
-                            <th class="py-3 px-4">Rating</th>
-                        </tr>
-                    </thead>
-                    <tbody id="comparison-table"></tbody>
-                </table>
-            </div>
-
             <!-- Budget Picks Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="budget-products"></div>
 
@@ -12678,17 +12660,6 @@ const topProducts = [
             const price = parseFloat(p.price.replace(/[^0-9.]/g, ''));
             return price <= 100;
         });
-
-        document.getElementById('comparison-table').innerHTML = budgetProducts.map(p => `
-            <tr class="border-b border-white/5 hover:bg-white/5">
-                <td class="py-4 px-4 font-semibold">${p.name}</td>
-                <td class="py-4 px-4 text-gray-400">${p.layout}</td>
-                <td class="py-4 px-4 text-gray-400">${p.switch_type}</td>
-                <td class="py-4 px-4 text-gray-400">${p.connectivity}</td>
-                <td class="py-4 px-4">${p.hot_swap ? '<i class="fas fa-check text-emerald-400"></i>' : '<i class="fas fa-times text-red-400"></i>'}</td>
-                <td class="py-4 px-4"><span class="text-amber-400 font-bold">${formatRating(p.rating)}</span>/5</td>
-            </tr>
-        `).join('');
 
         document.getElementById('budget-products').innerHTML = budgetProducts.map(p => `
             ${(() => {

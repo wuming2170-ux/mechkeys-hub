@@ -421,3 +421,19 @@ Notes:
 - The project is currently in the Technical SEO Stabilization phase.
 - Future important AI-completed tasks should be appended to this file.
 - Production deployment remains out of scope unless explicitly approved.
+
+### 2026-06-17 - Product Card UI Consistency Cleanup
+
+Type: Product card UI minimal cleanup
+
+Completed Items:
+
+- Removed empty Price Comparison table from best-value page if present.
+- Prevented empty product card tier/badge placeholders.
+- Product JSON data was not modified.
+- Amazon links and affiliate tags were not modified.
+- CTA text remains Check Price on Amazon →.
+- Production not published.
+- Browser automation skipped.
+
+Preview or Production: Preview
