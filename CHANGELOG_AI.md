@@ -451,3 +451,18 @@ Completed Items:
 - Browser automation skipped.
 
 Preview or Production: Preview
+
+### 2026-06-17 - Use-Case and Category Metadata Placeholder Fix
+
+Type: SEO metadata fix
+
+Completed Items:
+
+- Fixed placeholder metadata on use-case/category pages.
+- Replaced generic placeholder descriptions.
+- Standardized scoped og:site_name to MechKeysHub.
+- No product data, Amazon links, CTA, sitemap, robots, search, guide, layout, or compare child pages changed.
+- Production not published.
+- Browser automation skipped.
+
+Preview or Production: Preview
