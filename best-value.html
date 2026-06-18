@@ -12707,10 +12707,16 @@ const topProducts = [
 
         const AFFILIATE_TAG = 'mechkeyshub-20';
 
-        function getAmazonProductUrl(product) {
+        function getProductAsin(product) {
+            if (!product) return null;
             const sourceUrl = product.url || product.link || '';
             const asin = product.amazon_asin || (sourceUrl.match(/\/dp\/([A-Z0-9]{10})(?:[/?]|$)/i) || [])[1];
-            return asin ? `https://www.amazon.com/dp/${asin.toUpperCase()}/?tag=${AFFILIATE_TAG}` : null;
+            return asin ? asin.toUpperCase() : null;
+        }
+
+        function getAmazonProductUrl(product) {
+            const asin = getProductAsin(product);
+            return asin ? `https://www.amazon.com/dp/${asin}/?tag=${AFFILIATE_TAG}` : null;
         }
 </script>
     <script>
@@ -12780,12 +12786,22 @@ const topProducts = [
             }
         ];
 
+        const MORE_PRODUCTS_LIMIT = 10;
+        const morePickAsins = [
+            "B0GMR9V158",
+            "B0DSYD662Z",
+            "B0BSP4RDYL",
+            "B0F9YFY3BF",
+            "B0CD31TDHZ",
+            "B0GL1TWXTF",
+            "B0GHZ3PHXD",
+            "B0DP9V3VBC",
+            "B0GJ66LNQQ",
+            "B0G13L834L"
+        ];
+
         function findProductByAsin(asin) {
-            return topProducts.find(product => {
-                const sourceUrl = product.url || product.link || "";
-                const sourceAsin = product.amazon_asin || (sourceUrl.match(/\/dp\/([A-Z0-9]{10})(?:[/?]|$)/i) || [])[1];
-                return sourceAsin && sourceAsin.toUpperCase() === asin;
-            });
+            return topProducts.find(product => getProductAsin(product) === asin);
         }
 
         function renderProductImage(product, variant = "featured") {
@@ -12805,11 +12821,19 @@ const topProducts = [
                 : `<div class="block w-full py-3 bg-slate-700/60 rounded-xl text-center font-semibold text-slate-300">Currently unavailable on Amazon</div>`;
         }
 
-        const featuredProducts = featuredPickMeta
-            .map(meta => ({ meta, product: findProductByAsin(meta.asin) }))
-            .filter(item => item.product);
+        function renderProductRecommendations() {
+            const featuredContainer = document.getElementById('featured-products');
+            const moreContainer = document.getElementById('more-products');
+            if (!featuredContainer || !moreContainer) {
+                console.error('Product recommendation containers are missing.');
+                return;
+            }
 
-        document.getElementById('featured-products').innerHTML = featuredProducts.map(({ meta, product }) => `
+            const featuredProducts = featuredPickMeta
+                .map(meta => ({ meta, product: findProductByAsin(meta.asin) }))
+                .filter(item => item.product);
+
+            featuredContainer.innerHTML = featuredProducts.map(({ meta, product }) => `
             <article id="${meta.anchor}" class="featured-card h-full flex flex-col bg-white/5 rounded-lg p-6 border border-white/10 hover:border-amber-500/50 transition">
                 <div class="inline-flex self-start items-center px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-sm font-semibold mb-4">${meta.label}</div>
                 ${renderProductImage(product)}
@@ -12825,21 +12849,25 @@ const topProducts = [
                 <p class="text-gray-400 text-sm">${escapeHtml(meta.reason)}</p>
                 <div class="mt-auto pt-6">${renderAmazonCta(product)}</div>
             </article>
-        `).join('');
+            `).join('');
 
-        const featuredAsins = new Set(featuredPickMeta.map(meta => meta.asin));
-        const moreProducts = topProducts
-            .filter(product => {
-                const amazonUrl = getAmazonProductUrl(product);
-                const asin = product.amazon_asin || (amazonUrl && (amazonUrl.match(/\/dp\/([A-Z0-9]{10})/i) || [])[1]);
-                return amazonUrl && product.image && product.name && !featuredAsins.has(String(asin || '').toUpperCase()) && Number(product.rating) > 0;
-            })
-            .sort((a, b) => Number(b.rating) - Number(a.rating))
-            .slice(0, 10);
+            const reservedAsins = new Set([
+                ...featuredPickMeta.map(meta => meta.asin),
+                ...morePickAsins
+            ]);
+            const selectedMoreProducts = morePickAsins
+                .map(findProductByAsin)
+                .filter(Boolean);
+            const fallbackMoreProducts = topProducts.filter(product => {
+                const asin = getProductAsin(product);
+                return asin && !reservedAsins.has(asin) && getAmazonProductUrl(product) && product.image && product.name && Number(product.rating) > 0;
+            });
+            const moreProducts = [...selectedMoreProducts, ...fallbackMoreProducts]
+                .slice(0, MORE_PRODUCTS_LIMIT);
 
-        document.getElementById('more-products').innerHTML = moreProducts.map(product => {
-            const pros = Array.isArray(product.pros) ? product.pros : [];
-            return `
+            moreContainer.innerHTML = moreProducts.map(product => {
+                const pros = Array.isArray(product.pros) ? product.pros : [];
+                return `
                 <article class="h-full flex flex-col bg-white/[0.03] rounded-lg p-5 border border-white/5 hover:border-white/15 transition">
                     ${renderProductImage(product, "more")}
                     <div class="flex items-center gap-2 text-sm text-amber-300/80 mb-2">
@@ -12852,8 +12880,15 @@ const topProducts = [
                     </div>
                     <div class="mt-auto">${renderAmazonCta(product)}</div>
                 </article>
-            `;
-        }).join('');
+                `;
+            }).join('');
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', renderProductRecommendations, { once: true });
+        } else {
+            renderProductRecommendations();
+        }
     </script>
 
     <footer class="py-8 px-4 border-t border-white/10 mt-12">

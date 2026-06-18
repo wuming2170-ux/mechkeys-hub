@@ -6,6 +6,15 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-18 - Best Value More Keyboards Rendering Fix
+Type: Product recommendation rendering fix
+Completed Items:
+- Made the More Keyboards to Consider selection deterministic with 10 existing product ASINs and a fallback fill path.
+- Added DOM readiness and container checks for both Featured Picks and More Keyboards rendering.
+- Confirmed the page renders 6 Featured Picks and 10 More Keyboards without changing product JSON, Amazon affiliate tags, or CTA wording.
+- Preview only, not Production.
+Preview or Production: Preview
+
 ### 2026-06-18 - Best Value Product Recommendation Page Standard Finalization
 Type: Product recommendation page standard
 Completed Items:
