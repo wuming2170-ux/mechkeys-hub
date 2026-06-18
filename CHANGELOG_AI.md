@@ -6,6 +6,19 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-18 - Best Value Featured Picks Product Correction
+Type: Editorial recommendation correction
+Completed Items:
+- Replaced the Bulk Packaging Logitech MX Mechanical pick with retail ASIN B09LK1P1RD for Best for Office.
+- Replaced the full-size Keychron K10 Max with Keychron K8 HE TKL ASIN B0DY17T591 for Best Wireless.
+- Replaced the lower-recognition TMKB Hall Effect pick with Razer Huntsman Mini ASIN B0F2GVF5HC for Best for Gaming.
+- Retained AULA F75 Pro Wireless, Redragon K631, and Ducky One 3 SF Daybreak after reviewing current repository product evidence and category fit.
+- Confirmed all six Featured Picks exist in repository JSON with ratings, images, and Amazon links.
+- Removed the excluded Bulk Packaging SKU from the best-value page's embedded product collection so it cannot reappear in the supplemental grid.
+- Product JSON files, affiliate tag, CTA wording, compare pages, sitemap, robots, and search page were not modified.
+- Production was not published and browser automation was not run.
+Preview or Production: Preview
+
 ### 2026-06-17 - Best Value Editorial Picks Preview
 Type: Best Value page editorial structure pilot
 Completed Items:
