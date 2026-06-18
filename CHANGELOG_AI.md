@@ -6,6 +6,17 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-18 - Featured Picks Review Standard
+Type: Product recommendation documentation
+Completed Items:
+- Added `docs/FEATURED_PICKS_REVIEW.md` to define recurring Featured Picks editorial reviews while keeping the page UI fixed.
+- Defined Keep, Watch, and Replace statuses, page-specific review frequencies, and the required product review checklist.
+- Recorded the 2026-06-18 `best-value.html` review statuses and the next review date of 2026-07-18.
+- Limited each review to replacing no more than 1–2 Featured Picks.
+- HTML, product JSON, and Amazon links were not modified.
+- Production was not published and browser automation was not run.
+Preview or Production: Preview
+
 ### 2026-06-18 - Best Value More Keyboards Rendering Fix
 Type: Product recommendation rendering fix
 Completed Items:
