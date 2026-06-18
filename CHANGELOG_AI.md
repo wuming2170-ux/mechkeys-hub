@@ -481,3 +481,19 @@ Completed Items:
 - Browser automation skipped.
 
 Preview or Production: Preview
+
+### 2026-06-18 - Best Value Editorial UI Polish
+
+Type: Editorial page UI refinement
+
+Completed Items:
+
+- Shortened the six Featured Picks display headings while preserving the existing full product names as secondary text.
+- Standardized Featured Picks image areas with fixed-height, object-contain presentation and equal-height card layouts.
+- Kept Featured Picks CTAs aligned toward the bottom of each card across the desktop grid.
+- Removed the sticky header blur treatment and added anchor spacing so navigation does not visually cover editorial content.
+- Reduced the visual weight of More Keyboards to Consider and limited long product headings to three lines.
+- Product JSON, Amazon links, affiliate tags, and CTA wording were not modified.
+- Production was not published and browser automation was not run.
+
+Preview or Production: Preview
