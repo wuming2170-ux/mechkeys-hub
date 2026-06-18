@@ -6,6 +6,16 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-18 - Best Value Product Recommendation Page Standard Finalization
+Type: Product recommendation page standard
+Completed Items:
+- Finalized best-value as the product recommendation page standard.
+- Updated the positive meta description and matching Open Graph description.
+- Added FAQPage schema matching the three visible FAQ entries.
+- Added the product recommendation page standard document.
+- Preview only, not Production.
+Preview or Production: Preview
+
 ### 2026-06-18 - Best Value Featured Picks Product Correction
 Type: Editorial recommendation correction
 Completed Items:
