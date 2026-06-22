@@ -6,6 +6,17 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-22 - Gaming Recommendation Visual Alignment
+Type: Gaming recommendation visual consistency
+Completed Items:
+- Aligned `gaming.html` with the Production `best-value.html` recommendation template using the same amber CTA and badge color system.
+- Matched Featured card radius, border, hover, and image-frame styling to the reference page.
+- Matched More Keyboards card hierarchy, image height, muted borders, hover treatment, and CTA styling to the reference page.
+- Refined Hero and section spacing while preserving page structure, content, products, ASINs, and recommendation counts.
+- Product JSON, Amazon links, affiliate tags, CTA wording, Best Value, Compare pages, sitemap, robots, search, documentation, and recommendation products were not modified.
+- Production was not published and browser automation was not run.
+Preview or Production: Preview
+
 ### 2026-06-22 - Gaming Zero Price Data Cleanup
 Type: Gaming recommendation data cleanup
 Completed Items:
