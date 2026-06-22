@@ -6,6 +6,16 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-22 - Gaming Zero Price Data Cleanup
+Type: Gaming recommendation data cleanup
+Completed Items:
+- Removed 15 unused `$0` price fields from the legacy `topProducts` data embedded in `gaming.html`.
+- Kept the page free of fixed price display without substituting any replacement prices.
+- Preserved the five Featured Picks, eight More Keyboards, Amazon CTA wording, affiliate tags, FAQPage schema, canonical URL, and metadata.
+- Product JSON files, Amazon link source data, Best Value, Compare pages, sitemap, robots, search, guide pages, and documentation were not modified.
+- Production was not published and browser automation was not run.
+Preview or Production: Preview
+
 ### 2026-06-22 - Gaming Editorial Recommendations Preview
 Type: Gaming product recommendation page
 Completed Items:
