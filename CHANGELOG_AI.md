@@ -6,6 +6,16 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-22 - Featured Picks User Need Matching Standard
+Type: Product recommendation documentation
+Completed Items:
+- Added User Need Matching rules for Featured Picks.
+- Documented slot-level user intent for `best-value.html` recommendations.
+- Added User Need Matching checks to the recurring Featured Picks review process.
+- No HTML, product data, Amazon links, or CTA changes were made.
+- Production was not published and browser automation was not run.
+Preview or Production: Preview
+
 ### 2026-06-18 - Featured Picks Review Standard
 Type: Product recommendation documentation
 Completed Items:

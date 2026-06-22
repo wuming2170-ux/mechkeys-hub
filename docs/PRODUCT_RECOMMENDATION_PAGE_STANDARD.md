@@ -19,6 +19,33 @@ Use `best-value.html` as the reference template for editorial product recommenda
 - Keep the Amazon CTA as `Check Price on Amazon →` and preserve the affiliate tag.
 - Do not show fixed price promises or claim testing that was not performed.
 
+## User Need Matching
+
+Every recommendation page and Featured Pick must follow this decision chain:
+
+- Page = user scenario
+- Recommendation slot = user sub-need
+- Product = the corresponding solution
+- Copy = why the product fits that person
+- CTA = go to Amazon to confirm the current price
+
+- Featured Picks must not be selected only by rating, brand recognition, or specifications. Those signals support evaluation, but they do not establish that a product solves a specific user's problem.
+- Every recommendation slot must correspond to a clear user need within the page's broader user scenario.
+- Before selecting products for a new recommendation page, define the page-level user scenario and a recommendation-slot matrix. The matrix must identify each slot, its target user, the user's core decision problem, and the solution the slot should provide.
+- Select products only after the scenario and slot matrix are defined. Product fit must be evaluated against the need assigned to the slot.
+- Write card copy around who the product is for, why it solves that person's problem, and where it may disappoint. Do not rely on a generic feature or specification summary.
+
+### Featured Pick Pre-Publish Questions
+
+Before a Featured Pick can go live, all six questions must have explicit answers:
+
+1. Who is the user for this recommendation slot?
+2. What is this user's core decision problem?
+3. How does this product solve that problem?
+4. Where might this product disappoint the user?
+5. Is it the best current solution, or merely good enough?
+6. Does the recommendation-slot label accurately describe the user need?
+
 ## More Keyboards to Consider
 
 - Use this section for credible alternatives that complement, rather than duplicate, the Featured Picks.

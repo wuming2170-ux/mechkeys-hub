@@ -32,6 +32,16 @@ During every review, confirm:
 - The product genuinely fits its recommendation label.
 - No clearly better alternative is currently available.
 
+## User Need Matching Check
+
+During every Featured Picks review, confirm:
+
+- The user profile for each recommendation slot is still accurate.
+- The product still solves that user's need.
+- No better new product is currently available for that need.
+- The card copy explains who the product is suitable for and who it is not suitable for.
+- The recommendation-slot label still accurately describes the user need.
+
 ## Replacement Limit
 
 Replace no more than 1–2 Featured Picks in a single review. Do not replace the entire set at once. This keeps editorial changes controlled and makes recommendation quality easier to assess over time.
@@ -41,11 +51,11 @@ Replace no more than 1–2 Featured Picks in a single review. Do not replace the
 - **Last reviewed:** 2026-06-18
 - **Next review:** 2026-07-18
 
-| Recommendation | Product | Status |
-| --- | --- | --- |
-| Best Overall | AULA F75 Pro Wireless | Watch |
-| Best Budget | Redragon K631 | Keep |
-| Best Wireless | Keychron K8 HE | Keep |
-| Best for Gaming | Razer Huntsman Mini | Keep |
-| Best for Office | Logitech MX Mechanical | Keep |
-| Best Premium | Ducky One 3 SF Daybreak | Watch |
+| Recommendation | User Need | Product | Status |
+| --- | --- | --- | --- |
+| Best Overall | Buying a serious mechanical keyboard for the first time and wanting a versatile choice they will not regret | AULA F75 Pro Wireless | Watch |
+| Best Budget | Working with a limited budget but unwilling to settle for a low-quality keyboard | Redragon K631 | Keep |
+| Best Wireless | Wanting a cleaner desk, multi-device use, and fewer cables | Keychron K8 HE | Keep |
+| Best for Gaming | Prioritizing response speed and trust in a gaming-focused brand | Razer Huntsman Mini | Keep |
+| Best for Office | Working in an office, shared space, or remote setup and prioritizing quiet, stable operation | Logitech MX Mechanical | Keep |
+| Best Premium | Willing to spend more for typing feel, build quality, and a better long-term experience | Ducky One 3 SF Daybreak | Watch |
