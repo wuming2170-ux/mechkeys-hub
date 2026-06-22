@@ -6,6 +6,17 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-22 - Gaming Editorial Recommendations Preview
+Type: Gaming product recommendation page
+Completed Items:
+- Reworked `gaming.html` into the standard recommendation structure with Hero, Quick Picks, five static Featured Picks, eight More Keyboards, How to Choose, FAQ, and Related Links.
+- Matched each Featured Pick to a distinct gaming user need: budget entry, all-around gaming, wireless gaming, competitive FPS, and affordable Rapid Trigger.
+- Added visible FAQ content and matching FAQPage structured data, while preserving the production canonical at `https://mechkeyshub.com/gaming.html`.
+- Kept all product cards free of fixed price display and retained `Check Price on Amazon →` CTAs with `tag=mechkeyshub-20`.
+- Product JSON files, Amazon link source data, affiliate tags, CTA wording, Compare pages, sitemap, robots, search, guide pages, and documentation were not modified.
+- Production was not published and browser automation was not run.
+Preview or Production: Preview
+
 ### 2026-06-22 - Featured Picks User Need Matching Standard
 Type: Product recommendation documentation
 Completed Items:
