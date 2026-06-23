@@ -6,6 +6,17 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-23 - Silent Linear vs Silent Tactile Guide Preview
+Type: Silent switch guide page
+Completed Items:
+- Created `silent-linear-vs-silent-tactile.html` as an informational guide page explaining silent linear versus silent tactile switches.
+- Added an internal link from `silent.html` to the new guide page.
+- Added FAQPage and BreadcrumbList structured data for the new guide page.
+- Product data, Amazon links, affiliate tags, and CTA wording were not modified.
+- No fixed prices, product cards, product rankings, or Amazon CTAs were added.
+- Production was not published and browser automation was not run.
+Preview or Production: Preview
+
 ### 2026-06-22 - Gaming Recommendation Visual Alignment
 Type: Gaming recommendation visual consistency
 Completed Items:
