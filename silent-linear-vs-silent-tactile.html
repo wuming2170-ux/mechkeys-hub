@@ -59,6 +59,39 @@
         .comparison-table td { padding: 1rem; vertical-align: top; }
         .comparison-table tbody tr { border-top: 1px solid rgba(255, 255, 255, 0.08); }
         .comparison-table th { color: #fbbf24; font-weight: 700; text-align: left; }
+        .decision-card,
+        .use-case-card,
+        .noise-step {
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 0.5rem;
+            background: rgba(15, 23, 42, 0.48);
+        }
+        .decision-card {
+            position: relative;
+            overflow: hidden;
+        }
+        .decision-card::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-top: 3px solid rgba(103, 232, 249, 0.65);
+            pointer-events: none;
+        }
+        .decision-card.tactile::before { border-top-color: rgba(251, 191, 36, 0.72); }
+        .noise-flow {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+            gap: 0.75rem;
+            align-items: stretch;
+        }
+        .noise-arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #94a3b8;
+            font-weight: 800;
+            min-width: 1.25rem;
+        }
         @media (min-width: 1280px) and (max-width: 1399px) {
             .desktop-nav { gap: 0; }
             .desktop-nav .nav-link {
@@ -100,6 +133,8 @@
             h1, h2 { font-size: 1.75rem !important; }
             .hero-section { padding: 2rem 0.5rem !important; }
             .guide-content h2 { font-size: 1.5rem !important; }
+            .noise-flow { grid-template-columns: 1fr; }
+            .noise-arrow { min-height: 1.5rem; transform: rotate(90deg); }
         }
     </style>
 
@@ -253,6 +288,38 @@
                 </div>
 
                 <article class="space-y-12">
+                    <section aria-labelledby="quick-decision-heading">
+                        <h2 id="quick-decision-heading" class="sr-only">Quick Decision Cards</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="decision-card p-6 md:p-7">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <span class="w-10 h-10 rounded-lg bg-cyan-500/20 border border-cyan-300/30 flex items-center justify-center text-cyan-200">
+                                        <i class="fas fa-wave-square" aria-hidden="true"></i>
+                                    </span>
+                                    <h3 class="text-xl font-bold text-white mb-0">Choose Silent Linear if...</h3>
+                                </div>
+                                <ul class="space-y-2">
+                                    <li>You want the quietest, smoothest switch feel.</li>
+                                    <li>You type quickly and dislike tactile resistance.</li>
+                                    <li>You use the keyboard near coworkers, roommates, or a microphone.</li>
+                                </ul>
+                            </div>
+                            <div class="decision-card tactile p-6 md:p-7">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <span class="w-10 h-10 rounded-lg bg-amber-500/20 border border-amber-300/30 flex items-center justify-center text-amber-200">
+                                        <i class="fas fa-hand-pointer" aria-hidden="true"></i>
+                                    </span>
+                                    <h3 class="text-xl font-bold text-white mb-0">Choose Silent Tactile if...</h3>
+                                </div>
+                                <ul class="space-y-2">
+                                    <li>You want quieter typing but still need feedback.</li>
+                                    <li>You write, code, or edit for long sessions.</li>
+                                    <li>Silent linear switches feel too soft, floaty, or uncertain.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
                     <section id="how-silent-switches-reduce-noise" class="content-panel p-6 md:p-8">
                         <h2>How Silent Switches Reduce Noise</h2>
                         <p>
@@ -261,6 +328,25 @@
                         <p class="mt-4">
                             That dampening changes the sound and the feel, but it is only part of the keyboard. The case, mounting style, plate material, stabilizers, keycaps, desk mat, and typing force can all make a keyboard louder or quieter than the switch name suggests.
                         </p>
+                        <div class="noise-flow mt-6" aria-label="Silent switch noise reduction diagram">
+                            <div class="noise-step p-5">
+                                <div class="text-cyan-300 text-2xl mb-3"><i class="fas fa-arrow-down" aria-hidden="true"></i></div>
+                                <h3 class="text-lg text-white">Downstroke</h3>
+                                <p class="text-sm">The key moves down and would normally make a sharper bottom-out sound.</p>
+                            </div>
+                            <div class="noise-arrow" aria-hidden="true">→</div>
+                            <div class="noise-step p-5">
+                                <div class="text-amber-300 text-2xl mb-3"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
+                                <h3 class="text-lg text-white">Internal dampening</h3>
+                                <p class="text-sm">Small pads on the stem soften impact before it reaches the housing.</p>
+                            </div>
+                            <div class="noise-arrow" aria-hidden="true">→</div>
+                            <div class="noise-step p-5">
+                                <div class="text-cyan-300 text-2xl mb-3"><i class="fas fa-arrow-up" aria-hidden="true"></i></div>
+                                <h3 class="text-lg text-white">Upstroke</h3>
+                                <p class="text-sm">The stem returns upward with less top-out snap than a regular switch.</p>
+                            </div>
+                        </div>
                     </section>
 
                     <section id="silent-linear" class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -357,6 +443,32 @@
                             <li class="bg-slate-950/40 rounded-lg p-4 border border-white/10">Users already comfortable with tactile feedback.</li>
                             <li class="bg-slate-950/40 rounded-lg p-4 border border-white/10">People who think silent linear switches feel too floaty.</li>
                         </ul>
+                    </section>
+
+                    <section id="use-case-cards" class="content-panel p-6 md:p-8">
+                        <h2>Use Case Cards</h2>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5">
+                            <div class="use-case-card p-5">
+                                <div class="text-sm font-semibold text-cyan-300 mb-2">Leans Silent Linear</div>
+                                <h3 class="text-lg text-white">Open Office</h3>
+                                <p>A smooth silent linear switch usually creates the least distracting switch noise for nearby desks.</p>
+                            </div>
+                            <div class="use-case-card p-5">
+                                <div class="text-sm font-semibold text-cyan-300 mb-2">Leans Silent Linear</div>
+                                <h3 class="text-lg text-white">Video Calls</h3>
+                                <p>Linear dampening helps reduce sharp key sounds that microphones can emphasize during meetings.</p>
+                            </div>
+                            <div class="use-case-card p-5">
+                                <div class="text-sm font-semibold text-amber-300 mb-2">Leans Silent Tactile</div>
+                                <h3 class="text-lg text-white">Writers &amp; Programmers</h3>
+                                <p>The tactile bump can help with rhythm and accuracy when typing for long, focused sessions.</p>
+                            </div>
+                            <div class="use-case-card p-5">
+                                <div class="text-sm font-semibold text-amber-300 mb-2">Depends on Shared Space</div>
+                                <h3 class="text-lg text-white">Shared Rooms</h3>
+                                <p>Pick silent linear for maximum quiet, or silent tactile if feedback prevents heavier bottoming out.</p>
+                            </div>
+                        </div>
                     </section>
 
                     <section id="quiet-misconceptions" class="content-panel p-6 md:p-8">

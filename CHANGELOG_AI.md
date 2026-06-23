@@ -6,6 +6,16 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-23 - Silent Linear vs Silent Tactile Readability Modules
+Type: Silent switch guide readability update
+Completed Items:
+- Added Quick Decision Cards after the hero to help users choose between silent linear and silent tactile switches faster.
+- Added a lightweight CSS/text diagram explaining downstroke, internal dampening, and upstroke noise reduction.
+- Added Use Case Cards for open offices, video calls, writers and programmers, and shared rooms.
+- Kept canonical, metadata, FAQPage schema, product data, Amazon links, product cards, and prices unchanged.
+- Production was not published and browser automation was not run.
+Preview or Production: Preview
+
 ### 2026-06-23 - Silent Linear vs Silent Tactile Guide Preview
 Type: Silent switch guide page
 Completed Items:
