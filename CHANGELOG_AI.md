@@ -6,6 +6,14 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-23 - Silent Linear vs Silent Tactile Sitemap Entry
+Type: Sitemap update
+Completed Items:
+- Added sitemap entry for `silent-linear-vs-silent-tactile.html` guide page.
+- Page HTML, product data, Amazon links, affiliate tags, CTA wording, robots, search, and guide pages were not modified.
+- Production was not published and browser automation was not run.
+Preview or Production: Preview
+
 ### 2026-06-23 - Silent Linear vs Silent Tactile Readability Modules
 Type: Silent switch guide readability update
 Completed Items:
