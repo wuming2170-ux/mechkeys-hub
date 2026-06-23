@@ -6,6 +6,16 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-06-23 - Silent Linear vs Silent Tactile Guide Production Release
+Type: Production release
+Completed Items:
+- Published `silent-linear-vs-silent-tactile.html` guide page to Production.
+- Released the `silent.html` internal link to the new guide page.
+- Released the sitemap entry for `https://mechkeyshub.com/silent-linear-vs-silent-tactile.html`.
+- Confirmed product data, Amazon links, affiliate tags, CTA wording, Best Value, Gaming, robots, search, and existing guide pages were not modified for this Production release.
+- Browser automation was not run.
+Preview or Production: Production
+
 ### 2026-06-23 - Silent Linear vs Silent Tactile Sitemap Entry
 Type: Sitemap update
 Completed Items:
