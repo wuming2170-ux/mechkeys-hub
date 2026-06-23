@@ -582,3 +582,19 @@ Completed Items:
 - Production was not published and browser automation was not run.
 
 Preview or Production: Preview
+
+### 2026-06-23 - Silent Editorial Recommendation Page Preview
+
+Type: Editorial recommendation page update
+
+Completed Items:
+
+- Rebuilt `silent.html` as a standard static recommendation page with Hero, Quick Picks, Featured Picks, More Keyboards to Consider, How to Choose, FAQ, and Related Links sections.
+- Added five user-need-matched Featured Picks for silent overall, budget, office calls, wireless, and tactile quiet typing use cases.
+- Added eight curated More Keyboards to Consider entries from existing product data while excluding the five Featured Picks.
+- Updated silent page title, meta description, canonical, social metadata, FAQPage schema, and visible FAQ content for the silent keyboard intent.
+- Preserved Amazon CTA wording as `Check Price on Amazon →` and used affiliate-tagged Amazon URLs.
+- Product JSON, Amazon source data, affiliate tag rules, sitemap, robots, search, guide, compare, best-value, and gaming pages were not modified.
+- Production was not published and browser automation was not run.
+
+Preview or Production: Preview
