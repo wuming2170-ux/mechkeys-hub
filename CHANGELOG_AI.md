@@ -6,6 +6,16 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-07-07 - 75 Percent Card Copy Cleanup
+Type: Recommendation page copy cleanup
+Completed Items:
+- Cleaned ASUS ROG Azoth Featured Pick copy to remove data-source wording.
+- Cleaned Keychron K2 Featured Pick trade-off copy to remove data-source wording.
+- Refined AULA F75 Pro positioning copy to describe 60% and 65% layout trade-offs more accurately.
+- Product choices, ASINs, More Keyboards logic, FAQ, metadata, canonical, schema, compare pages, product JSON, sitemap, robots, search, guide pages, and brand pages were not modified.
+- Production was not published and browser automation was not run.
+Preview or Production: Preview
+
 ### 2026-07-07 - 75 Percent Editorial Recommendation Preview
 Type: Layout recommendation page upgrade
 Completed Items:
