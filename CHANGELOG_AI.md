@@ -6,6 +6,21 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-07-07 - 75 Percent Editorial Recommendation Preview
+Type: Layout recommendation page upgrade
+Completed Items:
+- Upgraded `75_percent.html` to an editorial recommendation page for Best 75% Mechanical Keyboards.
+- Added a Quick Decision module for choosing 75%, TKL, 65%, or avoiding 75%.
+- Added four Featured Picks using User Need Matching from existing 75% product data.
+- Added a 75% vs other layouts module with natural internal links.
+- Added Who Should Buy and Who Should NOT Buy sections.
+- Added How to Choose guidance for wireless, switches, hot-swap, software, Mac support, knob/screen, stabilizers, and keycap compatibility.
+- Added five visible FAQ entries and matching FAQPage schema.
+- Preserved Amazon CTA wording and affiliate tag handling.
+- Did not modify compare pages.
+- Aligned UI with recent standard recommendation and guide pages.
+Preview or Production: Preview
+
 ### 2026-06-23 - Silent Linear vs Silent Tactile Guide Production Release
 Type: Production release
 Completed Items:
