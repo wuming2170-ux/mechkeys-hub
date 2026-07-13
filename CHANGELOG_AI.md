@@ -6,6 +6,20 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-07-13 - 75 Percent Editorial Recommendation Production Release Backfill
+Type: Production release
+Completed Items:
+- Backfilled the Production release record for the upgraded `75_percent.html` editorial recommendation page.
+- Production page: `https://mechkeyshub.com/75_percent.html`
+- Production commit: `93d141e917a3c6f24f006ea031ad74eafe9f26b7`
+- Local Git confirmed the Production commit date as 2026-07-07, but a separate Vercel Production release date was not confirmed from local records; this backfill record uses the current date, 2026-07-13.
+- Added Quick Decision module, four Featured Picks, More 75% Keyboards filtering, 75% vs other layouts module, Who Should Buy / Who Should NOT Buy sections, How to Choose, five FAQ entries, FAQPage schema, and Breadcrumb cleanup.
+- Fixed duplicate meta description and preserved canonical `https://mechkeyshub.com/75_percent.html`.
+- Preserved Amazon CTA wording `Check Price on Amazon →` and affiliate tag `tag=mechkeyshub-20`.
+- Did not modify compare pages, product JSON, Amazon links, affiliate tags, sitemap, robots, search, guide pages, or brand pages.
+- Production was not published and browser automation was not run during this changelog backfill.
+Preview or Production: Production
+
 ### 2026-07-07 - 75 Percent Card Copy Cleanup
 Type: Recommendation page copy cleanup
 Completed Items:
