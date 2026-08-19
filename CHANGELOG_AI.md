@@ -6,6 +6,14 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-08-19 - 60 Percent Editorial Recommendation Production Release
+Type: Production metadata fix and release
+Completed Items:
+- Updated the `60_percent.html` meta, Open Graph, and Twitter descriptions from three picks to four picks so metadata matches the completed Featured Picks section.
+- Preserved the four approved Featured Picks, two More Keyboards products, canonical URL, FAQ schema, Amazon CTA wording, and affiliate tags.
+- Released the approved 60 Percent Editorial Recommendation page to Production after final desktop and mobile validation.
+Preview or Production: Production
+
 ### 2026-08-19 - 60 Percent Best Wireless Featured Pick Preview
 Type: Recommendation page Featured Pick completion
 Completed Items:
