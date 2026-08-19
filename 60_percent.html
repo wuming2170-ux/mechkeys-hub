@@ -379,7 +379,7 @@
 
                 <!-- Featured Picks -->
                 <div class="mb-16">
-                    <div class="mb-8"><h2 class="text-3xl font-bold">Featured Picks</h2><p class="text-gray-400 mt-2">Each approved pick matches a distinct 60% buyer need. Unconfirmed slots remain empty rather than being filled with uncertain product data.</p></div>
+                    <div class="mb-8"><h2 class="text-3xl font-bold">Featured Picks</h2><p class="text-gray-400 mt-2">Each approved pick matches a distinct 60% buyer need, from a straightforward wired board to competitive, budget hot-swap, and wireless options.</p></div>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <article id="best-60-most-people" class="featured-card h-full flex flex-col bg-white/5 rounded-lg p-6 border border-white/10 hover:border-amber-500/50 transition">
                             <div class="inline-flex self-start items-center px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-sm font-semibold mb-4">Best 60% for Most People</div>
@@ -414,7 +414,16 @@
                             <a href="https://www.amazon.com/dp/B09BVCVTBC/?tag=mechkeyshub-20" target="_blank" rel="sponsored noopener" class="mt-auto block w-full py-3 bg-amber-600 hover:bg-amber-700 rounded-xl text-center font-semibold transition">Check Price on Amazon →</a>
                         </article>
 
-                        <!-- SLOT 4: Pending final wireless candidate confirmation. -->
+                        <article id="best-wireless-60" class="featured-card h-full flex flex-col bg-white/5 rounded-lg p-6 border border-white/10 hover:border-amber-500/50 transition">
+                            <div class="inline-flex self-start items-center px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-sm font-semibold mb-4">Best Wireless 60%</div>
+                            <div class="featured-image bg-slate-900/80 rounded-lg mb-4 flex items-center justify-center overflow-hidden border border-white/5"><img loading="lazy" src="https://m.media-amazon.com/images/I/71NFUiC1XaL._AC_UY218_.jpg" alt="SteelSeries Apex Pro Mini Wireless" class="product-image"></div>
+                            <div class="flex items-center gap-2 text-sm text-amber-300 mb-3"><i class="fas fa-star"></i><span>4.4/5 · 305 reviews</span></div>
+                            <h3 class="text-xl font-bold mb-3">SteelSeries Apex Pro Mini Wireless</h3>
+                            <ul class="space-y-2 text-gray-400 text-sm mb-4"><li>✓ 60% / 61-key compact layout</li><li>✓ 2.4GHz wireless, Bluetooth 5.0, and USB-C</li><li>✓ OmniPoint 2.0 adjustable switches</li></ul>
+                            <p class="text-gray-300 mb-3"><span class="font-semibold text-white">Choose this if...</span> you want a true 60% footprint with gaming-oriented 2.4GHz wireless, Bluetooth flexibility, and adjustable actuation.</p>
+                            <p class="text-gray-400 text-sm mb-4"><span class="font-semibold text-amber-300">Honest trade-off:</span> wireless flexibility and adjustable actuation make it a more premium option than a basic wired 60% board.</p>
+                            <a href="https://www.amazon.com/dp/B0B16JFF54/?tag=mechkeyshub-20" target="_blank" rel="sponsored noopener" class="mt-auto block w-full py-3 bg-amber-600 hover:bg-amber-700 rounded-xl text-center font-semibold transition">Check Price on Amazon →</a>
+                        </article>
                     </div>
                 </div>
 
@@ -12779,7 +12788,7 @@ const topProducts = [
             return String(rating).trim();
         }
 
-        const featuredAsins = new Set(["B089GN2KBT", "B0DT43NNNF", "B09BVCVTBC"]);
+        const featuredAsins = new Set(["B089GN2KBT", "B0DT43NNNF", "B09BVCVTBC", "B0B16JFF54"]);
         const accessoryPattern = /keyboard switch|switch set|keycap set|keycaps? for|pouch|carrying case|travel bag|usb cable|desk mat|wrist rest/i;
         const preferredMoreAsins = ["B08Y8RSC1Q", "B0F1ZW5BGT"];
         const eligibleMoreProducts = topProducts.filter(product => {

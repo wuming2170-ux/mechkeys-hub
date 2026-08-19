@@ -6,6 +6,17 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-08-19 - 60 Percent Best Wireless Featured Pick Preview
+Type: Recommendation page Featured Pick completion
+Completed Items:
+- Added SteelSeries Apex Pro Mini Wireless as the approved Best Wireless 60% Featured Pick using the supplied product verification.
+- Used the repository rating of 4.4 and review count of 305 without displaying a fixed price.
+- Added the approved 60% layout, 61-key, 2.4GHz wireless, Bluetooth 5.0, USB-C, and OmniPoint 2.0 switch details to page copy only.
+- Added ASIN `B0B16JFF54` to the Featured exclusion set while retaining the existing two More Keyboards products.
+- Completed the four-card Featured Picks grid without modifying shared product JSON or inline product data.
+- Production was not published.
+Preview or Production: Preview
+
 ### 2026-08-19 - 60 Percent Editorial Recommendation Preview Follow-up
 Type: Recommendation page verification follow-up
 Completed Items:
