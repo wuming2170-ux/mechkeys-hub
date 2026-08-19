@@ -6,6 +6,19 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-08-19 - 60 Percent Editorial Recommendation Preview Follow-up
+Type: Recommendation page verification follow-up
+Completed Items:
+- Updated the approved K617 Featured Pick display name to `Redragon K617 Fizz` and replaced the generic switch wording with `Linear Red switches` based on the supplied official verification.
+- Retained AULA WIN68 HE as the approved Best for Competitive Gaming Featured Pick.
+- Added Quick Decision links for 65% and 75% keyboards plus the detailed 60% vs 75% comparison.
+- Added natural larger-layout next steps for arrow-key-heavy, F-row/programming, and spreadsheet/familiarity use cases.
+- Prepared the Featured Picks grid for four desktop columns while keeping the fourth wireless slot pending and unfilled.
+- Extended More Keyboards accessory filtering to exclude desk mats and wrist rests; retained the existing two products.
+- Product JSON and inline product data sources were not modified.
+- Production was not published.
+Preview or Production: Preview
+
 ### 2026-08-19 - 60 Percent Editorial Recommendation Preview
 Type: Layout recommendation page upgrade
 Completed Items:
