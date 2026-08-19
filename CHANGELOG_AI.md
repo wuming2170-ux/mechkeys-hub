@@ -6,6 +6,19 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-08-19 - 60 Percent Editorial Recommendation Preview
+Type: Layout recommendation page upgrade
+Completed Items:
+- Upgraded `60_percent.html` to the established MechKeysHub editorial recommendation structure with Hero, Quick Decision, Featured Picks, More Keyboards, layout comparisons, buyer-fit guidance, How to Choose, FAQ, and Related Links.
+- Added three approved Featured Picks: RK Royal Kludge RK61 for most people, AULA WIN68 HE for competitive gaming, and K617 Fizz for a budget hot-swap option without assigning an unverified brand.
+- Kept the Best Wireless 60% slot unfilled with the required pending-confirmation placeholder.
+- Limited More Keyboards to two repository-supported products after accessory, rating, review-count, and duplicate color-variant filtering.
+- Removed duplicate meta description and keywords tags, removed the old ItemList schema, added matching visible FAQ and FAQPage schema, and completed BreadcrumbList position 2.
+- Preserved canonical `https://mechkeyshub.com/60_percent.html`, Amazon CTA wording `Check Price on Amazon →`, and affiliate tag `tag=mechkeyshub-20`.
+- Product JSON and inline product data sources were not modified.
+- Production was not published.
+Preview or Production: Preview
+
 ### 2026-07-13 - 75 Percent Editorial Recommendation Production Release Backfill
 Type: Production release
 Completed Items:
