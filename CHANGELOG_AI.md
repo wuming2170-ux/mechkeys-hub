@@ -6,6 +6,24 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-10-09 - 65% Editorial Recommendation Page Preview
+
+Type: Editorial recommendation page update
+
+Completed Items:
+
+- Rebuilt `65_percent.html` around a static buying-decision flow: Hero, Quick Decision, Featured Picks, layout comparison, audience guidance, buying criteria, FAQ, and related links.
+- Added four focused Featured Picks: Glorious GMMK 2 Compact 65%, Redragon K631 PRO, Keychron K6 Pro, and Ducky One 3 SF Daybreak.
+- Omitted the optional More Keyboards module because no additional products were verified to the required editorial standard.
+- Removed the outdated visible dynamic product grid and its displayed prices and ratings without modifying the shared `topProducts` data.
+- Updated title, meta description, canonical-adjacent social metadata, BreadcrumbList, SearchAction, and FAQPage structured data; removed the unrelated ItemList schema.
+- Standardized all four Amazon CTAs to `Check Price on Amazon →`, included `tag=mechkeyshub-20`, and added `rel="sponsored noopener"`.
+- Verified desktop and 390px mobile rendering, no horizontal overflow, four Featured Picks, no empty More Keyboards module, valid JSON-LD, working internal targets, and no browser console errors.
+- Product identity/configuration evidence was checked, but current Amazon sales status could not be confirmed automatically for every ASIN; production remains blocked pending manual verification.
+- Production was not published.
+
+Preview or Production: Preview
+
 ### 2026-08-19 - 60 Percent Editorial Recommendation Production Release
 Type: Production metadata fix and release
 Completed Items:
