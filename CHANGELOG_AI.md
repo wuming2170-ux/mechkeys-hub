@@ -6,6 +6,21 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-10-09 - 65% Editorial Final Pre-Production Fix V3
+
+Type: Pre-production editorial cleanup and image presentation adjustment
+
+Completed Items:
+
+- Removed user-visible internal review and publication-process wording from the 65% hero and Featured Picks introduction while preserving consumer guidance and the Amazon affiliate disclosure.
+- Reduced the Redragon K631 PRO image adjustment from `scale(1.3)` to a conservative proportional `scale(1.15)` so its keyboard body aligns more closely with the other Featured Picks without stretching or subject cropping.
+- Retained the existing Redragon and Ducky image URLs because no replacement with confirmed reuse permission and exact candidate-ASIN variant matching was available; image-source authorization remains a manual pre-production review item.
+- Verified 1440px, 1024px, 768px, and 390px rendering with no horizontal overflow, failed Featured Picks images, console errors, or page errors; mobile navigation and FAQ interactions remained functional.
+- Confirmed SEO metadata, canonical, JSON-LD, FAQ content, internal link targets, four Amazon ASIN URLs, affiliate tags, CTA wording, shared `topProducts` data, and affiliate disclosure are unchanged.
+- Production was not published.
+
+Preview or Production: Preview
+
 ### 2026-10-09 - 65% Editorial Visual Consistency Refactor V2
 
 Type: Visual consistency and responsive presentation update
