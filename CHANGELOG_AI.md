@@ -20,6 +20,7 @@ Completed Items:
 - Standardized all four Amazon CTAs to `Check Price on Amazon →`, included `tag=mechkeyshub-20`, and added `rel="sponsored noopener"`.
 - Verified desktop and 390px mobile rendering, no horizontal overflow, four Featured Picks, no empty More Keyboards module, valid JSON-LD, working internal targets, and no browser console errors.
 - Product identity/configuration evidence was checked, but current Amazon sales status could not be confirmed automatically for every ASIN; production remains blocked pending manual verification.
+- Vercel Preview creation was attempted, but the configured local Vercel credential was invalid; no hosted Preview URL was created.
 - Production was not published.
 
 Preview or Production: Preview
