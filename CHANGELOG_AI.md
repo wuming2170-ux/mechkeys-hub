@@ -6,6 +6,22 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-10-09 - 65% Editorial Visual Consistency Refactor V2
+
+Type: Visual consistency and responsive presentation update
+
+Completed Items:
+
+- Aligned the `65_percent.html` hero, Quick Decision, Featured Picks, layout comparison, audience guidance, buying criteria, FAQ, related links, and footer with the established visual language of the 60% and 75% recommendation pages.
+- Standardized the four Featured Picks as a four-column desktop grid with consistent amber labels and CTAs, fixed-height image frames, card spacing, typography, borders, and hover treatment.
+- Replaced the failed Keychron thumbnail with a verified official Keychron K6 Pro Brown configuration image and retained the existing product, ASIN, affiliate URL, and recommendation copy.
+- Preserved the existing title, description, canonical, Open Graph/Twitter metadata, JSON-LD, FAQ content, internal link targets, Amazon product URLs, affiliate tags, and shared `topProducts` data.
+- Verified actual browser rendering at 1440px, 1024px, 768px, and 390px with no horizontal overflow, four successful product-image loads, working mobile navigation and FAQ interactions, and no console or page errors.
+- Confirmed all local internal link targets exist, all three JSON-LD blocks parse successfully, no empty More Keyboards module is rendered, and no product price, rating, review count, or stock claim is visibly displayed.
+- Production was not published.
+
+Preview or Production: Preview
+
 ### 2026-10-09 - 65% Editorial Recommendation Page Preview
 
 Type: Editorial recommendation page update

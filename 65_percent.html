@@ -30,24 +30,25 @@
     <style>
         body { font-family: 'Inter', system-ui, sans-serif; }
         .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%); }
-        .featured-card {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-        .featured-image {
-            aspect-ratio: 16 / 10;
-            background: linear-gradient(135deg, #1e293b, #0f172a);
+        .featured-card { scroll-margin-top: 6.5rem; }
+        .featured-image { height: 13.5rem; padding: 1rem; }
+        .product-image { width: 100%; height: 100%; object-fit: contain; }
+        .product-image-spacious { transform: scale(1.3); }
+        .decision-card {
+            position: relative;
             overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 0.75rem;
+            background: rgba(255, 255, 255, 0.05);
         }
-        .product-image {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            padding: 1rem;
+        .decision-card::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-top: 3px solid rgba(103, 232, 249, 0.65);
+            pointer-events: none;
         }
-        .decision-card { height: 100%; }
-        .section-copy { max-width: 52rem; }
+        .decision-card.warning::before { border-top-color: rgba(251, 191, 36, 0.75); }
 
         /* Mobile Navigation */
         .mobile-menu-btn { display: none; }
@@ -95,10 +96,9 @@
 
         /* Touch-friendly editorial cards on mobile */
         @media (max-width: 640px) {
-            h1, h2 { font-size: 1.75rem !important; }
+            h1 { font-size: 1.875rem !important; }
+            h2 { font-size: 1.75rem !important; }
             .hero-section { padding: 2rem 0.5rem !important; }
-            .featured-card { padding: 1rem !important; }
-            .product-image { padding: 0.75rem; }
         }
 
         /* Search Box */
@@ -357,206 +357,165 @@
         });
     </script>
     <main>
-        <!-- Hero -->
-        <section class="hero-section py-14 px-4">
-            <div class="max-w-5xl mx-auto text-center">
-                <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-400/30 text-cyan-200 text-sm font-semibold mb-5">65% layout buying guide</span>
-                <h1 class="text-4xl md:text-6xl font-bold mb-5">The Compact Layout That Keeps Your Arrow Keys</h1>
-                <p class="text-lg md:text-xl text-gray-300 section-copy mx-auto">65% mechanical keyboards provide dedicated arrow keys while retaining a compact footprint. They are the practical middle ground for buyers who find 60% too dependent on layers but do not need the physical function row of a 75% board.</p>
-                <p class="text-sm text-gray-400 mt-5">Four focused picks. No displayed prices, ratings, review counts, or stock claims.</p>
-            </div>
-        </section>
-
-        <!-- Quick Decision -->
-        <section class="py-10 px-4 bg-slate-950/35" aria-labelledby="quick-decision-heading">
+        <section class="hero-section pt-12 pb-6 px-4">
             <div class="max-w-7xl mx-auto">
-                <h2 id="quick-decision-heading" class="text-2xl md:text-3xl font-bold mb-3">Quick Decision</h2>
-                <p class="text-gray-300 mb-7 section-copy">Start with the keys you need, then choose connectivity and switches. Layout is harder to change later than either keycaps or hot-swappable switches.</p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
-                    <article class="decision-card bg-cyan-500/10 border border-cyan-400/30 rounded-2xl p-6">
-                        <h3 class="text-xl font-bold text-cyan-200 mb-2">Choose 65% if…</h3>
-                        <p class="text-gray-300">You want dedicated arrows, a narrow board, and can use an Fn layer for F1–F12. This is the best balance for most compact-keyboard buyers.</p>
-                    </article>
-                    <article class="decision-card bg-white/5 border border-white/10 rounded-2xl p-6">
-                        <h3 class="text-xl font-bold mb-2">Choose 60% if…</h3>
-                        <p class="text-gray-300">Maximum mouse room and portability matter more than dedicated arrows. Expect to learn more layer shortcuts.</p>
-                    </article>
-                    <article class="decision-card bg-white/5 border border-white/10 rounded-2xl p-6">
-                        <h3 class="text-xl font-bold mb-2">Choose 75% if…</h3>
-                        <p class="text-gray-300">You regularly use F-keys for work, games, or creative software and can accept a slightly wider footprint.</p>
-                    </article>
+                <div class="text-center mb-12">
+                    <span class="inline-block px-4 py-2 bg-cyan-500/20 text-cyan-300 rounded-full text-sm font-semibold mb-4">65% LAYOUT PICKS</span>
+                    <h1 class="text-3xl md:text-5xl font-bold mb-4">Best 65% Mechanical Keyboards</h1>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">65% mechanical keyboards provide dedicated arrow keys while retaining a compact footprint. They are the practical middle ground for buyers who find 60% too dependent on layers but do not need the physical function row of a 75% board.</p>
+                    <p class="text-gray-400 max-w-3xl mx-auto mt-4">Four focused picks for everyday use, budget flexibility, wireless work, and premium typing. No displayed prices, ratings, review counts, or stock claims.</p>
                 </div>
-            </div>
-        </section>
 
-        <!-- Featured Picks -->
-        <section class="py-14 px-4" aria-labelledby="featured-picks-heading">
-            <div class="max-w-7xl mx-auto">
-                <h2 id="featured-picks-heading" class="text-2xl md:text-4xl font-bold mb-3">Featured Picks</h2>
-                <p class="text-gray-300 mb-8 section-copy">Each pick serves a different buyer. Product identity and configuration evidence has been checked, but Amazon sales status still requires manual review before production publication.</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <article class="featured-card bg-white/5 rounded-2xl p-6 border border-white/10">
-                        <span class="self-start px-3 py-1 rounded-full bg-cyan-500/15 text-cyan-200 border border-cyan-400/30 text-xs font-bold mb-4">Best 65% for Most People</span>
-                        <div class="featured-image rounded-xl mb-5 flex items-center justify-center">
-                            <img src="https://m.media-amazon.com/images/I/71-mdutc7JL._AC_UY218_.jpg" alt="Glorious GMMK 2 Compact 65% keyboard" class="product-image" loading="lazy" width="500" height="313" onerror="this.hidden=true;this.nextElementSibling.classList.remove('hidden')">
-                            <span class="hidden text-6xl" aria-hidden="true">⌨️</span>
+                <!-- Quick Decision -->
+                <div class="mb-16" aria-labelledby="quick-decision-heading">
+                    <h2 id="quick-decision-heading" class="text-3xl font-bold mb-8 text-center">Quick Decision</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                        <div class="decision-card p-6">
+                            <div class="w-10 h-10 rounded-lg bg-cyan-500/20 border border-cyan-300/30 flex items-center justify-center text-cyan-200 mb-4"><i class="fas fa-check"></i></div>
+                            <h3 class="text-xl font-bold mb-3">Choose 65%</h3>
+                            <p class="text-gray-300">You want dedicated arrows, a narrow board, and can use an Fn layer for F1–F12. This is the best balance for most compact-keyboard buyers.</p>
                         </div>
-                        <h3 class="text-2xl font-bold mb-2">Glorious GMMK 2 Compact 65% Prebuilt</h3>
-                        <p class="text-gray-300 mb-4">A straightforward wired recommendation with a compact aluminum top frame, dedicated arrows, Glorious Fox linear switches, and a 5-pin hot-swappable PCB.</p>
-                        <div class="flex flex-wrap gap-2 mb-5">
-                            <span class="text-xs bg-slate-700 px-2 py-1 rounded">Wired USB-C</span><span class="text-xs bg-slate-700 px-2 py-1 rounded">Fox linear</span><span class="text-xs bg-slate-700 px-2 py-1 rounded">Hot-swappable</span>
+                        <div class="decision-card warning p-6">
+                            <div class="w-10 h-10 rounded-lg bg-amber-500/20 border border-amber-300/30 flex items-center justify-center text-amber-200 mb-4"><i class="fas fa-compress"></i></div>
+                            <h3 class="text-xl font-bold mb-3">Consider 60%</h3>
+                            <p class="text-gray-300">Maximum mouse room and portability matter more than dedicated arrows. Expect to learn more layer shortcuts.</p>
                         </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 text-sm">
-                            <div><p class="font-semibold text-emerald-300 mb-1">Why it stands out</p><p class="text-gray-400">Easy-to-understand feature set and switch customization without paying for wireless modes you may not use.</p></div>
-                            <div><p class="font-semibold text-amber-300 mb-1">Know before buying</p><p class="text-gray-400">It is wired only, and F1–F12 remain on the function layer.</p></div>
+                        <div class="decision-card warning p-6">
+                            <div class="w-10 h-10 rounded-lg bg-amber-500/20 border border-amber-300/30 flex items-center justify-center text-amber-200 mb-4"><i class="fas fa-keyboard"></i></div>
+                            <h3 class="text-xl font-bold mb-3">Consider 75%</h3>
+                            <p class="text-gray-300">You regularly use F-keys for work, games, or creative software and can accept a slightly wider footprint.</p>
                         </div>
-                        <a href="https://www.amazon.com/dp/B09YZ48RQH?tag=mechkeyshub-20" target="_blank" rel="sponsored noopener" class="mt-auto block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition">Check Price on Amazon →</a>
-                    </article>
-
-                    <article class="featured-card bg-white/5 rounded-2xl p-6 border border-white/10">
-                        <span class="self-start px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-200 border border-emerald-400/30 text-xs font-bold mb-4">Best Budget 65%</span>
-                        <div class="featured-image rounded-xl mb-5 flex items-center justify-center">
-                            <img src="https://redragonshop.com/cdn/shop/products/RedragonK631PRO65_3-ModeWirelessRGBGamingKeyboard_1.png?v=1762459190&amp;width=1445" alt="Redragon K631 PRO 65% keyboard" class="product-image" loading="lazy" width="500" height="313" onerror="this.hidden=true;this.nextElementSibling.classList.remove('hidden')">
-                            <span class="hidden text-6xl" aria-hidden="true">⌨️</span>
-                        </div>
-                        <h3 class="text-2xl font-bold mb-2">Redragon K631 PRO</h3>
-                        <p class="text-gray-300 mb-4">A feature-heavy 68-key option for buyers who prioritize flexible connectivity and hot-swap support at the budget end of the category.</p>
-                        <div class="flex flex-wrap gap-2 mb-5">
-                            <span class="text-xs bg-slate-700 px-2 py-1 rounded">68 keys</span><span class="text-xs bg-slate-700 px-2 py-1 rounded">USB-C + Bluetooth + 2.4GHz</span><span class="text-xs bg-slate-700 px-2 py-1 rounded">Hot-swappable</span>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 text-sm">
-                            <div><p class="font-semibold text-emerald-300 mb-1">Why it stands out</p><p class="text-gray-400">Tri-mode connectivity makes it easy to move between a desktop, laptop, and another wireless device.</p></div>
-                            <div><p class="font-semibold text-amber-300 mb-1">Know before buying</p><p class="text-gray-400">Its value-first case and software experience are less refined than the premium pick.</p></div>
-                        </div>
-                        <a href="https://www.amazon.com/dp/B09ZNMRMHD?tag=mechkeyshub-20" target="_blank" rel="sponsored noopener" class="mt-auto block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition">Check Price on Amazon →</a>
-                    </article>
-
-                    <article class="featured-card bg-white/5 rounded-2xl p-6 border border-white/10">
-                        <span class="self-start px-3 py-1 rounded-full bg-blue-500/15 text-blue-200 border border-blue-400/30 text-xs font-bold mb-4">Best Wireless 65% for Everyday Use</span>
-                        <div class="featured-image rounded-xl mb-5 flex items-center justify-center">
-                            <span class="text-6xl" aria-hidden="true">⌨️</span>
-                        </div>
-                        <h3 class="text-2xl font-bold mb-2">Keychron K6 Pro</h3>
-                        <p class="text-gray-300 mb-4">A versatile everyday board for multi-device work, with Bluetooth 5.1, USB-C, hot-swap sockets, and programmable keymaps.</p>
-                        <div class="flex flex-wrap gap-2 mb-5">
-                            <span class="text-xs bg-slate-700 px-2 py-1 rounded">Bluetooth 5.1 + USB-C</span><span class="text-xs bg-slate-700 px-2 py-1 rounded">Brown switches</span><span class="text-xs bg-slate-700 px-2 py-1 rounded">Hot-swappable</span>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 text-sm">
-                            <div><p class="font-semibold text-emerald-300 mb-1">Why it stands out</p><p class="text-gray-400">Bluetooth device switching and wired operation suit desks shared by a computer, tablet, or phone.</p></div>
-                            <div><p class="font-semibold text-amber-300 mb-1">Know before buying</p><p class="text-gray-400">There is no 2.4GHz mode, so latency-sensitive wireless gaming is not its strongest use case.</p></div>
-                        </div>
-                        <a href="https://www.amazon.com/dp/B09MNC15FF?tag=mechkeyshub-20" target="_blank" rel="sponsored noopener" class="mt-auto block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition">Check Price on Amazon →</a>
-                    </article>
-
-                    <article class="featured-card bg-white/5 rounded-2xl p-6 border border-white/10">
-                        <span class="self-start px-3 py-1 rounded-full bg-purple-500/15 text-purple-200 border border-purple-400/30 text-xs font-bold mb-4">Best Premium 65%</span>
-                        <div class="featured-image rounded-xl mb-5 flex items-center justify-center">
-                            <img src="https://fullh4rd.com.ar/img/productos/8/teclado-mecanico-ducky-one-3-sf-daybreak-rgb-cherry-mx-brown-double-shot-pbt-0.jpg" alt="Ducky One 3 SF Daybreak 65% keyboard" class="product-image" loading="lazy" width="500" height="313" onerror="this.hidden=true;this.nextElementSibling.classList.remove('hidden')">
-                            <span class="hidden text-6xl" aria-hidden="true">⌨️</span>
-                        </div>
-                        <h3 class="text-2xl font-bold mb-2">Ducky One 3 SF Daybreak</h3>
-                        <p class="text-gray-300 mb-4">A premium wired choice centered on typing feel, durable double-shot PBT keycaps, hot-swap flexibility, and the tactile Cherry MX Brown configuration.</p>
-                        <div class="flex flex-wrap gap-2 mb-5">
-                            <span class="text-xs bg-slate-700 px-2 py-1 rounded">Wired USB-C</span><span class="text-xs bg-slate-700 px-2 py-1 rounded">Cherry MX Brown</span><span class="text-xs bg-slate-700 px-2 py-1 rounded">Hot-swappable</span>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 text-sm">
-                            <div><p class="font-semibold text-emerald-300 mb-1">Why it stands out</p><p class="text-gray-400">Strong stock materials and a refined typing-focused design make it the premium choice here.</p></div>
-                            <div><p class="font-semibold text-amber-300 mb-1">Know before buying</p><p class="text-gray-400">It is wired only and costs more for build and keycap quality rather than extra connectivity.</p></div>
-                        </div>
-                        <a href="https://www.amazon.com/dp/B09RLMCVJT?tag=mechkeyshub-20" target="_blank" rel="sponsored noopener" class="mt-auto block w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl text-center font-semibold transition">Check Price on Amazon →</a>
-                    </article>
+                    </div>
                 </div>
-                <p class="text-xs text-gray-500 mt-5">As an Amazon Associate, MechKeysHub earns from qualifying purchases. Product prices and availability can change on Amazon.</p>
-            </div>
-        </section>
 
-        <!-- More Keyboards is intentionally omitted: no additional products met the evidence bar for this update. -->
+                <!-- Featured Picks -->
+                <div class="mb-16" aria-labelledby="featured-picks-heading">
+                    <div class="mb-8">
+                        <h2 id="featured-picks-heading" class="text-3xl font-bold">Featured Picks</h2>
+                        <p class="text-gray-400 mt-2">Each pick serves a different 65% buyer. Product identity and configuration evidence has been checked, but Amazon sales status still requires manual review before production publication.</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <article class="featured-card h-full flex flex-col bg-white/5 rounded-lg p-6 border border-white/10 hover:border-amber-500/50 transition">
+                            <div class="inline-flex self-start items-center px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-sm font-semibold mb-4">Best 65% for Most People</div>
+                            <div class="featured-image bg-slate-900/80 rounded-lg mb-4 flex items-center justify-center overflow-hidden border border-white/5"><img src="https://m.media-amazon.com/images/I/71-mdutc7JL._AC_UY218_.jpg" alt="Glorious GMMK 2 Compact 65% keyboard" class="product-image" loading="lazy" width="500" height="313" onerror="this.hidden=true;this.nextElementSibling.classList.remove('hidden')"><span class="hidden text-5xl" aria-hidden="true">⌨️</span></div>
+                            <h3 class="text-xl font-bold mb-3">Glorious GMMK 2 Compact 65% Prebuilt</h3>
+                            <p class="text-gray-300 text-sm mb-4">A straightforward wired recommendation with a compact aluminum top frame, dedicated arrows, Glorious Fox linear switches, and a 5-pin hot-swappable PCB.</p>
+                            <ul class="space-y-2 text-gray-400 text-sm mb-4"><li>✓ Wired USB-C</li><li>✓ Glorious Fox linear switches</li><li>✓ Hot-swappable</li></ul>
+                            <p class="text-gray-300 mb-3"><span class="font-semibold text-white">Choose this if...</span> you want an easy-to-understand feature set and switch customization without paying for wireless modes you may not use.</p>
+                            <p class="text-gray-400 text-sm mb-4"><span class="font-semibold text-amber-300">Honest trade-off:</span> it is wired only, and F1–F12 remain on the function layer.</p>
+                            <a href="https://www.amazon.com/dp/B09YZ48RQH?tag=mechkeyshub-20" target="_blank" rel="sponsored noopener" class="mt-auto block w-full py-3 bg-amber-600 hover:bg-amber-700 rounded-xl text-center font-semibold transition">Check Price on Amazon →</a>
+                        </article>
 
-        <!-- 65% vs Other Layouts -->
-        <section class="py-14 px-4 bg-slate-950/35" aria-labelledby="layout-comparison-heading">
-            <div class="max-w-7xl mx-auto">
-                <h2 id="layout-comparison-heading" class="text-2xl md:text-4xl font-bold mb-3">65% vs Other Layouts</h2>
-                <p class="text-gray-300 mb-8 section-copy">The deciding question is not how many keys a board has—it is which commands you want without holding Fn.</p>
-                <div class="overflow-x-auto rounded-2xl border border-white/10">
-                    <table class="w-full min-w-[720px] text-left bg-white/5">
-                        <thead class="bg-white/10"><tr><th class="p-4">Layout</th><th class="p-4">Dedicated arrows</th><th class="p-4">Physical F-row</th><th class="p-4">Best fit</th></tr></thead>
-                        <tbody class="divide-y divide-white/10 text-gray-300">
-                            <tr><th class="p-4"><a href="/60_percent.html" class="text-cyan-300 hover:text-cyan-200">60%</a></th><td class="p-4">No</td><td class="p-4">No</td><td class="p-4">Maximum mouse room and portability</td></tr>
-                            <tr class="bg-cyan-500/5"><th class="p-4 text-cyan-200">65%</th><td class="p-4">Yes</td><td class="p-4">No</td><td class="p-4">Compact everyday use with easier navigation</td></tr>
-                            <tr><th class="p-4"><a href="/75_percent.html" class="text-cyan-300 hover:text-cyan-200">75%</a></th><td class="p-4">Yes</td><td class="p-4">Yes</td><td class="p-4">Frequent F-key use without full TKL width</td></tr>
-                            <tr><th class="p-4"><a href="/tkl.html" class="text-cyan-300 hover:text-cyan-200">TKL</a></th><td class="p-4">Yes</td><td class="p-4">Yes</td><td class="p-4">Traditional spacing and a full navigation cluster</td></tr>
-                        </tbody>
-                    </table>
+                        <article class="featured-card h-full flex flex-col bg-white/5 rounded-lg p-6 border border-white/10 hover:border-amber-500/50 transition">
+                            <div class="inline-flex self-start items-center px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-sm font-semibold mb-4">Best Budget 65%</div>
+                            <div class="featured-image bg-slate-900/80 rounded-lg mb-4 flex items-center justify-center overflow-hidden border border-white/5"><img src="https://redragonshop.com/cdn/shop/products/RedragonK631PRO65_3-ModeWirelessRGBGamingKeyboard_1.png?v=1762459190&amp;width=1445" alt="Redragon K631 PRO 65% keyboard" class="product-image product-image-spacious" loading="lazy" width="500" height="313" onerror="this.hidden=true;this.nextElementSibling.classList.remove('hidden')"><span class="hidden text-5xl" aria-hidden="true">⌨️</span></div>
+                            <h3 class="text-xl font-bold mb-3">Redragon K631 PRO</h3>
+                            <p class="text-gray-300 text-sm mb-4">A feature-heavy 68-key option for buyers who prioritize flexible connectivity and hot-swap support at the budget end of the category.</p>
+                            <ul class="space-y-2 text-gray-400 text-sm mb-4"><li>✓ 68-key layout</li><li>✓ USB-C, Bluetooth, and 2.4GHz</li><li>✓ Hot-swappable</li></ul>
+                            <p class="text-gray-300 mb-3"><span class="font-semibold text-white">Choose this if...</span> tri-mode connectivity would make it easier to move between a desktop, laptop, and another wireless device.</p>
+                            <p class="text-gray-400 text-sm mb-4"><span class="font-semibold text-amber-300">Honest trade-off:</span> its value-first case and software experience are less refined than the premium pick.</p>
+                            <a href="https://www.amazon.com/dp/B09ZNMRMHD?tag=mechkeyshub-20" target="_blank" rel="sponsored noopener" class="mt-auto block w-full py-3 bg-amber-600 hover:bg-amber-700 rounded-xl text-center font-semibold transition">Check Price on Amazon →</a>
+                        </article>
+
+                        <article class="featured-card h-full flex flex-col bg-white/5 rounded-lg p-6 border border-white/10 hover:border-amber-500/50 transition">
+                            <div class="inline-flex self-start items-center px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-sm font-semibold mb-4">Best Wireless 65% for Everyday Use</div>
+                            <div class="featured-image bg-slate-900/80 rounded-lg mb-4 flex items-center justify-center overflow-hidden border border-white/5"><img src="https://cdn.shopify.com/s/files/1/0059/0630/1017/products/Keychron-K6-Pro-QMK-VIA-Wireless-Custom-Mechanical-Keyboard-65-percent-layout-for-Mac-Windows-Linux-PBT-keycaps-PCB-screw-in-stabilizer-and-hot-swappable-Keychron-K-Pro-mechanical-swi_a6a45aab-49d2-4a7f-8faf-c2204e046f88.jpg?crop=center&amp;height=700&amp;v=1659703586&amp;width=1200" alt="Keychron K6 Pro 65% wireless mechanical keyboard" class="product-image" loading="lazy" width="500" height="313" onerror="this.hidden=true;this.nextElementSibling.classList.remove('hidden')"><span class="hidden text-5xl" aria-hidden="true">⌨️</span></div>
+                            <h3 class="text-xl font-bold mb-3">Keychron K6 Pro</h3>
+                            <p class="text-gray-300 text-sm mb-4">A versatile everyday board for multi-device work, with Bluetooth 5.1, USB-C, hot-swap sockets, and programmable keymaps.</p>
+                            <ul class="space-y-2 text-gray-400 text-sm mb-4"><li>✓ Bluetooth 5.1 and USB-C</li><li>✓ Brown switches</li><li>✓ Hot-swappable</li></ul>
+                            <p class="text-gray-300 mb-3"><span class="font-semibold text-white">Choose this if...</span> Bluetooth device switching and wired operation suit a desk shared by a computer, tablet, or phone.</p>
+                            <p class="text-gray-400 text-sm mb-4"><span class="font-semibold text-amber-300">Honest trade-off:</span> there is no 2.4GHz mode, so latency-sensitive wireless gaming is not its strongest use case.</p>
+                            <a href="https://www.amazon.com/dp/B09MNC15FF?tag=mechkeyshub-20" target="_blank" rel="sponsored noopener" class="mt-auto block w-full py-3 bg-amber-600 hover:bg-amber-700 rounded-xl text-center font-semibold transition">Check Price on Amazon →</a>
+                        </article>
+
+                        <article class="featured-card h-full flex flex-col bg-white/5 rounded-lg p-6 border border-white/10 hover:border-amber-500/50 transition">
+                            <div class="inline-flex self-start items-center px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-sm font-semibold mb-4">Best Premium 65%</div>
+                            <div class="featured-image bg-slate-900/80 rounded-lg mb-4 flex items-center justify-center overflow-hidden border border-white/5"><img src="https://fullh4rd.com.ar/img/productos/8/teclado-mecanico-ducky-one-3-sf-daybreak-rgb-cherry-mx-brown-double-shot-pbt-0.jpg" alt="Ducky One 3 SF Daybreak 65% keyboard" class="product-image" loading="lazy" width="500" height="313" onerror="this.hidden=true;this.nextElementSibling.classList.remove('hidden')"><span class="hidden text-5xl" aria-hidden="true">⌨️</span></div>
+                            <h3 class="text-xl font-bold mb-3">Ducky One 3 SF Daybreak</h3>
+                            <p class="text-gray-300 text-sm mb-4">A premium wired choice centered on typing feel, durable double-shot PBT keycaps, hot-swap flexibility, and the tactile Cherry MX Brown configuration.</p>
+                            <ul class="space-y-2 text-gray-400 text-sm mb-4"><li>✓ Wired USB-C</li><li>✓ Cherry MX Brown switches</li><li>✓ Hot-swappable</li></ul>
+                            <p class="text-gray-300 mb-3"><span class="font-semibold text-white">Choose this if...</span> strong stock materials and a refined typing-focused design matter more than extra connectivity.</p>
+                            <p class="text-gray-400 text-sm mb-4"><span class="font-semibold text-amber-300">Honest trade-off:</span> it is wired only and costs more for build and keycap quality rather than extra connectivity.</p>
+                            <a href="https://www.amazon.com/dp/B09RLMCVJT?tag=mechkeyshub-20" target="_blank" rel="sponsored noopener" class="mt-auto block w-full py-3 bg-amber-600 hover:bg-amber-700 rounded-xl text-center font-semibold transition">Check Price on Amazon →</a>
+                        </article>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-5">As an Amazon Associate, MechKeysHub earns from qualifying purchases. Product prices and availability can change on Amazon.</p>
                 </div>
-            </div>
-        </section>
 
-        <!-- Who Should Buy -->
-        <section class="py-14 px-4" aria-labelledby="who-should-buy-heading">
-            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <article class="bg-emerald-500/10 border border-emerald-400/30 rounded-2xl p-7">
-                    <h2 id="who-should-buy-heading" class="text-2xl md:text-3xl font-bold text-emerald-200 mb-5">Who Should Buy a 65% Keyboard</h2>
-                    <ul class="space-y-3 text-gray-300">
-                        <li>✓ Gamers who want more mouse space but still use arrow keys.</li>
-                        <li>✓ Writers and students who want a portable board with familiar navigation.</li>
-                        <li>✓ 60% users who are tired of using Fn shortcuts for arrows.</li>
-                        <li>✓ Minimalist desk owners who rarely use F1–F12.</li>
-                    </ul>
-                </article>
-                <article class="bg-red-500/10 border border-red-400/30 rounded-2xl p-7">
-                    <h2 class="text-2xl md:text-3xl font-bold text-red-200 mb-5">Who Should NOT Buy a 65% Keyboard</h2>
-                    <ul class="space-y-3 text-gray-300">
-                        <li>× Spreadsheet users who need a number pad.</li>
-                        <li>× Developers or creators who use F-keys constantly and dislike layers.</li>
-                        <li>× Buyers who want a full, traditionally spaced navigation cluster.</li>
-                        <li>× Anyone who needs dedicated media or macro keys more than desk space.</li>
-                    </ul>
-                </article>
-            </div>
-        </section>
+                <!-- More Keyboards is intentionally omitted: no additional products met the evidence bar for this update. -->
 
-        <!-- How to Choose -->
-        <section class="py-14 px-4 bg-slate-950/35" aria-labelledby="how-to-choose-heading">
-            <div class="max-w-7xl mx-auto">
-                <h2 id="how-to-choose-heading" class="text-2xl md:text-4xl font-bold mb-8">How to Choose a 65% Keyboard</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                    <article class="bg-white/5 border border-white/10 rounded-xl p-5"><h3 class="font-bold text-lg mb-2">1. Check the right column</h3><p class="text-gray-400">65% boards vary: some keep Delete, Page Up, and Page Down; others compress or remap them. Match the printed keys to your workflow.</p></article>
-                    <article class="bg-white/5 border border-white/10 rounded-xl p-5"><h3 class="font-bold text-lg mb-2">2. Pick the right wireless mode</h3><p class="text-gray-400">Bluetooth is convenient for multiple devices. A 2.4GHz receiver is usually the better wireless choice for games that depend on low latency.</p></article>
-                    <article class="bg-white/5 border border-white/10 rounded-xl p-5"><h3 class="font-bold text-lg mb-2">3. Verify hot-swap support</h3><p class="text-gray-400">Hot-swap lets you change compatible switches without soldering, but socket compatibility and switch orientation can still differ.</p></article>
-                    <article class="bg-white/5 border border-white/10 rounded-xl p-5"><h3 class="font-bold text-lg mb-2">4. Choose switch feel</h3><p class="text-gray-400">Linear switches move smoothly; tactile switches add a bump; clicky switches add both a bump and an audible click.</p></article>
-                    <article class="bg-white/5 border border-white/10 rounded-xl p-5"><h3 class="font-bold text-lg mb-2">5. Consider remapping</h3><p class="text-gray-400">Good keymap software matters more on compact layouts because it determines how easily you can reach missing commands.</p></article>
-                    <article class="bg-white/5 border border-white/10 rounded-xl p-5"><h3 class="font-bold text-lg mb-2">6. Confirm keycap compatibility</h3><p class="text-gray-400">Look for a keycap set with the correct right Shift and bottom-row sizes for your exact 65% layout.</p></article>
+                <!-- 65% vs Other Layouts -->
+                <div class="mb-16" aria-labelledby="layout-comparison-heading">
+                    <h2 id="layout-comparison-heading" class="text-3xl font-bold mb-8 text-center">65% vs Other Layouts</h2>
+                    <p class="text-gray-400 mb-8 max-w-3xl mx-auto text-center">The deciding question is not how many keys a board has—it is which commands you want without holding Fn.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                        <a href="/60_percent.html" class="bg-white/5 hover:bg-white/10 rounded-xl p-6 border border-white/10 transition"><div class="text-sm text-cyan-300 font-semibold mb-2">60%</div><h3 class="text-xl font-bold mb-3">Maximum mouse room</h3><p class="text-gray-400 text-sm mb-3">Dedicated arrows: No · Physical F-row: No</p><p class="text-gray-300">Maximum mouse room and portability.</p></a>
+                        <div class="bg-white/5 rounded-xl p-6 border border-cyan-400/30"><div class="text-sm text-cyan-300 font-semibold mb-2">65%</div><h3 class="text-xl font-bold mb-3">Compact with arrows</h3><p class="text-gray-400 text-sm mb-3">Dedicated arrows: Yes · Physical F-row: No</p><p class="text-gray-300">Compact everyday use with easier navigation.</p></div>
+                        <a href="/75_percent.html" class="bg-white/5 hover:bg-white/10 rounded-xl p-6 border border-white/10 transition"><div class="text-sm text-cyan-300 font-semibold mb-2">75%</div><h3 class="text-xl font-bold mb-3">Arrows plus F-row</h3><p class="text-gray-400 text-sm mb-3">Dedicated arrows: Yes · Physical F-row: Yes</p><p class="text-gray-300">Frequent F-key use without full TKL width.</p></a>
+                        <a href="/tkl.html" class="bg-white/5 hover:bg-white/10 rounded-xl p-6 border border-white/10 transition"><div class="text-sm text-cyan-300 font-semibold mb-2">TKL</div><h3 class="text-xl font-bold mb-3">Traditional spacing</h3><p class="text-gray-400 text-sm mb-3">Dedicated arrows: Yes · Physical F-row: Yes</p><p class="text-gray-300">Traditional spacing and a full navigation cluster.</p></a>
+                    </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- FAQ -->
-        <section class="py-14 px-4" aria-labelledby="faq-heading">
-            <div class="max-w-4xl mx-auto">
-                <h2 id="faq-heading" class="text-2xl md:text-4xl font-bold mb-8">65% Keyboard FAQ</h2>
-                <div class="space-y-4">
-                    <details class="bg-white/5 border border-white/10 rounded-xl p-5" open><summary class="font-bold cursor-pointer">Is a 65% keyboard good for gaming?</summary><p class="text-gray-300 mt-3">Yes. A 65% keyboard leaves more mouse room than a 75% or TKL while keeping dedicated arrow keys. It is a strong gaming layout if you do not need a physical function row.</p></details>
-                    <details class="bg-white/5 border border-white/10 rounded-xl p-5"><summary class="font-bold cursor-pointer">What keys are missing from a 65% keyboard?</summary><p class="text-gray-300 mt-3">Most 65% keyboards remove the number pad and physical F1–F12 row. They usually keep arrow keys and a small selection of navigation keys, with less-used commands available through an Fn layer.</p></details>
-                    <details class="bg-white/5 border border-white/10 rounded-xl p-5"><summary class="font-bold cursor-pointer">What is the difference between 60% and 65% keyboards?</summary><p class="text-gray-300 mt-3">A 65% keyboard adds dedicated arrow keys and usually a few navigation keys. A 60% keyboard is slightly narrower but places those commands on a function layer.</p></details>
-                    <details class="bg-white/5 border border-white/10 rounded-xl p-5"><summary class="font-bold cursor-pointer">Should I choose a 65% or 75% keyboard?</summary><p class="text-gray-300 mt-3">Choose 65% for a narrower desk footprint and dedicated arrows. Choose 75% if you use the physical function row often and accept a little more width.</p></details>
-                    <details class="bg-white/5 border border-white/10 rounded-xl p-5"><summary class="font-bold cursor-pointer">Can I use a 65% keyboard for programming?</summary><p class="text-gray-300 mt-3">Yes. Dedicated arrow keys make editing and navigation practical, but programmers who rely heavily on F-keys or a full navigation cluster may prefer a 75% or TKL layout.</p></details>
+                <!-- Who Should Buy -->
+                <div class="mb-16" aria-labelledby="who-should-buy-heading">
+                    <h2 id="who-should-buy-heading" class="text-3xl font-bold mb-8 text-center">Who Should Buy a 65% Keyboard</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-white/5 rounded-xl p-6 border border-white/10"><h3 class="text-xl font-bold mb-3 text-cyan-300">Mouse-focused gamers</h3><p class="text-gray-300">Gamers who want more mouse space but still use arrow keys.</p></div>
+                        <div class="bg-white/5 rounded-xl p-6 border border-white/10"><h3 class="text-xl font-bold mb-3 text-cyan-300">Portable everyday setups</h3><p class="text-gray-300">Writers and students who want a portable board with familiar navigation.</p></div>
+                        <div class="bg-white/5 rounded-xl p-6 border border-white/10"><h3 class="text-xl font-bold mb-3 text-cyan-300">60% users who miss arrows</h3><p class="text-gray-300">60% users who are tired of using Fn shortcuts for arrows.</p></div>
+                        <div class="bg-white/5 rounded-xl p-6 border border-white/10"><h3 class="text-xl font-bold mb-3 text-cyan-300">Compact desk owners</h3><p class="text-gray-300">Minimalist desk owners who rarely use F1–F12.</p></div>
+                    </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Related Links -->
-        <section class="py-14 px-4 bg-slate-900/50" aria-labelledby="related-links-heading">
-            <div class="max-w-7xl mx-auto">
-                <h2 id="related-links-heading" class="text-2xl md:text-3xl font-bold mb-6">Related Guides and Layouts</h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <a href="/60_percent.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><span class="font-semibold">Best 60% Keyboards</span><p class="text-sm text-gray-400 mt-1">Go smaller and use layers for arrows.</p></a>
-                    <a href="/75_percent.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><span class="font-semibold">Best 75% Keyboards</span><p class="text-sm text-gray-400 mt-1">Keep arrows and a physical F-row.</p></a>
-                    <a href="/tkl.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><span class="font-semibold">Best TKL Keyboards</span><p class="text-sm text-gray-400 mt-1">Use traditional spacing without a numpad.</p></a>
-                    <a href="/switches.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><span class="font-semibold">Mechanical Switch Guide</span><p class="text-sm text-gray-400 mt-1">Compare linear, tactile, and clicky feel.</p></a>
-                    <a href="/hot-swap.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><span class="font-semibold">Hot-Swap Keyboards</span><p class="text-sm text-gray-400 mt-1">Change switches without soldering.</p></a>
-                    <a href="/gaming.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><span class="font-semibold">Gaming Keyboards</span><p class="text-sm text-gray-400 mt-1">Prioritize latency and game-ready features.</p></a>
-                    <a href="/best-value.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><span class="font-semibold">Best-Value Keyboards</span><p class="text-sm text-gray-400 mt-1">Find the right features for your budget.</p></a>
-                    <a href="/guides.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><span class="font-semibold">All Buying Guides</span><p class="text-sm text-gray-400 mt-1">Explore more keyboard decision help.</p></a>
+                <!-- Who Should Not Buy -->
+                <div class="mb-16">
+                    <h2 class="text-3xl font-bold mb-8 text-center">Who Should NOT Buy a 65% Keyboard</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-rose-500/10 rounded-xl p-6 border border-rose-400/20"><h3 class="text-xl font-bold mb-3 text-rose-200">Numpad-dependent workflows</h3><p class="text-gray-300">Spreadsheet users who need a number pad.</p></div>
+                        <div class="bg-rose-500/10 rounded-xl p-6 border border-rose-400/20"><h3 class="text-xl font-bold mb-3 text-rose-200">Frequent F-key users</h3><p class="text-gray-300">Developers or creators who use F-keys constantly and dislike layers.</p></div>
+                        <div class="bg-rose-500/10 rounded-xl p-6 border border-rose-400/20"><h3 class="text-xl font-bold mb-3 text-rose-200">Traditional navigation users</h3><p class="text-gray-300">Buyers who want a full, traditionally spaced navigation cluster.</p></div>
+                        <div class="bg-rose-500/10 rounded-xl p-6 border border-rose-400/20"><h3 class="text-xl font-bold mb-3 text-rose-200">Macro and media power users</h3><p class="text-gray-300">Anyone who needs dedicated media or macro keys more than desk space.</p></div>
+                    </div>
+                </div>
+
+                <!-- How to Choose -->
+                <div class="mb-16" aria-labelledby="how-to-choose-heading">
+                    <h2 id="how-to-choose-heading" class="text-3xl font-bold mb-8 text-center">How to Choose a 65% Keyboard</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-white/5 rounded-xl p-6 border border-white/10"><h3 class="text-xl font-bold mb-3 text-cyan-300">Check the right column</h3><p class="text-gray-300">65% boards vary: some keep Delete, Page Up, and Page Down; others compress or remap them. Match the printed keys to your workflow.</p></div>
+                        <div class="bg-white/5 rounded-xl p-6 border border-white/10"><h3 class="text-xl font-bold mb-3 text-cyan-300">Pick the right wireless mode</h3><p class="text-gray-300">Bluetooth is convenient for multiple devices. A 2.4GHz receiver is usually the better wireless choice for games that depend on low latency.</p></div>
+                        <div class="bg-white/5 rounded-xl p-6 border border-white/10"><h3 class="text-xl font-bold mb-3 text-cyan-300">Verify hot-swap support</h3><p class="text-gray-300">Hot-swap lets you change compatible switches without soldering, but socket compatibility and switch orientation can still differ.</p></div>
+                        <div class="bg-white/5 rounded-xl p-6 border border-white/10"><h3 class="text-xl font-bold mb-3 text-cyan-300">Choose switch feel</h3><p class="text-gray-300">Linear switches move smoothly; tactile switches add a bump; clicky switches add both a bump and an audible click.</p></div>
+                        <div class="bg-white/5 rounded-xl p-6 border border-white/10"><h3 class="text-xl font-bold mb-3 text-cyan-300">Consider remapping</h3><p class="text-gray-300">Good keymap software matters more on compact layouts because it determines how easily you can reach missing commands.</p></div>
+                        <div class="bg-white/5 rounded-xl p-6 border border-white/10"><h3 class="text-xl font-bold mb-3 text-cyan-300">Confirm keycap compatibility</h3><p class="text-gray-300">Look for a keycap set with the correct right Shift and bottom-row sizes for your exact 65% layout.</p></div>
+                    </div>
+                </div>
+
+                <!-- FAQ -->
+                <div class="mb-16" aria-labelledby="faq-heading">
+                    <h2 id="faq-heading" class="text-3xl font-bold mb-8 text-center">FAQ</h2>
+                    <div class="space-y-4 max-w-4xl mx-auto">
+                        <details class="bg-white/5 rounded-xl p-6 border border-white/10"><summary class="font-bold cursor-pointer">Is a 65% keyboard good for gaming?</summary><p class="text-gray-300 mt-3">Yes. A 65% keyboard leaves more mouse room than a 75% or TKL while keeping dedicated arrow keys. It is a strong gaming layout if you do not need a physical function row.</p></details>
+                        <details class="bg-white/5 rounded-xl p-6 border border-white/10"><summary class="font-bold cursor-pointer">What keys are missing from a 65% keyboard?</summary><p class="text-gray-300 mt-3">Most 65% keyboards remove the number pad and physical F1–F12 row. They usually keep arrow keys and a small selection of navigation keys, with less-used commands available through an Fn layer.</p></details>
+                        <details class="bg-white/5 rounded-xl p-6 border border-white/10"><summary class="font-bold cursor-pointer">What is the difference between 60% and 65% keyboards?</summary><p class="text-gray-300 mt-3">A 65% keyboard adds dedicated arrow keys and usually a few navigation keys. A 60% keyboard is slightly narrower but places those commands on a function layer.</p></details>
+                        <details class="bg-white/5 rounded-xl p-6 border border-white/10"><summary class="font-bold cursor-pointer">Should I choose a 65% or 75% keyboard?</summary><p class="text-gray-300 mt-3">Choose 65% for a narrower desk footprint and dedicated arrows. Choose 75% if you use the physical function row often and accept a little more width.</p></details>
+                        <details class="bg-white/5 rounded-xl p-6 border border-white/10"><summary class="font-bold cursor-pointer">Can I use a 65% keyboard for programming?</summary><p class="text-gray-300 mt-3">Yes. Dedicated arrow keys make editing and navigation practical, but programmers who rely heavily on F-keys or a full navigation cluster may prefer a 75% or TKL layout.</p></details>
+                    </div>
+                </div>
+
+                <!-- Related Links -->
+                <div class="mb-16" aria-labelledby="related-links-heading">
+                    <h2 id="related-links-heading" class="text-3xl font-bold mb-8 text-center">Related Links</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                        <a href="/60_percent.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><div class="font-semibold">Best 60% Keyboards</div><p class="text-sm text-gray-400 mt-1">Go smaller and use layers for arrows.</p></a>
+                        <a href="/75_percent.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><div class="font-semibold">Best 75% Keyboards</div><p class="text-sm text-gray-400 mt-1">Keep arrows and a physical F-row.</p></a>
+                        <a href="/tkl.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><div class="font-semibold">Best TKL Keyboards</div><p class="text-sm text-gray-400 mt-1">Use traditional spacing without a numpad.</p></a>
+                        <a href="/switches.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><div class="font-semibold">Mechanical Switch Guide</div><p class="text-sm text-gray-400 mt-1">Compare linear, tactile, and clicky feel.</p></a>
+                        <a href="/hot-swap.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><div class="font-semibold">Hot-Swap Keyboards</div><p class="text-sm text-gray-400 mt-1">Change switches without soldering.</p></a>
+                        <a href="/gaming.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><div class="font-semibold">Gaming Keyboards</div><p class="text-sm text-gray-400 mt-1">Prioritize latency and game-ready features.</p></a>
+                        <a href="/best-value.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><div class="font-semibold">Best-Value Keyboards</div><p class="text-sm text-gray-400 mt-1">Find the right features for your budget.</p></a>
+                        <a href="/guides.html" class="p-5 bg-white/5 hover:bg-white/10 rounded-xl transition border border-white/10"><div class="font-semibold">All Buying Guides</div><p class="text-sm text-gray-400 mt-1">Explore more keyboard decision help.</p></a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -12831,8 +12790,8 @@ const topProducts = [
 
 
 
-    <footer class="py-8 px-4 border-t border-white/10 mt-12">
-        <div class="max-w-7xl mx-auto text-center text-gray-500 text-sm">
+    <footer class="py-12 px-4 border-t border-white/10 mt-12">
+        <div class="max-w-7xl mx-auto text-center text-gray-400 text-sm">
             <p>© 2026 MechKeys Hub. As an Amazon Associate we earn from qualifying purchases.</p>
         </div>
     </footer>
