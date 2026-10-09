@@ -6,6 +6,21 @@ Update Rule: Do not rewrite or remove historical entries. Add new entries at the
 
 ## Append-Only Log
 
+### 2026-10-09 - 65% Production Blocker Resolution Preview
+
+Type: Affiliate product verification and image-source compliance fix
+
+Completed Items:
+
+- Replaced the mismatched Redragon K631 PRO Amazon ASIN `B09ZNMRMHD` with verified Amazon US ASIN `B0FR478KBZ` for the 68-key, tri-mode USB-C/Bluetooth/2.4GHz hot-swappable model.
+- Confirmed the corrected Amazon US listing exposed current purchase controls and an in-stock status during pre-release verification.
+- Removed the external Redragon and Ducky product-image hotlinks because explicit reuse permission could not be confirmed, and replaced them with accessible, visually consistent no-image panels without downloading third-party assets.
+- Preserved all four Featured Picks, recommendation copy, the other three ASINs, Amazon CTA wording, affiliate tags, SEO metadata, canonical, JSON-LD, FAQ content, internal links, and shared `topProducts` data.
+- Verified 1440px, 1024px, 768px, and 390px rendering with no horizontal overflow, image-load failures, console errors, or page errors; mobile navigation and FAQ interactions remained functional.
+- Production was not published; the change remains on the independent preview branch for final review.
+
+Preview or Production: Preview
+
 ### 2026-10-09 - 65% Editorial Final Pre-Production Fix V3
 
 Type: Pre-production editorial cleanup and image presentation adjustment
